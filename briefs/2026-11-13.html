@@ -80,12 +80,22 @@ h3 {
   margin: 1.4rem 0 0.5rem;
   font-weight: 650;
 }
+article.story {
+  margin: 0 0 1.6rem;
+}
+article.story h3 { margin: 1.15rem 0 0.15rem; }
+.zh-head {
+  margin: 0 0 0.65rem;
+  color: var(--muted);
+  font-weight: 600;
+}
 p { margin: 0.75rem 0; }
 a { color: var(--link); }
 .source {
   font-size: 0.92rem;
   color: var(--muted);
-  margin: 0.35rem 0 1rem;
+  margin: 0.35rem 0 0;
+  word-break: break-all;
 }
 .disclaimer {
   margin-top: 2.4rem;
@@ -144,141 +154,161 @@ ol.archive .l { color: var(--muted); font-size: 0.9rem; margin-left: 0.6rem; }
     </header>
     <h1>史泰加，你條L樣睇路啦</h1>
     <p class="date">AI、美股及加密貨幣早晨簡報 / Morning Brief — 2026-11-13（亞洲／香港時間 GMT+8）</p>
-    <p>以下為過去約 24 小時（亞洲／香港時間 GMT+8：2026-11-12 約 08:15 至 2026-11-13 約 08:15）個人早晨簡報。截稿時間約為 2026-11-13 08:15 GMT+8。僅收錄已核實、具實質影響的消息；各節之間已盡量去重。今日主線是 Nvidia 創辦人黃仁勳突然辭任，美股、人工智能產業情緒與加密貨幣同步受壓；人工智能產品新聞則以 Google 發表 Gemini 4 Hydrogen 及智能眼鏡預購為主。</p>
+    <p>史泰加，你條L樣睇路啦</p>
+<p>以下為過去約 24 小時（亞洲／香港時間 GMT+8：2026-11-12 約 08:15 至 2026-11-13 約 08:15）個人早晨簡報。截稿時間約為 2026-11-13 08:15 GMT+8。僅收錄已核實、具實質影響的消息；各節之間已盡量去重。今日主線是 Nvidia 創辦人黃仁勳突然辭任，美股、人工智能產業情緒與加密貨幣同步受壓；人工智能產品新聞則以 Google 發表 Gemini 4 Hydrogen 及智能眼鏡預購為主。</p>
 <p>This is your personal morning brief for the preceding ~24 hours (Asia/Hong Kong GMT+8: about 08:15 on 2026-11-12 through about 08:15 on 2026-11-13). Cutoff ~08:15 GMT+8 on 2026-11-13. Only verified, material items; sections are deduplicated where possible. The through-line is Nvidia founder Jensen Huang’s abrupt resignation, which weighed on U.S. equities, AI-industry sentiment and crypto; the AI product news is led by Google’s Gemini 4 Hydrogen launch and intelligent-eyewear pre-orders.</p>
 <p>────────────────</p>
 <h2>一、人工智能要聞／AI News</h2>
 <p>────────────────</p>
 <p>本節僅列 3 則已核實、屬過去約 24 小時內的要聞，未為湊滿 10 則而加入較舊或未能獨立核實的消息。</p>
 <p>Only 3 verified items from the past ~24 hours are listed; the section was not padded with older or independently unverified stories.</p>
-<p>1.</p>
-<p>Google 推出 Gemini 4 Hydrogen，取代 3.8 Flash 成為高流量編碼與代理工作的新預設</p>
-<p>Google 週四由 DeepMind 高級副總裁兼首席人工智能架構師 Koray Kavukcuoglu 宣布 Gemini 4 Hydrogen，定位為面向日常編碼與代理工作流程的快速、低成本執行模型，並在整個 100 萬 token 上下文窗口以每百萬 input token $1.50、output token $7.50 劃一定價。官方稱其預設 high 思考檔在 Artificial Analysis Intelligence Index 錄得 51，高於 Argon 的 50，xhigh 檔可達 54；相對 3.8 Flash，預設檔完成任務速度快 2.5 倍，Terminal-Bench 4.1 由 18.2% 升至 57%。Hydrogen 即日起在 Gemini API、AI Studio、Gemini 應用程式及 Google 搜尋等面向全球推出，免費用戶可經自動型號選擇使用；Google 並在 Antigravity 引入 Orchestrator，可在同一會話中動態切換 Carbon 與 Hydrogen。</p>
-<p>Google launches Gemini 4 Hydrogen as its new high-volume default for coding and agent work, succeeding 3.8 Flash</p>
+<article class="story">
+<h3>1. Google launches Gemini 4 Hydrogen as its new high-volume default for coding and agent work, succeeding 3.8 Flash</h3>
+<p class="zh-head">Google 推出 Gemini 4 Hydrogen，取代 3.8 Flash 成為高流量編碼與代理工作的新預設</p>
 <p>Google on Thursday, in a post by DeepMind SVP and chief AI architect Koray Kavukcuoglu, introduced Gemini 4 Hydrogen, a fast, lower-cost execution model for everyday coding and agentic workflows, priced flat at $1.50 per million input tokens and $7.50 per million output tokens across a 1-million-token context window. Google said Hydrogen scored 51 on the Artificial Analysis Intelligence Index at its default high thinking level, versus 50 for Argon, and 54 at its new xhigh setting. Versus 3.8 Flash, it said Hydrogen finishes tasks 2.5 times faster at the default setting and more than triples Terminal-Bench 4.1 (57% vs. 18.2%). Hydrogen is rolling out globally in the Gemini API, AI Studio, the Gemini app and Google Search, with free-app access via auto model selection; Google also introduced Orchestrator in Antigravity to switch between Carbon and Hydrogen in the same session.</p>
-<p class="source">來源／Source: Google Blog — <a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/" rel="noopener noreferrer">https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/</a></p>
-<p>2.</p>
-<p>Google 智能眼鏡開放預購：Warby Parker 起價 $395，Gentle Monster 起價 $449，12 月 10 日上市</p>
-<p>Google XR 副總裁 Shahram Izadi 週四宣布，與 Warby Parker、Gentle Monster 及三星合作的 Intelligent Eyewear 開始預購，內置 Gemini，可提供免提導航、即時翻譯（官方稱 Google Translate 支援逾 70 種語言自動偵測）及視覺協助。Warby Parker 三款鏡框（Alden、Reid、Wren）起價 $395，Gentle Monster 六款設計起價 $449；鏡架約重 41 克，官方稱電池最長約 9 小時，充電盒最多可再充約 7 次。產品 12 月 10 日起在美國及韓國店面及網上發售，須使用美國或韓國的合資格 Google 帳戶（18 歲或以上），並可配對 Pixel、部分三星手機及 iPhone。</p>
-<p>Google opens pre-orders for Gemini-powered intelligent eyewear, from $395 with Warby Parker and $449 with Gentle Monster, on sale Dec. 10</p>
+<p>Google 週四由 DeepMind 高級副總裁兼首席人工智能架構師 Koray Kavukcuoglu 宣布 Gemini 4 Hydrogen，定位為面向日常編碼與代理工作流程的快速、低成本執行模型，並在整個 100 萬 token 上下文窗口以每百萬 input token $1.50、output token $7.50 劃一定價。官方稱其預設 high 思考檔在 Artificial Analysis Intelligence Index 錄得 51，高於 Argon 的 50，xhigh 檔可達 54；相對 3.8 Flash，預設檔完成任務速度快 2.5 倍，Terminal-Bench 4.1 由 18.2% 升至 57%。Hydrogen 即日起在 Gemini API、AI Studio、Gemini 應用程式及 Google 搜尋等面向全球推出，免費用戶可經自動型號選擇使用；Google 並在 Antigravity 引入 Orchestrator，可在同一會話中動態切換 Carbon 與 Hydrogen。</p>
+<p class="source"><a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/" rel="noopener noreferrer">https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/</a></p>
+</article>
+<article class="story">
+<h3>2. Google opens pre-orders for Gemini-powered intelligent eyewear, from $395 with Warby Parker and $449 with Gentle Monster, on sale Dec. 10</h3>
+<p class="zh-head">Google 智能眼鏡開放預購：Warby Parker 起價 $395，Gentle Monster 起價 $449，12 月 10 日上市</p>
 <p>Google XR vice president Shahram Izadi said Thursday that pre-orders are open for Intelligent Eyewear, designed with Warby Parker and Gentle Monster and engineered with Samsung. The glasses put Gemini on the frames for hands-free help, including Maps directions, real-time translation (Google said Translate covers automatic detection across more than 70 languages) and visual assistance. Warby Parker’s three styles (Alden, Reid and Wren) start at $395 and Gentle Monster’s six designs at $449. Google put the frames at about 41 grams, with up to about nine hours of battery life and a case that can recharge them up to about seven times. Retail availability begins Dec. 10 in the United States and South Korea; use is limited to eligible U.S. or South Korea Google accounts for users 18 or older, and the glasses work with Pixel, selected Samsung phones and iPhones.</p>
-<p class="source">來源／Source: Google Blog — <a href="https://blog.google/innovation-and-ai/technology/xr-ar/google-intelligent-eyewear-collections-pre-order/" rel="noopener noreferrer">https://blog.google/innovation-and-ai/technology/xr-ar/google-intelligent-eyewear-collections-pre-order/</a></p>
-<p>3.</p>
-<p>OpenAI 開源發布 Codex Security，以命令列與 TypeScript SDK 掃描程式碼並產生修補</p>
-<p>OpenAI 週四把 Codex Security 以開源命令列工具及 TypeScript SDK 形式發布，供開發者掃描程式庫的安全漏洞、核實發現並產生候選修補，亦支援倉庫級掃描、草擬保安政策及接入持續整合流程。多份 11 月 12 至 13 日的業界整理指，該專案已公開於 GitHub，並可以 npm 套件 @openai/codex-security 安裝。此為開發者工具發布，並非模型能力的獨立評測。</p>
-<p>OpenAI open-sources Codex Security, a CLI and TypeScript SDK that scans code and drafts patches</p>
+<p>Google XR 副總裁 Shahram Izadi 週四宣布，與 Warby Parker、Gentle Monster 及三星合作的 Intelligent Eyewear 開始預購，內置 Gemini，可提供免提導航、即時翻譯（官方稱 Google Translate 支援逾 70 種語言自動偵測）及視覺協助。Warby Parker 三款鏡框（Alden、Reid、Wren）起價 $395，Gentle Monster 六款設計起價 $449；鏡架約重 41 克，官方稱電池最長約 9 小時，充電盒最多可再充約 7 次。產品 12 月 10 日起在美國及韓國店面及網上發售，須使用美國或韓國的合資格 Google 帳戶（18 歲或以上），並可配對 Pixel、部分三星手機及 iPhone。</p>
+<p class="source"><a href="https://blog.google/innovation-and-ai/technology/xr-ar/google-intelligent-eyewear-collections-pre-order/" rel="noopener noreferrer">https://blog.google/innovation-and-ai/technology/xr-ar/google-intelligent-eyewear-collections-pre-order/</a></p>
+</article>
+<article class="story">
+<h3>3. OpenAI open-sources Codex Security, a CLI and TypeScript SDK that scans code and drafts patches</h3>
+<p class="zh-head">OpenAI 開源發布 Codex Security，以命令列與 TypeScript SDK 掃描程式碼並產生修補</p>
 <p>OpenAI on Thursday released Codex Security as an open-source command-line interface and TypeScript SDK, letting developers scan repositories for security issues, validate findings and generate candidate patches, including repository-wide scans, security-policy drafting and continuous-integration use. Industry roundups dated Nov. 12–13 said the project is on GitHub and installable as the npm package @openai/codex-security. This is a developer-tool release, not an independent evaluation of model capability.</p>
-<p class="source">來源／Source: GitHub (openai/codex-security) — <a href="https://github.com/openai/codex-security" rel="noopener noreferrer">https://github.com/openai/codex-security</a></p>
+<p>OpenAI 週四把 Codex Security 以開源命令列工具及 TypeScript SDK 形式發布，供開發者掃描程式庫的安全漏洞、核實發現並產生候選修補，亦支援倉庫級掃描、草擬保安政策及接入持續整合流程。多份 11 月 12 至 13 日的業界整理指，該專案已公開於 GitHub，並可以 npm 套件 @openai/codex-security 安裝。此為開發者工具發布，並非模型能力的獨立評測。</p>
+<p class="source"><a href="https://github.com/openai/codex-security" rel="noopener noreferrer">https://github.com/openai/codex-security</a></p>
+</article>
 <p>────────────────</p>
 <h2>二、美股／US Stock Market</h2>
 <p>────────────────</p>
-<p>1.</p>
-<p>美股週四小幅收低：標普跌 0.35% 收 7,592.40，納指跌 0.39%，道指跌 0.36%；本週仍望錄得 8 月初以來最佳週升幅</p>
-<p>路透社及 CNBC 指，道瓊斯工業平均指數跌 189.40 點（0.36%）收 52,297.09，標普 500 跌 26.98 點（0.35%）收 7,592.40，納斯達克綜合指數跌 100.10 點（0.39%）收 25,366.09。三大指數開市後曾跌幅更深，其後收窄。即便如此，CNBC 指納指本週仍升約 3.2%，標普約 2.9%，道指接近 2%，料為 8 月初以來最佳單週表現。週四晚美股期貨回升，CNBC 引述道指期貨升 166 點（0.3%），標普期貨升 0.4%，納指 100 期貨升 0.6%。</p>
-<p>U.S. stocks close modestly lower: S&amp;P −0.35% at 7,592.40, Nasdaq −0.39%, Dow −0.36%; still on track for the best week since early August</p>
+<article class="story">
+<h3>1. U.S. stocks close modestly lower: S&amp;P −0.35% at 7,592.40, Nasdaq −0.39%, Dow −0.36%; still on track for the best week since early August</h3>
+<p class="zh-head">美股週四小幅收低：標普跌 0.35% 收 7,592.40，納指跌 0.39%，道指跌 0.36%；本週仍望錄得 8 月初以來最佳週升幅</p>
 <p>Reuters and CNBC said the Dow Jones Industrial Average fell 189.40 points, or 0.36%, to 52,297.09, the S&amp;P 500 lost 26.98 points, or 0.35%, to 7,592.40, and the Nasdaq Composite dropped 100.10 points, or 0.39%, to 25,366.09, after deeper losses earlier in the session. Even so, CNBC said the Nasdaq was still up about 3.2% for the week, the S&amp;P 500 about 2.9% and the Dow nearly 2%, on pace for their best week since early August. U.S. equity futures rose Thursday evening, with CNBC citing Dow futures up 166 points, or 0.3%, S&amp;P 500 futures up 0.4% and Nasdaq-100 futures up 0.6%.</p>
-<p class="source">來源／Source: CNBC — <a href="https://www.cnbc.com/2026/11/12/stock-market-today-live-updates.html" rel="noopener noreferrer">https://www.cnbc.com/2026/11/12/stock-market-today-live-updates.html</a></p>
-<p>2.</p>
-<p>Nvidia 宣布黃仁勳即時辭任行政總裁、總裁及董事；Colette Kress 任臨時行政總裁，股價收市跌約 4.3%</p>
-<p>Nvidia 董事會週四宣布，創辦人黃仁勳已辭任總裁、行政總裁及董事，即時生效；現任執行副總裁兼財務總裁 Colette Kress 出任臨時行政總裁，並在尋找常任繼任人期間繼續兼任財務總裁，董事會將同時考慮內部及外部人選。董事會並任命 Harvey C. Jones 為史上首位主席。公司官方聲明未說明辭職原因；美聯社及 CNBC 指，事件發生在有關婚外情及美國國安疑慮的報道之後。路透社指股價早段曾跌近 12%，收市跌 4.3%（Investing.com 收市報 $166.19，跌 4.34%）；Vanda Analytics 數據顯示，零售投資者開市首 30 分鐘買入約 $1.11 億，為該股歷來最大開市買盤。第三季財政 2027 業績仍訂 11 月 17 日公布。</p>
-<p>Nvidia says Jensen Huang has resigned immediately as CEO, president and director; Colette Kress is interim CEO, and the shares close about 4.3% lower</p>
+<p>路透社及 CNBC 指，道瓊斯工業平均指數跌 189.40 點（0.36%）收 52,297.09，標普 500 跌 26.98 點（0.35%）收 7,592.40，納斯達克綜合指數跌 100.10 點（0.39%）收 25,366.09。三大指數開市後曾跌幅更深，其後收窄。即便如此，CNBC 指納指本週仍升約 3.2%，標普約 2.9%，道指接近 2%，料為 8 月初以來最佳單週表現。週四晚美股期貨回升，CNBC 引述道指期貨升 166 點（0.3%），標普期貨升 0.4%，納指 100 期貨升 0.6%。</p>
+<p class="source"><a href="https://www.cnbc.com/2026/11/12/stock-market-today-live-updates.html" rel="noopener noreferrer">https://www.cnbc.com/2026/11/12/stock-market-today-live-updates.html</a></p>
+</article>
+<article class="story">
+<h3>2. Nvidia says Jensen Huang has resigned immediately as CEO, president and director; Colette Kress is interim CEO, and the shares close about 4.3% lower</h3>
+<p class="zh-head">Nvidia 宣布黃仁勳即時辭任行政總裁、總裁及董事；Colette Kress 任臨時行政總裁，股價收市跌約 4.3%</p>
 <p>Nvidia’s board said Thursday that founder Jensen Huang has resigned as president, chief executive and a director, effective immediately. Executive vice president and CFO Colette Kress will serve as interim CEO and remain CFO until a permanent successor is named; the board will consider internal and external candidates. The board also appointed Harvey C. Jones as its first-ever chair. Nvidia’s statement did not give a reason; AP and CNBC said the resignation followed reporting about extramarital affairs and U.S. security concerns. Reuters said the shares had dropped nearly 12% earlier before closing 4.3% lower (Investing.com showed a close of $166.19, down 4.34%). Vanda Analytics said retail investors bought about $111 million in the first 30 minutes, the largest opening bid on record for the stock. Fiscal third-quarter 2027 results remain scheduled for Nov. 17.</p>
-<p class="source">來源／Source: NVIDIA Newsroom — <a href="https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition" rel="noopener noreferrer">https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition</a></p>
-<p>3.</p>
-<p>十年期美債孳息重上 5%；二年期升至約 4.88%，油價同步上升</p>
-<p>債券市場在退伍軍人節休市後重開。CNBC 指十年期美債孳息升逾 13 基點至 5.125%，重新站上 5%；對聯儲政策更敏感的二年期升逾 15 基點至 4.879%，三十年期升 10 基點至 5.449%。Morningstar 數據談話則錄得十年期報 5.102%。孳息上升之際，西德州原油期貨升逾 2% 收 $88.74，布倫特原油升逾 3% 收 $95.82。CNBC 引述 CME FedWatch，市場已完全定價 12 月至少加息 25 基點，加息 50 基點的機率約 13%。</p>
-<p>The 10-year Treasury yield moves back above 5%; the 2-year yields about 4.88% as oil rises</p>
+<p>Nvidia 董事會週四宣布，創辦人黃仁勳已辭任總裁、行政總裁及董事，即時生效；現任執行副總裁兼財務總裁 Colette Kress 出任臨時行政總裁，並在尋找常任繼任人期間繼續兼任財務總裁，董事會將同時考慮內部及外部人選。董事會並任命 Harvey C. Jones 為史上首位主席。公司官方聲明未說明辭職原因；美聯社及 CNBC 指，事件發生在有關婚外情及美國國安疑慮的報道之後。路透社指股價早段曾跌近 12%，收市跌 4.3%（Investing.com 收市報 $166.19，跌 4.34%）；Vanda Analytics 數據顯示，零售投資者開市首 30 分鐘買入約 $1.11 億，為該股歷來最大開市買盤。第三季財政 2027 業績仍訂 11 月 17 日公布。</p>
+<p class="source"><a href="https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition" rel="noopener noreferrer">https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition</a></p>
+</article>
+<article class="story">
+<h3>3. The 10-year Treasury yield moves back above 5%; the 2-year yields about 4.88% as oil rises</h3>
+<p class="zh-head">十年期美債孳息重上 5%；二年期升至約 4.88%，油價同步上升</p>
 <p>The cash Treasury market reopened after the Veterans Day close. CNBC said the 10-year yield jumped more than 13 basis points to 5.125%, back above 5%; the more policy-sensitive 2-year yield rose more than 15 basis points to 4.879%, and the 30-year yield rose 10 basis points to 5.449%. A Morningstar data note put the 10-year at 5.102%. At the same time, West Texas Intermediate futures gained more than 2% to $88.74 a barrel and Brent more than 3% to $95.82. CNBC, citing CME FedWatch, said traders fully priced at least a 25-basis-point increase in December, with about 13% odds of a 50-basis-point move.</p>
-<p class="source">來源／Source: CNBC — <a href="https://www.cnbc.com/2026/11/12/us-treasurys-bonds-yields.html" rel="noopener noreferrer">https://www.cnbc.com/2026/11/12/us-treasurys-bonds-yields.html</a></p>
-<p>4.</p>
-<p>能源股連升第四日，標普能源指數升 1.5%；特朗普稱「不必與伊朗達成協議」</p>
-<p>路透社指，標普 500 能源指數升 1.5%，連續第四個交易日上升，並為 11 個主要板塊中表現最佳。油價上揚是在美國總統特朗普於 Truth Social 寫道「我們不必與伊朗達成協議」（&quot;We don&#x27;t need a deal with Iran&quot;）之後，市場解讀為美國與伊朗衝突可能拖延。能源升幅只能部分抵銷 Nvidia 下跌對大市的拖累。</p>
-<p>Energy stocks rise for a fourth day, with the S&amp;P 500 energy index up 1.5%, after Trump says the U.S. does not need a deal with Iran</p>
+<p>債券市場在退伍軍人節休市後重開。CNBC 指十年期美債孳息升逾 13 基點至 5.125%，重新站上 5%；對聯儲政策更敏感的二年期升逾 15 基點至 4.879%，三十年期升 10 基點至 5.449%。Morningstar 數據談話則錄得十年期報 5.102%。孳息上升之際，西德州原油期貨升逾 2% 收 $88.74，布倫特原油升逾 3% 收 $95.82。CNBC 引述 CME FedWatch，市場已完全定價 12 月至少加息 25 基點，加息 50 基點的機率約 13%。</p>
+<p class="source"><a href="https://www.cnbc.com/2026/11/12/us-treasurys-bonds-yields.html" rel="noopener noreferrer">https://www.cnbc.com/2026/11/12/us-treasurys-bonds-yields.html</a></p>
+</article>
+<article class="story">
+<h3>4. Energy stocks rise for a fourth day, with the S&amp;P 500 energy index up 1.5%, after Trump says the U.S. does not need a deal with Iran</h3>
+<p class="zh-head">能源股連升第四日，標普能源指數升 1.5%；特朗普稱「不必與伊朗達成協議」</p>
 <p>Reuters said the S&amp;P 500 energy index rose 1.5%, its fourth straight gain and the best of the 11 major sectors. Oil climbed after President Donald Trump wrote on Truth Social, “We don’t need a deal with Iran,” a comment that raised concern the U.S.–Iran conflict could drag on. The energy advance only partly offset Nvidia’s drag on the major averages.</p>
-<p class="source">來源／Source: Reuters via FMT — <a href="https://www.freemalaysiatoday.com/category/business/2026/11/13/us-stocks-close-lower-as-nvidia-drop-outweighs-energy-gains" rel="noopener noreferrer">https://www.freemalaysiatoday.com/category/business/2026/11/13/us-stocks-close-lower-as-nvidia-drop-outweighs-energy-gains</a></p>
-<p>5.</p>
-<p>Nebius 股價跌 16.8%，為 7 月 1 日以來最大單日跌幅，因業績及前景令投資者失望</p>
-<p>路透社指，人工智能雲端公司 Nebius Group 在公布季度業績及前景後急跌 16.8%，為 7 月 1 日以來最大單日百分比跌幅。Investing.com 收市數據報 $128.64。儘管部分報道指收入勝預期，投資者焦點明顯落在前景及資本開支相關憂慮。此為 Nvidia 以外，週四 AI 基礎設施股中最顯著的跌幅之一。</p>
-<p>Nebius falls 16.8%, its largest one-day drop since July 1, after its earnings and outlook disappoint</p>
+<p>路透社指，標普 500 能源指數升 1.5%，連續第四個交易日上升，並為 11 個主要板塊中表現最佳。油價上揚是在美國總統特朗普於 Truth Social 寫道「我們不必與伊朗達成協議」（&quot;We don&#x27;t need a deal with Iran&quot;）之後，市場解讀為美國與伊朗衝突可能拖延。能源升幅只能部分抵銷 Nvidia 下跌對大市的拖累。</p>
+<p class="source"><a href="https://www.freemalaysiatoday.com/category/business/2026/11/13/us-stocks-close-lower-as-nvidia-drop-outweighs-energy-gains" rel="noopener noreferrer">https://www.freemalaysiatoday.com/category/business/2026/11/13/us-stocks-close-lower-as-nvidia-drop-outweighs-energy-gains</a></p>
+</article>
+<article class="story">
+<h3>5. Nebius falls 16.8%, its largest one-day drop since July 1, after its earnings and outlook disappoint</h3>
+<p class="zh-head">Nebius 股價跌 16.8%，為 7 月 1 日以來最大單日跌幅，因業績及前景令投資者失望</p>
 <p>Reuters said AI cloud firm Nebius Group tumbled 16.8%, its biggest daily percentage drop since July 1, after reporting its quarterly results and outlook. Investing.com showed a close of $128.64. Some recaps said revenue beat estimates, but investors focused on the outlook and capital-spending concerns. It was one of the sharpest declines among AI-infrastructure names on Thursday, aside from Nvidia.</p>
-<p class="source">來源／Source: Reuters via FMT — <a href="https://www.freemalaysiatoday.com/category/business/2026/11/13/us-stocks-close-lower-as-nvidia-drop-outweighs-energy-gains" rel="noopener noreferrer">https://www.freemalaysiatoday.com/category/business/2026/11/13/us-stocks-close-lower-as-nvidia-drop-outweighs-energy-gains</a></p>
-<p>6.</p>
-<p>Cisco 第一季收入 $185 億、非公認會計原則每股盈利 $1.40，並上調全年指引；盤後升約 3%</p>
-<p>Cisco 週四盤後公布截至 10 月 24 日的財政 2027 第一季業績：收入 $185 億，按年升 24%；公認會計原則每股盈利 $1.14，升 58%；非公認會計原則每股盈利 $1.40，升 40%，均為紀錄，亦是逾 15 年來最強的收入及非公認會計原則每股盈利增長。公司上調全年收入指引至 $748 億至 $758 億，非公認會計原則每股盈利 $5.47 至 $5.53；第二季收入指引 $180 億至 $182 億。Cisco 並把來自超大規模業者的人工智能基礎設施收入預期上調至財政 2027 年度 $90 億，超過財政 2026 年總額的兩倍。Investing.com 指盤後股價升約 3%。</p>
-<p>Cisco reports $18.5 billion of first-quarter revenue and $1.40 of non-GAAP EPS, raises its full-year outlook, and rises about 3% after hours</p>
+<p>路透社指，人工智能雲端公司 Nebius Group 在公布季度業績及前景後急跌 16.8%，為 7 月 1 日以來最大單日百分比跌幅。Investing.com 收市數據報 $128.64。儘管部分報道指收入勝預期，投資者焦點明顯落在前景及資本開支相關憂慮。此為 Nvidia 以外，週四 AI 基礎設施股中最顯著的跌幅之一。</p>
+<p class="source"><a href="https://www.freemalaysiatoday.com/category/business/2026/11/13/us-stocks-close-lower-as-nvidia-drop-outweighs-energy-gains" rel="noopener noreferrer">https://www.freemalaysiatoday.com/category/business/2026/11/13/us-stocks-close-lower-as-nvidia-drop-outweighs-energy-gains</a></p>
+</article>
+<article class="story">
+<h3>6. Cisco reports $18.5 billion of first-quarter revenue and $1.40 of non-GAAP EPS, raises its full-year outlook, and rises about 3% after hours</h3>
+<p class="zh-head">Cisco 第一季收入 $185 億、非公認會計原則每股盈利 $1.40，並上調全年指引；盤後升約 3%</p>
 <p>Cisco after the close on Thursday reported fiscal first-quarter 2027 results for the period ended Oct. 24: revenue of $18.5 billion, up 24% year over year; GAAP EPS of $1.14, up 58%; and non-GAAP EPS of $1.40, up 40%, all records, and the strongest revenue and non-GAAP EPS growth rates in more than 15 years. It raised full-year revenue guidance to $74.8–$75.8 billion and non-GAAP EPS to $5.47–$5.53, and guided second-quarter revenue to $18.0–$18.2 billion. Cisco also raised its expectation for AI infrastructure revenue from hyperscalers to $9 billion in fiscal 2027, more than double the fiscal 2026 total. Investing.com said the shares gained about 3% after hours.</p>
-<p class="source">來源／Source: Cisco — <a href="https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2026/m11/cisco-reports-first-quarter-earnings.html" rel="noopener noreferrer">https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2026/m11/cisco-reports-first-quarter-earnings.html</a></p>
-<p>7.</p>
-<p>應用材料第四季收入 $104.1 億、非公認會計原則每股盈利 $4.16，並給出高於預期的第一季指引；延長交易時段先升後跌</p>
-<p>Applied Materials 週四盤後公布截至 10 月 25 日的財政 2026 第四季：收入 $104.1 億，按年升 53%；公認會計原則每股盈利 $3.40，非公認會計原則每股盈利 $4.16，分別按年升 43% 及 92%。全年收入 $344.5 億，升 21%。公司指引財政 2027 第一季收入為 $111 億（正負 $5 億），即 $106 億至 $116 億，調整後每股盈利 $4.35（正負 $0.20）。Investing.com 指延長交易時段走勢反覆，一度升約 2.9%，其後跌 1.6%。</p>
-<p>Applied Materials posts $10.41 billion of fourth-quarter revenue and $4.16 of non-GAAP EPS, guides the next quarter above estimates, then slips in extended trading</p>
+<p>Cisco 週四盤後公布截至 10 月 24 日的財政 2027 第一季業績：收入 $185 億，按年升 24%；公認會計原則每股盈利 $1.14，升 58%；非公認會計原則每股盈利 $1.40，升 40%，均為紀錄，亦是逾 15 年來最強的收入及非公認會計原則每股盈利增長。公司上調全年收入指引至 $748 億至 $758 億，非公認會計原則每股盈利 $5.47 至 $5.53；第二季收入指引 $180 億至 $182 億。Cisco 並把來自超大規模業者的人工智能基礎設施收入預期上調至財政 2027 年度 $90 億，超過財政 2026 年總額的兩倍。Investing.com 指盤後股價升約 3%。</p>
+<p class="source"><a href="https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2026/m11/cisco-reports-first-quarter-earnings.html" rel="noopener noreferrer">https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2026/m11/cisco-reports-first-quarter-earnings.html</a></p>
+</article>
+<article class="story">
+<h3>7. Applied Materials posts $10.41 billion of fourth-quarter revenue and $4.16 of non-GAAP EPS, guides the next quarter above estimates, then slips in extended trading</h3>
+<p class="zh-head">應用材料第四季收入 $104.1 億、非公認會計原則每股盈利 $4.16，並給出高於預期的第一季指引；延長交易時段先升後跌</p>
 <p>Applied Materials after the close on Thursday reported fiscal fourth-quarter 2026 results for the period ended Oct. 25: record revenue of $10.41 billion, up 53% year over year; GAAP EPS of $3.40; and record non-GAAP EPS of $4.16, up 43% and 92% respectively. Full-year revenue was a record $34.45 billion, up 21%. It guided fiscal first-quarter 2027 revenue to $11.1 billion, plus or minus $500 million ($10.6–$11.6 billion), and adjusted EPS to $4.35, plus or minus $0.20. Investing.com said extended trading was choppy: the shares were up about 2.9% at one point, then slipped 1.6%.</p>
-<p class="source">來源／Source: Applied Materials — <a href="https://www.appliedmaterials.com/us/en/newsroom/press-releases/111226-applied-materials-announces-fourth-qtr-fiscal-year-end-2026-results.html" rel="noopener noreferrer">https://www.appliedmaterials.com/us/en/newsroom/press-releases/111226-applied-materials-announces-fourth-qtr-fiscal-year-end-2026-results.html</a></p>
-<p>8.</p>
-<p>芯片股分化：AMD 升約 5.9% 收 $585.30，Broadcom 與 Alphabet 成標普主要升幅貢獻；CoreWeave 跌約 6.9%</p>
-<p>路透社指，Nvidia 競爭對手如 Broadcom、AMD 及 Alphabet 均上升，並屬對標普 500 貢獻最大的升幅股之列。Investing.com 收市數據報 AMD 升 5.86% 收 $585.30；CoreWeave 則跌 6.86% 收 $56.60，回吐週三因業績急升的部分升幅。這顯示市場在黃仁勳辭任後，並非對所有人工智能相關股份一視同仁，部分資金流向其他芯片及平台股。</p>
-<p>Chip stocks diverge: AMD rises about 5.9% to $585.30, Broadcom and Alphabet help the S&amp;P, while CoreWeave falls about 6.9%</p>
+<p>Applied Materials 週四盤後公布截至 10 月 25 日的財政 2026 第四季：收入 $104.1 億，按年升 53%；公認會計原則每股盈利 $3.40，非公認會計原則每股盈利 $4.16，分別按年升 43% 及 92%。全年收入 $344.5 億，升 21%。公司指引財政 2027 第一季收入為 $111 億（正負 $5 億），即 $106 億至 $116 億，調整後每股盈利 $4.35（正負 $0.20）。Investing.com 指延長交易時段走勢反覆，一度升約 2.9%，其後跌 1.6%。</p>
+<p class="source"><a href="https://www.appliedmaterials.com/us/en/newsroom/press-releases/111226-applied-materials-announces-fourth-qtr-fiscal-year-end-2026-results.html" rel="noopener noreferrer">https://www.appliedmaterials.com/us/en/newsroom/press-releases/111226-applied-materials-announces-fourth-qtr-fiscal-year-end-2026-results.html</a></p>
+</article>
+<article class="story">
+<h3>8. Chip stocks diverge: AMD rises about 5.9% to $585.30, Broadcom and Alphabet help the S&amp;P, while CoreWeave falls about 6.9%</h3>
+<p class="zh-head">芯片股分化：AMD 升約 5.9% 收 $585.30，Broadcom 與 Alphabet 成標普主要升幅貢獻；CoreWeave 跌約 6.9%</p>
 <p>Reuters said Nvidia competitors including Broadcom, Advanced Micro Devices and Alphabet moved higher and were among the biggest boosts to the S&amp;P 500. Investing.com showed AMD closing at $585.30, up 5.86%, while CoreWeave fell 6.86% to $56.60, giving back some of Wednesday’s post-earnings surge. The split showed that, after Huang’s resignation, investors did not treat all AI-linked names the same way, with some money rotating into other chip and platform stocks.</p>
-<p class="source">來源／Source: Reuters via FMT — <a href="https://www.freemalaysiatoday.com/category/business/2026/11/13/us-stocks-close-lower-as-nvidia-drop-outweighs-energy-gains" rel="noopener noreferrer">https://www.freemalaysiatoday.com/category/business/2026/11/13/us-stocks-close-lower-as-nvidia-drop-outweighs-energy-gains</a></p>
-<p>9.</p>
-<p>美國 10 月成屋銷售跌至 2010 年 8 月以來最低，按月跌 5.5%</p>
-<p>全國地產經紀商協會（NAR）週四公布，10 月成屋銷售按季調年率計算為 375 萬宗，按月跌 5.5%，按年跌 8.8%，為 2010 年 8 月以來最低。未售出庫存升 1.3% 至 159 萬套，相當於 5.1 個月供應。成屋銷售中位價 $416,700，按年升 0.4%，連續第 40 個月按年上升。首席經濟學家 Lawrence Yun 指，按揭利率已升至 2000 年以來最高水平（僅 2023 年單月例外），令置業變得困難；Freddie Mac 數據顯示 10 月 30 年期固定按揭平均利率為 7.33%。</p>
-<p>U.S. existing-home sales fall to the lowest since August 2010, down 5.5% on the month</p>
+<p>路透社指，Nvidia 競爭對手如 Broadcom、AMD 及 Alphabet 均上升，並屬對標普 500 貢獻最大的升幅股之列。Investing.com 收市數據報 AMD 升 5.86% 收 $585.30；CoreWeave 則跌 6.86% 收 $56.60，回吐週三因業績急升的部分升幅。這顯示市場在黃仁勳辭任後，並非對所有人工智能相關股份一視同仁，部分資金流向其他芯片及平台股。</p>
+<p class="source"><a href="https://www.freemalaysiatoday.com/category/business/2026/11/13/us-stocks-close-lower-as-nvidia-drop-outweighs-energy-gains" rel="noopener noreferrer">https://www.freemalaysiatoday.com/category/business/2026/11/13/us-stocks-close-lower-as-nvidia-drop-outweighs-energy-gains</a></p>
+</article>
+<article class="story">
+<h3>9. U.S. existing-home sales fall to the lowest since August 2010, down 5.5% on the month</h3>
+<p class="zh-head">美國 10 月成屋銷售跌至 2010 年 8 月以來最低，按月跌 5.5%</p>
 <p>The National Association of Realtors said Thursday that existing-home sales fell 5.5% in October to a seasonally adjusted annual rate of 3.75 million, down 8.8% from a year earlier and the slowest pace since August 2010. Unsold inventory rose 1.3% to 1.59 million units, a 5.1-month supply. The median sale price was $416,700, up 0.4% year over year, the 40th consecutive monthly year-over-year increase. Chief economist Lawrence Yun said mortgage rates have climbed to their highest levels since 2000, aside from a single month in 2023; Freddie Mac put the average 30-year fixed rate at 7.33% in October.</p>
-<p class="source">來源／Source: National Association of Realtors — <a href="https://www.nar.realtor/newsroom/existing-home-sales-decreased-5-5-percent-october-nar-report" rel="noopener noreferrer">https://www.nar.realtor/newsroom/existing-home-sales-decreased-5-5-percent-october-nar-report</a></p>
-<p>10.</p>
-<p>週五焦點是 10 月 PPI；聯儲官員對應否更進取加息出現分歧</p>
-<p>投資者將等候週五公布的 10 月生產者物價指數。CNBC 引述道瓊斯訪查的經濟學家，預期總指數按月升 0.4%，按年升 6.6%；該數據緊接本週早前高於預期的消費物價指數。路透社指，克利夫蘭聯儲總裁 Beth Hammack 週四表示，她並不認為央行需要轉向更進取的加息以對抗通脹；三藩市聯儲總裁 Mary Daly 則認為，為應對高通脹，很可能需要進一步加息，但並未暗示有迫切性。</p>
-<p>Friday’s focus is October PPI, as Fed officials differ on how aggressively to tighten</p>
+<p>全國地產經紀商協會（NAR）週四公布，10 月成屋銷售按季調年率計算為 375 萬宗，按月跌 5.5%，按年跌 8.8%，為 2010 年 8 月以來最低。未售出庫存升 1.3% 至 159 萬套，相當於 5.1 個月供應。成屋銷售中位價 $416,700，按年升 0.4%，連續第 40 個月按年上升。首席經濟學家 Lawrence Yun 指，按揭利率已升至 2000 年以來最高水平（僅 2023 年單月例外），令置業變得困難；Freddie Mac 數據顯示 10 月 30 年期固定按揭平均利率為 7.33%。</p>
+<p class="source"><a href="https://www.nar.realtor/newsroom/existing-home-sales-decreased-5-5-percent-october-nar-report" rel="noopener noreferrer">https://www.nar.realtor/newsroom/existing-home-sales-decreased-5-5-percent-october-nar-report</a></p>
+</article>
+<article class="story">
+<h3>10. Friday’s focus is October PPI, as Fed officials differ on how aggressively to tighten</h3>
+<p class="zh-head">週五焦點是 10 月 PPI；聯儲官員對應否更進取加息出現分歧</p>
 <p>Investors turn next to Friday’s October producer price index. CNBC, citing economists polled by Dow Jones, said the headline reading is expected to rise 0.4% on the month and 6.6% from a year earlier, following this week’s hotter-than-expected consumer-price report. Reuters said Cleveland Fed President Beth Hammack said Thursday she does not believe the central bank needs to shift to more aggressive rate increases to fight inflation, while San Francisco Fed President Mary Daly said the Fed will likely need to raise rates further to deal with elevated inflation, without suggesting urgency.</p>
-<p class="source">來源／Source: CNBC — <a href="https://www.cnbc.com/2026/11/12/stock-market-today-live-updates.html" rel="noopener noreferrer">https://www.cnbc.com/2026/11/12/stock-market-today-live-updates.html</a></p>
+<p>投資者將等候週五公布的 10 月生產者物價指數。CNBC 引述道瓊斯訪查的經濟學家，預期總指數按月升 0.4%，按年升 6.6%；該數據緊接本週早前高於預期的消費物價指數。路透社指，克利夫蘭聯儲總裁 Beth Hammack 週四表示，她並不認為央行需要轉向更進取的加息以對抗通脹；三藩市聯儲總裁 Mary Daly 則認為，為應對高通脹，很可能需要進一步加息，但並未暗示有迫切性。</p>
+<p class="source"><a href="https://www.cnbc.com/2026/11/12/stock-market-today-live-updates.html" rel="noopener noreferrer">https://www.cnbc.com/2026/11/12/stock-market-today-live-updates.html</a></p>
+</article>
 <p>────────────────</p>
 <h2>三、加密貨幣新聞／Cryptocurrency News</h2>
 <p>────────────────</p>
 <p>本節僅列 6 則已核實、屬過去約 24 小時內的要聞，未為湊滿 10 則而加入較舊或未能獨立核實的消息。</p>
 <p>Only 6 verified items from the past ~24 hours are listed; the section was not padded with older or independently unverified stories.</p>
-<p>1.</p>
-<p>比特幣跌至約 12 週低位，低見約 $71,200；CoinGlass 錄得逾 $7.50 億倉位被清算</p>
-<p>The Block 報道，比特幣週四跌至近 12 週最低，盤中低見約 $71,200，並在報道時跌 3.4% 報約 $71,600，市場同時消化 Nvidia 行政總裁黃仁勳突然辭任。報道引述 CoinGlass，過去 24 小時有逾 $7.50 億加密倉位被清算，其中多頭超過 $6.34 億。最新 CoinGecko 快照見行情一節。此為風險資產情緒轉弱下的市場反應，而非單一項目的基本面公告。</p>
-<p>Bitcoin falls to a roughly 12-week low, trading as low as about $71,200; CoinGlass records more than $750 million of liquidations</p>
+<article class="story">
+<h3>1. Bitcoin falls to a roughly 12-week low, trading as low as about $71,200; CoinGlass records more than $750 million of liquidations</h3>
+<p class="zh-head">比特幣跌至約 12 週低位，低見約 $71,200；CoinGlass 錄得逾 $7.50 億倉位被清算</p>
 <p>The Block reported that bitcoin fell to its lowest level in nearly 12 weeks on Thursday, trading as low as about $71,200 and down 3.4% at about $71,600 at the time of publication, as markets digested Nvidia CEO Jensen Huang’s abrupt resignation. Citing CoinGlass, it said more than $750 million of crypto positions were liquidated over 24 hours, including more than $634 million in longs. The latest CoinGecko snapshot is in the price section below. This was a risk-off market move rather than a single-protocol announcement.</p>
-<p class="source">來源／Source: The Block — <a href="https://www.theblock.co/news/markets/2026-11-12-bitcoin-12-week-low-jensen-huang-exit-nvidia-438992" rel="noopener noreferrer">https://www.theblock.co/news/markets/2026-11-12-bitcoin-12-week-low-jensen-huang-exit-nvidia-438992</a></p>
-<p>2.</p>
-<p>美國現貨比特幣 ETF 週三再錄約 $2.999 億淨流出，連續第五日、五日累計約 $14.4 億</p>
-<p>CoinDesk 引述 SoSoValue，美國現貨比特幣 ETF 週三淨流出 $2.999 億，連續第五個交易日錄得資金淨流出，自 11 月 5 日以來約合 $14.4 億；其中貝萊德 IBIT 佔 $2.697 億，為連續第九個交易日贖回。這較本簡報昨日所錄、週二約 $9,500 萬的淨流出明顯擴大，顯示機構需求仍然偏弱。</p>
-<p>U.S. spot bitcoin ETFs lost about $299.9 million on Wednesday, a fifth straight day and about $1.44 billion over five sessions</p>
+<p>The Block 報道，比特幣週四跌至近 12 週最低，盤中低見約 $71,200，並在報道時跌 3.4% 報約 $71,600，市場同時消化 Nvidia 行政總裁黃仁勳突然辭任。報道引述 CoinGlass，過去 24 小時有逾 $7.50 億加密倉位被清算，其中多頭超過 $6.34 億。最新 CoinGecko 快照見行情一節。此為風險資產情緒轉弱下的市場反應，而非單一項目的基本面公告。</p>
+<p class="source"><a href="https://www.theblock.co/news/markets/2026-11-12-bitcoin-12-week-low-jensen-huang-exit-nvidia-438992" rel="noopener noreferrer">https://www.theblock.co/news/markets/2026-11-12-bitcoin-12-week-low-jensen-huang-exit-nvidia-438992</a></p>
+</article>
+<article class="story">
+<h3>2. U.S. spot bitcoin ETFs lost about $299.9 million on Wednesday, a fifth straight day and about $1.44 billion over five sessions</h3>
+<p class="zh-head">美國現貨比特幣 ETF 週三再錄約 $2.999 億淨流出，連續第五日、五日累計約 $14.4 億</p>
 <p>CoinDesk, citing SoSoValue, said U.S. spot bitcoin ETFs lost $299.9 million on Wednesday, a fifth consecutive session of net outflows totaling about $1.44 billion since Nov. 5. BlackRock’s IBIT accounted for $269.7 million, its ninth straight session of redemptions. That was a clear step-up from the about $95 million of Tuesday outflows recorded in yesterday’s brief, and still pointed to soft institutional demand.</p>
-<p class="source">來源／Source: CoinDesk — <a href="https://www.coindesk.com/markets/2026/11/12/bitcoin-dips-with-nvidia-as-etf-outflows-reach-day-five" rel="noopener noreferrer">https://www.coindesk.com/markets/2026/11/12/bitcoin-dips-with-nvidia-as-etf-outflows-reach-day-five</a></p>
-<p>3.</p>
-<p>MSCI 確認將於 11 月 30 日把 Strategy 移出其指數，市場憂慮被動賣盤</p>
-<p>The Block 及 CoinDesk 報道，MSCI 已確認將於 11 月 30 日把比特幣財政儲備公司 Strategy（原 MicroStrategy，代號 MSTR）移出其指數，市場關注這可能引發被動型基金賣出這隻被視為比特幣代理的股份。Wintermute 稱此為「比特幣代理的被動賣盤風險」，但表示沒有規模估算。此為指數編製決定，並非 Strategy 本身公布新的買幣或財務結果。</p>
-<p>MSCI confirms it will remove Strategy from its indexes on Nov. 30, raising the prospect of passive selling</p>
+<p>CoinDesk 引述 SoSoValue，美國現貨比特幣 ETF 週三淨流出 $2.999 億，連續第五個交易日錄得資金淨流出，自 11 月 5 日以來約合 $14.4 億；其中貝萊德 IBIT 佔 $2.697 億，為連續第九個交易日贖回。這較本簡報昨日所錄、週二約 $9,500 萬的淨流出明顯擴大，顯示機構需求仍然偏弱。</p>
+<p class="source"><a href="https://www.coindesk.com/markets/2026/11/12/bitcoin-dips-with-nvidia-as-etf-outflows-reach-day-five" rel="noopener noreferrer">https://www.coindesk.com/markets/2026/11/12/bitcoin-dips-with-nvidia-as-etf-outflows-reach-day-five</a></p>
+</article>
+<article class="story">
+<h3>3. MSCI confirms it will remove Strategy from its indexes on Nov. 30, raising the prospect of passive selling</h3>
+<p class="zh-head">MSCI 確認將於 11 月 30 日把 Strategy 移出其指數，市場憂慮被動賣盤</p>
 <p>The Block and CoinDesk reported that MSCI has confirmed it will remove bitcoin treasury firm Strategy (formerly MicroStrategy, ticker MSTR) from its indexes on Nov. 30, raising the prospect of selling by passive funds in a stock widely treated as a bitcoin proxy. Wintermute called it “a passive-selling risk on a BTC proxy” but said it had no size estimate. This is an index-methodology decision, not a new share-purchase or results announcement from Strategy itself.</p>
-<p class="source">來源／Source: The Block — <a href="https://www.theblock.co/news/markets/2026-11-12-bitcoin-12-week-low-jensen-huang-exit-nvidia-438992" rel="noopener noreferrer">https://www.theblock.co/news/markets/2026-11-12-bitcoin-12-week-low-jensen-huang-exit-nvidia-438992</a></p>
-<p>4.</p>
-<p>紐約州金融服務局就虛擬貨幣廣告及推廣發出新指引，機構須於 2027 年 5 月 10 日前落實</p>
-<p>紐約州金融服務局（NYDFS）署理局長 Kaitlin Asrow 週四發布指引，要求受該局發牌或特許的虛擬貨幣機構，就廣告及市場推廣制定並執行全面政策，重點是內容準確、披露清晰，以及建立管治與審批程序。機構須在 2027 年 5 月 10 日前按指引更新政策及程序，其後至少每年檢討，並保存紀錄供該局審查。指引要求避免虛假、誤導或誇大內容，披露須清晰易明並標明提供產品的持牌機構，同時對第三方推廣人做盡職審查，以及監察盜用品牌的行為。</p>
-<p>New York DFS issues new advertising and marketing guidance for virtual-currency firms, with a May 10, 2027 implementation date</p>
+<p>The Block 及 CoinDesk 報道，MSCI 已確認將於 11 月 30 日把比特幣財政儲備公司 Strategy（原 MicroStrategy，代號 MSTR）移出其指數，市場關注這可能引發被動型基金賣出這隻被視為比特幣代理的股份。Wintermute 稱此為「比特幣代理的被動賣盤風險」，但表示沒有規模估算。此為指數編製決定，並非 Strategy 本身公布新的買幣或財務結果。</p>
+<p class="source"><a href="https://www.theblock.co/news/markets/2026-11-12-bitcoin-12-week-low-jensen-huang-exit-nvidia-438992" rel="noopener noreferrer">https://www.theblock.co/news/markets/2026-11-12-bitcoin-12-week-low-jensen-huang-exit-nvidia-438992</a></p>
+</article>
+<article class="story">
+<h3>4. New York DFS issues new advertising and marketing guidance for virtual-currency firms, with a May 10, 2027 implementation date</h3>
+<p class="zh-head">紐約州金融服務局就虛擬貨幣廣告及推廣發出新指引，機構須於 2027 年 5 月 10 日前落實</p>
 <p>New York State Department of Financial Services Acting Superintendent Kaitlin Asrow on Thursday issued guidance requiring DFS-licensed or chartered virtual-currency entities to maintain comprehensive advertising and marketing policies, emphasising accurate content, clear disclosures and a governance and review process. Firms are expected to update their policies by May 10, 2027, review them at least annually and keep records for DFS review. The guidance says claims should not be false, misleading or exaggerated; disclosures should be clear and identify the licensed entity; and firms should conduct due diligence on third-party promoters and monitor misuse of their brand.</p>
-<p class="source">來源／Source: New York State Department of Financial Services — <a href="https://www.dfs.ny.gov/reports_and_publications/press_releases/pr20261112" rel="noopener noreferrer">https://www.dfs.ny.gov/reports_and_publications/press_releases/pr20261112</a></p>
-<p>5.</p>
-<p>泰國證監會建議對穩定幣存入及提取設每日 500 萬銖（約 $148,000）上限</p>
-<p>Cointelegraph 引述泰國證券交易委員會週四公告，建議受規管加密營運商對每名客戶的穩定幣存入及提取，分別設每日 500 萬銖（約 $148,000）上限，旨在遏止清洗黑錢、網絡罪行及規避跨境匯款規則。草案亦禁止與第三者錢包進行穩定幣轉帳，營運商須核實客戶擁有所用帳戶或錢包，並遵守 Travel Rule 及使用區塊鏈分析。交易所須披露做市商及所涵蓋資產；經紀不得就穩定幣兌泰銖使用流動性供應商；部分場外交易設 300 萬銖最低額。此為諮詢後的草案，並非已生效規則。</p>
-<p>Thailand’s SEC proposes a 5 million baht (about $148,000) daily cap on stablecoin deposits and withdrawals</p>
+<p>紐約州金融服務局（NYDFS）署理局長 Kaitlin Asrow 週四發布指引，要求受該局發牌或特許的虛擬貨幣機構，就廣告及市場推廣制定並執行全面政策，重點是內容準確、披露清晰，以及建立管治與審批程序。機構須在 2027 年 5 月 10 日前按指引更新政策及程序，其後至少每年檢討，並保存紀錄供該局審查。指引要求避免虛假、誤導或誇大內容，披露須清晰易明並標明提供產品的持牌機構，同時對第三方推廣人做盡職審查，以及監察盜用品牌的行為。</p>
+<p class="source"><a href="https://www.dfs.ny.gov/reports_and_publications/press_releases/pr20261112" rel="noopener noreferrer">https://www.dfs.ny.gov/reports_and_publications/press_releases/pr20261112</a></p>
+</article>
+<article class="story">
+<h3>5. Thailand’s SEC proposes a 5 million baht (about $148,000) daily cap on stablecoin deposits and withdrawals</h3>
+<p class="zh-head">泰國證監會建議對穩定幣存入及提取設每日 500 萬銖（約 $148,000）上限</p>
 <p>Cointelegraph, citing a Thursday announcement from Thailand’s Securities and Exchange Commission, said the regulator has proposed capping daily stablecoin deposits and withdrawals at 5 million baht (about $148,000) each per customer at regulated crypto operators, to curb money laundering, cybercrime and attempts to bypass cross-border transfer rules. The draft would bar stablecoin transfers to and from third-party wallets, require operators to verify that customers own the accounts or wallets they use, and require Travel Rule compliance and blockchain analytics. Exchanges would have to name market makers and the assets they cover; brokers would be barred from using liquidity providers for stablecoin-baht pairs; and some off-platform trades would face a 3 million baht minimum. This is a draft after consultation, not a rule already in force.</p>
-<p class="source">來源／Source: Cointelegraph — <a href="https://cointelegraph.com/news/thailand-tighter-stablecoin-rules-crypto-exchange" rel="noopener noreferrer">https://cointelegraph.com/news/thailand-tighter-stablecoin-rules-crypto-exchange</a></p>
-<p>6.</p>
-<p>Visa 與 Anchorage Digital 合作，先以西聯 USDPT 穩定幣作為 Visa 網絡結算資產</p>
-<p>Anchorage Digital 週四宣布，與 Visa 合作，讓該行發行的選定穩定幣可作為 Visa 網絡的原生結算資產，首個是西聯的 USDPT。Visa 及合資格夥伴此後可選擇以 USDPT 結算 VisaNet 義務；雙方稱這套安排亦可作為其後納入更多 Anchorage 發行穩定幣的框架。Anchorage 稱 USDPT 等由其發行的穩定幣以美元及等價現金全額支持，可 1:1 贖回，並在聯邦監管下鑄造。這是機構結算基礎設施的擴展，並非新的零售穩定幣發行。</p>
-<p>Visa and Anchorage Digital add Western Union’s USDPT stablecoin as a native settlement asset on the Visa network</p>
+<p>Cointelegraph 引述泰國證券交易委員會週四公告，建議受規管加密營運商對每名客戶的穩定幣存入及提取，分別設每日 500 萬銖（約 $148,000）上限，旨在遏止清洗黑錢、網絡罪行及規避跨境匯款規則。草案亦禁止與第三者錢包進行穩定幣轉帳，營運商須核實客戶擁有所用帳戶或錢包，並遵守 Travel Rule 及使用區塊鏈分析。交易所須披露做市商及所涵蓋資產；經紀不得就穩定幣兌泰銖使用流動性供應商；部分場外交易設 300 萬銖最低額。此為諮詢後的草案，並非已生效規則。</p>
+<p class="source"><a href="https://cointelegraph.com/news/thailand-tighter-stablecoin-rules-crypto-exchange" rel="noopener noreferrer">https://cointelegraph.com/news/thailand-tighter-stablecoin-rules-crypto-exchange</a></p>
+</article>
+<article class="story">
+<h3>6. Visa and Anchorage Digital add Western Union’s USDPT stablecoin as a native settlement asset on the Visa network</h3>
+<p class="zh-head">Visa 與 Anchorage Digital 合作，先以西聯 USDPT 穩定幣作為 Visa 網絡結算資產</p>
 <p>Anchorage Digital said Thursday it is working with Visa to support selected stablecoins issued by Anchorage Digital Bank, N.A., as native settlement assets on the Visa network, starting with Western Union’s USDPT. Visa and eligible partners can now use USDPT to settle VisaNet obligations, and the firms said the arrangement creates a framework to consider additional Anchorage-issued stablecoins later. Anchorage said the stablecoins it issues, including USDPT, are fully backed by U.S. dollars and cash equivalents, redeemable 1:1, and minted under federal oversight. This is an expansion of institutional settlement infrastructure, not a new retail stablecoin launch.</p>
-<p class="source">來源／Source: Anchorage Digital — <a href="https://www.anchorage.com/press-room/anchorage-digital-to-support-visa-stablecoin-settlement-starting-with-usdpt" rel="noopener noreferrer">https://www.anchorage.com/press-room/anchorage-digital-to-support-visa-stablecoin-settlement-starting-with-usdpt</a></p>
+<p>Anchorage Digital 週四宣布，與 Visa 合作，讓該行發行的選定穩定幣可作為 Visa 網絡的原生結算資產，首個是西聯的 USDPT。Visa 及合資格夥伴此後可選擇以 USDPT 結算 VisaNet 義務；雙方稱這套安排亦可作為其後納入更多 Anchorage 發行穩定幣的框架。Anchorage 稱 USDPT 等由其發行的穩定幣以美元及等價現金全額支持，可 1:1 贖回，並在聯邦監管下鑄造。這是機構結算基礎設施的擴展，並非新的零售穩定幣發行。</p>
+<p class="source"><a href="https://www.anchorage.com/press-room/anchorage-digital-to-support-visa-stablecoin-settlement-starting-with-usdpt" rel="noopener noreferrer">https://www.anchorage.com/press-room/anchorage-digital-to-support-visa-stablecoin-settlement-starting-with-usdpt</a></p>
+</article>
 <p>────────────────</p>
 <h2>四、加密貨幣行情／Cryptocurrency Price Movements</h2>
 <p>────────────────</p>
 <p>宇宙：按當前流通市值排名的前 10 大加密貨幣（含符合資格的穩定幣，已標示）。排名來源：CoinGecko Markets API（order=market_cap_desc）。快照：2026-11-13 08:13:54 GMT+8（API last_updated ~2026-11-13 00:13:54 UTC）。全球總市值約 $2.41 萬億，24 小時約 −5.18%；BTC 主導約 59.4%。恐懼與貪婪指數：20（極度恐懼；昨日同一來源為 35，恐懼）。與昨日同一來源的快照相比，前 10 名成員不變。</p>
 <p>Universe: the top 10 cryptocurrencies by current circulating market cap, including qualifying stablecoins (labeled). Ranking source: CoinGecko Markets API (order=market_cap_desc). Snapshot: 2026-11-13 08:13:54 GMT+8 (API last_updated ~2026-11-13 00:13:54 UTC). Global crypto market cap about $2.41T, ~−5.18% over 24 hours; BTC dominance about 59.4%. Fear &amp; Greed: 20 (extreme fear; yesterday’s reading from the same source was 35, fear). Versus yesterday’s snapshot from the same source, the top-10 membership is unchanged.</p>
-<p class="source">來源 Source: CoinGecko — <a href="https://www.coingecko.com/" rel="noopener noreferrer">https://www.coingecko.com/</a></p>
+<p class="source"><a href="https://www.coingecko.com/" rel="noopener noreferrer">https://www.coingecko.com/</a></p>
 <div class="table-wrap"><table>
 <thead><tr>
 <th>排名 Rank</th>
