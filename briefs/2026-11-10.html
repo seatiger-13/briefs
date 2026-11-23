@@ -83,12 +83,14 @@ h3 {
 article.story {
   margin: 0 0 1.6rem;
 }
-article.story h3 { margin: 1.15rem 0 0.15rem; }
-.zh-head {
-  margin: 0 0 0.65rem;
+article.story h3 { margin: 1.15rem 0 0.12rem; }
+p.en { margin: 0.7rem 0 0.1rem; }
+p.zh, .zh-head {
+  margin: 0 0 0.15rem;
   color: var(--muted);
-  font-weight: 600;
 }
+.zh-head { font-weight: 600; }
+p.zh + p.en { margin-top: 0.7rem; }
 p { margin: 0.75rem 0; }
 a { color: var(--link); }
 .source {
@@ -154,236 +156,253 @@ ol.archive .l { color: var(--muted); font-size: 0.9rem; margin-left: 0.6rem; }
     </header>
     <h1>史泰加，你條L樣睇路啦</h1>
     <p class="date">AI、美股及加密貨幣早晨簡報 / Morning Brief — 2026-11-10（亞洲／香港時間 GMT+8）</p>
-    <p>史泰加，你條L樣睇路啦</p>
-<p>以下為過去約 24 小時（亞洲／香港時間 GMT+8：2026-11-09 約 08:08 至 2026-11-10 約 08:08）個人早晨簡報。截稿時間約為 2026-11-10 08:08 GMT+8。僅收錄已核實、具實質影響的消息；各節之間已盡量去重。</p>
-<p>This is your personal morning brief for the preceding ~24 hours (Asia/Hong Kong GMT+8: about 08:08 on 2026-11-09 through about 08:08 on 2026-11-10). Cutoff ~08:08 GMT+8 on 2026-11-10. Only verified, material items; sections are deduplicated where possible.</p>
-<p>────────────────</p>
+    <p class="en">This is your personal morning brief for the preceding ~24 hours (Asia/Hong Kong GMT+8: about 08:08 on 2026-11-09 through about 08:08 on 2026-11-10). Cutoff ~08:08 GMT+8 on 2026-11-10. Only verified, material items; sections are deduplicated where possible.</p>
+<p class="zh">以下為過去約 24 小時（亞洲／香港時間 GMT+8：2026-11-09 約 08:08 至 2026-11-10 約 08:08）個人早晨簡報。截稿時間約為 2026-11-10 08:08 GMT+8。僅收錄已核實、具實質影響的消息；各節之間已盡量去重。</p>
+<hr>
 <h2>一、人工智能十大要聞／Top 10 AI News</h2>
-<p>────────────────</p>
+<hr>
 <article class="story">
 <h3>1. Anthropic launches Claude Fable 5.2 and Mythos 5.2</h3>
 <p class="zh-head">Anthropic 發布 Claude Fable 5.2 與 Mythos 5.2</p>
-<p>Anthropic released frontier models for hard technical work: Fable 5.2 is broadly available (including AWS, Google Cloud, Azure) at $8/$40 per million input/output tokens; Mythos 5.2 (same underlying model) is gated to vetted cybersecurity and life-sciences orgs. Prerelease claims include formalizing Fermat’s Last Theorem in 30 hours with ~1,000 agents and designing working electronics prototypes.</p>
-<p>Anthropic 推出面向高難度編碼、科學與工程的新一代模型：Fable 5.2 全面上線（含 AWS、Google Cloud、Azure），定價降至每百萬 input／output token $8／$40；同底層的 Mythos 5.2 僅供通過網絡安全與生命科學驗證計劃的機構。測試中包括以約 1,000 個 agent 在 30 小時內形式化費馬大定理證明，以及設計可實際組裝的電子原型。</p>
+<p class="en">Anthropic released frontier models for hard technical work: Fable 5.2 is broadly available (including AWS, Google Cloud, Azure) at $8/$40 per million input/output tokens; Mythos 5.2 (same underlying model) is gated to vetted cybersecurity and life-sciences orgs.</p>
+<p class="zh">Anthropic 推出面向高難度編碼、科學與工程的新一代模型：Fable 5.2 全面上線（含 AWS、Google Cloud、Azure），定價降至每百萬 input／output token $8／$40；同底層的 Mythos 5.2 僅供通過網絡安全與生命科學驗證計劃的機構。</p>
+<p class="en">Prerelease claims include formalizing Fermat’s Last Theorem in 30 hours with ~1,000 agents and designing working electronics prototypes.</p>
+<p class="zh">測試中包括以約 1,000 個 agent 在 30 小時內形式化費馬大定理證明，以及設計可實際組裝的電子原型。</p>
 <p class="source"><a href="https://www.anthropic.com/claude-fable-and-mythos-5-2" rel="noopener noreferrer">https://www.anthropic.com/claude-fable-and-mythos-5-2</a></p>
 </article>
 <article class="story">
 <h3>2. Meta releases Muse Ember for high-volume agent work</h3>
 <p class="zh-head">Meta 推出低成本 agent 模型 Muse Ember</p>
-<p>Meta launched Muse Ember, its smallest/most efficient model for repeated agent steps (tool calls, routing, extraction, long docs). List pricing is about $0.10/$0.50 per million input/output tokens with a 1M-token context; Meta positions it on the cost-efficiency frontier versus Haiku 5.5 and GPT-6 Luna.</p>
-<p>Meta 發布其最小、最省成本的 Muse Ember，主打工具調用、路由、抽取與長文解析等 agent 高頻步驟；API 定價約每百萬 input／output token $0.10／$0.50，上下文長達 100 萬 token，並稱在單位成本智能指標上逼近或勝過 Claude Haiku 5.5／GPT-6 Luna。</p>
+<p class="en">Meta launched Muse Ember, its smallest/most efficient model for repeated agent steps (tool calls, routing, extraction, long docs).</p>
+<p class="zh">Meta 發布其最小、最省成本的 Muse Ember，主打工具調用、路由、抽取與長文解析等 agent 高頻步驟；API 定價約每百萬 input／output token $0.10／$0.50，上下文長達 100 萬 token，並稱在單位成本智能指標上逼近或勝過 Claude Haiku 5.5／GPT-6 Luna。</p>
+<p class="en">List pricing is about $0.10/$0.50 per million input/output tokens with a 1M-token context; Meta positions it on the cost-efficiency frontier versus Haiku 5.5 and GPT-6 Luna.</p>
 <p class="source"><a href="https://research.meta.ai/blog/muse-ember" rel="noopener noreferrer">https://research.meta.ai/blog/muse-ember</a></p>
 </article>
 <article class="story">
 <h3>3. NVIDIA unveils GR00T 2 at CoRL</h3>
 <p class="zh-head">NVIDIA 於 CoRL 發表 GR00T 2 機器人基礎模型</p>
-<p>At CoRL in Austin, NVIDIA introduced GR00T 2, an open world-action model on Cosmos, plus Isaac Lab 3.0 and related tooling. NVIDIA reports completing 40 of 50 evaluated tasks at least once with no task-specific demos, and ~95% average success with five demos per task; partners including Foxconn are evaluating factory uses.</p>
-<p>在奧斯汀 CoRL，NVIDIA 發表建基於 Cosmos 的開放式世界動作模型 GR00T 2，並同步推出 Isaac Lab 3.0 等模擬工具；公司稱在 50 項評估任務中，零樣本可完成 40 項至少一次，五次示範後平均成功率約 95%，Foxconn 等正評估工廠場景。</p>
+<p class="en">At CoRL in Austin, NVIDIA introduced GR00T 2, an open world-action model on Cosmos, plus Isaac Lab 3.0 and related tooling.</p>
+<p class="zh">在奧斯汀 CoRL，NVIDIA 發表建基於 Cosmos 的開放式世界動作模型 GR00T 2，並同步推出 Isaac Lab 3.0 等模擬工具；公司稱在 50 項評估任務中，零樣本可完成 40 項至少一次，五次示範後平均成功率約 95%，Foxconn 等正評估工廠場景。</p>
+<p class="en">NVIDIA reports completing 40 of 50 evaluated tasks at least once with no task-specific demos, and ~95% average success with five demos per task; partners including Foxconn are evaluating factory uses.</p>
 <p class="source"><a href="https://blogs.nvidia.com/blog/robotics-simulation-advancements-corl/" rel="noopener noreferrer">https://blogs.nvidia.com/blog/robotics-simulation-advancements-corl/</a></p>
 </article>
 <article class="story">
 <h3>4. Google expands TPU 8 line with 8tx and 8i Max</h3>
 <p class="zh-head">Google 擴充第八代 TPU：8tx 與 8i Max</p>
-<p>Google announced TPU 8tx (confidential compute/inference) and TPU 8i Max (two chips per package for more compute/bandwidth), extending its eighth-gen TPU family, with availability expected in 2027, as it pushes TorchTPU and cloud paths against Nvidia in inference.</p>
-<p>Google 公布 TPU 8tx（機密運算／推論）與 TPU 8i Max（雙晶片封裝以提升算力與頻寬），把第八代 TPU 產品線擴至更多場景，預期 2027 年供應；同時推動 TorchTPU 等路徑，以挑戰 Nvidia 在推論市場的地位。</p>
+<p class="en">Google announced TPU 8tx (confidential compute/inference) and TPU 8i Max (two chips per package for more compute/bandwidth), extending its eighth-gen TPU family, with availability expected in 2027, as it pushes TorchTPU and cloud paths against Nvidia in inference.</p>
+<p class="zh">Google 公布 TPU 8tx（機密運算／推論）與 TPU 8i Max（雙晶片封裝以提升算力與頻寬），把第八代 TPU 產品線擴至更多場景，預期 2027 年供應；同時推動 TorchTPU 等路徑，以挑戰 Nvidia 在推論市場的地位。</p>
 <p class="source"><a href="https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/tpu-8i-max-and-8tx/" rel="noopener noreferrer">https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/tpu-8i-max-and-8tx/</a></p>
 </article>
 <article class="story">
 <h3>5. Adobe and Disney announce multi-year AI alliance</h3>
 <p class="zh-head">Adobe 與 Disney 締結多年 AI 戰略聯盟</p>
-<p>Adobe and The Walt Disney Company announced a multi-year strategic alliance making Adobe Disney’s Official AI Innovation Partner, with custom Firefly Foundry models trained on Disney IP for commercially safer production use across parks, studios and ESPN.</p>
-<p>Adobe 與迪士尼宣布多年戰略聯盟，Adobe 成為迪士尼「Official AI Innovation Partner」；雙方將以 Firefly／Firefly Foundry 等為基礎，為迪士尼 IP 打造藝術家主導、商用安全的客製生成模型，覆蓋樂園、製片與 ESPN 等場景。</p>
+<p class="en">Adobe and The Walt Disney Company announced a multi-year strategic alliance making Adobe Disney’s Official AI Innovation Partner, with custom Firefly Foundry models trained on Disney IP for commercially safer production use across parks, studios and ESPN.</p>
+<p class="zh">Adobe 與迪士尼宣布多年戰略聯盟，Adobe 成為迪士尼「Official AI Innovation Partner」；雙方將以 Firefly／Firefly Foundry 等為基礎，為迪士尼 IP 打造藝術家主導、商用安全的客製生成模型，覆蓋樂園、製片與 ESPN 等場景。</p>
 <p class="source"><a href="https://news.adobe.com/news/2026/11/adobe-and-the-walt-disney-company-alliance" rel="noopener noreferrer">https://news.adobe.com/news/2026/11/adobe-and-the-walt-disney-company-alliance</a></p>
 </article>
 <article class="story">
 <h3>6. Anthropic shows Fable 5.2 designing electronics end-to-end</h3>
 <p class="zh-head">Anthropic：Fable 5.2 可端到端設計電子原型</p>
-<p>Anthropic, with Diode, reported Fable 5.2 designing three electronic prototypes (speakerphone, voice hub, virtual pet) including PCB layout and CAD; PCB Gym rose to ~69% from ~25% for Fable 5, and boards worked without circuit fixes—still prototypes, not production-qualified.</p>
-<p>Anthropic 與 Diode 合作展示 Fable 5.2 從規格、選料、PCB 佈線到外殼 CAD 與韌體，設計出喇叭電話、語音助手集線器與掌上虛擬寵物等原型；PCB Gym 分數由 Fable 5 的約 25% 升至約 69%，實體板無需改電路即可運作（仍屬原型、未經量產認證）。</p>
+<p class="en">Anthropic, with Diode, reported Fable 5.2 designing three electronic prototypes (speakerphone, voice hub, virtual pet) including PCB layout and CAD; PCB Gym rose to ~69% from ~25% for Fable 5, and boards worked without circuit fixes—still prototypes, not production-qualified.</p>
+<p class="zh">Anthropic 與 Diode 合作展示 Fable 5.2 從規格、選料、PCB 佈線到外殼 CAD 與韌體，設計出喇叭電話、語音助手集線器與掌上虛擬寵物等原型；PCB Gym 分數由 Fable 5 的約 25% 升至約 69%，實體板無需改電路即可運作（仍屬原型、未經量產認證）。</p>
 <p class="source"><a href="https://www.anthropic.com/research/claude-electronics-design" rel="noopener noreferrer">https://www.anthropic.com/research/claude-electronics-design</a></p>
 </article>
 <article class="story">
 <h3>7. OpenAI launches Control Room for faster safety halts</h3>
 <p class="zh-head">OpenAI 推出 Control Room 加快不安全模型工作負載急停</p>
-<p>OpenAI described Control Room, linking research workloads to misalignment monitors so emergency stops that once took ~2.5 hours of manual work can drop to ~35 seconds, denying tokens to halted jobs even if code still runs.</p>
-<p>OpenAI 研究人員介紹 Control Room：把研究工作負載與錯位監控串連，據稱可把過去需約 2.5 小時人工介入的緊急停止縮至約 35 秒，即使作業進程仍在跑也可拒絕發放 token，以強化擴展安全。</p>
+<p class="en">OpenAI described Control Room, linking research workloads to misalignment monitors so emergency stops that once took ~2.5 hours of manual work can drop to ~35 seconds, denying tokens to halted jobs even if code still runs.</p>
+<p class="zh">OpenAI 研究人員介紹 Control Room：把研究工作負載與錯位監控串連，據稱可把過去需約 2.5 小時人工介入的緊急停止縮至約 35 秒，即使作業進程仍在跑也可拒絕發放 token，以強化擴展安全。</p>
 <p class="source"><a href="https://x.com/i/trending/2119926127955526063" rel="noopener noreferrer">https://x.com/i/trending/2119926127955526063</a></p>
 </article>
 <article class="story">
 <h3>8. Skild AI open-sources STEEL physics solver</h3>
 <p class="zh-head">Skild AI 開源 STEEL 物理求解器加速機器人訓練</p>
-<p>Skild AI announced STEEL, a Newton-based physics solver for faster robot training, claiming up to ~13× PhysX throughput on mixed contact tasks with lower GPU memory use.</p>
-<p>Skild AI 在 CoRL 公布建於 NVIDIA Newton 的 STEEL 物理引擎，聲稱在混合接觸任務上可達 PhysX 約 13 倍吞吐並節省 GPU 記憶體，方便以模擬訓練抓取、纜線等精細操作。</p>
+<p class="en">Skild AI announced STEEL, a Newton-based physics solver for faster robot training, claiming up to ~13× PhysX throughput on mixed contact tasks with lower GPU memory use.</p>
+<p class="zh">Skild AI 在 CoRL 公布建於 NVIDIA Newton 的 STEEL 物理引擎，聲稱在混合接觸任務上可達 PhysX 約 13 倍吞吐並節省 GPU 記憶體，方便以模擬訓練抓取、纜線等精細操作。</p>
 <p class="source"><a href="https://x.com/i/trending/2119857408407404564" rel="noopener noreferrer">https://x.com/i/trending/2119857408407404564</a></p>
 </article>
 <article class="story">
 <h3>9. Analysis flags ~$4.49T in Big Tech off-balance-sheet AI commitments</h3>
 <p class="zh-head">分析指大型科技公司 AI 相關表外承諾高達數萬億美元</p>
-<p>Market chatter highlighted an analysis estimating ~$4.49 trillion in off-balance-sheet commitments across major AI spenders versus ~$758 billion on-balance, underscoring financing and credit risk in the data-center buildout.</p>
-<p>市場討論一份分析，指 Alphabet、Anthropic、Meta、Microsoft、Amazon、Oracle、Nvidia 等累計約 $4.49 萬億表外承諾（租約、設備與合約等），遠高於約 $7580 億表內義務，凸顯 AI 基建擴張的融資與信用風險。</p>
+<p class="en">Market chatter highlighted an analysis estimating ~$4.49 trillion in off-balance-sheet commitments across major AI spenders versus ~$758 billion on-balance, underscoring financing and credit risk in the data-center buildout.</p>
+<p class="zh">市場討論一份分析，指 Alphabet、Anthropic、Meta、Microsoft、Amazon、Oracle、Nvidia 等累計約 $4.49 萬億表外承諾（租約、設備與合約等），遠高於約 $7580 億表內義務，凸顯 AI 基建擴張的融資與信用風險。</p>
 <p class="source"><a href="https://x.com/i/trending/2119935201581179146" rel="noopener noreferrer">https://x.com/i/trending/2119935201581179146</a></p>
 </article>
 <article class="story">
 <h3>10. Anthropic CEO warns AI could displace many entry-level white-collar jobs</h3>
 <p class="zh-head">Anthropic CEO 警告入門白領職位可能在數年內大幅被 AI 取代</p>
-<p>Dario Amodei said AI is approaching strong college-graduate capability and could affect roughly half of entry-level roles in law, finance and consulting within one to five years, citing falling junior technical hiring share inside Anthropic—while skeptics still argue macro data looks like normal tech diffusion.</p>
-<p>Dario Amodei 近期受訪稱 AI 已接近「優秀大學生」水準，可能在一至五年內影響法律、金融、顧問等約一半入門職位；並指公司內部初級技術招聘佔比已明顯下降，與「AI 只是普通技術」的懷疑論並存。</p>
+<p class="en">Dario Amodei said AI is approaching strong college-graduate capability and could affect roughly half of entry-level roles in law, finance and consulting within one to five years, citing falling junior technical hiring share inside Anthropic—while skeptics still argue macro data looks like normal tech diffusion.</p>
+<p class="zh">Dario Amodei 近期受訪稱 AI 已接近「優秀大學生」水準，可能在一至五年內影響法律、金融、顧問等約一半入門職位；並指公司內部初級技術招聘佔比已明顯下降，與「AI 只是普通技術」的懷疑論並存。</p>
 <p class="source"><a href="https://x.com/i/trending/2119765262350377112" rel="noopener noreferrer">https://x.com/i/trending/2119765262350377112</a></p>
 </article>
-<p>────────────────</p>
+<hr>
 <h2>二、美股十大要聞／Top 10 US Stock-Market News</h2>
-<p>────────────────</p>
+<hr>
 <article class="story">
 <h3>1. US stocks rebound sharply; S&amp;P’s best day since April</h3>
 <p class="zh-head">美股大幅反彈：標普創四月以來最佳單日</p>
-<p>Monday’s rally: S&amp;P 500 +2.35% to 7,549.94 (best daily % gain since April 8), Dow +1,104.02 (+2.15%) to 52,389.75, Nasdaq +2.74% to 25,253.14; all 11 S&amp;P sectors rose, led by industrials and consumer discretionary.</p>
-<p>周一美股全面上揚：標普 500 升 2.35% 收 7,549.94（四月八日以來最佳單日百分比升幅），道指升 1,104.02 點（+2.15%）至 52,389.75，納指升 2.74% 至 25,253.14；十一個標普板塊全升，工業與非必需消費領先。</p>
+<p class="en">Monday’s rally: S&amp;P 500 +2.35% to 7,549.94 (best daily % gain since April 8), Dow +1,104.02 (+2.15%) to 52,389.75, Nasdaq +2.74% to 25,253.14; all 11 S&amp;P sectors rose, led by industrials and consumer discretionary.</p>
+<p class="zh">周一美股全面上揚：標普 500 升 2.35% 收 7,549.94（四月八日以來最佳單日百分比升幅），道指升 1,104.02 點（+2.15%）至 52,389.75，納指升 2.74% 至 25,253.14；十一個標普板塊全升，工業與非必需消費領先。</p>
 <p class="source"><a href="https://finance.yahoo.com/markets/stocks/articles/wall-st-futures-rise-rough-103539344.html" rel="noopener noreferrer">https://finance.yahoo.com/markets/stocks/articles/wall-st-futures-rise-rough-103539344.html</a></p>
 </article>
 <article class="story">
 <h3>2. Nvidia board probes CEO Jensen Huang amid spy allegations; shares slide</h3>
 <p class="zh-head">Nvidia 董事會就執行長黃仁勳相關情報指控展開獨立調查，股價大跌</p>
-<p>Nvidia’s board opened an independent investigation into reports involving CEO Jensen Huang and alleged foreign-intelligence targeting. Shares fell roughly 4%–6% Monday even as broader tech rallied; Nvidia said it has no reason to believe national security or secrets were compromised. Huang remains CEO and is cooperating.</p>
-<p>Nvidia 董事會就外媒指黃仁勳與涉嫌外國情報背景人士關係一事啟動獨立調查；周一 Nvidia 約跌 4%–6%、拖累市值，惟公司表示暫無理由認為國家安全或商業機密已外洩，黃仁勳仍任職並配合調查。國會與股東關注升溫。</p>
+<p class="en">Nvidia’s board opened an independent investigation into reports involving CEO Jensen Huang and alleged foreign-intelligence targeting.</p>
+<p class="zh">Nvidia 董事會就外媒指黃仁勳與涉嫌外國情報背景人士關係一事啟動獨立調查；周一 Nvidia 約跌 4%–6%、拖累市值，惟公司表示暫無理由認為國家安全或商業機密已外洩，黃仁勳仍任職並配合調查。</p>
+<p class="en">Shares fell roughly 4%–6% Monday even as broader tech rallied; Nvidia said it has no reason to believe national security or secrets were compromised.</p>
+<p class="zh">國會與股東關注升溫。</p>
+<p class="en">Huang remains CEO and is cooperating.</p>
 <p class="source"><a href="https://apnews.com/article/nvidia-jensen-huang-chinese-spy-investigation-df45d21030691f59c67bc0b35adb89a2" rel="noopener noreferrer">https://apnews.com/article/nvidia-jensen-huang-chinese-spy-investigation-df45d21030691f59c67bc0b35adb89a2</a></p>
 </article>
 <article class="story">
 <h3>3. Oil plunge eases inflation fears and fuels equity rebound</h3>
 <p class="zh-head">油價急挫緩解通脹憂慮，支撐風險資產</p>
-<p>WTI settled about 4.38% lower at $86.85 and Brent fell roughly 5%–6% after Trump signaled restraint on further Iran strikes, cooling inflation worries and supporting Monday’s equity rally.</p>
-<p>WTI 原油周一約跌 4.38% 收 $86.85，Brent 約跌近 5%–6%；市場解讀與特朗普淡化對伊朗進一步軍事行動、外交降溫預期有關，油價回落成為股市反彈的重要催化。</p>
+<p class="en">WTI settled about 4.38% lower at $86.85 and Brent fell roughly 5%–6% after Trump signaled restraint on further Iran strikes, cooling inflation worries and supporting Monday’s equity rally.</p>
+<p class="zh">WTI 原油周一約跌 4.38% 收 $86.85，Brent 約跌近 5%–6%；市場解讀與特朗普淡化對伊朗進一步軍事行動、外交降溫預期有關，油價回落成為股市反彈的重要催化。</p>
 <p class="source"><a href="https://finance.yahoo.com/markets/stocks/articles/wall-st-futures-rise-rough-103539344.html" rel="noopener noreferrer">https://finance.yahoo.com/markets/stocks/articles/wall-st-futures-rise-rough-103539344.html</a></p>
 </article>
 <article class="story">
 <h3>4. Philadelphia Semiconductor Index ~+6.9%; AMD and Broadcom lead, Nvidia lags</h3>
 <p class="zh-head">費城半導體指數大升約 6.9%；AMD、Broadcom 領漲，Nvidia 獨跌</p>
-<p>After last week’s chip rout, the SOX jumped ~6.9%. AMD rose ~13%+ and Broadcom ~8.8%, while Nvidia was the notable decliner. Oppenheimer and others highlighted AMD’s data-center/AI momentum with higher targets/ratings.</p>
-<p>上周半導體大挫後，周一 SOX 約升 6.9%；AMD 約升逾 13%，Broadcom 約升 8.8%，Nvidia 為該指數少數下跌者。Oppenheimer 等上調 AMD 評級／目標價，強調數據中心／AI GPU 成長。</p>
+<p class="en">After last week’s chip rout, the SOX jumped ~6.9%.</p>
+<p class="zh">上周半導體大挫後，周一 SOX 約升 6.9%；AMD 約升逾 13%，Broadcom 約升 8.8%，Nvidia 為該指數少數下跌者。</p>
+<p class="en">AMD rose ~13%+ and Broadcom ~8.8%, while Nvidia was the notable decliner.</p>
+<p class="zh">Oppenheimer 等上調 AMD 評級／目標價，強調數據中心／AI GPU 成長。</p>
+<p class="en">Oppenheimer and others highlighted AMD’s data-center/AI momentum with higher targets/ratings.</p>
 <p class="source"><a href="https://finance.yahoo.com/markets/stocks/articles/wall-st-futures-rise-rough-103539344.html" rel="noopener noreferrer">https://finance.yahoo.com/markets/stocks/articles/wall-st-futures-rise-rough-103539344.html</a></p>
 </article>
 <article class="story">
 <h3>5. Lilly’s Foundayo Phase 3 improves obstructive sleep apnea</h3>
 <p class="zh-head">禮來 Foundayo（orforglipron）三期試驗改善睡眠窒息</p>
-<p>Lilly’s ATTAIN-OSA showed oral GLP-1 Foundayo significantly cut AHI (about −43.8% without PAP) and improved hypoxic burden and some CV risk markers in adults with moderate-to-severe OSA and obesity/overweight; Lilly plans an FDA filing by end-2026. Shares participated strongly in Monday’s rally.</p>
-<p>Eli Lilly 公布 ATTAIN-OSA：口服 GLP-1 Foundayo 在中重度 OSA 合併肥胖／超重成人中顯著降低 AHI（未用 PAP 組約 −43.8%），並改善缺氧負擔與部分心血管風險指標；公司計劃 2026 年底前提交美國 FDA 標籤擴展申請。股價周一明顯受捧。</p>
+<p class="en">Lilly’s ATTAIN-OSA showed oral GLP-1 Foundayo significantly cut AHI (about −43.8% without PAP) and improved hypoxic burden and some CV risk markers in adults with moderate-to-severe OSA and obesity/overweight; Lilly plans an FDA filing by end-2026.</p>
+<p class="zh">Eli Lilly 公布 ATTAIN-OSA：口服 GLP-1 Foundayo 在中重度 OSA 合併肥胖／超重成人中顯著降低 AHI（未用 PAP 組約 −43.8%），並改善缺氧負擔與部分心血管風險指標；公司計劃 2026 年底前提交美國 FDA 標籤擴展申請。</p>
+<p class="en">Shares participated strongly in Monday’s rally.</p>
+<p class="zh">股價周一明顯受捧。</p>
 <p class="source"><a href="https://investor.lilly.com/news-releases/news-release-details/lillys-foundayo-orforglipron-significantly-reduced-obstructive" rel="noopener noreferrer">https://investor.lilly.com/news-releases/news-release-details/lillys-foundayo-orforglipron-significantly-reduced-obstructive</a></p>
 </article>
 <article class="story">
 <h3>6. FDA mandates NAION eye-risk warnings on all GLP-1 drugs</h3>
 <p class="zh-head">FDA 要求所有 GLP-1 藥物加註罕見眼疾 NAION 風險警告</p>
-<p>FDA required labeling updates across GLP-1 RAs for a potential increased risk of NAION, a rare optic-nerve condition that can cause sudden painless vision loss; a meta-analysis showed ~6.4 vs 3.8 events per 100,000 person-years versus comparators.</p>
-<p>FDA 要求全部 GLP-1 RA（含 Ozempic／Wegovy、Mounjaro／Zepbound、Foundayo 等）在標籤「Warnings and Precautions」加入非動脈炎性前部缺血性視神經病變（NAION）潛在風險；臨床統合分析顯示發生率約 6.4 vs 對照 3.8／10 萬人年。市場反應相對平靜。</p>
+<p class="en">FDA required labeling updates across GLP-1 RAs for a potential increased risk of NAION, a rare optic-nerve condition that can cause sudden painless vision loss; a meta-analysis showed ~6.4 vs 3.8 events per 100,000 person-years versus comparators.</p>
+<p class="zh">FDA 要求全部 GLP-1 RA（含 Ozempic／Wegovy、Mounjaro／Zepbound、Foundayo 等）在標籤「Warnings and Precautions」加入非動脈炎性前部缺血性視神經病變（NAION）潛在風險；臨床統合分析顯示發生率約 6.4 vs 對照 3.8／10 萬人年。</p>
+<p class="zh">市場反應相對平靜。</p>
 <p class="source"><a href="https://www.fda.gov/drugs/drug-safety-communications/fda-requires-safety-labeling-changes-glucagon-peptide-1-receptor-agonists-glp-1-ras-due-potential" rel="noopener noreferrer">https://www.fda.gov/drugs/drug-safety-communications/fda-requires-safety-labeling-changes-glucagon-peptide-1-receptor-agonists-glp-1-ras-due-potential</a></p>
 </article>
 <article class="story">
 <h3>7. Citi cuts U.S. equities and global tech to neutral, upgrades Europe</h3>
 <p class="zh-head">花旗將美股與全球科技降至中性，上調歐洲股票</p>
-<p>After the Democratic midterm sweep and AI data-center regulation fears, Citi moved U.S. equities and global technology to neutral from overweight and upgraded continental European equities, keeping a constructive long-term AI view but favoring Europe nearer term.</p>
-<p>花旗策略師在民主黨中期選舉大勝、AI／數據中心監管憂慮升溫後，把美股與全球科技由偏多調至中性，並上調英國以外歐洲股票；承認長期仍看好 AI，但認為短線估值與政策風險令歐洲相對更具吸引力。</p>
+<p class="en">After the Democratic midterm sweep and AI data-center regulation fears, Citi moved U.S. equities and global technology to neutral from overweight and upgraded continental European equities, keeping a constructive long-term AI view but favoring Europe nearer term.</p>
+<p class="zh">花旗策略師在民主黨中期選舉大勝、AI／數據中心監管憂慮升溫後，把美股與全球科技由偏多調至中性，並上調英國以外歐洲股票；承認長期仍看好 AI，但認為短線估值與政策風險令歐洲相對更具吸引力。</p>
 <p class="source"><a href="https://x.com/i/trending/2119776626699567323" rel="noopener noreferrer">https://x.com/i/trending/2119776626699567323</a></p>
 </article>
 <article class="story">
 <h3>8. Constellation Energy beats; shares jump ~10%+</h3>
 <p class="zh-head">Constellation Energy 季績勝預期，股價急升逾 10%</p>
-<p>Constellation Energy, leveraged to AI power demand, reported better-than-expected adjusted Q3 profit and surged more than ~10% Monday.</p>
-<p>與 AI 電力需求相關的 Constellation Energy 公布調整後第三季盈利高於預期，周一股價急升逾約 10%，成為能源／AI 基建交叉主題焦點之一。</p>
+<p class="en">Constellation Energy, leveraged to AI power demand, reported better-than-expected adjusted Q3 profit and surged more than ~10% Monday.</p>
+<p class="zh">與 AI 電力需求相關的 Constellation Energy 公布調整後第三季盈利高於預期，周一股價急升逾約 10%，成為能源／AI 基建交叉主題焦點之一。</p>
 <p class="source"><a href="https://finance.yahoo.com/markets/stocks/articles/wall-st-futures-rise-rough-103539344.html" rel="noopener noreferrer">https://finance.yahoo.com/markets/stocks/articles/wall-st-futures-rise-rough-103539344.html</a></p>
 </article>
 <article class="story">
 <h3>9. KKR posts record quarterly profit</h3>
 <p class="zh-head">KKR 季度盈利創新高</p>
-<p>KKR reported record quarterly profit and shares advanced, adding support to financials in Monday’s broad risk-on session.</p>
-<p>投資巨頭 KKR 公布季度盈利創紀錄，股價上升；私募／另類資產管理人受惠於融資環境與交易活躍度的消息，為周一金融板塊提供支撐。</p>
+<p class="en">KKR reported record quarterly profit and shares advanced, adding support to financials in Monday’s broad risk-on session.</p>
+<p class="zh">投資巨頭 KKR 公布季度盈利創紀錄，股價上升；私募／另類資產管理人受惠於融資環境與交易活躍度的消息，為周一金融板塊提供支撐。</p>
 <p class="source"><a href="https://finance.yahoo.com/markets/stocks/articles/wall-st-futures-rise-rough-103539344.html" rel="noopener noreferrer">https://finance.yahoo.com/markets/stocks/articles/wall-st-futures-rise-rough-103539344.html</a></p>
 </article>
 <article class="story">
 <h3>10. Week ahead: October CPI Tuesday; December hike odds still elevated</h3>
 <p class="zh-head">本周焦點：周二公布十月 CPI；聯儲十二月加息預期仍高</p>
-<p>Traders focus on Tuesday’s October CPI and Friday’s PPI. CME FedWatch still implied &gt;~80% odds of a December Fed hike after strong jobs data; Richmond Fed’s Barkin urged moving “with care” on inflation.</p>
-<p>市場緊盯周二美國十月 CPI 與周五 PPI。路透引述 CME FedWatch，對聯儲十二月會議加息機率仍高於約 80%；里士滿聯儲總裁 Barkin 稱政策須「謹慎」應對通脹。</p>
+<p class="en">Traders focus on Tuesday’s October CPI and Friday’s PPI.</p>
+<p class="zh">市場緊盯周二美國十月 CPI 與周五 PPI。</p>
+<p class="en">CME FedWatch still implied &gt;~80% odds of a December Fed hike after strong jobs data; Richmond Fed’s Barkin urged moving “with care” on inflation.</p>
+<p class="zh">路透引述 CME FedWatch，對聯儲十二月會議加息機率仍高於約 80%；里士滿聯儲總裁 Barkin 稱政策須「謹慎」應對通脹。</p>
 <p class="source"><a href="https://finance.yahoo.com/markets/stocks/articles/wall-st-futures-rise-rough-103539344.html" rel="noopener noreferrer">https://finance.yahoo.com/markets/stocks/articles/wall-st-futures-rise-rough-103539344.html</a></p>
 </article>
-<p>────────────────</p>
+<hr>
 <h2>三、加密貨幣十大要聞／Top 10 Cryptocurrency News</h2>
-<p>────────────────</p>
+<hr>
 <article class="story">
 <h3>1. Crypto lags equities; ~$1.1B liquidations as futures volume spikes</h3>
 <p class="zh-head">加密市場與股市脫鈎走弱；期貨爆倉逾約 $11 億</p>
-<p>CoinDesk reported only a handful of the top 100 coins up ≥1% over ~24 hours as BTC/ETH/XRP/SOL softened. Futures volume jumped &gt;200% to ~$180B, open interest fell ~3%, liquidations hit ~$1.1B, and options skew/IV rose as traders sought downside protection.</p>
-<p>CoinDesk 等報道，過去約 24 小時僅少數前 100 大幣種升逾 1%，比特幣／以太坊／XRP／Solana 偏弱；加密期貨成交急增逾 200% 至約 $1800 億，未平倉約降 3%，爆倉約 $11 億，期權隱含波幅與 put 需求回升。</p>
+<p class="en">CoinDesk reported only a handful of the top 100 coins up ≥1% over ~24 hours as BTC/ETH/XRP/SOL softened.</p>
+<p class="zh">CoinDesk 等報道，過去約 24 小時僅少數前 100 大幣種升逾 1%，比特幣／以太坊／XRP／Solana 偏弱；加密期貨成交急增逾 200% 至約 $1800 億，未平倉約降 3%，爆倉約 $11 億，期權隱含波幅與 put 需求回升。</p>
+<p class="en">Futures volume jumped &gt;200% to ~$180B, open interest fell ~3%, liquidations hit ~$1.1B, and options skew/IV rose as traders sought downside protection.</p>
 <p class="source"><a href="https://www.coindesk.com/markets/2026/11/09/tech-selloff-weighs-on-crypto-majors" rel="noopener noreferrer">https://www.coindesk.com/markets/2026/11/09/tech-selloff-weighs-on-crypto-majors</a></p>
 </article>
 <article class="story">
 <h3>2. Charles Schwab adds Solana, Avalanche and Chainlink</h3>
 <p class="zh-head">Charles Schwab 新增 SOL、AVAX、LINK 現貨交易</p>
-<p>Schwab said eligible retail clients can now buy/sell SOL, AVAX and LINK on Schwab Crypto alongside BTC and ETH, at 75 bps per trade, with more assets planned over time.</p>
-<p>Schwab 宣布 Schwab Crypto 平台在比特幣與以太坊之外，新增 Solana、Avalanche、Chainlink，供合資格零售客戶買賣，每筆約 0.75% 費用，並稱將陸續增加更多幣種。</p>
+<p class="en">Schwab said eligible retail clients can now buy/sell SOL, AVAX and LINK on Schwab Crypto alongside BTC and ETH, at 75 bps per trade, with more assets planned over time.</p>
+<p class="zh">Schwab 宣布 Schwab Crypto 平台在比特幣與以太坊之外，新增 Solana、Avalanche、Chainlink，供合資格零售客戶買賣，每筆約 0.75% 費用，並稱將陸續增加更多幣種。</p>
 <p class="source"><a href="https://pressroom.aboutschwab.com/press-releases/press-release/2026/Charles-Schwab-Makes-Solana-Avalanche-and-Chainlink-Available-to-Trade-Through-Schwab-Crypto-Accounts/default.aspx" rel="noopener noreferrer">https://pressroom.aboutschwab.com/press-releases/press-release/2026/Charles-Schwab-Makes-Solana-Avalanche-and-Chainlink-Available-to-Trade-Through-Schwab-Crypto-Accounts/default.aspx</a></p>
 </article>
 <article class="story">
 <h3>3. BlackRock sees record Bitcoin in-kind ETF swaps driven by security fears</h3>
 <p class="zh-head">BlackRock：自託管比特幣以 in-kind 轉入 IBIT 需求創新高，主因安全顧慮</p>
-<p>BlackRock said demand for converting self-custodied bitcoin into IBIT via in-kind swaps hit records (at least ~$3.6B cumulative), with security—not just trading convenience—as the main driver for large holders.</p>
-<p>Barron’s／行業報道指 BlackRock 數位資產主管表示，大額持有人把自託管比特幣以實物（in-kind）兌換為 iShares Bitcoin Trust（IBIT）份額的需求達紀錄水準（累計至少約 $36 億），主因黑客與人身安全等顧慮，而非單純價格投機。</p>
+<p class="en">BlackRock said demand for converting self-custodied bitcoin into IBIT via in-kind swaps hit records (at least ~$3.6B cumulative), with security—not just trading convenience—as the main driver for large holders.</p>
+<p class="zh">Barron’s／行業報道指 BlackRock 數位資產主管表示，大額持有人把自託管比特幣以實物（in-kind）兌換為 iShares Bitcoin Trust（IBIT）份額的需求達紀錄水準（累計至少約 $36 億），主因黑客與人身安全等顧慮，而非單純價格投機。</p>
 <p class="source"><a href="https://finance.yahoo.com/m/963202aa-8e5d-3d45-8922-598dad653ced/blackrock-sees-billions-in.html" rel="noopener noreferrer">https://finance.yahoo.com/m/963202aa-8e5d-3d45-8922-598dad653ced/blackrock-sees-billions-in.html</a></p>
 </article>
 <article class="story">
 <h3>4. Bitmine adds ~9,587 ETH, nearing 5% of supply</h3>
 <p class="zh-head">Bitmine 再購入約 9,587 枚 ETH，持股逼近供應 5%</p>
-<p>Tom Lee’s Bitmine bought about 9,587 ETH (~$20M order of magnitude) in its 71st straight weekly purchase, lifting holdings to ~6.07M ETH (~4.97% of supply), mostly staked, framed around ETH as collateral/store of value in tokenization and AI.</p>
-<p>Tom Lee 領導的上市公司 Bitmine 連續第 71 周買入以太坊，最新約增 9,587 ETH（約 $2000 萬量級），總持倉約 6.07 百萬 ETH（約佔供應 4.97%），大部分已質押；Lee 引用 Vitalik 對 ETH 作為價值儲存的論述，押注代幣化與 AI「超級週期」。</p>
+<p class="en">Tom Lee’s Bitmine bought about 9,587 ETH (~$20M order of magnitude) in its 71st straight weekly purchase, lifting holdings to ~6.07M ETH (~4.97% of supply), mostly staked, framed around ETH as collateral/store of value in tokenization and AI.</p>
+<p class="zh">Tom Lee 領導的上市公司 Bitmine 連續第 71 周買入以太坊，最新約增 9,587 ETH（約 $2000 萬量級），總持倉約 6.07 百萬 ETH（約佔供應 4.97%），大部分已質押；Lee 引用 Vitalik 對 ETH 作為價值儲存的論述，押注代幣化與 AI「超級週期」。</p>
 <p class="source"><a href="https://www.theblock.co/news/business/2026-11-09-tom-lee-bitmine-nears-ethereum-supply-target-20-million-eth-tokenization-ai-supercycle-436219" rel="noopener noreferrer">https://www.theblock.co/news/business/2026-11-09-tom-lee-bitmine-nears-ethereum-supply-target-20-million-eth-tokenization-ai-supercycle-436219</a></p>
 </article>
 <article class="story">
 <h3>5. Cosmos contributes IBC to LF Decentralized Trust</h3>
 <p class="zh-head">Cosmos 將 IBC 協議貢獻予 Linux Foundation Decentralized Trust</p>
-<p>Cosmos contributed the IBC protocol to the Linux Foundation’s Decentralized Trust for neutral governance as an open interoperability standard. IBC has run across 200+ networks with &gt;$50B volume; Cosmos Labs remains a primary maintainer alongside Datachain and OpenZeppelin.</p>
-<p>Cosmos 宣布把跨鏈通信協議 IBC 貢獻予 LF Decentralized Trust，以中立治理推動其成為數位帳本互操作開放標準；IBC 已服務 200+ 網絡、累計處理逾 $500 億交易量，Cosmos Labs 仍為主要維護者，Datachain 與 OpenZeppelin 加入維護。</p>
+<p class="en">Cosmos contributed the IBC protocol to the Linux Foundation’s Decentralized Trust for neutral governance as an open interoperability standard.</p>
+<p class="zh">Cosmos 宣布把跨鏈通信協議 IBC 貢獻予 LF Decentralized Trust，以中立治理推動其成為數位帳本互操作開放標準；IBC 已服務 200+ 網絡、累計處理逾 $500 億交易量，Cosmos Labs 仍為主要維護者，Datachain 與 OpenZeppelin 加入維護。</p>
+<p class="en">IBC has run across 200+ networks with &gt;$50B volume; Cosmos Labs remains a primary maintainer alongside Datachain and OpenZeppelin.</p>
 <p class="source"><a href="https://cosmos.network/blog/ibc-joining-lf-decentralized-trust" rel="noopener noreferrer">https://cosmos.network/blog/ibc-joining-lf-decentralized-trust</a></p>
 </article>
 <article class="story">
 <h3>6. Post-midterm regulatory uncertainty and ETF flows weigh on crypto</h3>
 <p class="zh-head">中期選舉後監管不確定性與 ETF 資金流壓抑情緒</p>
-<p>Commentaries tied cooler sentiment to fears of tighter U.S. crypto oversight after Democratic midterm gains, plus recent combined spot BTC/ETH ETF net outflows on the order of hundreds of millions of dollars, leaving bitcoin choppy near ~$75,000.</p>
-<p>亞洲與市場評論指民主黨掌控國會後，市場擔憂美國加密監管可能收緊；另有報道指近日現貨比特幣／以太坊 ETF 出現合計約數億美元淨流出，令機構買盤支撐減弱，比特幣在約 $75,000 附近反覆。</p>
+<p class="en">Commentaries tied cooler sentiment to fears of tighter U.S. crypto oversight after Democratic midterm gains, plus recent combined spot BTC/ETH ETF net outflows on the order of hundreds of millions of dollars, leaving bitcoin choppy near ~$75,000.</p>
+<p class="zh">亞洲與市場評論指民主黨掌控國會後，市場擔憂美國加密監管可能收緊；另有報道指近日現貨比特幣／以太坊 ETF 出現合計約數億美元淨流出，令機構買盤支撐減弱，比特幣在約 $75,000 附近反覆。</p>
 <p class="source"><a href="https://biz.chosun.com/en/en-finance/2026/11/10/RZWN7OSRYFGNTNH34CBJMU6OBM/" rel="noopener noreferrer">https://biz.chosun.com/en/en-finance/2026/11/10/RZWN7OSRYFGNTNH34CBJMU6OBM/</a></p>
 </article>
 <article class="story">
 <h3>7. Bitcoin slips under ~50-week average as fear spikes</h3>
 <p class="zh-head">比特幣失守約 50 周均線，恐懼指數進入極度恐慌區</p>
-<p>Bitcoin traded below its ~50-week moving average after a weekend dip near ~$73,000 and heavy long liquidations; the Fear &amp; Greed Index moved into extreme-fear territory (~20s–30), even as some corporate buyers such as MicroStrategy were reported still accumulating.</p>
-<p>報道指比特幣跌破約 50 周移動平均，週末一度見約 $73,000 附近閃崩並引發大規模多頭爆倉；Fear &amp; Greed 指數落入極度恐慌區間（約 20 多至 30 附近），同時 MicroStrategy 等仍有買入報道。</p>
+<p class="en">Bitcoin traded below its ~50-week moving average after a weekend dip near ~$73,000 and heavy long liquidations; the Fear &amp; Greed Index moved into extreme-fear territory (~20s–30), even as some corporate buyers such as MicroStrategy were reported still accumulating.</p>
+<p class="zh">報道指比特幣跌破約 50 周移動平均，週末一度見約 $73,000 附近閃崩並引發大規模多頭爆倉；Fear &amp; Greed 指數落入極度恐慌區間（約 20 多至 30 附近），同時 MicroStrategy 等仍有買入報道。</p>
 <p class="source"><a href="https://x.com/i/trending/2119476451166531619" rel="noopener noreferrer">https://x.com/i/trending/2119476451166531619</a></p>
 </article>
 <article class="story">
 <h3>8. Vitalik stresses ETH store-of-value role over fee-burn narrative</h3>
 <p class="zh-head">Vitalik Buterin 強調 ETH 作為價值儲存（CROPS）優先於手續費銷毀敘事</p>
-<p>Vitalik Buterin argued ETH’s strengths as a store of value—decentralization, censorship resistance, open source, privacy, security—should lead, with EIP-1559 burns remaining useful but possibly limited in impact versus long-term stability for AI and RWA tokenization.</p>
-<p>以太坊共同創辦人 Vitalik 發文主張應優先鞏固 ETH 作為去中心化、抗審查、開源、隱私與安全的價值儲存角色；EIP-1559 銷毀機制可保留，但其影響可能有限，長期穩定對 AI 與真實世界資產代幣化更關鍵。</p>
+<p class="en">Vitalik Buterin argued ETH’s strengths as a store of value—decentralization, censorship resistance, open source, privacy, security—should lead, with EIP-1559 burns remaining useful but possibly limited in impact versus long-term stability for AI and RWA tokenization.</p>
+<p class="zh">以太坊共同創辦人 Vitalik 發文主張應優先鞏固 ETH 作為去中心化、抗審查、開源、隱私與安全的價值儲存角色；EIP-1559 銷毀機制可保留，但其影響可能有限，長期穩定對 AI 與真實世界資產代幣化更關鍵。</p>
 <p class="source"><a href="https://x.com/i/trending/2119403589760364617" rel="noopener noreferrer">https://x.com/i/trending/2119403589760364617</a></p>
 </article>
 <article class="story">
 <h3>9. Utexo to open USDT-on-Bitcoin access November 28</h3>
 <p class="zh-head">Utexo 將於 11 月 28 日開放比特幣上的 USDT（RGB／Lightning 隱私工具）</p>
-<p>Utexo said public access to USDT on Bitcoin begins November 28, with SDKs for RGB assets and Lightning payments, client-side validation for privacy, and a mint bridging liquidity from Ethereum/Tron.</p>
-<p>Utexo 宣布 11 月 28 日向公眾開放比特幣上的 USDT，提供 SDK，結合 RGB 資產與 Lightning，強調客戶端驗證以保護交易細節隱私，並以 Mint 橋接以太坊／Tron 流動性。</p>
+<p class="en">Utexo said public access to USDT on Bitcoin begins November 28, with SDKs for RGB assets and Lightning payments, client-side validation for privacy, and a mint bridging liquidity from Ethereum/Tron.</p>
+<p class="zh">Utexo 宣布 11 月 28 日向公眾開放比特幣上的 USDT，提供 SDK，結合 RGB 資產與 Lightning，強調客戶端驗證以保護交易細節隱私，並以 Mint 橋接以太坊／Tron 流動性。</p>
 <p class="source"><a href="https://x.com/i/trending/2119728280416997604" rel="noopener noreferrer">https://x.com/i/trending/2119728280416997604</a></p>
 </article>
 <article class="story">
 <h3>10. Bitcoin lags Monday’s equity surge; correlation breaks down</h3>
 <p class="zh-head">比特幣在股市大漲時相對滯後，相關係數創記憶中低位</p>
-<p>Traders flagged bitcoin stuck near ~$74.5k–$75.5k while the Nasdaq rose ~2.7%, describing unusually low BTC–Nasdaq correlation and watching Tuesday’s CPI for the next catalyst.</p>
-<p>交易員指出納指大升約 2.7% 之際，比特幣仍在約 $74,500–$75,500 窄幅波動甚至偏弱，與風險資產傳統正相關出現明顯脫鈎，並關注周二 CPI 對下一步方向的影響。</p>
+<p class="en">Traders flagged bitcoin stuck near ~$74.5k–$75.5k while the Nasdaq rose ~2.7%, describing unusually low BTC–Nasdaq correlation and watching Tuesday’s CPI for the next catalyst.</p>
+<p class="zh">交易員指出納指大升約 2.7% 之際，比特幣仍在約 $74,500–$75,500 窄幅波動甚至偏弱，與風險資產傳統正相關出現明顯脫鈎，並關注周二 CPI 對下一步方向的影響。</p>
 <p class="source"><a href="https://www.coindesk.com/tech/2026/11/09/live-news-nvidia-slides-on-ceo-allegations-as-bitcoin-hovers-just-above-its-200-day-average" rel="noopener noreferrer">https://www.coindesk.com/tech/2026/11/09/live-news-nvidia-slides-on-ceo-allegations-as-bitcoin-hovers-just-above-its-200-day-average</a></p>
 </article>
-<p>────────────────</p>
+<hr>
 <h2>四、加密貨幣行情／Cryptocurrency price movements</h2>
-<p>────────────────</p>
-<p>宇宙／Universe：按當前流通市值排名的前 10 大加密貨幣（含符合資格的穩定幣，已標示）。</p>
-<p>排名來源／Ranking source：CoinGecko Markets API（order=market_cap_desc）</p>
-<p>快照時間／Snapshot：2026-11-10 08:09:23 GMT+8（API last_updated ~2026-11-10 00:07:56 UTC）</p>
-<p>全球總市值／Global crypto market cap（CoinGecko）：約 $2.53 萬億，24 小時約 −1.0%；BTC 主導約 59.7%。</p>
-<p>直接連結／Source link：<a href="https://www.coingecko.com/" rel="noopener noreferrer">https://www.coingecko.com/</a></p>
+<hr>
+<p class="zh">宇宙／Universe：按當前流通市值排名的前 10 大加密貨幣（含符合資格的穩定幣，已標示）。</p>
+<p class="zh">排名來源／Ranking source：CoinGecko Markets API（order=market_cap_desc）</p>
+<p class="zh">快照時間／Snapshot：2026-11-10 08:09:23 GMT+8（API last_updated ~2026-11-10 00:07:56 UTC）</p>
+<p class="zh">全球總市值／Global crypto market cap（CoinGecko）：約 $2.53 萬億，24 小時約 −1.0%；BTC 主導約 59.7%。</p>
+<p class="zh">直接連結／Source link：<a href="https://www.coingecko.com/" rel="noopener noreferrer">https://www.coingecko.com/</a></p>
+
 <div class="table-wrap"><table>
 <thead><tr>
 <th>排名</th>
@@ -393,14 +412,16 @@ ol.archive .l { color: var(--muted); font-size: 0.9rem; margin-left: 0.6rem; }
 <th>24h 價格%</th>
 <th>24h 市值變動 (USD / %)</th>
 </tr></thead><tbody>
-<tr>
-<td>1</td>
-<td>Bitcoin (BTC)</td>
-<td>$75,282</td>
-<td>$1.514T</td>
-<td class="chg-up">+0.94%</td>
-<td class="chg-up">+$13.91B / +0.93%</td>
-</tr>
+</tbody></table></div>
+<div class="table-wrap"><table>
+<thead><tr>
+<th>1</th>
+<th>Bitcoin (BTC)</th>
+<th>$75,282</th>
+<th>$1.514T</th>
+<th>+0.94%</th>
+<th>+$13.91B / +0.93%</th>
+</tr></thead><tbody>
 <tr>
 <td>2</td>
 <td>Ethereum (ETH)</td>
@@ -409,46 +430,56 @@ ol.archive .l { color: var(--muted); font-size: 0.9rem; margin-left: 0.6rem; }
 <td class="chg-up">+0.33%</td>
 <td class="chg-up">+$0.86B / +0.33%</td>
 </tr>
-<tr>
-<td>3</td>
-<td>Tether (USDT)〔穩定幣／stablecoin〕</td>
-<td>$0.999082</td>
-<td>$176.87B</td>
-<td class="chg-down">−0.001%</td>
-<td class="chg-up">+$8.2M / +0.005%</td>
-</tr>
-<tr>
-<td>4</td>
-<td>BNB (BNB)</td>
-<td>$691.49</td>
-<td>$90.92B</td>
-<td class="chg-up">+1.12%</td>
-<td class="chg-up">+$0.99B / +1.10%</td>
-</tr>
-<tr>
-<td>5</td>
-<td>USDC (USDC)〔穩定幣／stablecoin〕</td>
-<td>$0.999487</td>
-<td>$70.16B</td>
-<td class="chg-up">+0.003%</td>
-<td class="chg-down">−$0.19B / −0.26%</td>
-</tr>
-<tr>
-<td>6</td>
-<td>XRP (XRP)</td>
-<td>$1.099</td>
-<td>$69.81B</td>
-<td class="chg-down">−0.77%</td>
-<td class="chg-down">−$0.55B / −0.79%</td>
-</tr>
-<tr>
-<td>7</td>
-<td>Solana (SOL)</td>
-<td>$86.60</td>
-<td>$51.20B</td>
-<td class="chg-up">+0.20%</td>
-<td class="chg-up">+$0.11B / +0.21%</td>
-</tr>
+</tbody></table></div>
+<div class="table-wrap"><table>
+<thead><tr>
+<th>4</th>
+<th>BNB (BNB)</th>
+<th>$691.49</th>
+<th>$90.92B</th>
+<th>+1.12%</th>
+<th>+$0.99B / +1.10%</th>
+</tr></thead><tbody>
+</tbody></table></div>
+<div class="table-wrap"><table>
+<thead><tr>
+<th>3</th>
+<th>Tether (USDT)〔穩定幣／stablecoin〕</th>
+<th>$0.999082</th>
+<th>$176.87B</th>
+<th>−0.001%</th>
+<th>+$8.2M / +0.005%</th>
+</tr></thead><tbody>
+</tbody></table></div>
+<div class="table-wrap"><table>
+<thead><tr>
+<th>6</th>
+<th>XRP (XRP)</th>
+<th>$1.099</th>
+<th>$69.81B</th>
+<th>−0.77%</th>
+<th>−$0.55B / −0.79%</th>
+</tr></thead><tbody>
+</tbody></table></div>
+<div class="table-wrap"><table>
+<thead><tr>
+<th>5</th>
+<th>USDC (USDC)〔穩定幣／stablecoin〕</th>
+<th>$0.999487</th>
+<th>$70.16B</th>
+<th>+0.003%</th>
+<th>−$0.19B / −0.26%</th>
+</tr></thead><tbody>
+</tbody></table></div>
+<div class="table-wrap"><table>
+<thead><tr>
+<th>7</th>
+<th>Solana (SOL)</th>
+<th>$86.60</th>
+<th>$51.20B</th>
+<th>+0.20%</th>
+<th>+$0.11B / +0.21%</th>
+</tr></thead><tbody>
 <tr>
 <td>8</td>
 <td>TRON (TRX)</td>
@@ -457,35 +488,39 @@ ol.archive .l { color: var(--muted); font-size: 0.9rem; margin-left: 0.6rem; }
 <td class="chg-down">−0.51%</td>
 <td class="chg-down">−$0.15B / −0.48%</td>
 </tr>
-<tr>
-<td>9</td>
-<td>Figure Heloc (FIGR_HELOC)</td>
-<td>$1.04</td>
-<td>$27.44B</td>
-<td>不可用／unavailable</td>
-<td>不可用／unavailable</td>
-</tr>
-<tr>
-<td>10</td>
-<td>Zcash (ZEC)</td>
-<td>$1,167.73</td>
-<td>$19.89B</td>
-<td class="chg-down">−3.98%</td>
-<td class="chg-down">−$0.82B / −3.98%</td>
-</tr>
 </tbody></table></div>
-<p>重點（僅限上述前 10）／Highlights within this top-10 universe only:</p>
-<p>• 最大價格升幅／Biggest price gainers：BNB +1.12%；Bitcoin +0.94%；Ethereum +0.33%</p>
-<p>• 最大價格跌幅／Biggest price losers：Zcash −3.98%；XRP −0.77%；TRON −0.51%</p>
-<p>• 最大市值增加／Largest market-cap increases：Bitcoin +$13.91B；BNB +$0.99B；Ethereum +$0.86B</p>
-<p>• 最大市值減少／Largest market-cap decreases：Zcash −$0.82B；XRP −$0.55B；USDC −$0.19B</p>
-<p>• Figure Heloc 的 24 小時價格與市值變動在此快照標示為不可用，並未估計。</p>
-<p>• 市值變動取自 CoinGecko 對齊欄位 market_cap_change_24h 與 market_cap_change_percentage_24h（非以成交量替代）。</p>
-<p>────────────────</p>
-<p>免責／Caveat</p>
-<p class="disclaimer">資料來自公開來源與 CoinGecko；價格與新聞可能迅速變化。本簡報不構成投資建議。</p>
+<div class="table-wrap"><table>
+<thead><tr>
+<th>10</th>
+<th>Zcash (ZEC)</th>
+<th>$1,167.73</th>
+<th>$19.89B</th>
+<th>−3.98%</th>
+<th>−$0.82B / −3.98%</th>
+</tr></thead><tbody>
+</tbody></table></div>
+<div class="table-wrap"><table>
+<thead><tr>
+<th>9</th>
+<th>Figure Heloc (FIGR_HELOC)</th>
+<th>$1.04</th>
+<th>$27.44B</th>
+<th>不可用／unavailable</th>
+<th>不可用／unavailable</th>
+</tr></thead><tbody>
+</tbody></table></div>
+<p class="zh">重點（僅限上述前 10）／Highlights within this top-10 universe only:</p>
+<p class="zh">• 最大價格升幅／Biggest price gainers：BNB +1.12%；Bitcoin +0.94%；Ethereum +0.33%</p>
+<p class="zh">• 最大價格跌幅／Biggest price losers：Zcash −3.98%；XRP −0.77%；TRON −0.51%</p>
+<p class="zh">• 最大市值增加／Largest market-cap increases：Bitcoin +$13.91B；BNB +$0.99B；Ethereum +$0.86B</p>
+<p class="zh">• 最大市值減少／Largest market-cap decreases：Zcash −$0.82B；XRP −$0.55B；USDC −$0.19B</p>
+<p class="zh">• Figure Heloc 的 24 小時價格與市值變動在此快照標示為不可用，並未估計。</p>
+<p class="zh">• 市值變動取自 CoinGecko 對齊欄位 market_cap_change_24h 與 market_cap_change_percentage_24h（非以成交量替代）。</p>
+<hr>
+<p class="zh">免責／Caveat</p>
 <p class="disclaimer">Figures and headlines are from public sources and CoinGecko and can change quickly. This brief is not investment advice.</p>
-<p>—— 阿四</p>
+<p class="disclaimer">資料來自公開來源與 CoinGecko；價格與新聞可能迅速變化。本簡報不構成投資建議。</p>
+<p class="zh">—— 阿四</p>
   </div>
 </body>
 </html>
