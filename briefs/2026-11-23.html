@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>早晨簡報 / Morning Brief — 2026-11-23</title>
+  <style>
+:root {
+  --bg: #f7f5f0;
+  --card: #fffcf7;
+  --ink: #1c1915;
+  --muted: #5c564c;
+  --line: #e4ddd2;
+  --accent: #8b3a2a;
+  --link: #1e4d7b;
+  --up: #157a3a;
+  --down: #b42318;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #161412;
+    --card: #1e1b18;
+    --ink: #f3eee6;
+    --muted: #b3ab9f;
+    --line: #3a342c;
+    --accent: #e07a68;
+    --link: #8cb8e8;
+    --up: #5dca82;
+    --down: #ff7a6e;
+  }
+}
+* { box-sizing: border-box; }
+html { font-size: 18px; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: "Source Han Sans TC", "Noto Sans TC", "PingFang HK", "PingFang TC",
+    "Microsoft JhengHei", "Helvetica Neue", system-ui, sans-serif;
+  line-height: 1.7;
+}
+.wrap {
+  max-width: 46rem;
+  margin: 0 auto;
+  padding: 2.25rem 1.25rem 4rem;
+}
+header.site {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  align-items: baseline;
+  border-bottom: 1px solid var(--line);
+  padding-bottom: 0.85rem;
+  margin-bottom: 1.75rem;
+  font-size: 0.88rem;
+}
+header.site a { color: var(--muted); text-decoration: none; }
+header.site a:hover { color: var(--link); text-decoration: underline; }
+h1 {
+  font-size: 1.55rem;
+  line-height: 1.3;
+  margin: 0 0 0.35rem;
+  font-weight: 650;
+}
+.date {
+  color: var(--muted);
+  margin: 0 0 1.5rem;
+  font-size: 0.95rem;
+}
+h2 {
+  font-size: 1.18rem;
+  margin: 2.1rem 0 0.8rem;
+  padding-top: 0.4rem;
+  border-top: 1px solid var(--line);
+  color: var(--accent);
+  font-weight: 650;
+}
+h3 {
+  font-size: 1.02rem;
+  margin: 1.4rem 0 0.5rem;
+  font-weight: 650;
+}
+p { margin: 0.75rem 0; }
+a { color: var(--link); }
+.source {
+  font-size: 0.92rem;
+  color: var(--muted);
+  margin: 0.35rem 0 1rem;
+}
+.disclaimer {
+  margin-top: 2.4rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--line);
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+.table-wrap { overflow-x: auto; margin: 1rem 0 1.4rem; }
+table {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 0.88rem;
+  background: var(--card);
+}
+th, td {
+  border: 1px solid var(--line);
+  padding: 0.4rem 0.55rem;
+  text-align: left;
+  vertical-align: top;
+  white-space: nowrap;
+}
+th { font-weight: 650; background: rgba(139, 58, 42, 0.06); }
+.chg-up { color: var(--up); }
+.chg-down { color: var(--down); }
+ol.archive {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+ol.archive li {
+  border-bottom: 1px solid var(--line);
+}
+ol.archive a {
+  display: block;
+  padding: 0.7rem 0.15rem;
+  text-decoration: none;
+  color: var(--ink);
+}
+ol.archive a:hover { color: var(--link); }
+ol.archive .d { font-weight: 650; }
+ol.archive .l { color: var(--muted); font-size: 0.9rem; margin-left: 0.6rem; }
+.note { color: var(--muted); font-size: 0.95rem; }
+@media print {
+  body { background: #fff; color: #000; }
+  a { color: inherit; }
+  header.site { display: none; }
+}
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header class="site">
+      <a href="../index.html">晨報存檔 Morning Brief Archive</a>
+      <span>2026-11-23</span>
+    </header>
+    <h1>Jacky 早晨好／Good morning Jacky</h1>
+    <p class="date">AI、美股及加密貨幣早晨簡報 / Morning Brief — 2026-11-23（亞洲／香港時間 GMT+8）</p>
+    <p>以下為過去約 24 小時（亞洲／香港時間 GMT+8：2026-11-22 約 08:06 至 2026-11-23 約 08:12）個人早晨簡報。截稿時間約為 2026-11-23 08:12 GMT+8。僅收錄已核實、具實質影響的消息；各節之間已盡量去重。今日為週一早上（香港時間）；美股現貨市場仍在週末休市，下一個正規現貨時段為美東時間週一上午 9 時 30 分（香港時間週一晚 10 時 30 分）。股指期貨已於美東時間週日下午 6 時（香港時間今日上午 7 時）按慣常時間重開，截稿前約一小時的已核實報價顯示期貨自週五跌市後回升，詳見美股一節；此屬期貨而非現貨開市，故不臆測週一正規時段開市價。本週為美國感恩節短週：週四休市，週五將於美東時間下午 1 時提早收市。週五美股急跌、三大指數進入技術性調整、Nvidia 及其他芯片股走勢，以及路透社有關美國證監會審視 Nvidia 會計問題的報道，已在較早簡報詳述，今日不重複。人工智能方面，OpenAI 首席科學家 Jakub Pachocki 於 11 月 22 日發表文章，建議以困惑度（perplexity）作為跨實驗室的共同指標，並公開該公司內部預訓練進度。加密貨幣方面，截稿時 CoinGecko 報比特幣 61,085 美元，滾動 24 小時約升 1.47%；同一來源的全球總市值約 2.08 萬億美元，24 小時約跌 2.68%。Farside Investors 的週五美國現貨比特幣 ETF 表中，最大基金 IBIT 一欄仍為空白，已列示合計淨流出仍為 1.245 億美元，今日並無新的已完成全日數字，故不重複昨日有關不完整資金流的項目。人工智能 2 則、美股 1 則、加密貨幣新聞 2 則已核實要聞，故只列已核實項目，並未為湊數而加入較舊消息。</p>
+<p>This is your personal morning brief for the preceding ~24 hours (Asia/Hong Kong GMT+8: about 08:06 on 2026-11-22 through about 08:12 on 2026-11-23). Cutoff ~08:12 GMT+8 on 2026-11-23. Only verified, material items are included, and related coverage has been deduplicated across sections. It is Monday morning in Hong Kong. The U.S. cash equity market remains closed for the weekend; the next regular cash session is 9:30 a.m. Eastern Time on Monday (10:30 p.m. Monday, Hong Kong time). Equity-index futures reopened on CME’s usual schedule at 6:00 p.m. Eastern Time on Sunday (7:00 a.m. today, Hong Kong time). Verified quotes from about an hour into that session, detailed in the U.S. stocks section, showed futures higher after Friday’s selloff. Those prints are futures, not the cash open, so no Monday regular-session open is inferred. This is a shortened U.S. Thanksgiving week: markets are closed on Thursday, and Friday’s session closes early at 1:00 p.m. Eastern Time. Friday’s sharp decline, the move of the major averages into correction territory, the slide in Nvidia and other chip stocks, and Reuters reporting that the SEC is scrutinizing potential accounting issues at Nvidia were covered in earlier briefs and are not repeated. In artificial intelligence, OpenAI chief scientist Jakub Pachocki published an essay on November 22 proposing perplexity as a shared cross-lab metric and disclosing the company’s internal pretraining progress. In cryptocurrency, CoinGecko put bitcoin at $61,085 at the cutoff, up about 1.47% over 24 hours, and the global crypto market cap at about $2.08 trillion, down about 2.68% over 24 hours. On Farside Investors’ U.S. spot bitcoin ETF table, the Friday cell for the largest fund, IBIT, is still blank, and the posted Friday total remains a $124.5 million net outflow, so there is no new completed full-day figure and yesterday’s item on the incomplete flows is not repeated. The AI, U.S. stocks and cryptocurrency news sections have 2, 1 and 2 verified items respectively, so only verified stories are listed and the sections were not padded with older coverage.</p>
+<p>────────────────</p>
+<h2>一、人工智能／1. Artificial Intelligence</h2>
+<p>────────────────</p>
+<p>本節僅列 2 則已核實、屬過去約 24 小時內的要聞，未為湊滿 10 則而加入較舊或未能獨立核實的消息。Lean 與 Mathlib 社群核實黎曼猜想 Lean 證明、Anthropic 首次公開招股交收、OpenAI 有關防範敵對蒸餾及 MedChemBench 的公布，以及 Microsoft 在 Copilot 推出 GPT-6.2 模型，已在較早簡報述及，今日不重複。</p>
+<p>Only 2 verified items from the past ~24 hours are listed; the section was not padded with older or independently unverified stories. The Lean and Mathlib communities’ certification of the Riemann hypothesis Lean proof, the closing of Anthropic’s IPO, OpenAI’s publications on adversarial distillation and MedChemBench, and Microsoft’s Copilot rollout of the GPT-6.2 models were covered in earlier briefs and are not repeated.</p>
+<h3>1. OpenAI 首席科學家 Jakub Pachocki 發表《Perplexity and Intelligence》，建議以困惑度作為跨開發機構的共同指標，並公開該公司內部預訓練進度，同時倡議在監察能力達致明確里程碑前設定共同上限</h3>
+<p>OpenAI 於 2026-11-22 刊登首席科學家 Jakub Pachocki 的文章《Perplexity and Intelligence》。他主張把困惑度（perplexity，或等價的交叉熵損失）訂為比較各開發機構、並據以制定共同安全標準的指標；作為第一步，他公開了 OpenAI 內部的預訓練進度。他寫道，公布這些內部困惑度數字需要斟酌，因為競爭對手會更清楚該公司所處位置，但建立跨行業共同安全措施的迫切性更重要。文章以該公司自 GPT-3.5 起沿用的內部程式碼庫保留集為準：GPT-3.5 的對數困惑度約為 0.99，已能流暢對話並成為原版 ChatGPT 的基礎；GPT-4 約為 0.91，已能有效運用思維鏈推理；當損失低於 0.8 後，他們在網絡安全及數學等領域見到「變革性」能力。他稱，升級至對數困惑度約 0.76 的模型後，模型開始就開放數學問題給出突破性結果，有同事長年思考的問題在同一 Slack 討論串中相繼得到解答；他認為到 2027 年，預訓練演算法研究也可能出現類似的突然加速。按近期進度外推，他預期進入約 0.68 至 0.7 的對數困惑度區間時，還會出現目前未必已在測試的新能力，同時現時主流的對齊審計方式可能進一步失效，模型對評估及訓練的察覺亦會增加。他建議前沿開發機構在這類模型首次被使用前，共同訂立評估及紅隊測試安全論證的規範，並提出以困惑度及其他度量為基礎的共同上限：在理解及監察人工智能行為的能力達致具體里程碑（例如發展出思維鏈監察器的後繼方案）之前，不應跨越該上限。他同時承認挑戰：各實驗室使用不同評估數據集及訓練數據，難以直接比較；困惑度並非直接對應某項具體任務；思維鏈等預訓練以外的進展不會降低該指標；而且數據固有熵未知，指標存在未知下限。文章並未公布一個已獲各實驗室同意的具體上限數值，本簡報亦不把此文視為一項已達成的行業協議。</p>
+<p>OpenAI chief scientist Jakub Pachocki publishes “Perplexity and Intelligence,” proposing perplexity as a shared metric across labs, disclosing OpenAI’s internal pretraining progress, and calling for common development limits until monitoring reaches a defined milestone</p>
+<p>OpenAI published an essay on 2026-11-22 by chief scientist Jakub Pachocki, “Perplexity and Intelligence.” He argued for establishing perplexity — or equivalently, cross-entropy loss — as a metric to compare model developers and inform shared safety standards, and, as a first step, disclosed OpenAI’s internal pretraining progress. Publishing those internal perplexity measurements “took some consideration,” he wrote, because it gives competitors a clearer picture of where the company stands, but that concern was outweighed by the urgency of establishing shared safety measures across the industry. The figures are reported on a held-out sample from OpenAI’s internal codebase, which the company has tracked since GPT-3.5: GPT-3.5, at a log-perplexity of about 0.99, was capable of fluent conversation and formed the basis for the original ChatGPT; GPT-4, at about 0.91, was proficient at using chain-of-thought reasoning; and once losses fell below 0.8, the company saw what he called transformative capabilities in fields such as cybersecurity and mathematics. After an upgrade to a model of log-perplexity around 0.76, he wrote, the model started producing groundbreaking results on open mathematics problems, with solutions to questions colleagues had long thought about appearing one after another in a single Slack thread. He said a similar sudden acceleration in pretraining algorithmic research could conceivably appear as early as 2027. Extrapolating from recent progress, he said further transformative capabilities should be expected as models enter a log-perplexity window of about 0.68 to 0.7, including capabilities that may not be tested for today, alongside further degradation in currently dominant forms of alignment auditing and greater evaluation and training awareness. He called on frontier developers to establish shared norms for evaluating such models and red-teaming safety cases by the time they are first used, and proposed common limits, based on perplexity and other measurements, that developers would not cross until the ability to understand and monitor AI behavior reached a concrete milestone, such as a successor to chain-of-thought monitors. He also set out the difficulties: different labs use different evaluation datasets and training mixtures, so comparisons are hard; perplexity does not directly correspond to a task people care about; advances outside pretraining, notably chain-of-thought reasoning, do not reduce the metric; and the inherent entropy of the data — an unknown floor — is not known. The essay does not announce a specific numerical limit already agreed among labs, and this brief does not treat it as an industry agreement already in force.</p>
+<p class="source">Source: OpenAI — <a href="https://openai.com/index/perplexity-and-intelligence/" rel="noopener noreferrer">https://openai.com/index/perplexity-and-intelligence/</a></p>
+<h3>2. 印度人工智能公司 Sarvam 發布開源權重檢查點 Sarvam-105B-1711，稱在其評估中八項對話代理基準平均分為 73.9，綜合推論價格為每百萬 token 0.15 美元</h3>
+<p>Sarvam AI 於 2026-11-22 在官方博客宣布發布 Sarvam-105B-1711，作為其 1,050 億參數模型的新開源權重檢查點，並稱在已升級的 B200 基礎設施上訓練，屬面向客服、語音代理及代理式任務等高用量場景的 Flash-Lite 型模型。公司表示，權重已在 Hugging Face 以 BF16 及約 65 GB 的 NVFP4 版本提供，後者可在單一工作站 GPU 上運行。按該公司自行設置的評估，在八項對話代理基準（包括指令跟隨、對話質素、工具調用及 Indic 語文套件）上的平均分由 2 月版本的 42.6 升至 73.9，綜合價格由每百萬 token 0.44 美元降至 0.15 美元。同一評估中，該公司列出 Gemini 3.5 Flash-Lite 平均 74.0、價格 0.85 美元，Gemma 4 31B 平均 73.0、價格 0.54 美元。公司稱自 2 月以來最大升幅來自代理式能力：IFBench 指令跟隨由 32.5 升至 82.5，Tau2 客服工具使用由 46.2 升至 85.5，Indic 套件由 30.1 升至 79.1；在 Tau2 上連續四次皆正確完成任務的比例為 69.5%。以上分數及價錢比較均來自 Sarvam 自行公布的評估及報價，並非獨立第三方的核證結果。本簡報亦未獨立覆核其訓練吞吐量或單卡推論速度等內部數字。</p>
+<p>India’s Sarvam AI releases Sarvam-105B-1711, an open-weight 105-billion-parameter checkpoint, reporting a 73.9 average on eight conversational-agent benchmarks at a blended $0.15 per million tokens</p>
+<p>Sarvam AI said on its official blog on 2026-11-22 that it was releasing Sarvam-105B-1711, a new open-weight checkpoint of its 105-billion-parameter model, trained on upgraded B200 infrastructure and described as a Flash-Lite model for high-volume work such as customer support, voice agents and agentic tasks. The company said the weights are on Hugging Face in BF16 and in a 65 GB NVFP4 version that can run on a single workstation GPU. On Sarvam’s own evaluation setup, the average across eight conversational-agent benchmarks — covering instruction following, chat quality, tool use and an Indic-language suite — rose to 73.9 from 42.6 for the February release, while the blended price fell to $0.15 per million tokens from $0.44. In the same comparison, the company listed Gemini 3.5 Flash-Lite at 74.0 and $0.85, and Gemma 4 31B at 73.0 and $0.54. It said the largest gains since February were in agentic skills: IFBench instruction following rose from 32.5 to 82.5, Tau2 customer-service tool use from 46.2 to 85.5, and its Indic suite from 30.1 to 79.1; it also said the model completed 69.5% of Tau2 tasks correctly on all four of four attempts. The scores and price comparisons are company-reported results from Sarvam’s own evaluation and pricing, not an independently audited benchmark, and this brief has not independently verified the internal throughput or single-GPU speed claims.</p>
+<p class="source">Source: Sarvam AI — <a href="https://www.sarvam.ai/blogs/sarvam-105b-1711" rel="noopener noreferrer">https://www.sarvam.ai/blogs/sarvam-105b-1711</a></p>
+<p>────────────────</p>
+<h2>二、美股／2. US Stock Market</h2>
+<p>────────────────</p>
+<p>本節僅列 1 則已核實、屬過去約 24 小時內的要聞，未為湊滿 10 則而重複較早簡報已述及的週五交易，或加入未能獨立核實的消息。今日為香港時間週一早上，美股現貨仍在週末休市，下一個正規現貨時段為美東時間週一上午 9 時 30 分（香港時間週一晚 10 時 30 分）。週五標普 500、道指及納指的收市跌幅、Nvidia 及其他芯片股走勢，以及路透社有關美國證監會審視 Nvidia 會計問題的報道，均已在較早簡報述及。截稿前未見 Nvidia 對該報道作出已核實的正式回應。本週為美國感恩節短週，週四休市，週五將於美東時間下午 1 時提早收市；此為已公布的交易日曆，並非過去 24 小時的新消息。</p>
+<p>Only 1 verified item from the past ~24 hours is listed; the section was not padded with a repeat of Friday’s already-covered session or with independently unverified stories. It is Monday morning in Hong Kong, and the U.S. cash equity market remains closed for the weekend. The next regular cash session is 9:30 a.m. Eastern Time on Monday (10:30 p.m. Monday, Hong Kong time). Friday’s closes for the S&amp;P 500, Dow and Nasdaq, the move in Nvidia and other chip stocks, and Reuters reporting on an SEC accounting review of Nvidia were covered in earlier briefs. No verified formal company response to that reporting had been seen by the cutoff. This is a shortened U.S. Thanksgiving week, with markets closed on Thursday and an early close at 1:00 p.m. Eastern Time on Friday; that is the published trading calendar, not a new development from the past 24 hours.</p>
+<h3>1. 股指期貨於美東時間週日傍晚重開後回升：截稿時 Yahoo Finance 報標普 500 期貨升 1.92%、納斯達克 100 期貨升 2.66%、道指期貨升 1.28%；此為期貨報價，並非週一現貨開市</h3>
+<p>股指期貨按 CME 慣常時間於美東時間 2026-11-22（週日）下午 6 時（香港時間 2026-11-23 上午 7 時）重開。Yahoo Finance 延遲報價顯示，截至美東時間下午 7 時 02 分至 7 時 04 分（香港時間 2026-11-23 08:02 至 08:04），市場仍在開市：CME 標普 500 小型期貨 2026 年 12 月合約（ES=F）報 7,068.25，升 133.25 點或 1.92%；納斯達克 100 期貨 12 月合約（NQ=F）報 25,795.00，升 668.50 點或 2.66%；CBOT 道指小型期貨 12 月合約（YM=F）報 48,834.00，升 618.00 點或 1.28%。上述變動是相對於前一結算價的期貨報價，開市後約一小時，成交仍屬初段；這並不是美股現貨指數的週一開市價，本簡報亦不把期貨升幅外推為週一正規時段的開市或收市結果。週五現貨收市及調整狀態已在較早簡報述及，今日不重複。</p>
+<p>U.S. equity-index futures rise after the Sunday evening reopen: at the cutoff, Yahoo Finance showed S&amp;P 500 futures up 1.92%, Nasdaq-100 futures up 2.66% and Dow futures up 1.28%; these are futures quotes, not the Monday cash open</p>
+<p>Equity-index futures reopened at 6:00 p.m. Eastern Time on Sunday, 2026-11-22 (7:00 a.m. on 2026-11-23, Hong Kong time), on CME’s usual schedule. Yahoo Finance delayed quotes, as of 7:02 p.m. to 7:04 p.m. Eastern Time (08:02 to 08:04 GMT+8 on 2026-11-23), with the session still open, showed the CME E-mini S&amp;P 500 December 2026 contract (ES=F) at 7,068.25, up 133.25 points, or 1.92%; the Nasdaq-100 December contract (NQ=F) at 25,795.00, up 668.50 points, or 2.66%; and the CBOT Mini Dow December contract (YM=F) at 48,834.00, up 618.00 points, or 1.28%. Those changes are versus the prior settlement on the futures contracts, about an hour after the reopen, and early-session volume is still building. They are not Monday cash-index opening prints, and this brief does not treat the futures gains as a forecast of the regular-session open or close. Friday’s cash closes and correction status were covered in earlier briefs and are not repeated here.</p>
+<p class="source">Source: Yahoo Finance — <a href="https://finance.yahoo.com/quote/ES=F/" rel="noopener noreferrer">https://finance.yahoo.com/quote/ES=F/</a></p>
+<p>────────────────</p>
+<h2>三、加密貨幣新聞／3. Cryptocurrency News</h2>
+<p>────────────────</p>
+<p>本節僅列 2 則已核實、屬過去約 24 小時內的要聞，未為湊滿 10 則而加入較舊或未能獨立核實的消息。阿布扎比法院就 Binance 失竊案發出的凍結令、美國證監會起訴八家實體、Tether 投資 SCRYPT，以及週四美國現貨比特幣 ETF 完整資金流，已在較早簡報述及，今日不重複。比特幣自短期低位反彈的市況已在昨日簡報述及，最新價格及市值見行情一節，今日不另立為新聞項目。Farside Investors 的週五美國現貨比特幣 ETF 表中，IBIT 一欄仍為「-」，已列示合計淨流出仍為 1.245 億美元，與昨日截稿時相同，故不以不完整合計數作為已完成的週五全日定論，亦不重複昨日項目。俄羅斯央行有關交易所加密貨幣交易的指示已於 11 月 11 日公布，昨日簡報指出生效日為 11 月 22 日，但當時截稿前尚未核實已經生效；塔斯社其後已報道該指示已經生效，故列為本則。</p>
+<p>Only 2 verified items from the past ~24 hours are listed; the section was not padded with older or independently unverified stories. The Abu Dhabi court freeze tied to the Binance theft, the SEC’s case against eight entities, Tether’s investment in SCRYPT, and the complete Thursday U.S. spot bitcoin ETF flows were covered in earlier briefs and are not repeated. Bitcoin’s rebound from a short-term low was covered in yesterday’s brief; the latest price and market-cap figures are in the price-movements section and are not given a separate news item today. On Farside Investors’ Friday U.S. spot bitcoin ETF table, the IBIT cell is still a dash and the posted total remains a $124.5 million net outflow, unchanged from yesterday’s cutoff, so that total is still not treated as a completed full-day Friday figure and yesterday’s item is not repeated. The Bank of Russia ordinance on exchange cryptocurrency trading was published on November 11; yesterday’s brief noted that the effective date was November 22 but had not verified that it had come into force by that cutoff. TASS has since reported that the instruction has come into force, so that development is listed here.</p>
+<h3>1. Chainflip 公布攻擊者取其金庫 122.86 枚比特幣及以太坊、穩定幣等資產，損失合計約 1,200 萬美元，並開出 10% 賞金，要求於 11 月 23 日 18:38 UTC 前歸還其餘 90%</h3>
+<p>跨鏈去中心化交易所 Chainflip 營運方 Chainflip Labs 在其網站刊登致攻擊者的信息，指對方於 2026-11-21 取其金庫 122.86137042 枚比特幣、520.2243399 枚以太幣、3,249,631.41 枚 USDC 及 758,141.33 枚 USDT。《The Block》於 11 月 22 日（美東時間下午 1 時 58 分，即香港時間 11 月 23 日上午 2 時 58 分）報道，連同較早披露的以太坊金庫損失，總損失約 1,200 萬美元，並稱被盜比特幣當時約值 710 萬美元，以太坊及穩定幣約 486 萬美元。官方信息稱，已追蹤到 11 月 11 日的 Tornado Cash 資金、FLIP 代幣購買、11 月 20 日註冊的驗證者帳戶及其伺服器，並稱已找出金鑰暴露的機制，防止同類攻擊再次發生。信息亦稱，已將相關地址向主要區塊鏈分析公司標記，並監察從 Tornado Cash 資金池提出的每一筆提款，同時相信執法機關可根據攻擊者留下的元數據及所用服務識別其身分。Chainflip 提出，若攻擊者在 2026-11-23 18:38 UTC（香港時間 11 月 24 日凌晨 2 時 38 分）前歸還 90%，即 110.57523337 枚比特幣至指定地址，以及 2,618.1 枚以太幣至另一指定地址，則可保留 10% 作為賞金，公司會視作白帽追回，不再追問，並撤回向執法機關的報告及投訴。截稿時並未核實該筆比特幣或以太幣已經按該條件歸還，本簡報亦不把賞金期限視為已經達成協議或已經尋回資金。官方信息並未詳細說明被利用的具體技術漏洞。</p>
+<p>Chainflip says an attacker took 122.86 bitcoin plus ether and stablecoins from its vaults, putting losses at about $12 million, and offers a 10% bounty if the rest is returned by 18:38 UTC on November 23</p>
+<p>Chainflip Labs, operator of the cross-chain decentralized exchange Chainflip, posted a message to the attacker on its website saying that on 2026-11-21 the attacker took 122.86137042 BTC, 520.2243399 ETH, 3,249,631.41 USDC and 758,141.33 USDT from its vaults. The Block, in a report at 1:58 p.m. Eastern Time on November 22 (2:58 a.m. on 2026-11-23, Hong Kong time), said total losses were about $12 million, including about $7.1 million of bitcoin at the time of the theft and about $4.86 million in ether and stablecoins reported earlier. The official message said the firm had traced Tornado Cash funding on November 11, a FLIP purchase, and a validator account registered on November 20 and the server behind it, and that it had identified the mechanism of key exposure and prevented such attacks in future. It also said the addresses had been flagged with major blockchain-analytics firms, that every withdrawal from the Tornado Cash pools used in the attack was being watched, and that it believed law enforcement would be able to establish an identity from metadata and the services used. Chainflip offered to let the attacker keep 10% as a bounty if 90% was returned by 18:38 UTC on 2026-11-23 (2:38 a.m. on 2026-11-24, Hong Kong time) — 110.57523337 BTC to a specified address and 2,618.1 ETH to another — in which case it would treat the matter as a white-hat recovery, ask no further questions and withdraw its reports and complaints to law enforcement. This brief has not verified that the bitcoin or ether has been returned on those terms, and it does not treat the bounty deadline as an agreement already reached or as funds already recovered. The official message did not describe the precise technical vulnerability that was exploited.</p>
+<p class="source">Source: Chainflip Labs — <a href="https://chainflip.io/return" rel="noopener noreferrer">https://chainflip.io/return</a></p>
+<h3>2. 塔斯社報道，俄羅斯央行有關交易所加密貨幣交易的指示已於 11 月 22 日生效；交易所仍須先獲監管機構批准交易規則後方可開盤</h3>
+<p>塔斯社 11 月 22 日自莫斯科報道，俄羅斯央行訂立數字貨幣及數字權利組織交易要求的指示已經生效，交易所在獲得監管機構批准其交易規則後，現可開展加密貨幣交易。報道列出的義務與央行 11 月 11 日英文聲明一致：交易所須登記交易參與者（例如經紀商、資產管理人及中央對手方），保存訂單及成交記錄並監察交易；為獲准交易的每種加密貨幣計算當前價、加權平均價、市場價及收市價；並按與其他資產相同的程序，向央行報告交易進程及結果。央行 11 月 11 日的聲明已寫明，交易所獲准自 2026 年 11 月 22 日起開始加密貨幣交易，前提是其交易規則須先獲得監管機構同意；該指示已由俄羅斯司法部登記。昨日簡報已指出該指示於 11 月 11 日公布、生效日為 11 月 22 日，但當時截稿前尚未核實已經生效。塔斯社並引述較早報道稱，央行預期實際交易將於 12 月 1 日之後開始。截稿時並未核實莫斯科交易所或其他主要交易所已獲批准並已實際開盤，本簡報亦不把「已經生效」等同「已經開始全面交易」。</p>
+<p>TASS reports that the Bank of Russia’s instruction on exchange cryptocurrency trading came into force on November 22; exchanges may launch trading only after the regulator approves their rules</p>
+<p>TASS, in a November 22 dispatch from Moscow, said the Bank of Russia instruction setting requirements for organized trading in digital currencies and digital rights had come into force, and that exchanges are now permitted to launch cryptocurrency trading provided they first obtain the regulator’s approval for their trading rules. The obligations it listed match the central bank’s English-language statement of November 11: exchanges must register trading participants such as brokers, asset managers and central counterparties, keep registers of orders and trades and monitor transactions; calculate current, volume-weighted average, market and closing prices for each cryptocurrency admitted to trading; and report information on the progress and results of trading to the Bank of Russia in the same way as for other assets. The November 11 Bank of Russia statement had already said exchanges were authorised to begin cryptocurrency trading from 22 November 2026, provided they obtained the regulator’s concurrence with their trading rules, and that the ordinance had been registered by the Ministry of Justice. Yesterday’s brief noted that publication date and the November 22 effective date, but had not verified that the instruction had come into force by that cutoff. TASS also cited earlier reports that the central bank expects actual trading to begin after December 1. This brief has not verified that the Moscow Exchange or any other major venue has already received approval and started live trading, and it does not treat “come into force” as meaning that full trading has already begun.</p>
+<p class="source">Source: TASS — <a href="https://tass.com/economy/2222969" rel="noopener noreferrer">https://tass.com/economy/2222969</a></p>
+<p>────────────────</p>
+<h2>四、加密貨幣行情／4. Cryptocurrency Price Movements</h2>
+<p>────────────────</p>
+<p>按當前流通市值排名的前 10 大加密貨幣（含符合資格的穩定幣，已標示）。排名來源：CoinGecko Markets API（vs_currency=usd，order=market_cap_desc，per_page=10）。硬幣快照：2026-11-23 08:11:54 GMT+8（API last_updated 2026-11-23T00:11:54.000Z），惟第 9 位 Figure Heloc（FIGR_HELOC）的 last_updated 為 2026-11-22 22:15:40 GMT+8（2026-11-22T14:15:40.000Z），較其他 9 隻約早 10 小時，故其價格及 24 小時變動並未與其餘幣種對齊，已在名稱及評論中標明。同一來源的全球數據快照為 2026-11-23 08:06:54 GMT+8：全球總市值約 2.08 萬億美元，24 小時約 −2.68%；BTC 主導約 58.86%，ETH 主導約 10.08%。恐懼與貪婪指數（Alternative.me）：11（極度恐懼）；昨日同一來源亦為 11（極度恐懼）。與昨日同一來源的快照相比，前 10 名成員不變。除 Figure Heloc 的時間戳較舊外，其餘 9 隻的 last_updated 均已對齊，24 小時價格及市值變動欄位均可取得。市值變動取自 CoinGecko 對齊的 24 小時市值變動欄位，並非以成交量或價格變動替代。</p>
+<p>The top 10 cryptocurrencies by current circulating market cap, including qualifying stablecoins (labeled). Ranking source: CoinGecko Markets API (vs_currency=usd, order=market_cap_desc, per_page=10). Coin snapshot: 2026-11-23 08:11:54 GMT+8 (API last_updated 2026-11-23T00:11:54.000Z), except that No. 9 Figure Heloc (FIGR_HELOC) has last_updated 2026-11-22 22:15:40 GMT+8 (2026-11-22T14:15:40.000Z), about 10 hours earlier than the other nine coins, so its price and 24-hour changes are not aligned with the rest of the universe and are flagged in the name and commentary. A same-source global snapshot at 2026-11-23 08:06:54 GMT+8 showed a global crypto market cap of about $2.08T, roughly −2.68% over 24 hours, BTC dominance of about 58.86% and ETH dominance of about 10.08%. Fear &amp; Greed (Alternative.me): 11 (extreme fear); yesterday’s reading from the same source was also 11 (extreme fear). Versus yesterday’s snapshot from the same source, the top-10 membership is unchanged. Apart from Figure Heloc’s older timestamp, the other nine coins had aligned last_updated timestamps, and 24-hour price and market-cap change fields were available. Market-cap changes use CoinGecko 24-hour market-cap change fields and are not replaced by volume or price change.</p>
+<p class="source">來源 Source: CoinGecko — <a href="https://www.coingecko.com/" rel="noopener noreferrer">https://www.coingecko.com/</a></p>
+<div class="table-wrap"><table>
+<thead><tr>
+<th>排名</th>
+<th>名稱</th>
+<th>價格（美元）</th>
+<th>流通市值（美元）</th>
+<th>24h 價格</th>
+<th>24h 市值</th>
+</tr></thead><tbody>
+<tr>
+<td>1</td>
+<td>Bitcoin (BTC)</td>
+<td>$61,085</td>
+<td>$1.229T</td>
+<td class="chg-up">+1.47%</td>
+<td class="chg-up">+$17.79B / +1.47%</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Ethereum (ETH)</td>
+<td>$1,721.06</td>
+<td>$210.39B</td>
+<td class="chg-up">+2.27%</td>
+<td class="chg-up">+$4.67B / +2.27%</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Tether (USDT) 穩定幣</td>
+<td>$0.998652</td>
+<td>$174.61B</td>
+<td class="chg-up">+0.01%</td>
+<td class="chg-up">+$24.8M / +0.01%</td>
+</tr>
+<tr>
+<td>4</td>
+<td>BNB (BNB)</td>
+<td>$558.75</td>
+<td>$73.49B</td>
+<td class="chg-up">+1.89%</td>
+<td class="chg-up">+$1.36B / +1.89%</td>
+</tr>
+<tr>
+<td>5</td>
+<td>USDC (USDC) 穩定幣</td>
+<td>$0.999241</td>
+<td>$68.38B</td>
+<td class="chg-down">−0.005%</td>
+<td class="chg-down">−$31.9M / −0.05%</td>
+</tr>
+<tr>
+<td>6</td>
+<td>XRP (XRP)</td>
+<td>$0.925118</td>
+<td>$58.76B</td>
+<td class="chg-down">−0.66%</td>
+<td class="chg-down">−$387.5M / −0.66%</td>
+</tr>
+<tr>
+<td>7</td>
+<td>Solana (SOL)</td>
+<td>$70.53</td>
+<td>$41.76B</td>
+<td class="chg-up">+0.38%</td>
+<td class="chg-up">+$163.5M / +0.39%</td>
+</tr>
+<tr>
+<td>8</td>
+<td>TRON (TRX)</td>
+<td>$0.305054</td>
+<td>$29.00B</td>
+<td class="chg-up">+0.07%</td>
+<td class="chg-up">+$18.8M / +0.06%</td>
+</tr>
+<tr>
+<td>9</td>
+<td>Figure Heloc (FIGR_HELOC)（快照較舊）</td>
+<td>$1.056</td>
+<td>$28.64B</td>
+<td class="chg-up">+1.68%</td>
+<td class="chg-up">+$471.9M / +1.68%</td>
+</tr>
+<tr>
+<td>10</td>
+<td>Hyperliquid (HYPE)</td>
+<td>$62.81</td>
+<td>$14.93B</td>
+<td class="chg-up">+2.71%</td>
+<td class="chg-up">+$395.5M / +2.72%</td>
+</tr>
+</tbody></table></div>
+<p>最大價格升幅：在這 10 隻之中，升幅最大為 Hyperliquid +2.71%，其後為 Ethereum +2.27%、BNB +1.89%、Figure Heloc +1.68%（該幣快照較舊，時間為 2026-11-22 22:15:40 GMT+8，並非與其他 9 隻對齊的 08:11:54 快照）、Bitcoin +1.47%。最大價格跌幅：XRP −0.66%。穩定幣 USDC 價格近乎持平（−0.005%），穩定幣 USDT 微升 +0.01%。最大市值增加：Bitcoin +$17.79B（+1.47%）；Ethereum +$4.67B（+2.27%）；BNB +$1.36B（+1.89%）；Figure Heloc +$471.9M（+1.68%，快照較舊）；Hyperliquid +$395.5M（+2.72%）。最大市值減少：XRP −$387.5M（−0.66%）；其後為穩定幣 USDC −$31.9M（−0.05%）。全球總市值在稍早的同一來源快照中 24 小時約跌 2.68%，與這 10 隻多數上升可以並存，因為全球數字涵蓋更廣的市場，而且全球快照時間（08:06:54 GMT+8）亦與硬幣快照略有差異。</p>
+<p>Biggest price gainers: within this top 10, the largest gain was Hyperliquid, +2.71%, followed by Ethereum +2.27%, BNB +1.89%, Figure Heloc +1.68% (that coin’s snapshot is older, at 2026-11-22 22:15:40 GMT+8, and is not aligned with the 08:11:54 snapshot used for the other nine), and Bitcoin +1.47%. Biggest price loser: XRP, −0.66%. The stablecoin USDC was essentially flat (−0.005%), and the stablecoin USDT was slightly higher, +0.01%. Largest market-cap increases: Bitcoin +$17.79B (+1.47%); Ethereum +$4.67B (+2.27%); BNB +$1.36B (+1.89%); Figure Heloc +$471.9M (+1.68%, older snapshot); Hyperliquid +$395.5M (+2.72%). Largest market-cap decreases: XRP −$387.5M (−0.66%); then the stablecoin USDC, −$31.9M (−0.05%). The same source’s slightly earlier global snapshot showed the overall crypto market cap down about 2.68% over 24 hours, which can coexist with gains in most of this top 10 because the global figure covers a broader market, and the global snapshot time (08:06:54 GMT+8) also differs slightly from the coin snapshot.</p>
+<p>────────────────</p>
+<p>免責／Caveat</p>
+<p>────────────────</p>
+<p class="disclaimer">資料來自公開來源與 CoinGecko；價格與新聞可能迅速變化。本簡報不構成投資建議。</p>
+<p class="disclaimer">Figures and headlines are from public sources and CoinGecko and can change quickly. This brief is not investment advice.</p>
+  </div>
+</body>
+</html>
