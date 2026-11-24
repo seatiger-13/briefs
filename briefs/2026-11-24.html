@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>早晨簡報 / Morning Brief — 2026-11-24</title>
+  <style>
+:root {
+  --bg: #f7f5f0;
+  --card: #fffcf7;
+  --ink: #1c1915;
+  --muted: #5c564c;
+  --line: #e4ddd2;
+  --accent: #8b3a2a;
+  --link: #1e4d7b;
+  --up: #157a3a;
+  --down: #b42318;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #161412;
+    --card: #1e1b18;
+    --ink: #f3eee6;
+    --muted: #b3ab9f;
+    --line: #3a342c;
+    --accent: #e07a68;
+    --link: #8cb8e8;
+    --up: #5dca82;
+    --down: #ff7a6e;
+  }
+}
+* { box-sizing: border-box; }
+html { font-size: 18px; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: "Source Han Sans TC", "Noto Sans TC", "PingFang HK", "PingFang TC",
+    "Microsoft JhengHei", "Helvetica Neue", system-ui, sans-serif;
+  line-height: 1.7;
+}
+.wrap {
+  max-width: 46rem;
+  margin: 0 auto;
+  padding: 2.25rem 1.25rem 4rem;
+}
+header.site {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  align-items: baseline;
+  border-bottom: 1px solid var(--line);
+  padding-bottom: 0.85rem;
+  margin-bottom: 1.75rem;
+  font-size: 0.88rem;
+}
+header.site a { color: var(--muted); text-decoration: none; }
+header.site a:hover { color: var(--link); text-decoration: underline; }
+h1 {
+  font-size: 1.55rem;
+  line-height: 1.3;
+  margin: 0 0 0.35rem;
+  font-weight: 650;
+}
+.date {
+  color: var(--muted);
+  margin: 0 0 1.5rem;
+  font-size: 0.95rem;
+}
+h2 {
+  font-size: 1.18rem;
+  margin: 2.1rem 0 0.8rem;
+  padding-top: 0.4rem;
+  border-top: 1px solid var(--line);
+  color: var(--accent);
+  font-weight: 650;
+}
+h3 {
+  font-size: 1.02rem;
+  margin: 1.4rem 0 0.5rem;
+  font-weight: 650;
+}
+article.story {
+  margin: 0 0 1.6rem;
+}
+article.story h3 { margin: 1.15rem 0 0.12rem; }
+p.en { margin: 0.7rem 0 0.1rem; }
+p.zh, .zh-head {
+  margin: 0 0 0.15rem;
+  color: var(--muted);
+}
+.zh-head { font-weight: 600; }
+p.zh + p.en { margin-top: 0.7rem; }
+p { margin: 0.75rem 0; }
+a { color: var(--link); }
+.source {
+  font-size: 0.92rem;
+  color: var(--muted);
+  margin: 0.35rem 0 0;
+  word-break: break-all;
+}
+.disclaimer {
+  margin-top: 2.4rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--line);
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+.table-wrap { overflow-x: auto; margin: 1rem 0 1.4rem; }
+table {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 0.88rem;
+  background: var(--card);
+}
+th, td {
+  border: 1px solid var(--line);
+  padding: 0.4rem 0.55rem;
+  text-align: left;
+  vertical-align: top;
+  white-space: nowrap;
+}
+th { font-weight: 650; background: rgba(139, 58, 42, 0.06); }
+.chg-up { color: var(--up); }
+.chg-down { color: var(--down); }
+ol.archive {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+ol.archive li {
+  border-bottom: 1px solid var(--line);
+}
+ol.archive a {
+  display: block;
+  padding: 0.7rem 0.15rem;
+  text-decoration: none;
+  color: var(--ink);
+}
+ol.archive a:hover { color: var(--link); }
+ol.archive .d { font-weight: 650; }
+ol.archive .l { color: var(--muted); font-size: 0.9rem; margin-left: 0.6rem; }
+.note { color: var(--muted); font-size: 0.95rem; }
+@media print {
+  body { background: #fff; color: #000; }
+  a { color: inherit; }
+  header.site { display: none; }
+}
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header class="site">
+      <a href="../index.html">晨報存檔 Morning Brief Archive</a>
+      <span>2026-11-24</span>
+    </header>
+    <h1>史泰加，你條L樣睇路啦</h1>
+    <p class="date">AI、美股及加密貨幣早晨簡報 / Morning Brief — 2026-11-24（亞洲／香港時間 GMT+8）</p>
+    <p class="en">This is your personal morning brief for the preceding ~24 hours (Asia/Hong Kong GMT+8: about 08:12 on 2026-11-23 through about 08:15 on 2026-11-24). Cutoff ~08:15 GMT+8 on 2026-11-24. Only verified, material items are included, and related coverage has been deduplicated across sections. It is Tuesday morning in Hong Kong. The U.S. cash equity market completed a regular Monday session, which closed at 4:00 p.m. Eastern Time on 2026-11-23 (5:00 a.m. on 2026-11-24, Hong Kong time). This remains a shortened U.S. Thanksgiving week: markets are closed on Thursday, and Friday’s session closes early at 1:00 p.m. Eastern Time; that is the published trading calendar, not a new development from the past 24 hours. The main market-moving event was Nvidia’s board reinstating Jensen Huang as president, chief executive and a director, after which CNBC said the S&amp;P 500 and the Nasdaq recorded their strongest session since April 2025; the Dow also rose, and Nvidia shares were up 31.48%. In artificial intelligence, OpenAI and Cisco launched an open-source Linux protection runtime, Google DeepMind published formally verified quantum-algorithm improvements found by Gemini 4 agent teams, and Google announced Search Personal Intelligence app connections plus Gemini API file-slicing controls. In cryptocurrency, Farside Investors has now completed Friday’s U.S. spot bitcoin ETF table at a $669.2 million net outflow, the Justice Department filed a civil action to forfeit more than $1.1 billion in USDC tied to the Binance theft, Cross River Bank and LendingUSA launched bitcoin-secured consumer loans, and Bitmine said its ether holdings had reached 4.98% of supply. At the cutoff, CoinGecko put bitcoin at $61,180, up about 0.13% over 24 hours, and the global crypto market cap at about $2.12 trillion, down about 1.22% over 24 hours. The AI, U.S. stocks and cryptocurrency news sections have 4, 4 and 4 verified items respectively, so only verified stories are listed and the sections were not padded with older coverage.</p>
+<p class="zh">以下為過去約 24 小時（亞洲／香港時間 GMT+8：2026-11-23 約 08:12 至 2026-11-24 約 08:15）個人早晨簡報。截稿時間約為 2026-11-24 08:15 GMT+8。僅收錄已核實、具實質影響的消息；各節之間已盡量去重。今日為週二早上（香港時間）。美股現貨已完成週一正規時段，於美東時間 2026-11-23 下午 4 時收市（香港時間 2026-11-24 上午 5 時）。本週仍為美國感恩節短週：週四休市，週五將於美東時間下午 1 時提早收市；此為已公布的交易日曆，並非過去 24 小時的新消息。最主要的市場催化劑，是 Nvidia 董事會恢復黃仁勳出任總裁、行政總裁及董事，其後 CNBC 稱標普 500 及納指錄得 2025 年 4 月以來最強單日表現；道指亦上升，Nvidia 股價升 31.48%。人工智能方面，OpenAI 與 Cisco 推出開源 Linux 防護運行時，Google DeepMind 公布由 Gemini 4 智能體團隊找出、並經形式化驗證的量子算法改進，Google 亦宣布 Search Personal Intelligence 的應用程式接駁，以及 Gemini API 的檔案切片控制。加密貨幣方面，Farside Investors 現已補完週五美國現貨比特幣 ETF 表，全日淨流出為 6.692 億美元；美國司法部就 Binance 失竊案相關的超過 11 億美元 USDC 提出民事沒收；Cross River Bank 與 LendingUSA 推出以比特幣作抵押的消費貸款；Bitmine 則公布其以太幣持倉已達總供應量的 4.98%。截稿時 CoinGecko 報比特幣 61,180 美元，滾動 24 小時約升 0.13%；同一來源的全球總市值約 2.12 萬億美元，24 小時約跌 1.22%。人工智能、美股及加密貨幣新聞各有 4 則已核實要聞，故只列已核實項目，並未為湊數而加入較舊消息。</p>
+<hr>
+<h2>一、人工智能／1. Artificial Intelligence</h2>
+<hr>
+<p class="en">Only 4 verified items from the past ~24 hours are listed; the section was not padded with older or independently unverified stories. OpenAI chief scientist Jakub Pachocki’s November 22 essay on perplexity, the Lean and Mathlib communities’ certification of the Riemann hypothesis Lean proof, the closing of Anthropic’s IPO, OpenAI’s publications on adversarial distillation and MedChemBench, Microsoft’s Copilot rollout of the GPT-6.2 models, and the earlier Gemini 4 Neon model launch were covered in earlier briefs and are not repeated. Nvidia’s board decision to reinstate Jensen Huang is covered in the U.S. stocks section and is not given a separate AI item.</p>
+<p class="zh">本節僅列 4 則已核實、屬過去約 24 小時內的要聞，未為湊滿 10 則而加入較舊或未能獨立核實的消息。OpenAI 首席科學家 Jakub Pachocki 於 11 月 22 日發表的困惑度文章、Lean 與 Mathlib 社群核實黎曼猜想 Lean 證明、Anthropic 首次公開招股交收、OpenAI 有關防範敵對蒸餾及 MedChemBench 的公布、Microsoft 在 Copilot 推出 GPT-6.2 模型，以及較早前 Gemini 4 Neon 模型的發布，已在較早簡報述及，今日不重複。Nvidia 董事會恢復黃仁勳職務見美股一節，不另立為人工智能項目。</p>
+<article class="story">
+<h3>1. OpenAI and Cisco introduce Shirudo,</h3>
+<p class="zh-head">OpenAI 與 Cisco 推出 Shirudo，</p>
+<p class="en">an open-source runtime that can apply temporary, operator-approved Linux protections</p>
+<p class="zh">一個開源運行時，可在營運人員批准後套用臨時 Linux 防護，</p>
+<p class="en">without waiting for a patch or restarting the system</p>
+<p class="zh">而無需等待補丁或重啟系統</p>
+<p class="en">OpenAI said on 2026-11-23 that it was launching Shirudo with Cisco, an open-source runtime intended to help teams protect running Linux systems while they test and roll out patches.</p>
+<p class="zh">OpenAI 於 2026-11-23 宣布與 Cisco 推出 Shirudo，這是一個開源運行時，旨在協助團隊在測試及部署補丁期間，保護正在運行的 Linux 系統。</p>
+<p class="en">The companies said testing and deploying a patch can still take days or weeks, and that blocking a Linux operation outright can take a service offline if an exploit and a legitimate request rely on the same operation.</p>
+<p class="zh">兩家公司表示，測試及部署補丁仍可能需時數天甚至數週；若攻擊與正當請求依賴同一項 Linux 操作，直接封鎖該操作可能令服務中斷。</p>
+<p class="en">Shirudo, a name OpenAI said is Japanese for “shield,” uses eBPF so that a temporary safeguard, called a shield, can be tested and, once an operator approves it, deployed while the service continues running.</p>
+<p class="zh">OpenAI 稱 Shirudo 在日語中意為「盾」；它使用 eBPF，讓稱為「shield」的臨時防護可先經測試，並在營運人員批准後，於服務繼續運行的情況下部署。</p>
+<p class="en">OpenAI said the design has four core capabilities: live protection without a restart; programmable controls that let agents investigate vulnerabilities and draft shields while security teams decide what is deployed; cryptographic signing and Linux eBPF verification before a shield is loaded; and hardware-backed records using a Trusted Platform Module, so operators can check whether protections were loaded or removed.</p>
+<p class="zh">OpenAI 稱設計包含四項核心能力：可在不重啟的情況下作即時防護；讓智能體調查漏洞並草擬防護、但由保安團隊決定是否部署的可編程控制；防護載入前的加密簽署及 Linux eBPF 驗證；以及利用可信平台模組（TPM）保存硬體備份紀錄，讓營運人員查核防護是否已被載入或移除。</p>
+<p class="en">In a controlled test, the companies said, a Codex-generated shield blocked a Java4Shell exploit attempt against a running Elasticsearch service without requiring a restart, by adding an input check to Java’s Base64 decoder.</p>
+<p class="zh">他們表示，在一項受控測試中，由 Codex 生成的防護為 Java 的 Base64 解碼器加入輸入檢查，在無需重啟的情況下，阻擋了針對正在運行的 Elasticsearch 服務的 Java4Shell 攻擊嘗試。</p>
+<p class="en">The project is licensed under the BSD 2-Clause license, with its BPF programs dual-licensed under BSD and GPL, and the companies are inviting operators and researchers to inspect the code, contribute shields, and join a webinar on December 15.</p>
+<p class="zh">項目以 BSD 2-Clause 授權，其 BPF 程式同時以 BSD 及 GPL 雙重授權；兩家公司邀請營運人員及研究員檢查程式碼、貢獻防護，並參加 12 月 15 日的網絡研討會。</p>
+<p class="en">This brief treats the announcement as the launch of an open-source tool, not as evidence that the test result will hold on production systems generally.</p>
+<p class="zh">本簡報將此公布視為開源工具的推出，而不把該測試結果視為已在一般生產系統上得到證實。</p>
+<p class="source"><a href="https://openai.com/index/introducing-shirudo/" rel="noopener noreferrer">https://openai.com/index/introducing-shirudo/</a></p>
+</article>
+<article class="story">
+<h3>2. Google DeepMind says Gemini 4 agent teams found faster quantum algorithms,</h3>
+<p class="zh-head">Google DeepMind 稱 Gemini 4 智能體團隊找出更快的量子算法，</p>
+<p class="en">and formally verified the results in Lean</p>
+<p class="zh">並以 Lean 作出形式化驗證</p>
+<p class="en">Google DeepMind said on 2026-11-23 that teams of Gemini 4 agents had improved well-known quantum algorithms, producing more efficient quantum circuits, in a collaboration with Google Quantum AI.</p>
+<p class="zh">Google DeepMind 於 2026-11-23 表示，Gemini 4 智能體團隊與 Google Quantum AI 合作，改進了已知的量子算法，並產生更有效率的量子電路。</p>
+<p class="en">Because resource-intensive circuits cannot be fully tested on classical computers or today’s small quantum processors, the company said the agent teams proved each result in Lean, a formal theorem prover.</p>
+<p class="zh">該公司表示，由於資源密集的電路無法在經典電腦或現時小型量子處理器上完整測試，智能體團隊以形式化定理證明器 Lean 證明每一項結果。</p>
+<p class="en">Separate agent teams searched for improvements, Lean-verified ideas were added to a shared notebook, and every four hours agents from each team met at a virtual conference to compare ideas.</p>
+<p class="zh">各獨立智能體團隊分頭尋找改進，經 Lean 驗證的構想會記入共用筆記；每四小時，各隊智能體會在虛擬會議中比較構思。</p>
+<p class="en">The post said one circuit used to calculate a property of inertial confinement fusion cut the required computing cost — a metric combining qubits and operations — by 11.8 times, and lowered required memory from 5,650 to 4,338 error-corrected qubits.</p>
+<p class="zh">文章稱，一條用於計算慣性約束聚變某項性質的電路，把所需計算成本（結合量子比特與操作次數的度量）降低 11.8 倍，所需記憶體由 5,650 個減至 4,338 個糾錯量子比特。</p>
+<p class="en">It also reported an 8 times cost reduction for simulating a common light-sensitive molecule, a 2.5 times improvement for Cytochrome P450 that lowered memory from 481 to 333 qubits, a 2.57 times speedup for a specific implementation of Grover’s algorithm, and a 290 times speedup for a fixed-point arcsin routine used to load numbers into quantum states.</p>
+<p class="zh">文章亦稱，模擬一種常見光敏分子的成本降低 8 倍；針對細胞色素 P450 的改進達 2.5 倍，記憶體由 481 個減至 333 個量子比特； Grover 算法的一個特定實現加快 2.57 倍；而用於把數字載入量子態的定點反正弦常式則加快 290 倍。</p>
+<p class="en">DeepMind said running these algorithms in scientific simulations would still demand more resources than the first error-corrected quantum computers are likely to provide, but that the improvements are significant.</p>
+<p class="zh">DeepMind 表示，若要在科學模擬中運行這些算法，所需資源仍可能高於第一批糾錯量子電腦預計能提供的水平，但這些改進仍屬可觀。</p>
+<p class="en">The company is open-sourcing its Lean library, problem specifications and verified solutions on GitHub.</p>
+<p class="zh">該公司正把其 Lean 程式庫、問題規格及已驗證的解法在 GitHub 開源。</p>
+<p class="source"><a href="https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/" rel="noopener noreferrer">https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/</a></p>
+</article>
+<article class="story">
+<h3>3. Google begins rolling out Wallet connections for Personal Intelligence in Search,</h3>
+<p class="zh-head">Google 開始在 Search 的 Personal Intelligence 推出 Wallet 接駁，</p>
+<p class="en">with Drive and the Gemini app to follow</p>
+<p class="zh">隨後將加入 Drive 及 Gemini 應用程式</p>
+<p class="en">Robby Stein, vice president of product for Google Search, wrote on 2026-11-23 that Search was starting to roll out the option to connect more apps to Personal Intelligence in AI Mode.</p>
+<p class="zh">Google Search 產品副總裁 Robby Stein 於 2026-11-23 撰文，指 Search 開始逐步推出把更多應用程式接駁至 AI Mode 中 Personal Intelligence 的選項。</p>
+<p class="en">Users can opt in to connect Google Wallet now, with support for Drive and the Gemini app following in the coming weeks; those apps would join Gmail, Calendar and Photos already used for personal context.</p>
+<p class="zh">用戶現在可選擇接駁 Google Wallet，Drive 及 Gemini 應用程式的支援將於未來數週推出；這些應用程式將加入已用於個人脈絡的 Gmail、Calendar 及 Photos。</p>
+<p class="en">Google said a Wallet connection can be used to review spending and credit-card benefits, and that AI Mode can only read information from connected accounts and cannot move, manage or invest money.</p>
+<p class="zh">Google 表示，接駁 Wallet 後可用於檢視消費及信用卡優惠；AI Mode 只可讀取已接駁帳戶的資料，不能轉移、管理或投資資金。</p>
+<p class="en">A Drive connection is described as a way to draw on documents, spreadsheets and PDFs when answering, and a later Gemini-app connection would let context move between the Gemini app and AI Mode in Search.</p>
+<p class="zh">Drive 接駁被形容為在回答時可參考文件、試算表及 PDF；稍後的 Gemini 應用程式接駁，則可讓脈絡在 Gemini 應用程式與 Search 的 AI Mode 之間共用。</p>
+<p class="en">The company said connections are opt-in, can be turned off at any time, and that users will be able to see the context used via a Personalization icon under tailored responses.</p>
+<p class="zh">該公司表示，接駁屬自願開啟，可隨時關閉；用戶稍後亦可透過度身回應下方的「Personalization」圖示，查看所使用的脈絡。</p>
+<p class="en">It also said AI Overviews and AI Mode will start showing more responses tailored to recent search context, such as continuing a trip-planning thread without starting over.</p>
+<p class="zh">文章並稱，AI Overviews 及 AI Mode 將開始顯示更多根據近期搜尋脈絡度身而設的回應，例如延續行程規劃討論而無須從頭再來。</p>
+<p class="source"><a href="https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps/" rel="noopener noreferrer">https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps/</a></p>
+</article>
+<article class="story">
+<h3>4. Google adds file-slicing controls to the Gemini API,</h3>
+<p class="zh-head">Google 為 Gemini API 加入檔案切片控制，</p>
+<p class="en">so developers can load only selected pages, sheet ranges or media segments</p>
+<p class="zh">讓開發者只載入選定頁面、工作表範圍或媒體片段</p>
+<p class="en">Google DeepMind product and engineering staff wrote on 2026-11-23 that the Gemini API now has native file-slicing controls in Google AI Studio and on the Gemini platform, alongside native upload support for Microsoft Office and OpenDocument formats.</p>
+<p class="zh">Google DeepMind 產品及工程人員於 2026-11-23 撰文，指 Gemini API 現已在 Google AI Studio 及 Gemini 平台提供原生檔案切片控制，並同時支援直接上載 Microsoft Office 及 OpenDocument 格式。</p>
+<p class="en">Developers can upload a file once with the Files API, reuse its URI, and ask the model to inspect only specified pages, spreadsheet cells, media time ranges and content layers, so tokens are billed for the parts the model inspects rather than the whole file.</p>
+<p class="zh">開發者可用 Files API 上載一次檔案、重複使用其 URI，並要求模型只檢視指定頁面、試算表儲存格、媒體時間範圍及內容層，從而以模型實際檢視的部分計算 token，而非整份檔案。</p>
+<p class="en">For documents and slides, the API can take a page range, a resolution and content layers such as page text or page images; for spreadsheets, a sheet index, visible cells, resolution and layers such as data, formulas and visuals; and for video and audio, start and end offsets, with frame-rate and layer options for video.</p>
+<p class="zh">文件及投影片可設定頁面範圍、解析度，以及頁面文字或頁面圖像等內容層；試算表可設定工作表索引、可見儲存格、解析度，以及數據、公式及視覺元素等層；影片及音訊可設定起訖時間，影片另可調整幀率及內容層。</p>
+<p class="en">The company said the controls work across all Gemini 4 models, and that existing file-size and page limits still apply to the uploaded file.</p>
+<p class="zh">該公司表示，這些控制適用於所有 Gemini 4 模型，已上載檔案仍受現有檔案大小及頁數限制約束。</p>
+<p class="source"><a href="https://blog.google/innovation-and-ai/technology/developers-tools/file-slicing-controls/" rel="noopener noreferrer">https://blog.google/innovation-and-ai/technology/developers-tools/file-slicing-controls/</a></p>
+</article>
+<hr>
+<h2>二、美股／2. US Stock Market</h2>
+<hr>
+<p class="en">Only 4 verified items from the past ~24 hours are listed; the section was not padded with older or independently unverified stories. Friday’s cash closes, the move of the major averages into correction territory, the slide in Nvidia and other chip stocks, and Reuters reporting that the SEC is scrutinizing potential accounting issues at Nvidia were covered in earlier briefs and are not repeated as separate items; Monday’s session and Nvidia’s official leadership announcement are listed below. Sunday evening’s equity-index futures rebound, covered in yesterday’s brief before the cash open, is not repeated. This is a shortened U.S. Thanksgiving week, with markets closed on Thursday and an early close at 1:00 p.m. Eastern Time on Friday; that is the published trading calendar, not a new development from the past 24 hours.</p>
+<p class="zh">本節僅列 4 則已核實、屬過去約 24 小時內的要聞，未為湊滿 10 則而加入較舊或未能獨立核實的消息。週五現貨收市、三大指數進入技術性調整、Nvidia 及其他芯片股走勢，以及路透社有關美國證監會審視 Nvidia 會計問題的報道，已在較早簡報述及，今日不另立為獨立項目；週一時段及 Nvidia 正式的領導層公布見下列各則。昨日簡報在現貨開市前已述及的週日傍晚股指期貨反彈，今日不重複。本週為美國感恩節短週，週四休市，週五將於美東時間下午 1 時提早收市；此為已公布的交易日曆，並非過去 24 小時的新消息。</p>
+<article class="story">
+<h3>1. Nvidia’s board reinstates Jensen Huang as president, CEO and a director,</h3>
+<p class="zh-head">Nvidia 董事會恢復黃仁勳出任總裁、行政總裁及董事，</p>
+<p class="en">effective immediately, and says it received input from senior U.S. government officials</p>
+<p class="zh">即時生效，並稱曾聽取美國政府高層意見</p>
+<p class="en">Nvidia announced on 2026-11-23 that its board had voted unanimously to reinstate Jensen Huang as president and chief executive officer, and as a member of the board, effective immediately.</p>
+<p class="zh">Nvidia 於 2026-11-23 宣布，董事會一致投票通過，恢復黃仁勳出任總裁兼行政總裁，並重新出任董事，即時生效。</p>
+<p class="en">A Form 8-K filed the same day said the earliest event reported was November 22, 2026, and that after the reinstatement Colette Kress would continue as executive vice president and chief financial officer; she had been serving as interim CEO.</p>
+<p class="zh">同日提交的 8-K 顯示，所報告事件的最早日期為 2026 年 11 月 22 日，並指出恢復任命後，Colette Kress 將繼續擔任執行副總裁兼財務總監；她此前出任臨時行政總裁。</p>
+<p class="en">The company said that after discussions and meetings with Mr. Huang, the board was satisfied with respect to his candor and ability to lead Nvidia, and that in reaching its decision the board received input from senior levels of the United States government and, based on that input, is confident that the reinstatement poses no national security risk.</p>
+<p class="zh">公司表示，董事會在與黃仁勳一連串討論及會議後，對其坦誠程度及領導能力感到滿意；作出決定過程中，董事會曾聽取美國政府高層意見，並基於該等意見，有信心恢復其職務不會構成國家安全風險。</p>
+<p class="en">Harvey C. Jones, chair of the board, said the board believes Mr. Huang is the right person to lead Nvidia and that the reinstatement is in the best interests of stockholders, employees, partners and customers; Mr. Jones will remain board chair.</p>
+<p class="zh">董事會主席 Harvey C. Jones 表示，董事會認為黃仁勳是領導 Nvidia 的合適人選，恢復其職務符合股東、員工、合作夥伴及客戶的最佳利益；Jones 將繼續擔任主席。</p>
+<p class="en">The company reiterated that an independent-director committee investigating recent reporting that Mr. Huang has been the target of a foreign intelligence effort will proceed to conclusion, with independent counsel, and that Mr. Huang fully supports the investigation and is committed to cooperating.</p>
+<p class="zh">公司重申，由獨立董事組成、就近期有關黃仁勳成為外國情報工作目標的報道所進行的調查，將在獨立法律顧問協助下進行至結束；黃仁勳全力支持並承諾配合調查。</p>
+<p class="en">The board has also formed a National Security and Export Control Committee of independent directors to oversee trade compliance and national security risks, and the company is searching for a chief compliance officer who will report to the Nominating and Corporate Governance Committee.</p>
+<p class="zh">董事會亦已成立由獨立董事組成的國家安全及出口管制委員會，監督貿易合規及國家安全風險；公司並正在物色首席合規官，該職位將向提名及企業管治委員會匯報。</p>
+<p class="en">Speaking to CNBC on Monday, President Donald Trump said he had spoken to Nvidia’s board, that he had “convinced” the board to reinstate Mr. Huang, and that last week’s market sell-off “probably” influenced his support; those are the president’s remarks, and the company’s official release does not itself describe the government input in those terms.</p>
+<p class="zh">美國總統特朗普週一接受 CNBC 訪問時稱，他曾與 Nvidia 董事會交談，並「說服」董事會恢復黃仁勳職務，而上週的市場跌勢「可能」影響了他的支持；以上為總統的表述，公司官方新聞稿本身並未以這些措辭描述政府意見。</p>
+<p class="source"><a href="https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Board-Reinstates-Jensen-Huang-as-President-CEO-and-Board-Director/" rel="noopener noreferrer">https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Board-Reinstates-Jensen-Huang-as-President-CEO-and-Board-Director/</a></p>
+</article>
+<article class="story">
+<h3>2. The S&amp;P 500 and Nasdaq post their strongest day since April 2025:</h3>
+<p class="zh-head">標普 500 及納指錄得 2025 年 4 月以來最強單日表現：</p>
+<p class="en">the S&amp;P 500 rose 4.73%, the Nasdaq 6.51% and the Dow 3.01%,</p>
+<p class="zh">標普 500 升 4.73%，納斯達克綜合指數升 6.51%，道指升 3.01%，</p>
+<p class="en">and Nvidia gained 31.48%</p>
+<p class="zh">Nvidia 升 31.48%</p>
+<p class="en">U.S. cash equities rallied on Monday, 2026-11-23, after Nvidia announced Mr. Huang’s reinstatement.</p>
+<p class="zh">美股現貨於 2026-11-23（週一）在 Nvidia 公布恢復黃仁勳職務後大幅上揚。</p>
+<p class="en">Yahoo Finance daily bars show the S&amp;P 500 closed at 7,237.17, up 326.78 points, or 4.73%, from Friday’s close of 6,910.39; the Dow Jones Industrial Average closed at 49,595.31, up 1,447.98 points, or 3.01%, from 48,147.33; and the Nasdaq Composite closed at 24,089.56, up 1,471.83 points, or 6.51%, from 22,617.73.</p>
+<p class="zh">Yahoo Finance 的每日K線顯示，標普 500 收報 7,237.17，較週五收市 6,910.39 升 326.78 點或 4.73%；道瓊斯工業平均指數收報 49,595.31，較 48,147.33 升 1,447.98 點或 3.01%；納斯達克綜合指數收報 24,089.56，較 22,617.73 升 1,471.83 點或 6.51%。</p>
+<p class="en">CNBC, in a recap updated at 4:10 p.m. Eastern Time, said the S&amp;P 500 and the Nasdaq both posted their best daily performances since April 2025, and that Nvidia rose 31.48%, its best day since May 2003.</p>
+<p class="zh">CNBC 在美東時間下午 4 時 10 分更新的回顧中表示，標普 500 及納指均錄得 2025 年 4 月以來最佳單日表現，而 Nvidia 升 31.48%，為 2003 年 5 月以來最佳單日。</p>
+<p class="en">The same Yahoo Finance bars show Nvidia closing at $165.05, up $39.52, or 31.48%, from Friday’s close of $125.53.</p>
+<p class="zh">同一組 Yahoo Finance 數據顯示，Nvidia 收報 165.05 美元，較週五收市 125.53 美元升 39.52 美元或 31.48%。</p>
+<p class="en">Other Yahoo Finance closes included Alphabet (GOOGL) at $282.10, up 6.34%; Meta at $597.60, up 6.55%; Amazon at $255.39, up 3.47%; Microsoft at $492.50, up 1.65%; Tesla at $385.46, up 11.46%; AMD at $453.46, up 6.85%; and Broadcom at $313.55, up 3.00%.</p>
+<p class="zh">其他 Yahoo Finance 收市價包括：Alphabet（GOOGL）282.10 美元，升 6.34%；Meta 597.60 美元，升 6.55%；Amazon 255.39 美元，升 3.47%；Microsoft 492.50 美元，升 1.65%；Tesla 385.46 美元，升 11.46%；AMD 453.46 美元，升 6.85%；Broadcom 313.55 美元，升 3.00%。</p>
+<p class="en">CNBC also reported that Arm Holdings rose 16.08%, Dell 20.46%, Micron 19.04%, the iShares Semiconductor ETF 13.63%, CoreWeave 22.32%, Nebius 20.28% and Iren 23.86%.</p>
+<p class="zh">CNBC 亦報道，Arm Holdings 升 16.08%，Dell 升 20.46%，Micron 升 19.04%，iShares 半導體 ETF 升 13.63%，CoreWeave 升 22.32%，Nebius 升 20.28%，Iren 升 23.86%。</p>
+<p class="en">The Cboe Volatility Index, or VIX, closed at 26.62, down from Friday’s close of 35.89, according to Yahoo Finance.</p>
+<p class="zh">據 Yahoo Finance，芝加哥期權交易所波動率指數（VIX）收報 26.62，低於週五收市的 35.89。</p>
+<p class="en">Friday’s correction status and last week’s declines were covered in earlier briefs and are not repeated here; this item records only Monday’s verified cash closes.</p>
+<p class="zh">週五的調整狀態及上週跌幅已在較早簡報述及，今日不重複；本則只記錄已核實的週一現貨收市。</p>
+<p class="source"><a href="https://www.cnbc.com/2026/11/22/stock-market-today-live-updates.html" rel="noopener noreferrer">https://www.cnbc.com/2026/11/22/stock-market-today-live-updates.html</a></p>
+</article>
+<article class="story">
+<h3>3. Treasury yields rose as stocks rebounded,</h3>
+<p class="zh-head">國債孳息率隨股市反彈上升，</p>
+<p class="en">and CNBC said traders priced a roughly 98% chance of a December quarter-point Fed hike</p>
+<p class="zh">CNBC 稱交易員為 12 月聯儲局加息四分一厘定出約 98% 的機會率</p>
+<p class="en">CNBC reported on Monday that the 2-year Treasury yield, which is especially sensitive to near-term Federal Reserve decisions, was up more than 7 basis points at 4.69%, the 10-year yield was up 2 basis points at 4.932%, and the 30-year yield was down less than 1 basis point at 5.299%.</p>
+<p class="zh">CNBC 於週一報道，對聯儲局近月決策較為敏感的 2 年期美債孳息率升逾 7 個基點，報 4.69%；10 年期孳息率升 2 個基點，報 4.932%；30 年期孳息率則下跌少於 1 個基點，報 5.299%。</p>
+<p class="en">Citing the CME FedWatch tool, CNBC said traders were pricing a roughly 98% chance of a quarter-percentage-point rise in the federal funds rate at the December meeting, up from around 88% on Friday.</p>
+<p class="zh">CNBC 引述 CME FedWatch 工具稱，交易員為 12 月會議加息四分一厘定出約 98% 的機會率，高於週五約 88%。</p>
+<p class="en">New York Fed President John Williams, in a speech published by the Federal Reserve Bank of New York on 2026-11-23, said inflation is currently about 3.5%, well above the Federal Open Market Committee’s 2% definition of price stability, and that the labor market remains solid, with the unemployment rate in the low 4% range and layoff rates near historic lows.</p>
+<p class="zh">紐約聯邦儲備銀行行長 John Williams 在該行於 2026-11-23 刊出的演說中表示，通脹目前約為 3.5%，遠高於聯邦公開市場委員會所定義的 2% 物價穩定目標；勞工市場仍然穩健，失業率處於 4% 低位區間，裁員率接近歷史低位。</p>
+<p class="en">CNBC reported that he said the Fed still needs to act “over time” to bring inflation back to 2%, and would not rule out rate increases at consecutive meetings if incoming data warrant it, while not announcing a decision for the December 8–9 meeting.</p>
+<p class="zh">CNBC 報道，他表示聯儲局仍須「隨時間推進」採取行動，使通脹回到 2%，且不排除在數據支持下於連續會議加息；他並未宣布 12 月 8 至 9 日會議的決定。</p>
+<p class="en">CNBC also noted that revised third-quarter GDP and October’s personal consumption expenditures price index are due on Wednesday; those releases have not yet been published.</p>
+<p class="zh">CNBC 並指出，修訂後的第三季 GDP 及 10 月個人消費開支物價指數將於週三公布；這些數據尚未發表。</p>
+<p class="source"><a href="https://www.cnbc.com/2026/11/23/treasury-yields-bonds-fed.html" rel="noopener noreferrer">https://www.cnbc.com/2026/11/23/treasury-yields-bonds-fed.html</a></p>
+</article>
+<article class="story">
+<h3>4. Anthropic shares fell 1.43% to $87.64,</h3>
+<p class="zh-head">Anthropic 股價跌 1.43%，收報 87.64 美元，</p>
+<p class="en">sitting out Monday’s broader tech rally in a third day of trading</p>
+<p class="zh">在上市後第三個交易日，並未跟隨週一科技股普遍上揚</p>
+<p class="en">Yahoo Finance reported that Anthropic (ANT) closed at $87.64, down $1.27, or 1.43%, on Monday, 2026-11-23, its third session since the shares began trading on November 19, even as other AI-linked stocks rose.</p>
+<p class="zh">Yahoo Finance 報道，Anthropic（代號 ANT）於 2026-11-23（週一）收報 87.64 美元，下跌 1.27 美元或 1.43%，這是該股自 11 月 19 日開始交易以來的第三個時段，期間其他人工智能相關股票普遍上升。</p>
+<p class="en">The same report said the stock had gained 17% on its IPO day last Thursday, then sank 9% on Friday, and that at Monday’s close it was up about 5% from the $83 IPO price.</p>
+<p class="zh">同一報道指，該股上週四上市當日升 17%，週五則跌 9%；以週一收市價計，較 83 美元的招股價約升 5%。</p>
+<p class="en">It cited a Sunday Needham note saying a common investor concern is whether Anthropic can sustain its revenue growth next year, and that the company’s fully diluted IPO valuation of about $1.5 trillion is roughly 40 times trailing sales.</p>
+<p class="zh">報道引述 Needham 週日的報告稱，投資者常見的憂慮是 Anthropic 明年能否維持收入增長，並指公司全面攤薄後的招股估值約 1.5 萬億美元，約相當於往績銷售額的 40 倍。</p>
+<p class="en">The article also said as much as 315 million shares held by insiders, roughly one-third of the stock issued in the IPO, became eligible for sale almost immediately, according to the company’s IPO paperwork, and that Anthropic has committed to spending about $900 billion on computing and infrastructure over the next two decades, including $70 billion due over the next 12 months.</p>
+<p class="zh">文章並稱，根據公司招股文件，內部人士持有的最多約 3.15 億股，約相當於公開發售發行股份的三分之一，幾乎可即時出售；Anthropic 亦已承諾在未來 20 年就運算及基礎設施支出約 9,000 億美元，其中未來 12 個月到期的金額為 700 億美元。</p>
+<p class="en">Those valuation, lock-up and spending figures are reported from that Yahoo Finance article and the Needham note it cites; this brief has not independently re-audited the IPO paperwork.</p>
+<p class="zh">上述估值、售股限制及開支數字來自該篇 Yahoo Finance 報道及其引述的 Needham 報告；本簡報並未獨立覆核招股文件。</p>
+<p class="source"><a href="https://finance.yahoo.com/markets/stocks/article/anthropic-stock-falls-sitting-out-mondays-rally-172716604.html" rel="noopener noreferrer">https://finance.yahoo.com/markets/stocks/article/anthropic-stock-falls-sitting-out-mondays-rally-172716604.html</a></p>
+</article>
+<hr>
+<h2>三、加密貨幣新聞／3. Cryptocurrency News</h2>
+<hr>
+<p class="en">Only 4 verified items from the past ~24 hours are listed; the section was not padded with older or independently unverified stories. The Abu Dhabi court freeze tied to the Binance theft, the SEC’s case against eight entities, Tether’s investment in SCRYPT, the Bank of Russia ordinance coming into force, and the Chainflip vault theft were covered in earlier briefs and are not repeated. Bitcoin’s rebound from a short-term low was covered in earlier briefs; the latest price and market-cap figures are in the price-movements section and are not given a separate news item today. On Farside Investors’ U.S. spot bitcoin ETF table, Friday’s previously incomplete row has now been filled in and is listed below. Monday’s row is still incomplete at this cutoff: several large funds, including IBIT and FBTC, remain dashes, and the posted Monday total of a $73.7 million net outflow is not treated as a completed full-day figure.</p>
+<p class="zh">本節僅列 4 則已核實、屬過去約 24 小時內的要聞，未為湊滿 10 則而加入較舊或未能獨立核實的消息。阿布扎比法院就 Binance 失竊案發出的凍結令、美國證監會起訴八家實體、Tether 投資 SCRYPT、俄羅斯央行指示生效，以及 Chainflip 金庫失竊，已在較早簡報述及，今日不重複。比特幣自短期低位反彈的市況已在較早簡報述及，最新價格及市值見行情一節，今日不另立為新聞項目。Farside Investors 美國現貨比特幣 ETF 表中，原先不完整的週五行現已補完，見下列項目。截稿時週一行仍不完整：包括 IBIT 及 FBTC 在內的多隻大型基金仍為「-」，已列示的週一合計淨流出 7,370 萬美元，不以已完成的全日數字處理。</p>
+<article class="story">
+<h3>1. Farside now shows a completed Friday U.S. spot bitcoin ETF net outflow of $669.2 million,</h3>
+<p class="zh-head">Farside 現已列示完整的週五美國現貨比特幣 ETF 淨流出 6.692 億美元，</p>
+<p class="en">after the IBIT cell that was still blank in yesterday’s brief was filled in at $544.7 million of outflows</p>
+<p class="zh">昨日簡報中仍為空白的 IBIT 一欄，現已填上 5.447 億美元流出</p>
+<p class="en">Farside Investors’ U.S. spot bitcoin ETF table, checked on the morning of 2026-11-24, now has a complete fund-level row for Friday, 2026-11-20, totaling a $669.2 million net outflow.</p>
+<p class="zh">於 2026-11-24 早上核對的 Farside Investors 美國現貨比特幣 ETF 表顯示，2026-11-20（週五）一行的各基金數字現已齊全，合計淨流出 6.692 億美元。</p>
+<p class="en">The completed Friday figures are: IBIT −$544.7 million; FBTC −$72.4 million; BITB −$7.0 million; ARKB $0.0 million; BTCO $0.0 million; EZBC −$1.7 million; BRRR $0.0 million; HODL $0.0 million; BTCW $0.0 million; MSBT +$2.3 million; GBTC −$32.8 million; and Grayscale’s BTC mini fund −$12.9 million.</p>
+<p class="zh">已補完的週五數字為：IBIT 流出 5.447 億美元；FBTC 流出 7,240 萬美元；BITB 流出 700 萬美元；ARKB 為 0；BTCO 為 0；EZBC 流出 170 萬美元；BRRR 為 0；HODL 為 0；BTCW 為 0；MSBT 流入 230 萬美元；GBTC 流出 3,280 萬美元；Grayscale 的 BTC mini 基金流出 1,290 萬美元。</p>
+<p class="en">Yesterday’s brief reported that the Friday IBIT cell was still a dash and that the posted total remained a $124.5 million net outflow, which was not treated as a completed full-day figure.</p>
+<p class="zh">昨日簡報指出，週五 IBIT 一欄仍為「-」，當時已列示合計淨流出仍為 1.245 億美元，故未以已完成的全日數字處理。</p>
+<p class="en">The much larger completed total is mainly the result of filling in IBIT’s $544.7 million outflow, not a new trading session after Friday.</p>
+<p class="zh">現時大得多的完整合計數，主要是補上 IBIT 的 5.447 億美元流出所致，並非週五之後另有新的交易時段。</p>
+<p class="en">By contrast, the Monday, 2026-11-23, row is still incomplete at this cutoff, with dashes remaining for IBIT, FBTC and several other funds, so the posted Monday total of −$73.7 million is not treated here as a final full-day print.</p>
+<p class="zh">相比之下，截稿時 2026-11-23（週一）一行仍不完整，IBIT、FBTC 及其他多隻基金仍為「-」，故已列示的週一合計淨流出 7,370 萬美元，本簡報不以最終全日數字處理。</p>
+<p class="source"><a href="https://farside.co.uk/btc/" rel="noopener noreferrer">https://farside.co.uk/btc/</a></p>
+</article>
+<article class="story">
+<h3>2. The U.S. Justice Department files a civil action to forfeit more than $1.1 billion in USDC,</h3>
+<p class="zh-head">美國司法部提出民事訴訟，尋求沒收超過 11 億美元的 USDC，</p>
+<p class="en">tied to the October Binance theft attributed to North Korean actors</p>
+<p class="zh">相關資產據稱為北韓行為者 10 月盜取 Binance 的所得</p>
+<p class="en">The Justice Department said on Monday, 2026-11-23, that it had filed a civil claim to forfeit more than $1.1 billion of USDC, the stablecoin issued by Circle Internet Financial, that it described as proceeds and laundered funds from the cryptocurrency theft from Binance.</p>
+<p class="zh">美國司法部於 2026-11-23（週一）表示，已提出民事申索，尋求沒收超過 11 億美元、由 Circle Internet Financial 發行的穩定幣 USDC，並指這些資產是 Binance 加密貨幣失竊案的所得及經清洗的資金。</p>
+<p class="en">The department said this is part of a broader effort to assist Binance in recovering more than $6 billion in stolen assets, and that the United States has assisted in the freezing, seizing and/or return of more than $2.9 billion worth of cryptocurrency from multiple sources since the theft on or about October 29.</p>
+<p class="zh">司法部表示，此舉是協助 Binance 追回超過 60 億美元被盜資產的更廣泛行動之一，並稱自約 10 月 29 日失竊以來，美國已協助凍結、扣押及／或退還來自多個來源、價值超過 29 億美元的加密貨幣。</p>
+<p class="en">It said the assets had previously been subject to a government-requested restraining order after the theft, and that Circle provided assistance.</p>
+<p class="zh">司法部稱，這些資產在失竊後先前已受政府申請的限制令約束，Circle 亦提供了協助。</p>
+<p class="en">The announcement attributes the theft to North Korean cyber actors and says the FBI, the U.S. Secret Service and IRS Criminal Investigation are investigating.</p>
+<p class="zh">公布將盜竊歸因於北韓網絡行為者，並稱聯邦調查局、美國特勤局及國稅局刑事調查部門正在調查。</p>
+<p class="en">This civil forfeiture action is separate from the Abu Dhabi court freeze covered in earlier briefs, and that earlier item is not repeated here.</p>
+<p class="zh">此民事沒收行動有別於較早簡報已述及的阿布扎比法院凍結令，該則今日不重複。</p>
+<p class="source"><a href="https://www.justice.gov/opa/pr/united-states-files-action-recover-more-1-billion-cryptocurrency-assets-stolen-north-korean" rel="noopener noreferrer">https://www.justice.gov/opa/pr/united-states-files-action-recover-more-1-billion-cryptocurrency-assets-stolen-north-korean</a></p>
+</article>
+<article class="story">
+<h3>3. Cross River Bank and LendingUSA launch bitcoin-secured consumer loans</h3>
+<p class="zh-head">Cross River Bank 與 LendingUSA 推出以比特幣作抵押的消費貸款</p>
+<p class="en">of $10,000 to $250,000, without requiring borrowers to sell their bitcoin</p>
+<p class="zh">金額由 1 萬至 25 萬美元，借款人無須出售所持比特幣</p>
+<p class="en">Cross River, in a November 23, 2026, newsroom post, said LendingUSA and Cross River Bank had launched bitcoin-secured loans of $10,000 to $250,000, offering interest-only and no-monthly-payment options, with no prepayment penalty.</p>
+<p class="zh">Cross River 在 2026 年 11 月 23 日的新聞稿中表示，LendingUSA 與 Cross River Bank 已推出 1 萬至 25 萬美元、以比特幣作抵押的貸款，提供只付利息及無每月供款選項，並且沒有提前還款罰款。</p>
+<p class="en">The Block, in a report at 7:05 a.m. Eastern Time on November 23, said borrowers can select loan-to-value ratios of 30%, 50% or 70%, and that a qualified third-party custodian holds the bitcoin collateral.</p>
+<p class="zh">《The Block》於 11 月 23 日美東時間上午 7 時 05 分報道，借款人可選擇 30%、50% 或 70% 的貸款對價值比率，比特幣抵押品由合資格的第三方託管人持有。</p>
+<p class="en">The Block said the launch is Cross River’s first bitcoin-secured lending program as a loan originator, and expands LendingUSA’s consumer financing business into digital-asset-backed loans.</p>
+<p class="zh">《The Block》稱，這是 Cross River 首次以貸款發起人身份推出比特幣抵押貸款計劃，亦把 LendingUSA 的消費融資業務擴展至數字資產抵押貸款。</p>
+<p class="en">Cross River President Evan Russo said in the company’s statement that digital assets have become a meaningful part of how many consumers build and hold wealth, and that launching the program as originator is an extension of the bank’s infrastructure role.</p>
+<p class="zh">Cross River 總裁 Evan Russo 在公司聲明中表示，數字資產已成為不少消費者累積及持有財富的重要部分，以發起人身份推出此計劃，是該行基礎設施角色的延伸。</p>
+<p class="source"><a href="https://www.crossriver.com/newsroom/lendingusa-and-cross-river-launch-bitcoin-secured-loans-giving-bitcoin-holders-access-to-funds-without-selling" rel="noopener noreferrer">https://www.crossriver.com/newsroom/lendingusa-and-cross-river-launch-bitcoin-secured-loans-giving-bitcoin-holders-access-to-funds-without-selling</a></p>
+</article>
+<article class="story">
+<h3>4. Bitmine says its ether holdings reached 6,085,564 ETH, or 4.98% of supply,</h3>
+<p class="zh-head">Bitmine 稱其以太幣持倉達 6,085,564 枚，佔供應量 4.98%，</p>
+<p class="en">after buying 7,819 ETH over the past week</p>
+<p class="zh">過去一週再買入 7,819 枚以太幣</p>
+<p class="en">Bitmine Immersion Technologies (NYSE: BMNR) said in a November 23, 2026, statement that, as of 3:00 p.m. Eastern Time on November 22, it held 6,085,564 ETH, valued at $1,713 per ETH on Coinbase, equal to 4.98% of an ETH supply it put at 122.2 million tokens, and that it had acquired 7,819 ETH over the past week.</p>
+<p class="zh">Bitmine Immersion Technologies（紐交所：BMNR）在 2026 年 11 月 23 日的聲明中表示，截至美東時間 11 月 22 日下午 3 時，公司持有 6,085,564 枚以太幣，按 Coinbase 報價每枚 1,713 美元計算，相當於其所述 1.222 億枚供應量的 4.98%，並稱過去一週買入 7,819 枚以太幣。</p>
+<p class="en">The company said it was “99% of the way to the ‘Alchemy of 5%,’” a reference to its goal of acquiring 5% of ether supply, and that Executive Chairman Thomas “Tom” Lee said Bitmine has bought ETH each week since it began the treasury strategy on June 30, 2025.</p>
+<p class="zh">公司稱已完成「5% 煉金術」目標的 99%，意指其收購以太幣總供應量 5% 的目標；執行主席 Thomas “Tom” Lee 表示，自 2025 年 6 月 30 日展開金庫策略以來，Bitmine 每週都有買入以太幣。</p>
+<p class="en">As of November 22, Bitmine said it had 5,227,037 ETH staked, which it valued at $9 billion at the same $1,713 price, and that total crypto, cash and marketable securities and other holdings were $11.1 billion, including 216 bitcoin, $384 million of cash and marketable securities, and other investments it described as “moonshots.”</p>
+<p class="zh">截至 11 月 22 日，Bitmine 稱已質押 5,227,037 枚以太幣，按同一 1,713 美元價格計算價值 90 億美元；加密資產、現金及有價證券以及其他持倉合計 111 億美元，其中包括 216 枚比特幣、3.84 億美元現金及有價證券，以及公司稱為「moonshots」的其他投資。</p>
+<p class="en">These figures are the company’s own holdings update at a fixed reference price, not a third-party audit of the wallet balances.</p>
+<p class="zh">以上數字為公司自行公布、並以固定參考價計算的持倉更新，並非第三方對錢包餘額的審計。</p>
+<p class="source"><a href="https://www.prnewswire.com/news-releases/bitmine-immersion-technologies-bmnr-announces-eth-holdings-reach-6-09-million-tokens-and-total-crypto-and-total-cash--marketable-securities-holdings-of-11-1-billion-302947714.html" rel="noopener noreferrer">https://www.prnewswire.com/news-releases/bitmine-immersion-technologies-bmnr-announces-eth-holdings-reach-6-09-million-tokens-and-total-crypto-and-total-cash--marketable-securities-holdings-of-11-1-billion-302947714.html</a></p>
+</article>
+<hr>
+<h2>四、加密貨幣行情／4. Cryptocurrency Price Movements</h2>
+<hr>
+<p class="en">The top 10 cryptocurrencies by current circulating market cap, including qualifying stablecoins (labeled). Ranking source: CoinGecko Markets API (vs_currency=usd, order=market_cap_desc, per_page=10). Coin snapshot: 2026-11-24 08:04:54 GMT+8 (API last_updated 2026-11-24T00:04:54.000Z). A same-source global snapshot at 2026-11-24 08:00:49 GMT+8 showed a global crypto market cap of about $2.12T, roughly −1.22% over 24 hours, BTC dominance of about 58.06% and ETH dominance of about 9.85%. Fear &amp; Greed (Alternative.me): 11 (extreme fear); yesterday’s reading from the same source was also 11 (extreme fear). Versus yesterday’s snapshot from the same source, the top-10 membership is unchanged. All ten coins had aligned last_updated timestamps in this snapshot. Figure Heloc’s 24-hour price and market-cap change fields were empty in the same snapshot, so those metrics are labeled unavailable and are not estimated. Market-cap changes use CoinGecko 24-hour market-cap change fields and are not replaced by volume or price change.</p>
+<p class="zh">按當前流通市值排名的前 10 大加密貨幣（含符合資格的穩定幣，已標示）。排名來源：CoinGecko Markets API（vs_currency=usd，order=market_cap_desc，per_page=10）。硬幣快照：2026-11-24 08:04:54 GMT+8（API last_updated 2026-11-24T00:04:54.000Z）。同一來源的全球數據快照為 2026-11-24 08:00:49 GMT+8：全球總市值約 2.12 萬億美元，24 小時約 −1.22%；BTC 主導約 58.06%，ETH 主導約 9.85%。恐懼與貪婪指數（Alternative.me）：11（極度恐懼）；昨日同一來源亦為 11（極度恐懼）。與昨日同一來源的快照相比，前 10 名成員不變。此快照中 10 隻硬幣的 last_updated 均已對齊。Figure Heloc 在同一快照中的 24 小時價格及市值變動欄位為空，故該等指標標示為不可用，不予估算。市值變動取自 CoinGecko 的 24 小時市值變動欄位，並非以成交量或價格變動替代。</p>
+<p class="source"><a href="https://www.coingecko.com/" rel="noopener noreferrer">https://www.coingecko.com/</a></p>
+<div class="table-wrap"><table>
+<thead><tr>
+<th>排名</th>
+<th>名稱</th>
+<th>價格（美元）</th>
+<th>流通市值（美元）</th>
+<th>24h 價格</th>
+<th>24h 市值</th>
+</tr></thead><tbody>
+<tr>
+<td>1</td>
+<td>Bitcoin (BTC)</td>
+<td>$61,180</td>
+<td>$1.231T</td>
+<td class="chg-up">+0.13%</td>
+<td class="chg-up">+$1.10B / +0.09%</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Ethereum (ETH)</td>
+<td>$1,705.93</td>
+<td>$208.54B</td>
+<td class="chg-down">−0.89%</td>
+<td class="chg-down">−$1.95B / −0.93%</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Tether (USDT) 穩定幣</td>
+<td>$0.999087</td>
+<td>$174.68B</td>
+<td class="chg-up">+0.05%</td>
+<td class="chg-up">+$67.8M / +0.04%</td>
+</tr>
+<tr>
+<td>4</td>
+<td>BNB (BNB)</td>
+<td>$555.45</td>
+<td>$73.05B</td>
+<td class="chg-down">−0.60%</td>
+<td class="chg-down">−$490.0M / −0.67%</td>
+</tr>
+<tr>
+<td>5</td>
+<td>USDC (USDC) 穩定幣</td>
+<td>$0.999623</td>
+<td>$68.99B</td>
+<td class="chg-up">+0.04%</td>
+<td class="chg-up">+$606.2M / +0.89%</td>
+</tr>
+<tr>
+<td>6</td>
+<td>XRP (XRP)</td>
+<td>$0.93874</td>
+<td>$59.63B</td>
+<td class="chg-up">+1.42%</td>
+<td class="chg-up">+$812.0M / +1.38%</td>
+</tr>
+<tr>
+<td>7</td>
+<td>Solana (SOL)</td>
+<td>$71.83</td>
+<td>$42.53B</td>
+<td class="chg-up">+1.86%</td>
+<td class="chg-up">+$750.4M / +1.80%</td>
+</tr>
+<tr>
+<td>8</td>
+<td>TRON (TRX)</td>
+<td>$0.309839</td>
+<td>$29.45B</td>
+<td class="chg-up">+1.52%</td>
+<td class="chg-up">+$447.5M / +1.54%</td>
+</tr>
+<tr>
+<td>9</td>
+<td>Figure Heloc (FIGR_HELOC)</td>
+<td>$1.047</td>
+<td>$28.42B</td>
+<td>不可用／unavailable</td>
+<td>不可用／unavailable</td>
+</tr>
+<tr>
+<td>10</td>
+<td>Hyperliquid (HYPE)</td>
+<td>$63.71</td>
+<td>$15.14B</td>
+<td class="chg-up">+1.14%</td>
+<td class="chg-up">+$170.1M / +1.14%</td>
+</tr>
+</tbody></table></div>
+<p class="en">Biggest price gainers: within this top 10, among coins with available 24-hour price-change fields, the largest gain was Solana, +1.86%, followed by TRON +1.52%, XRP +1.42%, Hyperliquid +1.14%, and Bitcoin +0.13%. Biggest price losers: Ethereum, −0.89%, and BNB, −0.60%. The stablecoin USDT was slightly higher, +0.05%, and the stablecoin USDC was slightly higher, +0.04%. Figure Heloc’s 24-hour price change is unavailable in this snapshot and is not ranked among gainers or losers. Largest market-cap increases: Bitcoin +$1.10B (+0.09%); XRP +$812.0M (+1.38%); Solana +$750.4M (+1.80%); the stablecoin USDC +$606.2M (+0.89%); TRON +$447.5M (+1.54%). Largest market-cap decreases: Ethereum −$1.95B (−0.93%); BNB −$490.0M (−0.67%). The same source’s slightly earlier global snapshot showed the overall crypto market cap down about 1.22% over 24 hours, which can coexist with gains in several of this top 10 because the global figure covers a broader market, and the global snapshot time (08:00:49 GMT+8) also differs slightly from the coin snapshot.</p>
+<p class="zh">最大價格升幅：在這 10 隻之中，於有 24 小時價格變動欄位的幣種裏，升幅最大為 Solana +1.86%，其後為 TRON +1.52%、XRP +1.42%、Hyperliquid +1.14%、Bitcoin +0.13%。最大價格跌幅：Ethereum −0.89%，以及 BNB −0.60%。穩定幣 USDT 微升 +0.05%，穩定幣 USDC 微升 +0.04%。Figure Heloc 的 24 小時價格變動在此快照中不可用，故不列入升跌排行。最大市值增加：Bitcoin +$1.10B（+0.09%）；XRP +$812.0M（+1.38%）；Solana +$750.4M（+1.80%）；穩定幣 USDC +$606.2M（+0.89%）；TRON +$447.5M（+1.54%）。最大市值減少：Ethereum −$1.95B（−0.93%）；BNB −$490.0M（−0.67%）。全球總市值在稍早的同一來源快照中 24 小時約跌 1.22%，與這 10 隻之中若干上升可以並存，因為全球數字涵蓋更廣的市場，而且全球快照時間（08:00:49 GMT+8）亦與硬幣快照略有差異。</p>
+<hr>
+<p class="zh">免責／Caveat</p>
+<hr>
+<p class="disclaimer">Figures and headlines are from public sources and CoinGecko and can change quickly. This brief is not investment advice.</p>
+<p class="disclaimer">資料來自公開來源與 CoinGecko；價格與新聞可能迅速變化。本簡報不構成投資建議。</p>
+  </div>
+</body>
+</html>
