@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>早晨簡報 / Morning Brief — 2026-11-25</title>
+  <style>
+:root {
+  --bg: #f7f5f0;
+  --card: #fffcf7;
+  --ink: #1c1915;
+  --muted: #5c564c;
+  --line: #e4ddd2;
+  --accent: #8b3a2a;
+  --link: #1e4d7b;
+  --up: #157a3a;
+  --down: #b42318;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #161412;
+    --card: #1e1b18;
+    --ink: #f3eee6;
+    --muted: #b3ab9f;
+    --line: #3a342c;
+    --accent: #e07a68;
+    --link: #8cb8e8;
+    --up: #5dca82;
+    --down: #ff7a6e;
+  }
+}
+* { box-sizing: border-box; }
+html { font-size: 18px; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: "Source Han Sans TC", "Noto Sans TC", "PingFang HK", "PingFang TC",
+    "Microsoft JhengHei", "Helvetica Neue", system-ui, sans-serif;
+  line-height: 1.7;
+}
+.wrap {
+  max-width: 46rem;
+  margin: 0 auto;
+  padding: 2.25rem 1.25rem 4rem;
+}
+header.site {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  align-items: baseline;
+  border-bottom: 1px solid var(--line);
+  padding-bottom: 0.85rem;
+  margin-bottom: 1.75rem;
+  font-size: 0.88rem;
+}
+header.site a { color: var(--muted); text-decoration: none; }
+header.site a:hover { color: var(--link); text-decoration: underline; }
+h1 {
+  font-size: 1.55rem;
+  line-height: 1.3;
+  margin: 0 0 0.35rem;
+  font-weight: 650;
+}
+.date {
+  color: var(--muted);
+  margin: 0 0 1.5rem;
+  font-size: 0.95rem;
+}
+h2 {
+  font-size: 1.18rem;
+  margin: 2.1rem 0 0.8rem;
+  padding-top: 0.4rem;
+  border-top: 1px solid var(--line);
+  color: var(--accent);
+  font-weight: 650;
+}
+h3 {
+  font-size: 1.02rem;
+  margin: 1.4rem 0 0.5rem;
+  font-weight: 650;
+}
+article.story {
+  margin: 0 0 1.6rem;
+}
+article.story h3 { margin: 1.15rem 0 0.12rem; }
+p.en { margin: 0.7rem 0 0.1rem; }
+p.zh, .zh-head {
+  margin: 0 0 0.15rem;
+  color: var(--muted);
+}
+.zh-head { font-weight: 600; }
+p.zh + p.en { margin-top: 0.7rem; }
+p { margin: 0.75rem 0; }
+a { color: var(--link); }
+.source {
+  font-size: 0.92rem;
+  color: var(--muted);
+  margin: 0.35rem 0 0;
+  word-break: break-all;
+}
+.disclaimer {
+  margin-top: 2.4rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--line);
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+.table-wrap { overflow-x: auto; margin: 1rem 0 1.4rem; }
+table {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 0.88rem;
+  background: var(--card);
+}
+th, td {
+  border: 1px solid var(--line);
+  padding: 0.4rem 0.55rem;
+  text-align: left;
+  vertical-align: top;
+  white-space: nowrap;
+}
+th { font-weight: 650; background: rgba(139, 58, 42, 0.06); }
+.chg-up { color: var(--up); }
+.chg-down { color: var(--down); }
+ol.archive {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+ol.archive li {
+  border-bottom: 1px solid var(--line);
+}
+ol.archive a {
+  display: block;
+  padding: 0.7rem 0.15rem;
+  text-decoration: none;
+  color: var(--ink);
+}
+ol.archive a:hover { color: var(--link); }
+ol.archive .d { font-weight: 650; }
+ol.archive .l { color: var(--muted); font-size: 0.9rem; margin-left: 0.6rem; }
+.note { color: var(--muted); font-size: 0.95rem; }
+@media print {
+  body { background: #fff; color: #000; }
+  a { color: inherit; }
+  header.site { display: none; }
+}
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header class="site">
+      <a href="../index.html">晨報存檔 Morning Brief Archive</a>
+      <span>2026-11-25</span>
+    </header>
+    <h1>史泰加，你條L樣睇路啦</h1>
+    <p class="date">AI、美股及加密貨幣早晨簡報 / Morning Brief — 2026-11-25（亞洲／香港時間 GMT+8）</p>
+    <p class="en">This is your personal morning brief for the preceding ~24 hours (Asia/Hong Kong GMT+8: about 08:15 on 2026-11-24 through about 08:15 on 2026-11-25). Cutoff ~08:15 GMT+8 on 2026-11-25. Only verified, material items are included, and related coverage has been deduplicated across sections. It is Wednesday morning in Hong Kong. The U.S. cash equity market completed a regular Tuesday session, which closed at 4:00 p.m. Eastern Time on 2026-11-24 (5:00 a.m. on 2026-11-25, Hong Kong time). This remains a shortened U.S. Thanksgiving week: markets are closed on Thursday, and Friday’s session closes early at 1:00 p.m. Eastern Time; that is the published trading calendar, not a new development from the past 24 hours. After Monday’s Nvidia-led rebound, Tuesday’s session was mixed: Reuters said the S&amp;P 500 fell 0.50% to 7,201.09 and the Nasdaq Composite fell 1.48% to 23,733.54, while the Dow Jones Industrial Average rose 0.85% to 50,018.70; Nvidia shares slipped 5.9%. Investors also weighed a Reuters report, citing people familiar with the matter, that the Trump administration is poised to release findings of a tariff probe covering 16 major U.S. trading partners. After the close, Dell Technologies reported record fiscal 2027 third-quarter results and gave full-year revenue guidance of $202.0 billion, and Sanofi announced an agreement to acquire Insmed for $175 a share, or about $41.0 billion. In artificial intelligence, OpenAI published laboratory results on protein designs from GPT-6 models, Google DeepMind launched the Humanity’s First Exam reliability benchmark, and Microsoft set out Foundry platform updates in a November 24 post. In cryptocurrency, Farside Investors has now completed Monday’s U.S. spot bitcoin ETF table at a $569.7 million net outflow, and South Korea’s Financial Services Commission released a government bill on won stablecoins and exchange ownership caps. At the cutoff, CoinGecko put bitcoin at $59,568, down about 2.41% over 24 hours, and the global crypto market cap at about $2.07 trillion, down about 4.66% over 24 hours. The AI, U.S. stocks and cryptocurrency news sections have 3, 6 and 2 verified items respectively, so only verified stories are listed and the sections were not padded with older coverage.</p>
+    <p class="zh">以下為過去約 24 小時（亞洲／香港時間 GMT+8：2026-11-24 約 08:15 至 2026-11-25 約 08:15）個人早晨簡報。截稿時間約為 2026-11-25 08:15 GMT+8。僅收錄已核實、具實質影響的消息；各節之間已盡量去重。今日為週三早上（香港時間）。美股現貨已完成週二正規時段，於美東時間 2026-11-24 下午 4 時收市（香港時間 2026-11-25 上午 5 時）。本週仍為美國感恩節短週：週四休市，週五將於美東時間下午 1 時提早收市；此為已公布的交易日曆，並非過去 24 小時的新消息。繼週一由 Nvidia 帶動的反彈之後，週二走勢好淡紛陳：路透社稱標普 500 跌 0.50%，收報 7,201.09；納斯達克綜合指數跌 1.48%，收報 23,733.54；道瓊斯工業平均指數則升 0.85%，收報 50,018.70；Nvidia 股價回落 5.9%。投資者亦關注路透社引述知情人士的報道，指特朗普政府即將公布一項涵蓋 16 個主要美國貿易夥伴的關稅調查結果。收市後，Dell Technologies 公布 2027 財政年度第三季創紀錄業績，並把全年收入指引訂為 2,020 億美元；Sanofi 則宣布協議以每股 175 美元、總代價約 410 億美元收購 Insmed。人工智能方面，OpenAI 公布 GPT-6 模型蛋白質設計的實驗室結果，Google DeepMind 推出 Humanity’s First Exam 可靠性基準，Microsoft 亦在 11 月 24 日的文章中說明 Foundry 平台更新。加密貨幣方面，Farside Investors 現已補完週一美國現貨比特幣 ETF 表，全日淨流出為 5.697 億美元；韓國金融委員會亦公布有關韓元穩定幣及交易所持股上限的政府草案。截稿時 CoinGecko 報比特幣 59,568 美元，滾動 24 小時約跌 2.41%；同一來源的全球總市值約 2.07 萬億美元，24 小時約跌 4.66%。人工智能、美股及加密貨幣新聞各有 3、6 及 2 則已核實要聞，故只列已核實項目，並未為湊數而加入較舊消息。</p>
+    <h2>一、人工智能／1. Artificial Intelligence</h2>
+    <p class="en">Only 3 verified items from the past ~24 hours are listed; the section was not padded with older or independently unverified stories. OpenAI and Cisco’s Shirudo launch, Google DeepMind’s Lean-verified quantum-algorithm results, Google’s Search Personal Intelligence app connections and Gemini API file-slicing controls, and Nvidia’s board decision to reinstate Jensen Huang were covered in earlier briefs and are not repeated. Anthropic’s Claude Ship, Amazon’s agreement to purchase Decart’s optimization technology, AWS announcements on the Bedrock Trusted Access API, Z.ai’s GLM-5.4 release, and NHS England’s EDITH breast-screening trial were dated 2026-11-23 or earlier, so they fall outside this brief’s rolling 24-hour window.</p>
+    <p class="zh">本節僅列 3 則已核實、屬過去約 24 小時內的要聞，未為湊滿 10 則而加入較舊或未能獨立核實的消息。OpenAI 與 Cisco 推出 Shirudo、Google DeepMind 以 Lean 驗證的量子算法結果、Google 的 Search Personal Intelligence 應用程式接駁及 Gemini API 檔案切片控制，以及 Nvidia 董事會恢復黃仁勳職務，已在較早簡報述及，今日不重複。Anthropic 的 Claude Ship、Amazon 協議購入 Decart 優化技術、AWS 有關 Bedrock Trusted Access API 的公布、Z.ai 發布 GLM-5.4，以及英國國民保健署（NHS England）的 EDITH 乳癌篩查試驗，日期為 2026-11-23 或更早，故不落入本簡報的滾動 24 小時範圍。</p>
+<article class="story">
+<h3>1. OpenAI says GPT-6 models can design new protein structures and sequences,</h3>
+<p class="zh-head">OpenAI 稱 GPT-6 模型可設計新的蛋白質結構及序列，</p>
+<p class="en">and lab tests with Onava found binding across five targets</p>
+<p class="zh">與 Onava 進行的實驗室測試，更在五個靶點上錄得結合證據</p>
+<p class="en">OpenAI said on 2026-11-24 that its GPT-6 family of models can design new protein structures and amino-acid sequences using only reasoning and general-purpose coding tools, without calling specialized biology models to generate those designs.</p>
+<p class="zh">OpenAI 於 2026-11-24 表示，其 GPT-6 系列模型只需推理及通用編程工具，便可設計新的蛋白質結構及氨基酸序列，而無須呼叫專門的生物學模型來生成這些設計。</p>
+<p class="en">In a preprint titled “GPT-6 as a Universal Foundation Model for Protein Biology: Beyond Specialized Models,” the company said an internal research model matched or outperformed specialized models on many of the protein-design tasks it tested, although predicting a complete protein structure remained a clear weakness.</p>
+<p class="zh">公司在題為《GPT-6 as a Universal Foundation Model for Protein Biology: Beyond Specialized Models》的預印本中表示，一個內部研究模型在許多受測的蛋白質設計任務上，表現與專門模型相若或更佳；但預測完整蛋白質結構仍是明顯弱項。</p>
+<p class="en">OpenAI said researchers could guide the designs in natural language, including where a protein should attach and what shape it should take.</p>
+<p class="zh">OpenAI 稱，研究人員可用自然語言引導設計，包括蛋白質應在何處結合，以及應採取何種形狀。</p>
+<p class="en">In laboratory tests with research partner Onava, the company said it tested 322 minibinders against five targets, and that 35 of those designs, or 10.9%, tested positive for binding to their intended target.</p>
+<p class="zh">在與研究夥伴 Onava 進行的實驗室測試中，公司表示共測試了 322 種小型結合蛋白（minibinder），針對五個靶點；其中 35 個設計（佔 10.9%）對預定靶點呈結合陽性。</p>
+<p class="en">It reported five hits for PD-L1, three for IL-7Rα, one for TrkA, eight for VEGF-A and 18 for IL-17A, and said redesigned antibodies also retained binding; specialized models helped supply sequences and select candidates for testing.</p>
+<p class="zh">公司公布的命中數目為：PD-L1 五個、IL-7Rα 三個、TrkA 一個、VEGF-A 八個、IL-17A 18 個，並稱經重新設計的抗體亦保留結合能力；專門模型有助提供序列及篩選供測試的候選設計。</p>
+<p class="en">OpenAI described the results as early evidence that GPT-6.2’s three-dimensional designs can be turned into proteins that bind their intended targets in the lab, and noted that reported hit rates depend heavily on how strictly designs are filtered before validation and on the definition of binding.</p>
+<p class="zh">OpenAI 將結果視為早期證據，顯示 GPT-6.2 的三維設計可製成能在實驗室與其預定靶點結合的蛋白質；並指出，已公布的命中率很大程度取決於驗證前如何嚴格篩選設計，以及如何定義「結合」。</p>
+<p class="source"><a href="https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities/">https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities/</a></p>
+</article>
+<article class="story">
+<h3>2. Google DeepMind launches Humanity’s First Exam,</h3>
+<p class="zh-head">Google DeepMind 推出 Humanity’s First Exam，</p>
+<p class="en">a Kaggle benchmark that tests whether models reliably answer everyday questions</p>
+<p class="zh">一個在 Kaggle 上測試模型能否可靠回答日常問題的基準</p>
+<p class="en">Google DeepMind said on 2026-11-24 that it was launching the Humanity’s First Exam (HFE) benchmark on Kaggle to measure how reliably large language models answer straightforward, everyday questions.</p>
+<p class="zh">Google DeepMind 於 2026-11-24 表示，正在 Kaggle 推出 Humanity’s First Exam（HFE）基準，用以衡量大型語言模型回答簡單日常問題時有多可靠。</p>
+<p class="en">The company said most current benchmarks measure domain-specific capability ceilings in areas such as complex math, coding and science, whereas HFE asks whether models can consistently solve tasks, and slight variations of those tasks, every time.</p>
+<p class="zh">該公司表示，現時大多數基準衡量的是複雜數學、編程及科學等領域的能力上限；HFE 則檢視模型是否每次都能穩定地完成同一類任務，以及這些任務的輕微變體。</p>
+<p class="en">It said the dataset consists of 544 elementary text and image prompts across 20 foundational capabilities, and that frontier models have made significant progress on HFE over the last six months.</p>
+<p class="zh">公司稱數據集包含 544 道基礎文字及圖像提示，涵蓋 20 項基礎能力，並指前沿模型在過去六個月於 HFE 上已有顯著進展。</p>
+<p class="en">DeepMind is also running a three-week Kaggle competition through December 15, inviting the community to submit everyday questions that today’s models still get wrong, in order to keep the benchmark up to date.</p>
+<p class="zh">DeepMind 亦舉辦為期三週、至 12 月 15 日截止的 Kaggle 比賽，邀請社群提交現時模型仍然答錯的日常問題，以保持基準更新。</p>
+<p class="source"><a href="https://blog.google/innovation-and-ai/models-and-research/google-deepmind/humanitys-first-exam/">https://blog.google/innovation-and-ai/models-and-research/google-deepmind/humanitys-first-exam/</a></p>
+</article>
+<article class="story">
+<h3>3. Microsoft details Foundry updates in a November 24 Ignite post,</h3>
+<p class="zh-head">Microsoft 在 11 月 24 日的 Ignite 文章中說明 Foundry 更新，</p>
+<p class="en">including generally available tools for evaluating and improving agents</p>
+<p class="zh">包括已正式推出、用於評估及改進智能體的工具</p>
+<p class="en">Microsoft said on 2026-11-24, in a Foundry blog post associated with Ignite, that it had added a more direct path from a recurring problem in an agent’s traces to a fix that teams can test, while leaving people to decide which changes go into the next version.</p>
+<p class="zh">Microsoft 於 2026-11-24 在一篇與 Ignite 相關的 Foundry 網誌中表示，已為智能體運行紀錄中反覆出現的問題，提供一條更直接、可讓團隊測試修正方案的路徑，並由人員決定哪些改動納入下一版本。</p>
+<p class="en">The company said Insights and multi-turn evaluation are now generally available, as are voice agents, external-agent registration, hosted-agent egress controls, the A2A tool, the Foundry Dev Pack, the Foundry CLI, Microsoft-Decision-1.1, Managed Compute, Microsoft IQ, and Foundry IQ’s SharePoint indexed knowledge source.</p>
+<p class="zh">公司表示，Insights 及多輪評估現已正式推出；語音智能體、外部智能體登記、託管智能體的出站控制、A2A 工具、Foundry Dev Pack、Foundry 命令列介面、Microsoft-Decision-1.1、Managed Compute、Microsoft IQ，以及 Foundry IQ 的 SharePoint 索引知識來源，亦已正式推出。</p>
+<p class="en">It said new preview capabilities connect Insights to Agent Optimizer, support human annotation and rubric evaluators, and include Programmed Training, in which a team writes the training loop and Foundry runs the GPUs.</p>
+<p class="zh">公司稱，新的預覽功能把 Insights 接駁至 Agent Optimizer，並支援人工標註及評分準則評估器，亦包括 Programmed Training，即由團隊編寫訓練迴圈，再由 Foundry 運行 GPU。</p>
+<p class="en">Microsoft said Agent Optimizer never changes a production agent automatically.</p>
+<p class="zh">Microsoft 表示，Agent Optimizer 絕不會自動更改生產環境中的智能體。</p>
+<p class="source"><a href="https://devblogs.microsoft.com/foundry/whats-new-in-microsoft-foundry-ignite-2026/">https://devblogs.microsoft.com/foundry/whats-new-in-microsoft-foundry-ignite-2026/</a></p>
+</article>
+    <h2>二、美股／2. US Stock Market</h2>
+    <p class="en">Only 6 verified items from the past ~24 hours are listed; the section was not padded with older or independently unverified stories. Monday’s cash-session rebound, Nvidia’s official leadership announcement, and Anthropic’s earlier post-IPO trading were covered in earlier briefs and are not repeated as separate items; Tuesday’s session, including Anthropic’s close below its IPO price, is listed below. This is a shortened U.S. Thanksgiving week, with markets closed on Thursday and an early close at 1:00 p.m. Eastern Time on Friday; that is the published trading calendar, not a new development from the past 24 hours. The Wednesday U.S. Personal Consumption Expenditures report had not been released at this cutoff.</p>
+    <p class="zh">本節僅列 6 則已核實、屬過去約 24 小時內的要聞，未為湊滿 10 則而加入較舊或未能獨立核實的消息。週一現貨反彈、Nvidia 正式的領導層公布，以及 Anthropic 較早的上市後交易，已在較早簡報述及，今日不另立為獨立項目；週二走勢，包括 Anthropic 收市跌破招股價，見下列各則。本週為美國感恩節短週，週四休市，週五將於美東時間下午 1 時提早收市；此為已公布的交易日曆，並非過去 24 小時的新消息。截稿時，週三公布的美國個人消費開支（PCE）數據尚未發表。</p>
+<article class="story">
+<h3>1. U.S. stocks finished mixed on Tuesday,</h3>
+<p class="zh-head">美股週二收市好淡紛陳，</p>
+<p class="en">as Nvidia and other AI-related shares gave back some of Monday’s gains</p>
+<p class="zh">Nvidia 及其他人工智能相關股份回吐部分週一升幅</p>
+<p class="en">Reuters said the S&amp;P 500 fell 36.08 points, or 0.50%, to 7,201.09 on Tuesday, and the Nasdaq Composite fell 356.02 points, or 1.48%, to 23,733.54, while the Dow Jones Industrial Average rose 423.39 points, or 0.85%, to 50,018.70.</p>
+<p class="zh">路透社稱，週二標普 500 跌 36.08 點或 0.50%，收報 7,201.09；納斯達克綜合指數跌 356.02 點或 1.48%，收報 23,733.54；道瓊斯工業平均指數則升 423.39 點或 0.85%，收報 50,018.70。</p>
+<p class="en">The same report said Nvidia shares slipped 5.9%, the S&amp;P 500 technology sector fell 2.8%, and an index of semiconductors dropped 7.9%, after Monday’s rebound, which Reuters said had given the S&amp;P 500 and the Nasdaq their biggest daily percentage gains since April 2025.</p>
+<p class="zh">同一報道稱，Nvidia 股價回落 5.9%，標普 500 科技板塊跌 2.8%，半導體指數跌 7.9%；此前週一的反彈，路透社稱令標普 500 及納指錄得 2025 年 4 月以來最大單日升幅。</p>
+<p class="en">Investopedia said Analog Devices led S&amp;P 500 decliners with a 17% drop, Hewlett Packard Enterprise fell 16%, Dell Technologies declined 11% ahead of its after-close report, and memory-chip shares including Micron and SK Hynix dropped about 10%, while Nike and Amgen each gained more than 5% and helped lift the Dow.</p>
+<p class="zh">《Investopedia》稱，Analog Devices 跌 17%，領跌標普 500；Hewlett Packard Enterprise 跌 16%；Dell Technologies 在收市後業績公布前跌 11%；包括 Micron 及 SK Hynix 在內的記憶體芯片股約跌 10%；Nike 及 Amgen 則各升超過 5%，並帶動道指。</p>
+<p class="en">Reuters also said investors were bracing for possible new tariffs and were cautious ahead of Wednesday’s Personal Consumption Expenditures report, which had not been released at this cutoff.</p>
+<p class="zh">路透社亦稱，投資者正為可能出現的新關稅做準備，並對週三的個人消費開支報告持審慎態度；截稿時該報告尚未公布。</p>
+<p class="source"><a href="https://www.nbcnews.com/business/markets/stocks-lower-after-nvidia-fueled-gains-rcna611211">https://www.nbcnews.com/business/markets/stocks-lower-after-nvidia-fueled-gains-rcna611211</a></p>
+</article>
+<article class="story">
+<h3>2. Dell reports record fiscal 2027 third-quarter results,</h3>
+<p class="zh-head">Dell 公布 2027 財政年度第三季創紀錄業績，</p>
+<p class="en">and guides full-year revenue to $202.0 billion</p>
+<p class="zh">並指引全年收入為 2,020 億美元</p>
+<p class="en">Dell Technologies said on 2026-11-24 at 4:05 p.m. Eastern Time that fiscal 2027 third-quarter revenue was a record $54.9 billion, up 103% year over year, with record diluted earnings per share of $8.82, up 287%, and record non-GAAP diluted earnings per share of $9.45, up 265%.</p>
+<p class="zh">Dell Technologies 於美東時間 2026-11-24 下午 4 時 05 分表示，2027 財政年度第三季收入創紀錄達 549 億美元，按年升 103%；攤薄每股盈利創紀錄達 8.82 美元，升 287%；非公認會計原則攤薄每股盈利創紀錄達 9.45 美元，升 265%。</p>
+<p class="en">The company also reported record third-quarter cash flow from operations of $4.5 billion, and gave full-year fiscal 2027 revenue guidance of $202.0 billion, up 78% year over year, with full-year diluted EPS guidance of $28.24 and non-GAAP diluted EPS guidance of $29.68.</p>
+<p class="zh">公司亦公布第三季經營現金流創紀錄達 45 億美元，並把 2027 財政年度全年收入指引訂為 2,020 億美元，按年升 78%；全年攤薄每股盈利指引為 28.24 美元，非公認會計原則攤薄每股盈利指引為 29.68 美元。</p>
+<p class="en">Vice chairman and chief operating officer Jeff Clarke said Dell ended the quarter with a record $132.3 billion AI backlog after booking $60.2 billion of orders, and that more than 7,500 customers were deploying Dell AI Factories.</p>
+<p class="zh">副主席兼營運總裁 Jeff Clarke 表示，Dell 在預訂 602 億美元訂單後，季度結束時的人工智能積壓訂單創紀錄達 1,323 億美元，並有超過 7,500 名客戶正在部署 Dell AI Factories。</p>
+<p class="en">In its Infrastructure Solutions Group, Dell said revenue was a record $42.0 billion, up 198% year over year, including record AI-Optimized Servers revenue of $22.0 billion, up 291%.</p>
+<p class="zh">在基礎設施解決方案集團，Dell 稱收入創紀錄達 420 億美元，按年升 198%，其中人工智能優化伺服器收入創紀錄達 220 億美元，按年升 291%。</p>
+<p class="en">Investopedia said Dell shares declined 11% during Tuesday’s regular session as investors prepared for the after-close report; after-hours trading was still open at this cutoff, so this brief does not treat a later after-hours move as a final print.</p>
+<p class="zh">《Investopedia》稱，Dell 股價在週二正規時段跌 11%，因投資者為收市後業績做準備；截稿時盤後交易仍在進行，故本簡報不以較後的盤後波動作為最終數字。</p>
+<p class="source"><a href="https://investors.delltechnologies.com/news-events/press-releases/detail/1665/dell-technologies-delivers-third-quarter-fiscal-2027-financial-results">https://investors.delltechnologies.com/news-events/press-releases/detail/1665/dell-technologies-delivers-third-quarter-fiscal-2027-financial-results</a></p>
+</article>
+<article class="story">
+<h3>3. Sanofi agrees to acquire Insmed for $175 a share in cash,</h3>
+<p class="zh-head">Sanofi 同意以每股 175 美元現金收購 Insmed，</p>
+<p class="en">valuing the company at about $41.0 billion</p>
+<p class="zh">公司估值約 410 億美元</p>
+<p class="en">Sanofi said on 2026-11-24 that it had agreed to acquire Insmed, a U.S.-listed biopharmaceutical company, for $175 per share in cash, for a total equity value of about $41.0 billion, or €37.6 billion.</p>
+<p class="zh">Sanofi 於 2026-11-24 宣布，已同意以每股 175 美元現金收購在美國上市的生物製藥公司 Insmed，總股本價值約 410 億美元（376 億歐元）。</p>
+<p class="en">The companies said the consideration represents a premium of about 46% to Insmed’s unaffected closing share price on 2026-11-18, the day before media reports of a possible transaction, and that the deal is expected to close in the first half of 2027, subject to the conditions in the merger agreement.</p>
+<p class="zh">兩家公司表示，該代價較 Insmed 在 2026-11-18（傳媒報道可能交易的前一日）不受影響的收市價溢價約 46%；交易預期於 2027 年上半年完成，惟須符合合併協議中的條件。</p>
+<p class="en">Sanofi said the acquisition would add two commercialized respiratory medicines, BRINSUPRI and ARIKAYCE, plus pipeline assets including a phase 3 program, and that the transaction is expected to be accretive to Sanofi’s business earnings per share by the end of 2028.</p>
+<p class="zh">Sanofi 稱，收購將加入兩款已上市的呼吸系統藥物 BRINSUPRI 及 ARIKAYCE，以及包括一項第三期計劃在內的管線資產；交易預期於 2028 年底前對 Sanofi 的業務每股盈利有增益作用。</p>
+<p class="en">The company said it is funding the acquisition through a combination of debt financing and cash on hand, has secured committed financing, and does not expect the proposed acquisition to affect its 2026 financial guidance.</p>
+<p class="zh">公司表示，將以債務融資及手上現金支付收購，並已取得承諾融資；預期擬議收購不會影響其 2026 年財務指引。</p>
+<p class="en">Investopedia said Insmed shares were up 14% on Tuesday, while Sanofi’s U.S.-traded stock climbed 10%.</p>
+<p class="zh">《Investopedia》稱，Insmed 股價週二升 14%，Sanofi 的美國上市股份則升 10%。</p>
+<p class="source"><a href="https://investor.insmed.com/2026-11-24-Sanofi-to-Acquire-Insmed-in-Strategic-Step-that-Strengthens-Long-Term-Future">https://investor.insmed.com/2026-11-24-Sanofi-to-Acquire-Insmed-in-Strategic-Step-that-Strengthens-Long-Term-Future</a></p>
+</article>
+<article class="story">
+<h3>4. Analog Devices reports record fiscal 2026 results,</h3>
+<p class="zh-head">Analog Devices 公布 2026 財政年度創紀錄業績，</p>
+<p class="en">and its first-quarter outlook accompanies a sharp Tuesday decline</p>
+<p class="zh">其第一季展望伴隨週二股價急跌</p>
+<p class="en">Analog Devices said on 2026-11-24 that fiscal fourth-quarter revenue was $4.37 billion, with year-over-year growth led by data center and industrial demand, and that fiscal 2026 revenue was a record $15.2 billion, up 38% from 2025.</p>
+<p class="zh">Analog Devices 於 2026-11-24 表示，財政第四季收入為 43.7 億美元，按年增長主要由數據中心及工業需求帶動；2026 財政年度收入創紀錄達 152 億美元，較 2025 年升 38%。</p>
+<p class="en">The company said fiscal 2026 operating cash flow was $6.2 billion and free cash flow was $5.5 billion, or 41% and 36% of revenue, respectively, and that it returned $5.4 billion to shareholders through dividends and share repurchases.</p>
+<p class="zh">公司稱，2026 財政年度經營現金流為 62 億美元，自由現金流為 55 億美元，分別相當於收入的 41% 及 36%；並透過股息及股份回購向股東返還 54 億美元。</p>
+<p class="en">For the first quarter of fiscal 2027, Analog Devices said it was forecasting revenue of $4.4 billion, plus or minus $150 million, with reported earnings per share of $3.02, plus or minus $0.20, and adjusted earnings per share of $3.82, plus or minus $0.20.</p>
+<p class="zh">至於 2027 財政年度第一季，Analog Devices 預測收入為 44 億美元，上下 1.5 億美元；報告每股盈利為 3.02 美元，上下 0.20 美元；經調整每股盈利為 3.82 美元，上下 0.20 美元。</p>
+<p class="en">Investopedia said Analog Devices plunged 17% on Tuesday, leading S&amp;P 500 decliners.</p>
+<p class="zh">《Investopedia》稱，Analog Devices 週二急跌 17%，領跌標普 500。</p>
+<p class="source"><a href="https://www.analog.com/en/newsroom/press-releases/2026/11-24-26-adi-reports-record-4th-qtr-and-fiscal-2026-financial-results.html">https://www.analog.com/en/newsroom/press-releases/2026/11-24-26-adi-reports-record-4th-qtr-and-fiscal-2026-financial-results.html</a></p>
+</article>
+<article class="story">
+<h3>5. Anthropic shares close below their IPO price,</h3>
+<p class="zh-head">Anthropic 股價收市跌破招股價，</p>
+<p class="en">ending Tuesday at $81.90, down 6.5%</p>
+<p class="zh">週二收報 81.90 美元，跌 6.5%</p>
+<p class="en">Reuters said Anthropic shares ended Tuesday 6.5% lower at $81.90, below the $83 price of the company’s initial public offering last week.</p>
+<p class="zh">路透社稱，Anthropic 股份週二收市跌 6.5%，報 81.90 美元，低於公司上週首次公開招股時的 83 美元定價。</p>
+<p class="en">The move came as other AI-related shares also reversed part of Monday’s rebound, and it is a new development relative to earlier briefs that covered the IPO and Monday’s session.</p>
+<p class="zh">此走勢正值其他人工智能相關股份亦回吐部分週一反彈；相對已述及招股及週一時段的較早簡報，這是新的發展。</p>
+<p class="en">The Reuters report did not itself treat the close as a change in the company’s fundamentals, and this brief reports the market print rather than an official company announcement.</p>
+<p class="zh">路透社報道本身並未將此收市視為公司基本因素有變；本簡報只記錄市場成交價，而非公司正式公告。</p>
+<p class="source"><a href="https://www.nbcnews.com/business/markets/stocks-lower-after-nvidia-fueled-gains-rcna611211">https://www.nbcnews.com/business/markets/stocks-lower-after-nvidia-fueled-gains-rcna611211</a></p>
+</article>
+<article class="story">
+<h3>6. Reuters reports the Trump administration is poised to release tariff-probe findings,</h3>
+<p class="zh-head">路透社報道特朗普政府即將公布關稅調查結果，</p>
+<p class="en">covering alleged excess industrial capacity in 16 major trading partners</p>
+<p class="zh">涵蓋對 16 個主要貿易夥伴所謂過剩工業產能的調查</p>
+<p class="en">Reuters reported on 2026-11-24, citing three people with knowledge of the matter, that the Trump administration is poised to imminently release the findings of a probe aimed at countering alleged excess industrial capacity in 16 major U.S. trading partners, with new import duties on a wide range of goods expected.</p>
+<p class="zh">路透社於 2026-11-24 引述三名知情人士報道，特朗普政府即將公布一項調查結果，旨在應對 16 個主要美國貿易夥伴所謂的過剩工業產能，並預期會對多類商品徵收新的進口關稅。</p>
+<p class="en">The report said the countries in the probe are China, India, Japan, South Korea, Mexico, Vietnam, Taiwan, Thailand, Malaysia, Indonesia, Switzerland, Norway, Singapore, Bangladesh and Cambodia, along with the European Union, and that the U.S. Trade Representative’s office has been investigating most of the United States’ largest trading partners under Section 301 of the Trade Act of 1974 over what it called evidence of excess industrial capacity.</p>
+<p class="zh">報道稱，調查涵蓋中國、印度、日本、韓國、墨西哥、越南、台灣、泰國、馬來西亞、印尼、瑞士、挪威、新加坡、孟加拉及柬埔寨，以及歐盟；美國貿易代表辦公室一直根據 1974 年《貿易法》第 301 條，就其所稱的過剩工業產能證據，對大多數美國主要貿易夥伴展開調查。</p>
+<p class="en">One of the people, Reuters said, indicated that the duties would be tailored to each country, that goods from Mexico and Norway were unlikely to see immediate levies, and that the White House is expected to honor capped tariff rates in finalized trade deals, including 15% caps for the EU, Japan and South Korea and 19% for Malaysia.</p>
+<p class="zh">路透社稱，其中一名人士指出，關稅將按國家度身制定，墨西哥及挪威的貨物不大可能即時被徵稅；白宮預期會遵守已完成貿易協議中的關稅上限，包括歐盟、日本及韓國的 15%，以及馬來西亞的 19%。</p>
+<p class="en">The same report said the United States is expected to honor the 20% cap on second-term tariffs on Chinese goods if a trade truce due to expire on January 10 is extended, and that the U.S. Trade Representative’s office and the White House did not respond to Reuters queries about the pending announcement.</p>
+<p class="zh">同一報道稱，若將於 1 月 10 日到期的貿易休戰獲延長，美國預期會遵守對中國商品第二任期關稅 20% 的上限；美國貿易代表辦公室及白宮未有回應路透社有關這項待公布措施的查詢。</p>
+<p class="en">This brief treats the story as a Reuters report attributed to unnamed sources, not as an official government announcement, and at this cutoff no formal USTR release of the findings had been verified here.</p>
+<p class="zh">本簡報將此事作為路透社引述匿名消息的報道處理，而非政府正式公告；截稿時仍未在此核實到美國貿易代表辦公室已正式公布調查結果。</p>
+<p class="source"><a href="https://www.investing.com/news/commodities-news/trump-administration-set-to-unveil-new-tariffs-after-probeon-excess-factory-capacity-sources-say-5048724">https://www.investing.com/news/commodities-news/trump-administration-set-to-unveil-new-tariffs-after-probeon-excess-factory-capacity-sources-say-5048724</a></p>
+</article>
+    <h2>三、加密貨幣新聞／3. Cryptocurrency News</h2>
+    <p class="en">Only 2 verified items from the past ~24 hours are listed; the section was not padded with older or independently unverified stories. The completed Friday U.S. spot bitcoin ETF outflow of $669.2 million, the Justice Department’s civil action to forfeit more than $1.1 billion in USDC, the Cross River Bank and LendingUSA bitcoin-secured loans, and Bitmine’s ether-holdings update were covered in earlier briefs and are not repeated. Bitcoin’s latest price and market-cap figures are in the price-movements section and are not given a separate news item today. On Farside Investors’ tables, Monday’s previously incomplete U.S. spot bitcoin and ether ETF rows have now been filled in and are listed below. Tuesday’s rows are still incomplete at this cutoff: several large funds remain dashes, and the posted Tuesday totals are not treated as completed full-day figures. A CFTC staff advisory on using crypto assets to meet financial-resources requirements was dated 2026-11-23 and is outside this window.</p>
+    <p class="zh">本節僅列 2 則已核實、屬過去約 24 小時內的要聞，未為湊滿 10 則而加入較舊或未能獨立核實的消息。已補完的週五美國現貨比特幣 ETF 淨流出 6.692 億美元、美國司法部就超過 11 億美元 USDC 提出的民事沒收、Cross River Bank 與 LendingUSA 的比特幣抵押貸款，以及 Bitmine 的以太幣持倉更新，已在較早簡報述及，今日不重複。比特幣的最新價格及市值見行情一節，今日不另立為新聞項目。Farside Investors 表中，原先不完整的週一美國現貨比特幣及以太幣 ETF 行現已補完，見下列項目。截稿時週二行仍不完整：多隻大型基金仍為「-」，已列示的週二合計數字不以已完成的全日數字處理。商品期貨交易委員會（CFTC）有關以加密資產滿足財務資源要求的員工指引，日期為 2026-11-23，不在本窗口內。</p>
+<article class="story">
+<h3>1. Farside now shows a completed Monday U.S. spot bitcoin ETF net outflow of $569.7 million,</h3>
+<p class="zh-head">Farside 現已列示完整的週一美國現貨比特幣 ETF 淨流出 5.697 億美元，</p>
+<p class="en">after the IBIT and other cells that were still blank in yesterday’s brief were filled in</p>
+<p class="zh">昨日簡報中仍為空白的 IBIT 及其他欄位現已填上</p>
+<p class="en">Farside Investors’ U.S. spot bitcoin ETF table, checked on the morning of 2026-11-25, now has a complete fund-level row for Monday, 2026-11-23, totaling a $569.7 million net outflow.</p>
+<p class="zh">於 2026-11-25 早上核對的 Farside Investors 美國現貨比特幣 ETF 表顯示，2026-11-23（週一）一行的各基金數字現已齊全，合計淨流出 5.697 億美元。</p>
+<p class="en">The completed Monday figures are: IBIT −$509.3 million; FBTC +$13.3 million; BITB −$12.6 million; ARKB $0.0 million; BTCO $0.0 million; EZBC $0.0 million; BRRR $0.0 million; HODL $0.0 million; BTCW $0.0 million; MSBT $0.0 million; GBTC $0.0 million; and Grayscale’s BTC mini fund −$61.1 million.</p>
+<p class="zh">已補完的週一數字為：IBIT 流出 5.093 億美元；FBTC 流入 1,330 萬美元；BITB 流出 1,260 萬美元；ARKB、BTCO、EZBC、BRRR、HODL、BTCW、MSBT 及 GBTC 均為 0；Grayscale 的 BTC mini 基金流出 6,110 萬美元。</p>
+<p class="en">Yesterday’s brief reported that the Monday IBIT and FBTC cells were still dashes and that the posted total remained a $73.7 million net outflow, which was not treated as a completed full-day figure.</p>
+<p class="zh">昨日簡報指出，週一 IBIT 及 FBTC 一欄仍為「-」，當時已列示合計淨流出仍為 7,370 萬美元，故未以已完成的全日數字處理。</p>
+<p class="en">The much larger completed total is mainly the result of filling in IBIT’s $509.3 million outflow and the other previously blank cells, not a new trading session after Monday.</p>
+<p class="zh">現時大得多的完整合計數，主要是補上 IBIT 的 5.093 億美元流出以及其他原先空白的欄位所致，並非週一之後另有新的交易時段。</p>
+<p class="en">Farside’s U.S. spot ether ETF table is also now complete for Monday, totaling an $84.9 million net outflow, including ETHA −$90.5 million and FETH +$5.6 million, with the other listed funds at zero.</p>
+<p class="zh">Farside 的美國現貨以太幣 ETF 表在週一行現亦已齊全，合計淨流出 8,490 萬美元，其中包括 ETHA 流出 9,050 萬美元、FETH 流入 560 萬美元，其餘所列基金為零。</p>
+<p class="en">By contrast, the Tuesday, 2026-11-24, bitcoin and ether rows are still incomplete at this cutoff, with dashes remaining for IBIT, ETHA and several other large funds, so the posted Tuesday totals of +$7.1 million for bitcoin ETFs and −$3.8 million for ether ETFs are not treated here as final full-day prints.</p>
+<p class="zh">相比之下，截稿時 2026-11-24（週二）的比特幣及以太幣行仍不完整，IBIT、ETHA 及其他多隻大型基金仍為「-」，故已列示的週二合計（比特幣 ETF 淨流入 710 萬美元、以太幣 ETF 淨流出 380 萬美元），本簡報不以最終全日數字處理。</p>
+<p class="source"><a href="https://farside.co.uk/btc/">https://farside.co.uk/btc/</a></p>
+</article>
+<article class="story">
+<h3>2. South Korea’s Financial Services Commission releases a government bill,</h3>
+<p class="zh-head">韓國金融委員會公布政府草案，</p>
+<p class="en">allowing bank-led won stablecoins and capping exchange ownership</p>
+<p class="zh">容許由銀行主導的韓元穩定幣，並為交易所持股設上限</p>
+<p class="en">MoneyToday, in a November 24, 2026, report, said South Korea’s Financial Services Commission had that day released a government bill for a Digital Asset Industry Act after a virtual-asset committee meeting chaired by Chairman Lee Eui-won.</p>
+<p class="zh">《MoneyToday》在 2026 年 11 月 24 日的報道中稱，韓國金融委員會當日在委員長李宜源主持的虛擬資產委員會會議後，公布《數字資產產業法》政府草案。</p>
+<p class="en">The report said won-denominated stablecoin issuance would first be permitted for consortiums in which banks hold a majority stake and which have own capital of at least 5 billion won, while fintech and technology firms may also participate as major shareholders, and that later non-bank consortiums could be allowed through an enforcement decree once the system is established.</p>
+<p class="zh">報道稱，韓元穩定幣發行會先准許由銀行持有過半數股權、自有資本至少 50 億韓元的財團進行，金融科技及科技公司亦可作為主要股東參與；待制度建立後，非銀行財團亦可望透過施行令獲准發行。</p>
+<p class="en">Issuers would need Financial Services Commission approval for an issuance plan and would have to deposit or entrust reserves of 100% or more of the outstanding balance in highly liquid assets such as deposits and government bonds, the report said, and foreign issuers could issue and redeem stablecoins in Korea after establishing a domestic branch and registering with the commission.</p>
+<p class="zh">報道稱，發行人須就發行計劃取得金融委員會批准，並須把相當於流通餘額 100% 或以上的準備金，以存款及國債等高流動性資產存放或委託管理；外國發行人在設立本地分行並向委員會登記後，亦可在韓國發行及贖回穩定幣。</p>
+<p class="en">On virtual-asset exchanges, the government bill would set a legal shareholding cap of 20% for a major shareholder, with an enforcement-decree exception allowing ownership of up to 34% with Financial Services Commission approval, MoneyToday said; the report also noted that issues such as how the rules apply to parent companies have been left to National Assembly deliberations and enforcement decrees.</p>
+<p class="zh">《MoneyToday》稱，在虛擬資產交易所方面，政府草案會把主要股東的法定持股上限訂為 20%，但施行令可例外容許在金融委員會批准下持股最多 34%；報道亦指出，有關規則如何適用於母公司等問題，已留待國會審議及施行令處理。</p>
+<p class="en">This brief treats the announcement as a government bill, not as enacted law.</p>
+<p class="zh">本簡報將此公布視為政府草案，而非已通過的法律。</p>
+<p class="source"><a href="https://www.mt.co.kr/en/stock/2026/11/24/2026112411151579659">https://www.mt.co.kr/en/stock/2026/11/24/2026112411151579659</a></p>
+</article>
+    <h2>四、加密貨幣行情／4. Cryptocurrency Price Movements</h2>
+    <p class="en">The top 10 cryptocurrencies by current circulating market cap, including qualifying stablecoins (labeled). Ranking source: CoinGecko Markets API (vs_currency=usd, order=market_cap_desc, per_page=10). Coin snapshot: 2026-11-25 08:11:56 GMT+8 (API last_updated 2026-11-25T00:11:56.000Z). A same-source global snapshot at 2026-11-25 08:04:15 GMT+8 showed a global crypto market cap of about $2.072T, roughly −4.66% over 24 hours, BTC dominance of about 57.80% and ETH dominance of about 9.86%. Fear &amp; Greed (Alternative.me): 13 (extreme fear); yesterday’s reading from the same source was 11 (extreme fear). Versus yesterday’s snapshot from the same source, the top-10 membership is unchanged. All ten coins had aligned last_updated timestamps in this snapshot. Figure Heloc’s 24-hour price and market-cap change fields, which were empty in yesterday’s snapshot, are populated in this one and are reported below. Market-cap changes use CoinGecko 24-hour market-cap change fields and are not replaced by volume or price change.</p>
+    <p class="zh">按當前流通市值排名的前 10 大加密貨幣（含符合資格的穩定幣，已標示）。排名來源：CoinGecko Markets API（vs_currency=usd，order=market_cap_desc，per_page=10）。硬幣快照：2026-11-25 08:11:56 GMT+8（API last_updated 2026-11-25T00:11:56.000Z）。同一來源的全球數據快照為 2026-11-25 08:04:15 GMT+8：全球總市值約 2.072 萬億美元，24 小時約 −4.66%；BTC 主導約 57.80%，ETH 主導約 9.86%。恐懼與貪婪指數（Alternative.me）：13（極度恐懼）；昨日同一來源為 11（極度恐懼）。與昨日同一來源的快照相比，前 10 名成員不變。此快照中 10 隻硬幣的 last_updated 均已對齊。Figure Heloc 昨日快照中為空的 24 小時價格及市值變動欄位，今日已有數字，見下表。市值變動取自 CoinGecko 的 24 小時市值變動欄位，並非以成交量或價格變動替代。</p>
+    <p class="source"><a href="https://www.coingecko.com/">https://www.coingecko.com/</a></p>
+    <div class="table-wrap"><table><thead><tr><th>排名</th><th>名稱</th><th>價格（美元）</th><th>流通市值（美元）</th><th>24h 價格</th><th>24h 市值</th></tr></thead><tbody><tr>
+<td>1</td>
+<td>Bitcoin (BTC)</td>
+<td>$59,568</td>
+<td>$1.198T</td>
+<td class="chg-down">−2.41%</td>
+<td class="chg-down">−$30.76B / −2.50%</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Ethereum (ETH)</td>
+<td>$1,673.18</td>
+<td>$204.48B</td>
+<td class="chg-down">−1.86%</td>
+<td class="chg-down">−$3.89B / −1.87%</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Tether (USDT) 穩定幣</td>
+<td>$0.998864</td>
+<td>$174.64B</td>
+<td class="chg-down">−0.02%</td>
+<td class="chg-down">−$41.0M / −0.02%</td>
+</tr>
+<tr>
+<td>4</td>
+<td>BNB (BNB)</td>
+<td>$546.64</td>
+<td>$71.88B</td>
+<td class="chg-down">−1.58%</td>
+<td class="chg-down">−$1.16B / −1.59%</td>
+</tr>
+<tr>
+<td>5</td>
+<td>USDC (USDC) 穩定幣</td>
+<td>$0.999514</td>
+<td>$68.98B</td>
+<td class="chg-down">−0.01%</td>
+<td class="chg-down">−$4.0M / −0.01%</td>
+</tr>
+<tr>
+<td>6</td>
+<td>XRP (XRP)</td>
+<td>$0.922579</td>
+<td>$58.58B</td>
+<td class="chg-down">−1.68%</td>
+<td class="chg-down">−$966.7M / −1.62%</td>
+</tr>
+<tr>
+<td>7</td>
+<td>Solana (SOL)</td>
+<td>$69.55</td>
+<td>$41.17B</td>
+<td class="chg-down">−3.16%</td>
+<td class="chg-down">−$1.34B / −3.15%</td>
+</tr>
+<tr>
+<td>8</td>
+<td>TRON (TRX)</td>
+<td>$0.307696</td>
+<td>$29.25B</td>
+<td class="chg-down">−0.67%</td>
+<td class="chg-down">−$190.1M / −0.65%</td>
+</tr>
+<tr>
+<td>9</td>
+<td>Figure Heloc (FIGR_HELOC)</td>
+<td>$1.042</td>
+<td>$28.38B</td>
+<td class="chg-up">+0.06%</td>
+<td class="chg-up">+$99.1M / +0.35%</td>
+</tr>
+<tr>
+<td>10</td>
+<td>Hyperliquid (HYPE)</td>
+<td>$59.44</td>
+<td>$14.12B</td>
+<td class="chg-down">−6.28%</td>
+<td class="chg-down">−$947.3M / −6.29%</td>
+</tr></tbody></table></div>
+    <p class="en">Biggest price gainers: within this top 10, the only coin with a positive 24-hour price change was Figure Heloc, +0.06%. Biggest price losers: Hyperliquid, −6.28%, followed by Solana −3.16%, Bitcoin −2.41%, Ethereum −1.86%, XRP −1.68%, BNB −1.58%, and TRON −0.67%. The stablecoin USDT was slightly lower, −0.02%, and the stablecoin USDC was slightly lower, −0.01%. Largest market-cap increases: Figure Heloc +$99.1M (+0.35%). Largest market-cap decreases: Bitcoin −$30.76B (−2.50%); Ethereum −$3.89B (−1.87%); Solana −$1.34B (−3.15%); BNB −$1.16B (−1.59%); XRP −$966.7M (−1.62%); Hyperliquid −$947.3M (−6.29%). The same source’s slightly earlier global snapshot showed the overall crypto market cap down about 4.66% over 24 hours, which can coexist with the top-10 figures because the global figure covers a broader market, and the global snapshot time (08:04:15 GMT+8) also differs slightly from the coin snapshot.</p>
+    <p class="zh">最大價格升幅：在這 10 隻之中，唯一錄得 24 小時價格上升的是 Figure Heloc +0.06%。最大價格跌幅：Hyperliquid −6.28%，其後為 Solana −3.16%、Bitcoin −2.41%、Ethereum −1.86%、XRP −1.68%、BNB −1.58%、TRON −0.67%。穩定幣 USDT 微跌 −0.02%，穩定幣 USDC 微跌 −0.01%。最大市值增加：Figure Heloc +$99.1M（+0.35%）。最大市值減少：Bitcoin −$30.76B（−2.50%）；Ethereum −$3.89B（−1.87%）；Solana −$1.34B（−3.15%）；BNB −$1.16B（−1.59%）；XRP −$966.7M（−1.62%）；Hyperliquid −$947.3M（−6.29%）。全球總市值在稍早的同一來源快照中 24 小時約跌 4.66%，與這 10 隻的數字可以並存，因為全球數字涵蓋更廣的市場，而且全球快照時間（08:04:15 GMT+8）亦與硬幣快照略有差異。</p>
+    <div class="disclaimer">
+      <h2>免責／Caveat</h2>
+      <p class="en">Figures and headlines are from public sources and CoinGecko and can change quickly. This brief is not investment advice.</p>
+      <p class="zh">資料來自公開來源與 CoinGecko；價格與新聞可能迅速變化。本簡報不構成投資建議。</p>
+    </div>
+  </div>
+</body>
+</html>
