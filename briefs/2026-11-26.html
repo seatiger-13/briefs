@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>早晨簡報 / Morning Brief — 2026-11-26</title>
+  <style>
+:root {
+  --bg: #f7f5f0;
+  --card: #fffcf7;
+  --ink: #1c1915;
+  --muted: #5c564c;
+  --line: #e4ddd2;
+  --accent: #8b3a2a;
+  --link: #1e4d7b;
+  --up: #157a3a;
+  --down: #b42318;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #161412;
+    --card: #1e1b18;
+    --ink: #f3eee6;
+    --muted: #b3ab9f;
+    --line: #3a342c;
+    --accent: #e07a68;
+    --link: #8cb8e8;
+    --up: #5dca82;
+    --down: #ff7a6e;
+  }
+}
+* { box-sizing: border-box; }
+html { font-size: 18px; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: "Source Han Sans TC", "Noto Sans TC", "PingFang HK", "PingFang TC",
+    "Microsoft JhengHei", "Helvetica Neue", system-ui, sans-serif;
+  line-height: 1.7;
+}
+.wrap {
+  max-width: 46rem;
+  margin: 0 auto;
+  padding: 2.25rem 1.25rem 4rem;
+}
+header.site {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  align-items: baseline;
+  border-bottom: 1px solid var(--line);
+  padding-bottom: 0.85rem;
+  margin-bottom: 1.75rem;
+  font-size: 0.88rem;
+}
+header.site a { color: var(--muted); text-decoration: none; }
+header.site a:hover { color: var(--link); text-decoration: underline; }
+h1 {
+  font-size: 1.55rem;
+  line-height: 1.3;
+  margin: 0 0 0.35rem;
+  font-weight: 650;
+}
+.date {
+  color: var(--muted);
+  margin: 0 0 1.5rem;
+  font-size: 0.95rem;
+}
+h2 {
+  font-size: 1.18rem;
+  margin: 2.1rem 0 0.8rem;
+  padding-top: 0.4rem;
+  border-top: 1px solid var(--line);
+  color: var(--accent);
+  font-weight: 650;
+}
+h3 {
+  font-size: 1.02rem;
+  margin: 1.4rem 0 0.5rem;
+  font-weight: 650;
+}
+article.story {
+  margin: 0 0 1.6rem;
+}
+article.story h3 { margin: 1.15rem 0 0.12rem; }
+p.en { margin: 0.7rem 0 0.1rem; }
+p.zh, .zh-head {
+  margin: 0 0 0.15rem;
+  color: var(--muted);
+}
+.zh-head { font-weight: 600; }
+p.zh + p.en { margin-top: 0.7rem; }
+p { margin: 0.75rem 0; }
+a { color: var(--link); }
+.source {
+  font-size: 0.92rem;
+  color: var(--muted);
+  margin: 0.35rem 0 0;
+  word-break: break-all;
+}
+.disclaimer {
+  margin-top: 2.4rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--line);
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+.table-wrap { overflow-x: auto; margin: 1rem 0 1.4rem; }
+table {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 0.88rem;
+  background: var(--card);
+}
+th, td {
+  border: 1px solid var(--line);
+  padding: 0.4rem 0.55rem;
+  text-align: left;
+  vertical-align: top;
+  white-space: nowrap;
+}
+th { font-weight: 650; background: rgba(139, 58, 42, 0.06); }
+.chg-up { color: var(--up); }
+.chg-down { color: var(--down); }
+ol.archive {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+ol.archive li {
+  border-bottom: 1px solid var(--line);
+}
+ol.archive a {
+  display: block;
+  padding: 0.7rem 0.15rem;
+  text-decoration: none;
+  color: var(--ink);
+}
+ol.archive a:hover { color: var(--link); }
+ol.archive .d { font-weight: 650; }
+ol.archive .l { color: var(--muted); font-size: 0.9rem; margin-left: 0.6rem; }
+.note { color: var(--muted); font-size: 0.95rem; }
+@media print {
+  body { background: #fff; color: #000; }
+  a { color: inherit; }
+  header.site { display: none; }
+}
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header class="site">
+      <a href="../index.html">晨報存檔 Morning Brief Archive</a>
+      <span>2026-11-26</span>
+    </header>
+    <h1>史泰加，你條L樣睇路啦</h1>
+    <p class="date">AI、美股及加密貨幣早晨簡報 / Morning Brief — 2026-11-26（亞洲／香港時間 GMT+8）</p>
+    <p class="en">This is your personal morning brief for the preceding ~24 hours (Asia/Hong Kong GMT+8: about 08:15 on 2026-11-25 through about 08:15 on 2026-11-26). Cutoff ~08:15 GMT+8 on 2026-11-26. Only verified, material items are included, and related coverage has been deduplicated across sections. It is Thursday morning in Hong Kong, and the U.S. cash equity market is closed today for Thanksgiving. The market completed a regular Wednesday session, which closed at 4:00 p.m. Eastern Time on 2026-11-25 (5:00 a.m. on 2026-11-26, Hong Kong time). Friday’s session will close early at 1:00 p.m. Eastern Time; that early close is the published trading calendar, not a new development from the past 24 hours. Reuters said Wednesday’s session was mixed and finished well off the day’s lows: the S&amp;P 500 fell 0.25% to 7,182.78 and the Nasdaq Composite fell 0.62% to 23,585.80, while the Dow Jones Industrial Average rose 0.33% to 50,182.95; Nvidia shares fell 3.9%. Officially, the U.S. Trade Representative determined that practices in 14 economies related to structural excess industrial capacity are actionable under Section 301 and proposed additional tariffs, which are open for public comment and are not duties already in force. The Bureau of Economic Analysis also raised its second estimate of third-quarter real GDP growth to a 4.3% annual rate and said the October PCE price index rose 3.8% from a year earlier. In artificial intelligence, OpenAI said ChatGPT and Codex usage will share one allowance from December, and Google DeepMind launched Mass Spec Skills for Google Antigravity. In cryptocurrency, Farside Investors has now completed Tuesday’s U.S. spot bitcoin ETF table at a $231.4 million net outflow. At the cutoff, CoinGecko put bitcoin at $60,330, up about 1.07% over 24 hours, and the global crypto market cap at about $2.09 trillion, down about 1.78% over 24 hours. The AI, U.S. stocks and cryptocurrency news sections have 2, 5 and 4 verified items respectively, so only verified stories are listed and the sections were not padded with older coverage.</p>
+    <p class="zh">以下為過去約 24 小時（亞洲／香港時間 GMT+8：2026-11-25 約 08:15 至 2026-11-26 約 08:15）個人早晨簡報。截稿時間約為 2026-11-26 08:15 GMT+8。僅收錄已核實、具實質影響的消息；各節之間已盡量去重。今日為週四早上（香港時間），美股現貨因感恩節休市。美股已完成週三正規時段，於美東時間 2026-11-25 下午 4 時收市（香港時間 2026-11-26 上午 5 時）。週五將於美東時間下午 1 時提早收市；此為已公布的交易日曆，並非過去 24 小時的新消息。路透社稱，週三走勢好淡紛陳，收市遠高於當日低位：標普 500 跌 0.25%，收報 7,182.78；納斯達克綜合指數跌 0.62%，收報 23,585.80；道瓊斯工業平均指數則升 0.33%，收報 50,182.95；Nvidia 股價跌 3.9%。美國貿易代表辦公室正式認定，14 個經濟體與結構性過剩工業產能相關的做法，可根據第 301 條採取行動，並提出加徵關稅的建議；有關建議現正公開徵詢意見，並非已經實施的關稅。經濟分析局亦把第三季實質國內生產總值的第二次估計，上修至按年率計算增長 4.3%，並稱 10 月個人消費開支（PCE）物價指數按年升 3.8%。人工智能方面，OpenAI 表示由 12 月起 ChatGPT 與 Codex 將共用同一個用量額度，Google DeepMind 則推出用於 Google Antigravity 的 Mass Spec Skills。加密貨幣方面，Farside Investors 現已補完週二美國現貨比特幣 ETF 表，全日淨流出為 2.314 億美元。截稿時 CoinGecko 報比特幣 60,330 美元，滾動 24 小時約升 1.07%；同一來源的全球總市值約 2.09 萬億美元，24 小時約跌 1.78%。人工智能、美股及加密貨幣新聞各有 2、5 及 4 則已核實要聞，故只列已核實項目，並未為湊數而加入較舊消息。</p>
+    <h2>一、人工智能／1. Artificial Intelligence</h2>
+    <p class="en">Only 2 verified items from the past ~24 hours are listed; the section was not padded with older or independently unverified stories. OpenAI’s GPT-6 protein-design laboratory results, Google DeepMind’s Humanity’s First Exam benchmark, and Microsoft’s Foundry platform update were covered in yesterday’s brief and are not repeated. Google’s Workspace post making MCP servers and the Workspace CLI generally available, and requiring AI agents to use MCP rather than calling Workspace REST APIs directly, was dated 2026-11-24 and falls outside this window. Anthropic’s article on MCP Skills, Tasks and Elicitation was likewise dated 2026-11-24, and Microsoft’s Rocket reinforcement-learning infrastructure post was dated 2026-11-23. OpenAI and Cisco’s Shirudo launch, Google DeepMind’s Lean-verified quantum-algorithm results, Google’s Search Personal Intelligence app connections and Gemini API file-slicing controls, and Nvidia’s board decision to reinstate Jensen Huang were covered in earlier briefs. Anthropic’s Claude Ship, Amazon’s agreement to purchase Decart’s optimization technology, AWS announcements on the Bedrock Trusted Access API, Z.ai’s GLM-5.4 release, and NHS England’s EDITH breast-screening trial remain outside this rolling 24-hour window.</p>
+    <p class="zh">本節僅列 2 則已核實、屬過去約 24 小時內的要聞，未為湊滿 10 則而加入較舊或未能獨立核實的消息。OpenAI 的 GPT-6 蛋白質設計實驗室結果、Google DeepMind 的 Humanity’s First Exam 基準，以及 Microsoft 的 Foundry 平台更新，已在昨日簡報述及，今日不重複。Google 宣布 Workspace 的 MCP 伺服器及 Workspace CLI 正式推出，並要求人工智能代理須經 MCP 而非直接呼叫 Workspace REST API 的文章，日期為 2026-11-24，不在本窗口內。Anthropic 有關 MCP Skills、Tasks 及 Elicitation 的文章同樣日期為 2026-11-24；Microsoft 關於 Rocket 強化學習基礎設施的文章則日期為 2026-11-23。OpenAI 與 Cisco 推出 Shirudo、Google DeepMind 以 Lean 驗證的量子算法結果、Google 的 Search Personal Intelligence 應用程式接駁及 Gemini API 檔案切片控制，以及 Nvidia 董事會恢復黃仁勳職務，已在較早簡報述及。Anthropic 的 Claude Ship、Amazon 協議購入 Decart 優化技術、AWS 有關 Bedrock Trusted Access API 的公布、Z.ai 發布 GLM-5.4，以及英國國民保健署（NHS England）的 EDITH 乳癌篩查試驗，仍不在本簡報的滾動 24 小時範圍。</p>
+<article class="story">
+<h3>1. OpenAI will share ChatGPT and Codex usage limits,</h3>
+<p class="zh-head">OpenAI 將把 ChatGPT 與 Codex 的用量上限合併計算，</p>
+<p class="en">starting in December for Plus, Pro and Business plans</p>
+<p class="zh">由 12 月起適用於 Plus、Pro 及 Business 計劃</p>
+<p class="en">OpenAI’s help center, which showed an update as of yesterday when checked on the morning of 2026-11-26, said that starting in December, Plus, Pro and Business plans’ usage allowance will be shared across ChatGPT and Codex as the company brings the agentic capabilities of Work into the main ChatGPT experience.</p>
+<p class="zh">OpenAI 的支援中心在 2026-11-26 早上記錄為昨日已更新，內容稱由 12 月起，Plus、Pro 及 Business 計劃的用量額度將在 ChatGPT 與 Codex 之間共用，因為公司正把 Work 的代理能力併入主要的 ChatGPT 體驗。</p>
+<p class="en">The company said usage will be measured in tokens, that more advanced models and more complex tasks generally use more of the allowance, and that Instant chat will not draw from that usage.</p>
+<p class="zh">公司表示，用量會以 token（權杖單位）計算，較先進的模型及較複雜的任務一般會消耗更多額度；即時對話（Instant chat）則不會動用該用量。</p>
+<p class="en">It said it expects most users will not need to wait for their usage to reset more often than they do now, that remaining usage and reset times will be visible in Settings → Usage, and that users who reach the limit can wait for a reset, upgrade their plan, or buy credits.</p>
+<p class="zh">公司稱，預期大多數用戶無須比現時更頻密地等待用量重置；剩餘用量及重置時間可在「設定 → 用量」查看；若用盡額度，用戶可等待重置、升級計劃，或購買配額繼續使用合資格功能。</p>
+<p class="en">A small group of users may see the usage changes before December so the company can learn from early feedback, the help page said.</p>
+<p class="zh">支援頁面稱，一小部分用戶可能會在 12 月前先看到用量改動，以便公司先收集早期意見。</p>
+<p class="en">TechCrunch, in a November 25, 2026, report, said product lead Thibault “Tibo” Sottiaux had said on Tuesday that the rollout had started for a small group of Pro subscribers, and that an OpenAI spokesperson told the publication that while most users are not expected to face more frequent usage resets, a small fraction of the heaviest users may hit their limits sooner.</p>
+<p class="zh">《TechCrunch》在 2026 年 11 月 25 日的報道中稱，產品主管 Thibault「Tibo」Sottiaux 於週二表示，有關更新已開始向一小部分 Pro 訂戶推出；一名 OpenAI 發言人亦向該刊表示，雖然預期大多數用戶不會更頻密地遇到用量重置，但一小部分用量最高的用戶可能會更快觸及上限。</p>
+<p class="en">The same report said conversations using the Instant model will remain unlimited and will not count toward the shared allowance, and that users can continue using Instant after exhausting their usage limits.</p>
+<p class="zh">同一報道稱，使用 Instant 模型的對話仍會保持不受限，亦不會計入共用額度；即使用盡用量上限，用戶仍可繼續使用 Instant。</p>
+<p class="source"><a href="https://help.openai.com/en/articles/20001625-understanding-chatgpt-and-codex-usage-limits">https://help.openai.com/en/articles/20001625-understanding-chatgpt-and-codex-usage-limits</a></p>
+</article>
+<article class="story">
+<h3>2. Google DeepMind launches Mass Spec Skills for Google Antigravity,</h3>
+<p class="zh-head">Google DeepMind 推出用於 Google Antigravity 的 Mass Spec Skills，</p>
+<p class="en">to help identify molecules from tandem mass spectra</p>
+<p class="zh">協助從串聯質譜辨識分子</p>
+<p class="en">Google DeepMind said on 2026-11-25 that it was sharing Mass Spec Skills for Google Antigravity, a suite of domain skills that pair Gemini’s chemical reasoning with established mass-spectrometry tools and public chemical databases.</p>
+<p class="zh">Google DeepMind 於 2026-11-25 表示，正在推出用於 Google Antigravity 的 Mass Spec Skills，這套領域技能把 Gemini 的化學推理，與既有的質譜工具及公開化學數據庫配對使用。</p>
+<p class="en">The company said a modern mass spectrometer can detect tens of thousands of molecular signals in a single sample, but that spectral searches against reference libraries still annotate on average only about 5% of measured spectra, or about 10% for human samples, leaving most signals in what researchers have called the “dark matter” of mass spectrometry.</p>
+<p class="zh">公司稱，一部現代質譜儀可在單一樣本中偵測數以萬計的分子訊號，但對照參考譜庫的搜尋，平均仍只能為約 5% 的測得圖譜註解，人體樣本則約為 10%，其餘大多數訊號仍屬於研究人員所稱的質譜「暗物質」。</p>
+<p class="en">It said the agent can take an unannotated tandem mass spectrum to a proposed structure and an auditable report, laying out the evidence for a chemist to review, and that researchers can describe the task in plain language.</p>
+<p class="zh">公司表示，該代理可把未註解的串聯質譜，做到提出化學結構及可供審核的報告，並把證據整理供化學家覆核；研究人員亦可用日常語言描述任務。</p>
+<p class="en">To test identification and verification, DeepMind said it evaluated the system on 100 compounds sampled from the Enamine REAL MS/MS collection in MoNA, comparing Antigravity with no internet access or skills, with user-permitted internet access, and with that access plus the Mass Spec Skills, across Gemini 3.8 Flash and the frontier models Gemini 4 Argon and Gemini 4 Carbon.</p>
+<p class="zh">為測試辨識及核實能力，DeepMind 表示在 MoNA 中的 Enamine REAL MS/MS 譜集抽取 100 種化合物作評估，並比較三種設定：Antigravity 沒有互聯網或技能、有用戶允許的互聯網存取，以及在該存取之上加上 Mass Spec Skills；測試模型包括 Gemini 3.8 Flash，以及前沿模型 Gemini 4 Argon 與 Gemini 4 Carbon。</p>
+<p class="en">With no internet access or skills, it said accuracy remained below 4% across all three models; with the Mass Spec Skills added, all three models identified and verified the exact molecule in around 97% of attempts, and the lightweight model matched the frontier models’ accuracy.</p>
+<p class="zh">公司稱，在沒有互聯網或技能時，三個模型的準確度都低於 4%；加入 Mass Spec Skills 後，三個模型都在約 97% 的嘗試中辨識並核實了正確分子，輕量模型的準確度亦與前沿模型看齊。</p>
+<p class="en">In a worked example in the same post, the agent accounted for 97.7% of the summed fragment intensity, matching 14 of 19 preprocessed peaks, while distinguishing look-alike isomers by testing whether their bond connectivity matched the observed fragmentation pathways.</p>
+<p class="zh">在同一篇文章的示範例子中，該代理解釋了合計碎片強度的 97.7%，對得上 19 個預處理峰之中的 14 個，並透過檢驗化學鍵連接是否符合觀測到的碎裂路徑，區分外形相近的同分異構體。</p>
+<p class="source"><a href="https://deepmind.google/blog/interpreting-mass-spectra-with-google-antigravity/">https://deepmind.google/blog/interpreting-mass-spectra-with-google-antigravity/</a></p>
+</article>
+    <h2>二、美股／2. US Stock Market</h2>
+    <p class="en">Only 5 verified items from the past ~24 hours are listed; the section was not padded with older or independently unverified stories. Tuesday’s mixed cash session, Dell Technologies’ and Analog Devices’ earnings, Sanofi’s agreement to acquire Insmed, and Anthropic shares closing below their IPO price were covered in yesterday’s brief and are not repeated as separate items. Yesterday’s brief also treated a Reuters report that the administration was poised to release tariff-probe findings as an unofficial account; the formal USTR determinations and proposed actions issued on 2026-11-25 are listed below as a new official development. HP Inc.’s fiscal 2026 fourth-quarter results were dated 2026-11-24 and fall outside this window; Reuters’ account of HP’s 11.5% Wednesday gain is noted in the market-wrap item rather than as a separate earnings story. The Thanksgiving close today and Friday’s early close remain the published calendar, not new news.</p>
+    <p class="zh">本節僅列 5 則已核實、屬過去約 24 小時內的要聞，未為湊滿 10 則而加入較舊或未能獨立核實的消息。週二現貨好淡紛陳的走勢、Dell Technologies 及 Analog Devices 的業績、Sanofi 協議收購 Insmed，以及 Anthropic 股價收市跌破招股價，已在昨日簡報述及，今日不另立為獨立項目。昨日簡報亦把路透社有關政府即將公布關稅調查結果的報道，視為非正式消息處理；美國貿易代表辦公室於 2026-11-25 正式作出的認定及建議措施，則作為新的官方發展列於下文。HP Inc. 的 2026 財政年度第四季業績日期為 2026-11-24，不在本窗口內；路透社所述 HP 週三升 11.5%，會在大市總結一則中提及，不另立為業績項目。今日感恩節休市及週五提早收市，仍為已公布的交易日曆，並非新消息。</p>
+<article class="story">
+<h3>1. U.S. stocks close mixed on Wednesday,</h3>
+<p class="zh-head">美股週三收市好淡紛陳，</p>
+<p class="en">well off the day’s lows ahead of the Thanksgiving holiday</p>
+<p class="zh">收市遠高於當日低位，然後進入感恩節假期</p>
+<p class="en">Reuters said the S&amp;P 500 and the Nasdaq retreated on Wednesday amid an AI-related selloff, but finished well off the day’s lows as bargain hunters stepped in ahead of the U.S. Thanksgiving holiday, while the Dow finished higher.</p>
+<p class="zh">路透社稱，標普 500 及納斯達克週三在人工智能相關抛售中回落，但在感恩節前有逢低買盤入市，收市遠高於當日低位；道指則收市上升。</p>
+<p class="en">The report said the Dow Jones Industrial Average rose 164.25 points, or 0.33%, to 50,182.95, the S&amp;P 500 lost 18.31 points, or 0.25%, to 7,182.78, and the Nasdaq Composite lost 147.73 points, or 0.62%, to 23,585.80.</p>
+<p class="zh">報道稱，道瓊斯工業平均指數升 164.25 點或 0.33%，收報 50,182.95；標普 500 跌 18.31 點或 0.25%，收報 7,182.78；納斯達克綜合指數跌 147.73 點或 0.62%，收報 23,585.80。</p>
+<p class="en">Reuters said the Nasdaq fell more than 4% early in the session, and CNBC, in a recap updated after the close, said the Dow had lost more than 1,100 points, or 2.2%, at its low, while the Nasdaq was down 4.6% and the S&amp;P 500 was down 3.2% at their respective lows.</p>
+<p class="zh">路透社稱，納斯達克早段一度跌逾 4%；CNBC 在收市後更新的回顧中則稱，道指低位曾跌逾 1,100 點或 2.2%，納斯達克低位曾跌 4.6%，標普 500 低位曾跌 3.2%。</p>
+<p class="en">Reuters said Nvidia shares fell 3.9% and Amazon shares fell 3.1%, while HP gained 11.5% after it reported fourth-quarter revenue and profit above analysts’ estimates; that HP earnings report itself was dated 2026-11-24 and is not treated here as a new official release.</p>
+<p class="zh">路透社稱，Nvidia 股價跌 3.9%，Amazon 跌 3.1%，HP 則升 11.5%，因其公布的第四季收入及盈利高於分析師估計；HP 該份業績本身日期為 2026-11-24，本簡報不以新的正式公告處理。</p>
+<p class="en">The same Reuters report said the Nasdaq 100 briefly fell 20% from its record closing high, flirting with bear-market territory, and that the market will be closed on Thursday and will close early on Friday.</p>
+<p class="zh">同一篇路透社報道稱，納斯達克 100 指數曾短暫較其紀錄收市高位下跌 20%，接近熊市水平；市場週四休市，週五將提早收市。</p>
+<p class="source"><a href="https://www.investing.com/news/economy-news/nasdaq-futures-slide-over-2-on-fresh-us-tariff-concerns-inflation-data-in-focus-5050138">https://www.investing.com/news/economy-news/nasdaq-futures-slide-over-2-on-fresh-us-tariff-concerns-inflation-data-in-focus-5050138</a></p>
+</article>
+<article class="story">
+<h3>2. USTR determines 14 economies’ excess-capacity practices are actionable,</h3>
+<p class="zh-head">美國貿易代表認定 14 個經濟體的過剩產能做法可採取行動，</p>
+<p class="en">and proposes additional tariffs that are now open for public comment</p>
+<p class="zh">並提出加徵關稅的建議，現正公開徵詢意見</p>
+<p class="en">The Office of the U.S. Trade Representative said on 2026-11-25 that Trade Representative Jamieson Greer had determined under Section 301 of the Trade Act of 1974 that the acts, policies and practices of 14 economies relating to structural excess capacity and production in manufacturing sectors are unreasonable and burden or restrict U.S. commerce, and are thus actionable.</p>
+<p class="zh">美國貿易代表辦公室於 2026-11-25 表示，貿易代表 Jamieson Greer 已根據 1974 年《貿易法》第 301 條認定，14 個經濟體與製造業結構性過剩產能及生產相關的作為、政策及做法不合理，並對美國商務構成負擔或限制，因此可採取行動。</p>
+<p class="en">The 14 economies named in the determinations are China, the European Union, Singapore, Switzerland, Indonesia, Malaysia, Cambodia, Thailand, Korea, Vietnam, Taiwan, Bangladesh, Japan and India; USTR said it has not made determinations with respect to Mexico or Norway at this time, although those two were among the 16 economies originally investigated.</p>
+<p class="zh">認定所涵蓋的 14 個經濟體為中國、歐盟、新加坡、瑞士、印尼、馬來西亞、柬埔寨、泰國、韓國、越南、台灣、孟加拉、日本及印度；貿易代表辦公室稱，目前尚未對墨西哥或挪威作出認定，儘管這兩地屬於原先受調查的 16 個經濟體之列。</p>
+<p class="en">USTR said the proposed actions are additional tariffs, except for certain products identified in the annexes of the respective Federal Register notices, and it described them as proposals for public comment, not as duties already in force.</p>
+<p class="zh">貿易代表辦公室稱，建議措施是加徵關稅，惟各份《聯邦公報》通知附件所列的若干產品除外；並把這些措施說明為供公眾評論的建議，而非已經實施的關稅。</p>
+<p class="en">On the official page, the proposed rates include up to 20% on certain goods of China, up to 35% on goods of Vietnam with a possible adjustment to 20% if Vietnam reaches a responsive reciprocal-trade agreement, up to 25% on goods of India with a possible 17% rate if such an agreement is reached, up to 20% on goods of Singapore with a possible adjustment to 10% if an agreement is reached, 15% on goods of the EU, Japan, Korea, Switzerland and Taiwan, net of most-favored-nation rates and existing Section 301 tariffs as described in the notice, and up to 18% on goods of Bangladesh, Cambodia, Indonesia, Malaysia and Thailand, in each case with exemptions for certain goods.</p>
+<p class="zh">在官方頁面中，建議稅率包括：中國若干貨品最高 20%；越南貨品最高 35%，若越南達成具回應性的對等貿易協議則可能調整為 20%；印度貨品最高 25%，若達成協議則可能為 17%；新加坡貨品最高 20%，若達成協議則可能調整為 10%；歐盟、日本、韓國、瑞士及台灣貨品為 15%，並按通知所述扣除最惠國稅率及既有第 301 條關稅；孟加拉、柬埔寨、印尼、馬來西亞及泰國貨品最高 18%；以上各項均有若干貨品豁免。</p>
+<p class="en">The notice said interested persons should submit requests to appear at the hearings, along with a summary of testimony, by January 5, 2027, that written comments are due by the same date, and that USTR will hold hearings on the proposed actions on January 25, 2027, continuing as appropriate.</p>
+<p class="zh">通知稱，有意出席聽證會的人士須在 2027 年 1 月 5 日或之前提交出席申請及證詞摘要，書面意見亦須於同一日前遞交；貿易代表辦公室將於 2027 年 1 月 25 日就建議措施舉行聽證會，並視乎情況延續。</p>
+<p class="source"><a href="https://ustr.gov/about/policy-offices/press-office/press-releases/2026/november/ustr-makes-determinations-and-proposes-actions-14-section-301-investigations-relating-structural">https://ustr.gov/about/policy-offices/press-office/press-releases/2026/november/ustr-makes-determinations-and-proposes-actions-14-section-301-investigations-relating-structural</a></p>
+</article>
+<article class="story">
+<h3>3. BEA raises third-quarter real GDP growth to a 4.3% annual rate,</h3>
+<p class="zh-head">經濟分析局把第三季實質經濟增長上修至按年率 4.3%，</p>
+<p class="en">0.9 percentage point above the advance estimate</p>
+<p class="zh">較首次估計高出 0.9 個百分點</p>
+<p class="en">The U.S. Bureau of Economic Analysis said on 2026-11-25, in a release embargoed until 8:30 a.m. Eastern Time, that real GDP increased at an annual rate of 4.3% in the third quarter of 2026, according to the second estimate, after increasing 2.2% in the second quarter.</p>
+<p class="zh">美國經濟分析局於 2026-11-25 在美東時間上午 8 時 30 分解禁的公告中表示，根據第二次估計，2026 年第三季實質國內生產總值按年率計算增長 4.3%，第二季則增長 2.2%。</p>
+<p class="en">The bureau said real GDP was revised up 0.9 percentage point from the 3.4% advance estimate, primarily reflecting upward revisions to investment and consumer spending.</p>
+<p class="zh">該局稱，實質國內生產總值較首次估計的 3.4% 上修 0.9 個百分點，主要反映投資及消費開支的上修。</p>
+<p class="en">It said the contributors to the third-quarter increase were increases in investment, consumer spending and government spending that were partly offset by a decrease in exports, and that imports, which are a subtraction in the calculation of GDP, increased.</p>
+<p class="zh">該局表示，第三季增長的貢獻來自投資、消費開支及政府開支增加，惟部分被出口下降所抵銷；在國內生產總值計算中屬減項的進口則有所增加。</p>
+<p class="en">Real final sales to private domestic purchasers increased 5.8% in the third quarter, also revised up 0.9 percentage point, the bureau said, while the PCE price index increased 2.1% and the core PCE price index increased 2.5%, both unchanged from the previous estimate.</p>
+<p class="zh">該局稱，對私人國內購買者的實質最終銷售在第三季增長 5.8%，同樣上修 0.9 個百分點；個人消費開支物價指數升 2.1%，核心個人消費開支物價指數升 2.5%，兩者均與上次估計相同。</p>
+<p class="en">Corporate profits from current production increased $206.0 billion in the third quarter, compared with an increase of $384.0 billion in the second quarter, according to the same release.</p>
+<p class="zh">同一公告稱，按當期生產計算的企業利潤在第三季增加 2,060 億美元，第二季則增加 3,840 億美元。</p>
+<p class="source"><a href="https://www.bea.gov/news/2026/gdp-second-estimate-and-corporate-profits-3rd-quarter-2026">https://www.bea.gov/news/2026/gdp-second-estimate-and-corporate-profits-3rd-quarter-2026</a></p>
+</article>
+<article class="story">
+<h3>4. October PCE prices rise 3.8% from a year earlier,</h3>
+<p class="zh-head">10 月個人消費開支物價較一年前升 3.8%，</p>
+<p class="en">and 0.3% from the prior month</p>
+<p class="zh">較前一個月升 0.3%</p>
+<p class="en">The Bureau of Economic Analysis said in a separate 2026-11-25 release, also embargoed until 8:30 a.m. Eastern Time, that the PCE price index increased 0.3% in October from the preceding month, and that the index excluding food and energy also increased 0.3%.</p>
+<p class="zh">經濟分析局在 2026-11-25 另一份同樣於美東時間上午 8 時 30 分解禁的公告中表示，10 月個人消費開支物價指數較前一個月升 0.3%，撇除食品及能源後同樣升 0.3%。</p>
+<p class="en">From a year earlier, the bureau said the PCE price index increased 3.8% in October, and the index excluding food and energy increased 3.3%.</p>
+<p class="zh">該局稱，與一年前相比，10 月個人消費開支物價指數升 3.8%，撇除食品及能源後升 3.3%。</p>
+<p class="en">Personal income increased $201.8 billion, or 0.7% at a monthly rate, in October, disposable personal income increased 0.8%, and current-dollar PCE increased $63.8 billion, or 0.3%, the release said.</p>
+<p class="zh">公告稱，10 月個人收入增加 2,018 億美元，按月升 0.7%；可支配收入升 0.8%；以當期美元計算的個人消費開支增加 638 億美元，或 0.3%。</p>
+<p class="en">The bureau said real PCE decreased less than 0.1% in October, and that the personal saving rate was 4.1%.</p>
+<p class="zh">該局稱，10 月實質個人消費開支跌幅少於 0.1%，個人儲蓄率為 4.1%。</p>
+<p class="en">AFP, citing the same data, said the 3.8% year-over-year PCE reading matched a three-year high set in May; that comparison is attributed to AFP, not to a wording in the BEA release itself.</p>
+<p class="zh">法新社引述同一數據稱，這個 3.8% 的按年個人消費開支物價讀數，追平 5 月創下的三年高位；此比較是法新社的表述，並非經濟分析局公告原文的用詞。</p>
+<p class="source"><a href="https://www.bea.gov/news/2026/personal-income-and-outlays-october-2026">https://www.bea.gov/news/2026/personal-income-and-outlays-october-2026</a></p>
+</article>
+<article class="story">
+<h3>5. Deere reports fiscal 2026 results and a cautious 2027 profit outlook,</h3>
+<p class="zh-head">Deere 公布 2026 財政年度業績及較審慎的 2027 年盈利展望，</p>
+<p class="en">as large-agriculture demand remains uneven</p>
+<p class="zh">大型農業需求仍然參差</p>
+<p class="en">Deere &amp; Company, in a fiscal fourth-quarter and full-year release furnished to the U.S. Securities and Exchange Commission on 2026-11-25, said fourth-quarter net sales and revenues were $12.115 billion, down 2% from $12.394 billion a year earlier, and that net income was $1.051 billion, or $3.89 per fully diluted share, compared with $1.065 billion, or $3.93 a share, a year earlier.</p>
+<p class="zh">Deere &amp; Company 在 2026-11-25 提交予美國證券交易委員會的財政第四季及全年業績中表示，第四季銷售淨額及收入為 121.15 億美元，較一年前的 123.94 億美元跌 2%；淨利潤為 10.51 億美元，全面攤薄每股 3.89 美元，一年前則為 10.65 億美元，或每股 3.93 美元。</p>
+<p class="en">For fiscal 2026, the company said net sales and revenues were $47.704 billion, up 4% from $45.684 billion, and net income was $4.860 billion, or $17.95 per share, compared with $5.027 billion, or $18.50 per share, in fiscal 2025.</p>
+<p class="zh">公司稱，2026 財政年度銷售淨額及收入為 477.04 億美元，較 456.84 億美元升 4%；淨利潤為 48.60 億美元，或每股 17.95 美元，2025 財政年度則為 50.27 億美元，或每股 18.50 美元。</p>
+<p class="en">In Production &amp; Precision Agriculture, Deere said fourth-quarter net sales were $4.018 billion, down 15%, while Small Agriculture &amp; Turf net sales were $2.703 billion, up 10%, and Construction &amp; Forestry net sales were $3.793 billion, up 12%.</p>
+<p class="zh">在生產及精準農業方面，Deere 稱第四季銷售淨額為 40.18 億美元，跌 15%；小型農業及草坪設備銷售淨額為 27.03 億美元，升 10%；工程及林業設備銷售淨額為 37.93 億美元，升 12%。</p>
+<p class="en">For fiscal 2027, the company forecast net income of $4.50 billion to $5.25 billion, including an estimated one-time, non-cash pension settlement charge of $0.25 billion to $0.40 billion, and said Production &amp; Precision Ag net sales were expected to be up 5% to 15%, Small Ag &amp; Turf about flat, and Construction &amp; Forestry flat to up 10%.</p>
+<p class="zh">至於 2027 財政年度，公司預測淨利潤為 45.0 億至 52.5 億美元，當中包括估計 2.5 億至 4.0 億美元的一次性非現金退休金結算支出；並預期生產及精準農業銷售淨額升 5% 至 15%，小型農業及草坪設備大致持平，工程及林業設備持平至升 10%。</p>
+<p class="en">Chief executive John May said the company was seeing early signs of improvement in large agriculture, led by North America, but that the outlook reflected a wider range of outcomes given continued uncertainty in key end markets.</p>
+<p class="zh">行政總裁 John May 表示，公司看到大型農業出現改善的早期跡象，由北美帶動，但由於主要終端市場的不確定性持續，展望反映較闊的結果區間。</p>
+<p class="en">Reuters said the fiscal 2027 net-income forecast was below a $5.91 billion analyst average compiled by LSEG, that quarterly earnings of $3.89 a share missed a $4.05 estimate, and that net sales of $10.51 billion, a figure that matches the sum of the three equipment segments rather than the broader “net sales and revenues” total, beat a $10.37 billion estimate; the same report, updated at 12:54 p.m., said shares rose about 3%.</p>
+<p class="zh">路透社稱，2027 財政年度淨利潤預測低於 LSEG 匯編的分析師平均預期 59.1 億美元；季度每股盈利 3.89 美元亦低於 4.05 美元的估計；銷售淨額 105.1 億美元則高於 103.7 億美元的估計，該數字與三個設備分部的合計相符，而非較廣的「銷售淨額及收入」總額；同一篇於下午 12 時 54 分更新的報道稱，股價升約 3%。</p>
+<p class="source"><a href="https://www.sec.gov/Archives/edgar/data/315189/000110465926131741/de-ex99d1.htm">https://www.sec.gov/Archives/edgar/data/315189/000110465926131741/de-ex99d1.htm</a></p>
+</article>
+    <h2>三、加密貨幣新聞／3. Cryptocurrency News</h2>
+    <p class="en">Only 4 verified items from the past ~24 hours are listed; the section was not padded with older or independently unverified stories. The completed Monday U.S. spot bitcoin ETF net outflow of $569.7 million and South Korea’s government bill on won stablecoins and exchange ownership caps were covered in yesterday’s brief and are not repeated. The completed Friday outflow of $669.2 million, the Justice Department’s civil action to forfeit more than $1.1 billion in USDC, the Cross River Bank and LendingUSA bitcoin-secured loans, and Bitmine’s ether-holdings update were covered in earlier briefs. Bitcoin’s latest price and market-cap figures are in the price-movements section and are not given a separate news item today. Wednesday’s Farside rows are still incomplete at this cutoff and are not treated as completed full-day figures.</p>
+    <p class="zh">本節僅列 4 則已核實、屬過去約 24 小時內的要聞，未為湊滿 10 則而加入較舊或未能獨立核實的消息。已補完的週一美國現貨比特幣 ETF 淨流出 5.697 億美元，以及韓國有關韓元穩定幣及交易所持股上限的政府草案，已在昨日簡報述及，今日不重複。已補完的週五淨流出 6.692 億美元、美國司法部就超過 11 億美元 USDC 提出的民事沒收、Cross River Bank 與 LendingUSA 的比特幣抵押貸款，以及 Bitmine 的以太幣持倉更新，已在較早簡報述及。比特幣的最新價格及市值見行情一節，今日不另立為新聞項目。截稿時 Farside 的週三行仍不完整，不以已完成的全日數字處理。</p>
+<article class="story">
+<h3>1. Farside now shows a completed Tuesday U.S. spot bitcoin ETF net outflow of $231.4 million,</h3>
+<p class="zh-head">Farside 現已列示完整的週二美國現貨比特幣 ETF 淨流出 2.314 億美元，</p>
+<p class="en">after cells that were still blank in yesterday’s brief were filled in</p>
+<p class="zh">昨日簡報中仍為空白的欄位現已填上</p>
+<p class="en">Farside Investors’ U.S. spot bitcoin ETF table, checked on the morning of 2026-11-26, now has a complete fund-level row for Tuesday, 2026-11-24, totaling a $231.4 million net outflow.</p>
+<p class="zh">於 2026-11-26 早上核對的 Farside Investors 美國現貨比特幣 ETF 表顯示，2026-11-24（週二）一行的各基金數字現已齊全，合計淨流出 2.314 億美元。</p>
+<p class="en">The completed Tuesday figures are: IBIT −$175.3 million; FBTC −$44.0 million; BITB −$10.3 million; ARKB −$15.8 million; BTCO $0.0 million; EZBC +$6.9 million; BRRR $0.0 million; HODL $0.0 million; BTCW $0.0 million; MSBT +$3.1 million; GBTC $0.0 million; and Grayscale’s BTC mini fund +$4.0 million.</p>
+<p class="zh">已補完的週二數字為：IBIT 流出 1.753 億美元；FBTC 流出 4,400 萬美元；BITB 流出 1,030 萬美元；ARKB 流出 1,580 萬美元；BTCO、BRRR、HODL、BTCW 及 GBTC 均為 0；EZBC 流入 690 萬美元；MSBT 流入 310 萬美元；Grayscale 的 BTC mini 基金流入 400 萬美元。</p>
+<p class="en">Yesterday’s brief reported that the Tuesday IBIT, ETHA and several other large-fund cells were still dashes, and that the posted Tuesday totals of +$7.1 million for bitcoin ETFs and −$3.8 million for ether ETFs were not treated as completed full-day figures.</p>
+<p class="zh">昨日簡報指出，週二 IBIT、ETHA 及其他多隻大型基金一欄仍為「-」，當時已列示的週二合計（比特幣 ETF 淨流入 710 萬美元、以太幣 ETF 淨流出 380 萬美元）不以已完成的全日數字處理。</p>
+<p class="en">Farside’s U.S. spot ether ETF table is also now complete for Tuesday, totaling a $64.1 million net outflow, including ETHA −$37.8 million, ETHB −$25.8 million, FETH +$3.3 million and ETHE −$3.8 million, with the other listed funds at zero.</p>
+<p class="zh">Farside 的美國現貨以太幣 ETF 表在週二行現亦已齊全，合計淨流出 6,410 萬美元，其中包括 ETHA 流出 3,780 萬美元、ETHB 流出 2,580 萬美元、FETH 流入 330 萬美元及 ETHE 流出 380 萬美元，其餘所列基金為零。</p>
+<p class="en">By contrast, the Wednesday, 2026-11-25, bitcoin and ether rows are still incomplete at this cutoff, with dashes remaining for IBIT, ETHA and several other large funds, so the posted Wednesday totals of −$74.0 million for bitcoin ETFs and $0.0 million for ether ETFs are not treated here as final full-day prints.</p>
+<p class="zh">相比之下，截稿時 2026-11-25（週三）的比特幣及以太幣行仍不完整，IBIT、ETHA 及其他多隻大型基金仍為「-」，故已列示的週三合計（比特幣 ETF 淨流出 7,400 萬美元、以太幣 ETF 0.0 百萬美元），本簡報不以最終全日數字處理。</p>
+<p class="source"><a href="https://farside.co.uk/btc/">https://farside.co.uk/btc/</a></p>
+</article>
+<article class="story">
+<h3>2. Franklin Templeton’s EZPZ crypto index ETF will add HYPE,</h3>
+<p class="zh-head">Franklin Templeton 的 EZPZ 加密指數 ETF 將加入 HYPE，</p>
+<p class="en">effective December 1, according to a prospectus supplement</p>
+<p class="zh">根據一份招股說明書補充文件，生效日期為 12 月 1 日</p>
+<p class="en">The Block reported on 2026-11-25 that the Franklin Crypto Index ETF, ticker EZPZ, will add Hyperliquid’s HYPE token to its holdings effective December 1, according to a prospectus supplement filed that Wednesday with the U.S. Securities and Exchange Commission.</p>
+<p class="zh">《The Block》於 2026-11-25 報道，Franklin Crypto Index ETF（代號 EZPZ）將由 12 月 1 日起，把 Hyperliquid 的 HYPE 代幣加入持倉，依據是當週三向美國證券交易委員會提交的招股說明書補充文件。</p>
+<p class="en">The report said the fund will hold HYPE alongside bitcoin, ether, XRP, Solana, Dogecoin, Cardano and Stellar in roughly the same weights as in its underlying index, and that the index will remain subject to a quarterly rebalancing schedule.</p>
+<p class="zh">報道稱，該基金將把 HYPE 與比特幣、以太幣、XRP、Solana、Dogecoin、Cardano 及 Stellar 一併持有，權重大致與其相關指數相同；該指數仍會按季度再平衡。</p>
+<p class="en">This brief treats the story as The Block’s account of an SEC filing; the filing itself was not independently re-read here beyond that report.</p>
+<p class="zh">本簡報將此事作為《The Block》對一份證交會文件的報道處理；除該報道外，並未在此獨立重讀該文件全文。</p>
+<p class="source"><a href="https://www.theblock.co/news/markets/2026-11-25-franklin-templeton-ezpz-etf-adds-hyperliquid-hype-446686">https://www.theblock.co/news/markets/2026-11-25-franklin-templeton-ezpz-etf-adds-hyperliquid-hype-446686</a></p>
+</article>
+<article class="story">
+<h3>3. Senators Warren and Van Hollen urge the SEC to withdraw crypto proposals,</h3>
+<p class="zh-head">參議員 Warren 及 Van Hollen 促請證交會撤回加密貨幣建議，</p>
+<p class="en">in letters that were reported on Wednesday</p>
+<p class="zh">有關信件於週三見報</p>
+<p class="en">The Block reported on 2026-11-25 that Senators Elizabeth Warren and Chris Van Hollen, in letters sent on Tuesday to Securities and Exchange Commission Chair Paul Atkins, had called on the agency to withdraw crypto rulemaking on how crypto projects can raise capital and how tokenized securities can be traded.</p>
+<p class="zh">《The Block》於 2026-11-25 報道，參議員 Elizabeth Warren 及 Chris Van Hollen 在週二致證券交易委員會主席 Paul Atkins 的信件中，要求該機構撤回有關加密項目如何籌資，以及代幣化證券如何交易的規則制定。</p>
+<p class="en">The report said the senators, joined in the letters by Tina Smith and other Senate Banking Committee members, argued that the agency’s proposed “Regulation Crypto Assets” would allow crypto firms to circumvent securities laws, weaken state jurisdiction and could harm investors.</p>
+<p class="zh">報道稱，連同 Tina Smith 及其他參議院銀行委員會成員在信件中指出，該機構擬議的「Regulation Crypto Assets」會讓加密公司規避證券法、削弱州層面的管轄權，並可能損害投資者。</p>
+<p class="en">The senators wrote that the proposal “would create a new ‘tailored securities offering regime’ for certain investment contracts involving crypto assets,” but “only serves to help crypto assets escape from the SEC’s regulatory regime and gives them special treatment—with less oversight—compared to other traditional securities,” according to the report.</p>
+<p class="zh">報道引述議員寫道，該建議「會為涉及加密資產的若干投資合約，設立一套新的『度身訂造證券發行制度』」，但「只是幫助加密資產脫離證交會的監管制度，並給予它們較其他傳統證券更少監督的特殊待遇」。</p>
+<p class="en">The Block said the SEC’s August proposal included a “startup exemption” for offerings of up to $5 million from registration under the Securities Act of 1933 for four years, and a “fundraising exemption” for offerings of up to $75 million for a year.</p>
+<p class="zh">《The Block》稱，證交會 8 月的建議包括一項「初創豁免」，容許最高 500 萬美元的發行在四年內無須根據 1933 年《證券法》登記；以及一項「籌資豁免」，容許一年內最高 7,500 萬美元的發行。</p>
+<p class="en">A second letter, which the report said also included Senators Jack Reed and Tina Smith, asked the SEC to withdraw a September “innovation exemption,” a five-year measure that would exempt certain tokenized-securities venues from being defined as an exchange and would exempt some liquidity providers from being defined as a dealer; the senators wrote that the order “would allow TSV platforms to operate a shadow stock market outside longstanding regulatory protections.”</p>
+<p class="zh">報道稱，第二封信亦有參議員 Jack Reed 及 Tina Smith 聯署，要求證交會撤回 9 月的「創新豁免」；這項為期五年的措施，會讓若干代幣化證券交易平台不被界定為交易所，亦會讓部分流動性提供者不被界定為交易商；議員寫道，該命令「會讓 TSV 平台在長期以來的監管保障之外，運作一個影子股票市場」。</p>
+<p class="en">The Block said the SEC declined to comment, and this brief treats the account as reporting of the letters rather than as a formal SEC action.</p>
+<p class="zh">《The Block》稱證交會拒絕置評；本簡報將此事作為對信件的報道處理，而非證交會的正式行動。</p>
+<p class="source"><a href="https://www.theblock.co/news/regulation/2026-11-25-warren-van-hollen-lead-push-scrap-sec-regulation-crypto-innovation-exemption-446756">https://www.theblock.co/news/regulation/2026-11-25-warren-van-hollen-lead-push-scrap-sec-regulation-crypto-innovation-exemption-446756</a></p>
+</article>
+<article class="story">
+<h3>4. Bithumb says a deeper review found more personal data leaked,</h3>
+<p class="zh-head">Bithumb 稱深入覆核後發現有更多個人資料外洩，</p>
+<p class="en">in the same October internal-system breach</p>
+<p class="zh">屬同一宗 10 月內部系統事故</p>
+<p class="en">Bithumb, in a November 25, 2026, 18:00 update to its customer notice, said a follow-up review of the October incident involving its internal Daou Office mobile groupware system had identified additional affected people and additional categories of personal information.</p>
+<p class="zh">Bithumb 在 2026 年 11 月 25 日 18:00 更新的客戶公告中表示，就 10 月涉及內部 Daou Office 流動羣組軟件系統的事故進行後續覆核後，已識別出更多受影響人士，以及更多類別的個人資料。</p>
+<p class="en">The exchange said the newly confirmed leakage came from the same incident previously disclosed on October 29, and that the system is separate from customers’ exchange accounts and asset information; it said it had not confirmed that the exchange service system or the customer database was directly breached.</p>
+<p class="zh">該交易所稱，新確認的外洩源於 10 月 29 日已公布的同一宗事故，而該系統與客戶的交易所帳戶及資產資料是分開的；並稱尚未確認交易所服務系統或客戶數據庫遭到直接入侵。</p>
+<p class="en">It said unauthorized access to the groupware system ran from 13:49 on October 12 to 15:22 on October 27, and that the additional confirmed data categories include, depending on the person, membership numbers, names, mobile numbers, email addresses, dates of birth, resident-registration numbers, passport numbers, driver’s-license numbers, bank-account numbers, addresses, gender, nationality, copies of identity documents, occupation and workplace details, transaction history and wallet addresses.</p>
+<p class="zh">該公司稱，非授權人士存取該羣組軟件系統的時間，由 10 月 12 日 13 時 49 分至 10 月 27 日 15 時 22 分；另外確認的資料類別因人而異，包括會員編號、姓名、手提電話號碼、電郵地址、出生日期、居民登記號碼、護照號碼、駕駛執照號碼、銀行帳戶號碼、地址、性別、國籍、身份證明文件副本、職業及工作地點資料、交易紀錄及錢包地址。</p>
+<p class="en">The notice said not every field applies to every affected person, that people whose information was confirmed leaked would be notified individually by email and text, and that customers can check their own status through a lookup service or the customer center at 1661-5566.</p>
+<p class="zh">公告稱，並非每項資料都適用於每一名受影響人士；已確認資料外洩的人士將會收到電郵及短訊的個別通知；客戶亦可透過查詢服務或客戶中心 1661-5566 查核自身情況。</p>
+<p class="en">Bithumb warned customers about phishing and other follow-on harm, said it does not ask for passwords or authentication codes by phone, text or messenger, and said it would take responsibility for confirmed harm and is reviewing security and access controls.</p>
+<p class="zh">Bithumb 提醒客戶提防網絡釣魚及其他衍生損害，並稱不會以電話、短訊或即時通訊要求提供密碼或驗證碼；公司表示會對已確認的損害負責，並正在檢視保安及存取控制。</p>
+<p class="en">The Korea Herald, in a November 25 report, said Bithumb had earlier reported a late-October breach affecting some 7,100 customers and employees; that earlier headcount was not restated as a new total in the November 25 official notice excerpted here.</p>
+<p class="zh">《韓國先驅報》在 11 月 25 日的報道中稱，Bithumb 較早前曾公布 10 月底的事故影響約 7,100 名客戶及員工；這項較早的人數，並未在此處摘錄的 11 月 25 日正式公告中，重申為新的總數。</p>
+<p class="source"><a href="https://feed.bithumb.com/notice/1655458">https://feed.bithumb.com/notice/1655458</a></p>
+</article>
+    <h2>四、加密貨幣行情／4. Cryptocurrency Price Movements</h2>
+    <p class="en">The top 10 cryptocurrencies by current circulating market cap, including qualifying stablecoins (labeled). Ranking source: CoinGecko Markets API (vs_currency=usd, order=market_cap_desc, per_page=10). Coin snapshot: 2026-11-26 08:05:55 GMT+8 (API last_updated 2026-11-26T00:05:55.000Z). A same-source global snapshot at 2026-11-26 08:07:55 GMT+8 showed a global crypto market cap of about $2.094T, roughly −1.78% over 24 hours, BTC dominance of about 57.87% and ETH dominance of about 9.84%. Fear &amp; Greed (Alternative.me): 11 (extreme fear); yesterday’s reading from the same source was 13 (extreme fear). Versus yesterday’s snapshot from the same source, the top-10 membership is unchanged, but Figure Heloc moved up to 8th and TRON slipped to 9th. All ten coins had aligned last_updated timestamps in this snapshot. Market-cap changes use CoinGecko 24-hour market-cap change fields and are not replaced by volume or price change.</p>
+    <p class="zh">按當前流通市值排名的前 10 大加密貨幣（含符合資格的穩定幣，已標示）。排名來源：CoinGecko Markets API（vs_currency=usd，order=market_cap_desc，per_page=10）。硬幣快照：2026-11-26 08:05:55 GMT+8（API last_updated 2026-11-26T00:05:55.000Z）。同一來源的全球數據快照為 2026-11-26 08:07:55 GMT+8：全球總市值約 2.094 萬億美元，24 小時約 −1.78%；BTC 主導約 57.87%，ETH 主導約 9.84%。恐懼與貪婪指數（Alternative.me）：11（極度恐懼）；昨日同一來源為 13（極度恐懼）。與昨日同一來源的快照相比，前 10 名成員不變，但 Figure Heloc 升至第 8，TRON 跌至第 9。此快照中 10 隻硬幣的 last_updated 均已對齊。市值變動取自 CoinGecko 的 24 小時市值變動欄位，並非以成交量或價格變動替代。</p>
+    <p class="source"><a href="https://www.coingecko.com/">https://www.coingecko.com/</a></p>
+    <div class="table-wrap"><table><thead><tr>
+<th>排名</th>
+<th>名稱</th>
+<th>價格（美元）</th>
+<th>流通市值（美元）</th>
+<th>24h 價格</th>
+<th>24h 市值</th>
+</tr></thead><tbody>
+<tr>
+<td>1</td><td>Bitcoin (BTC)</td><td>$60,330</td><td>$1.214T</td>
+<td class="chg-up">+1.07%</td>
+<td class="chg-up">+$12.91B / +1.08%</td>
+</tr>
+<tr>
+<td>2</td><td>Ethereum (ETH)</td><td>$1,689.58</td><td>$206.55B</td>
+<td class="chg-up">+0.78%</td>
+<td class="chg-up">+$1.66B / +0.81%</td>
+</tr>
+<tr>
+<td>3</td><td>Tether (USDT) 穩定幣</td><td>$0.999028</td><td>$173.85B</td>
+<td class="chg-up">+0.01%</td>
+<td class="chg-down">−$785.1M / −0.45%</td>
+</tr>
+<tr>
+<td>4</td><td>BNB (BNB)</td><td>$553.60</td><td>$72.80B</td>
+<td class="chg-up">+1.12%</td>
+<td class="chg-up">+$813.5M / +1.13%</td>
+</tr>
+<tr>
+<td>5</td><td>USDC (USDC) 穩定幣</td><td>$0.999497</td><td>$69.12B</td>
+<td class="chg-down">−0.00%</td>
+<td class="chg-up">+$144.0M / +0.21%</td>
+</tr>
+<tr>
+<td>6</td><td>XRP (XRP)</td><td>$0.935972</td><td>$59.45B</td>
+<td class="chg-up">+1.38%</td>
+<td class="chg-up">+$795.3M / +1.36%</td>
+</tr>
+<tr>
+<td>7</td><td>Solana (SOL)</td><td>$70.43</td><td>$41.70B</td>
+<td class="chg-up">+1.16%</td>
+<td class="chg-up">+$479.4M / +1.16%</td>
+</tr>
+<tr>
+<td>8</td><td>Figure Heloc (FIGR_HELOC)</td><td>$1.056</td><td>$28.88B</td>
+<td class="chg-up">+1.33%</td>
+<td class="chg-up">+$497.0M / +1.75%</td>
+</tr>
+<tr>
+<td>9</td><td>TRON (TRX)</td><td>$0.303349</td><td>$28.84B</td>
+<td class="chg-down">−1.42%</td>
+<td class="chg-down">−$419.2M / −1.43%</td>
+</tr>
+<tr>
+<td>10</td><td>Hyperliquid (HYPE)</td><td>$61.77</td><td>$14.68B</td>
+<td class="chg-up">+3.53%</td>
+<td class="chg-up">+$514.9M / +3.63%</td>
+</tr>
+</tbody></table></div>
+    <p class="en">Biggest price gainers: within this top 10, Hyperliquid led at +3.53%, followed by XRP +1.38%, Figure Heloc +1.33%, Solana +1.16%, BNB +1.12%, Bitcoin +1.07%, Ethereum +0.78%, and the stablecoin USDT +0.01%. Biggest price losers: TRON, −1.42%, while the stablecoin USDC was essentially unchanged at −0.00%. Largest market-cap increases: Bitcoin +$12.91B (+1.08%); Ethereum +$1.66B (+0.81%); BNB +$813.5M (+1.13%); XRP +$795.3M (+1.36%); Hyperliquid +$514.9M (+3.63%); Figure Heloc +$497.0M (+1.75%); Solana +$479.4M (+1.16%); USDC +$144.0M (+0.21%). Largest market-cap decreases: Tether −$785.1M (−0.45%); TRON −$419.2M (−1.43%). The same source’s slightly later global snapshot showed the overall crypto market cap down about 1.78% over 24 hours, which can coexist with the mostly higher top-10 figures because the global figure covers a broader market, and the global snapshot time (08:07:55 GMT+8) also differs slightly from the coin snapshot.</p>
+    <p class="zh">最大價格升幅：在這 10 隻之中，由 Hyperliquid 領升 +3.53%，其後為 XRP +1.38%、Figure Heloc +1.33%、Solana +1.16%、BNB +1.12%、Bitcoin +1.07%、Ethereum +0.78%，以及穩定幣 USDT +0.01%。最大價格跌幅：TRON −1.42%；穩定幣 USDC 則幾乎持平，為 −0.00%。最大市值增加：Bitcoin +$12.91B（+1.08%）；Ethereum +$1.66B（+0.81%）；BNB +$813.5M（+1.13%）；XRP +$795.3M（+1.36%）；Hyperliquid +$514.9M（+3.63%）；Figure Heloc +$497.0M（+1.75%）；Solana +$479.4M（+1.16%）；USDC +$144.0M（+0.21%）。最大市值減少：Tether −$785.1M（−0.45%）；TRON −$419.2M（−1.43%）。全球總市值在稍後的同一來源快照中 24 小時約跌 1.78%，與這 10 隻大多上升的數字可以並存，因為全球數字涵蓋更廣的市場，而且全球快照時間（08:07:55 GMT+8）亦與硬幣快照略有差異。</p>
+    <div class="disclaimer">
+      <h2>免責／Caveat</h2>
+      <p class="en">Figures and headlines are from public sources and CoinGecko and can change quickly. This brief is not investment advice.</p>
+      <p class="zh">資料來自公開來源與 CoinGecko；價格與新聞可能迅速變化。本簡報不構成投資建議。</p>
+    </div>
+  </div>
+</body>
+</html>
