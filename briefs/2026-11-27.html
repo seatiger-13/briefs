@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>早晨簡報 / Morning Brief — 2026-11-27</title>
+  <style>
+:root {
+  --bg: #f7f5f0;
+  --card: #fffcf7;
+  --ink: #1c1915;
+  --muted: #5c564c;
+  --line: #e4ddd2;
+  --accent: #8b3a2a;
+  --link: #1e4d7b;
+  --up: #157a3a;
+  --down: #b42318;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #161412;
+    --card: #1e1b18;
+    --ink: #f3eee6;
+    --muted: #b3ab9f;
+    --line: #3a342c;
+    --accent: #e07a68;
+    --link: #8cb8e8;
+    --up: #5dca82;
+    --down: #ff7a6e;
+  }
+}
+* { box-sizing: border-box; }
+html { font-size: 18px; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: "Source Han Sans TC", "Noto Sans TC", "PingFang HK", "PingFang TC",
+    "Microsoft JhengHei", "Helvetica Neue", system-ui, sans-serif;
+  line-height: 1.7;
+}
+.wrap {
+  max-width: 46rem;
+  margin: 0 auto;
+  padding: 2.25rem 1.25rem 4rem;
+}
+header.site {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  align-items: baseline;
+  border-bottom: 1px solid var(--line);
+  padding-bottom: 0.85rem;
+  margin-bottom: 1.75rem;
+  font-size: 0.88rem;
+}
+header.site a { color: var(--muted); text-decoration: none; }
+header.site a:hover { color: var(--link); text-decoration: underline; }
+h1 {
+  font-size: 1.55rem;
+  line-height: 1.3;
+  margin: 0 0 0.35rem;
+  font-weight: 650;
+}
+.date {
+  color: var(--muted);
+  margin: 0 0 1.5rem;
+  font-size: 0.95rem;
+}
+h2 {
+  font-size: 1.18rem;
+  margin: 2.1rem 0 0.8rem;
+  padding-top: 0.4rem;
+  border-top: 1px solid var(--line);
+  color: var(--accent);
+  font-weight: 650;
+}
+h3 {
+  font-size: 1.02rem;
+  margin: 1.4rem 0 0.5rem;
+  font-weight: 650;
+}
+article.story {
+  margin: 0 0 1.6rem;
+}
+article.story h3 { margin: 1.15rem 0 0.12rem; }
+p.en { margin: 0.7rem 0 0.1rem; }
+p.zh, .zh-head {
+  margin: 0 0 0.15rem;
+  color: var(--muted);
+}
+.zh-head { font-weight: 600; }
+p.zh + p.en { margin-top: 0.7rem; }
+p { margin: 0.75rem 0; }
+a { color: var(--link); }
+.source {
+  font-size: 0.92rem;
+  color: var(--muted);
+  margin: 0.35rem 0 0;
+  word-break: break-all;
+}
+.disclaimer {
+  margin-top: 2.4rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--line);
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+.table-wrap { overflow-x: auto; margin: 1rem 0 1.4rem; }
+table {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 0.88rem;
+  background: var(--card);
+}
+th, td {
+  border: 1px solid var(--line);
+  padding: 0.4rem 0.55rem;
+  text-align: left;
+  vertical-align: top;
+  white-space: nowrap;
+}
+th { font-weight: 650; background: rgba(139, 58, 42, 0.06); }
+.chg-up { color: var(--up); }
+.chg-down { color: var(--down); }
+ol.archive {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+ol.archive li {
+  border-bottom: 1px solid var(--line);
+}
+ol.archive a {
+  display: block;
+  padding: 0.7rem 0.15rem;
+  text-decoration: none;
+  color: var(--ink);
+}
+ol.archive a:hover { color: var(--link); }
+ol.archive .d { font-weight: 650; }
+ol.archive .l { color: var(--muted); font-size: 0.9rem; margin-left: 0.6rem; }
+.note { color: var(--muted); font-size: 0.95rem; }
+@media print {
+  body { background: #fff; color: #000; }
+  a { color: inherit; }
+  header.site { display: none; }
+}
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header class="site">
+      <a href="../index.html">晨報存檔 Morning Brief Archive</a>
+      <span>2026-11-26</span>
+    </header>
+    <h1>史泰加，你條L樣睇路啦</h1>
+    <p class="date">AI、美股及加密貨幣早晨簡報 / Morning Brief — 2026-11-27（亞洲／香港時間 GMT+8）</p>
+    <p class="en">This is your personal morning brief for the preceding ~24 hours (Asia/Hong Kong GMT+8: about 08:15 on 2026-11-26 through about 08:15 on 2026-11-27). Cutoff ~08:15 GMT+8 on 2026-11-27. Only verified, material items are included, and related coverage has been deduplicated across sections. It is Friday morning in Hong Kong. The U.S. cash equity market was closed on Thursday for Thanksgiving, and Friday’s shortened session, which is scheduled to close at 1:00 p.m. Eastern Time, had not yet begun at this cutoff (the early close is the published trading calendar, not a new development from the past 24 hours). CNBC, in an update at 6:54 p.m. Eastern Time on Thursday (7:54 a.m. on Friday, Hong Kong time), said S&amp;P 500 futures were up 0.7%, Nasdaq-100 futures were up 0.6%, and Dow futures were up 277 points, or 0.6%. While U.S. cash markets were shut, the Nikkei 225 rose 0.86% on Thursday to 57,499.16 and the Hang Seng Index rose 1.19% to 22,226.88; Dow Jones Newswires said the FTSE 100 ended 1.75% higher at 10,609.30. In artificial intelligence, the Financial Times and The Wall Street Journal reported that Nvidia had told manufacturing partners to stop shipping servers to four Southeast Asian countries, and OpenAI’s Thibault Sottiaux said a GPT-6.2 billing mistake had been fixed, so Astra and Sol usage limits will now arrive sooner. In cryptocurrency, Farside Investors has now completed Wednesday’s U.S. spot bitcoin ETF table at a $453.0 million net outflow; Switzerland’s first spot bitcoin ETF, BBIT, began trading on SIX Swiss Exchange; and Standard Chartered’s crypto custodian Zodia Custody said a security incident exposed limited client contact details, with no unauthorized transactions reported. At the cutoff, CoinGecko put bitcoin at $60,509, essentially unchanged over 24 hours (−0.00%), and the same source’s slightly earlier global snapshot put the crypto market cap at about $2.097 trillion, down about 2.55% over 24 hours. The AI, U.S. stocks and cryptocurrency news sections have 2, 2 and 3 verified items respectively, so only verified stories are listed and the sections were not padded with older coverage.</p>
+    <p class="zh">以下為過去約 24 小時（亞洲／香港時間 GMT+8：2026-11-26 約 08:15 至 2026-11-27 約 08:15）個人早晨簡報。截稿時間約為 2026-11-27 08:15 GMT+8。僅收錄已核實、具實質影響的消息；各節之間已盡量去重。今日為週五早上（香港時間）。美股現貨週四因感恩節休市；週五將於美東時間下午 1 時提早收市的縮短時段，在本截稿時尚未開始（提早收市為已公布的交易日曆，並非過去 24 小時的新消息）。CNBC 在週四美東時間下午 6 時 54 分（香港時間週五上午 7 時 54 分）的更新中稱，標普 500 期貨升 0.7%，納斯達克 100 期貨升 0.6%，道指期貨升 277 點，或 0.6%。美股現貨休市期間，日經 225 指數週四升 0.86%，收報 57,499.16；恒生指數升 1.19%，收報 22,226.88；道瓊斯通訊社稱富時 100 指數收市升 1.75%，報 10,609.30。人工智能方面，《金融時報》及《華爾街日報》報道，Nvidia 已要求代工夥伴停止向東南亞四國付運伺服器；OpenAI 的 Thibault Sottiaux 則表示已修正 GPT-6.2 的帳單錯誤，因此 Astra 與 Sol 的用量上限現會更快到達。加密貨幣方面，Farside Investors 現已補完週三美國現貨比特幣 ETF 表，全日淨流出為 4.530 億美元；瑞士首隻現貨比特幣 ETF（BBIT）已在 SIX Swiss Exchange 開始買賣；渣打旗下加密貨幣託管商 Zodia Custody 表示，一次保安事故令有限的客戶聯絡資料外洩，並稱未發現未經授權的交易。截稿時 CoinGecko 報比特幣 60,509 美元，滾動 24 小時大致持平（−0.00%）；同一來源稍早的全球快照顯示總市值約 2.097 萬億美元，24 小時約跌 2.55%。人工智能、美股及加密貨幣新聞各有 2、2 及 3 則已核實要聞，故只列已核實項目，並未為湊數而加入較舊消息。</p>
+    <h2>一、人工智能／1. Artificial Intelligence</h2>
+    <p class="en">Only 2 verified items from the past ~24 hours are listed; the section was not padded with older or independently unverified stories. OpenAI’s plan to share ChatGPT and Codex usage limits from December, and Google DeepMind’s Mass Spec Skills for Google Antigravity, were covered in yesterday’s brief and are not repeated. The Next Web reported that Sam Altman said OpenAI had begun testing Private Inference with a small group of business customers; that article was published at 7:27 p.m. UTC on 2026-11-25 (3:27 a.m. on 2026-11-26, Hong Kong time), which is before this window’s 08:15 GMT+8 start, so it is not listed as a new item today. Anthropic’s article on migrating its Messages API from Python to Rust is dated 2026-11-25, and Microsoft’s security blog on the ARTEX agentic framework is also dated 2026-11-25; both fall outside this window unless a later publication time could be verified, which it could not. Google’s Workspace post making MCP servers generally available was dated 2026-11-24. New York’s five-year ban on AI chatbot toys was signed on 2026-11-24 and likewise falls outside this window. Reports that Anthropic is A/B testing Claude Opus 5.6 remain unverified by an official announcement and are not included. Nvidia’s board decision to reinstate Jensen Huang was covered in earlier briefs.</p>
+    <p class="zh">本節僅列 2 則已核實、屬過去約 24 小時內的要聞，未為湊滿 10 則而加入較舊或未能獨立核實的消息。OpenAI 由 12 月起把 ChatGPT 與 Codex 用量上限合併計算的安排，以及 Google DeepMind 推出用於 Google Antigravity 的 Mass Spec Skills，已在昨日簡報述及，今日不重複。《The Next Web》報道 Sam Altman 稱 OpenAI 已開始與一小部分商業客戶測試 Private Inference；該文發表於 2026-11-25 19:27 UTC（香港時間 2026-11-26 上午 3 時 27 分），早於本窗口的 08:15 GMT+8 起始時間，故今日不列為新項目。Anthropic 有關把 Messages API 由 Python 遷移至 Rust 的文章日期為 2026-11-25，Microsoft 有關 ARTEX 代理框架的保安網誌同樣日期為 2026-11-25；兩者均不在本窗口內，亦未能核實較晚的發表時間。Google 宣布 Workspace MCP 伺服器正式推出的文章日期為 2026-11-24。紐約州就人工智能聊天機械玩具實施五年禁令的法案於 2026-11-24 簽署，同樣不在本窗口內。有關 Anthropic 正在 A/B 測試 Claude Opus 5.6 的報道尚未有官方公布核實，故不列入。Nvidia 董事會恢復黃仁勳職務的決定，已在較早簡報述及。</p>
+<article class="story">
+<h3>1. Nvidia pauses server shipments to four Southeast Asian countries,</h3>
+<p class="zh-head">Nvidia 暫停向東南亞四國付運伺服器，</p>
+<p class="en">after new U.S. export-licensing rules</p>
+<p class="zh">因應美國新的出口許可規則</p>
+<p class="en">TechCrunch, in a report posted at 12:03 p.m. Pacific Time on 2026-11-26 (4:03 a.m. on 2026-11-27, Hong Kong time), said Nvidia had told manufacturing partners, including Dell and Super Micro, to pause server shipments to Malaysia, Singapore, Thailand and Indonesia for an unspecified period while it assesses whether regional partners are meeting U.S. export requirements.</p>
+<p class="zh">《TechCrunch》在 2026-11-26 太平洋時間中午 12 時 03 分（香港時間 2026-11-27 上午 4 時 03 分）刊出的報道中稱，Nvidia 已要求包括 Dell 及 Super Micro 在內的代工夥伴，暫停向馬來西亞、新加坡、泰國及印尼付運伺服器，暫停期未有訂明，以便評估區內夥伴是否符合美國出口規定。</p>
+<p class="en">The same article attributed the account to The Wall Street Journal and said Chinese companies had been tapping Nvidia chips remotely from data centers in those countries, a loophole the U.S. Commerce Department had moved to close; it also cited the Institute for Progress as estimating that remote data centers like these supply about 24% of China’s AI computing power.</p>
+<p class="zh">同一報道把有關內容歸因於《華爾街日報》，並稱中國公司一直透過這些國家的數據中心，遙距使用 Nvidia 晶片，而美國商務部已着手堵塞這個漏洞；報道並引述 Institute for Progress 估計，這類遙距數據中心供應中國約 24% 的人工智能算力。</p>
+<p class="en">Data Center Dynamics, citing a Financial Times report, likewise said Dell and Supermicro had told customers in the four countries that Nvidia would not allow their server orders to be shipped, and that it was unclear whether the halt is temporary.</p>
+<p class="zh">《Data Center Dynamics》引述《金融時報》報道，同樣稱 Dell 及 Supermicro 已告知這四個國家的客戶，Nvidia 不會容許其伺服器訂單付運，並稱目前不清楚這次暫停是否暫時措施。</p>
+<p class="en">The same report said the Commerce Department’s Bureau of Industry and Security issued an interim final rule on 2026-11-16 requiring licenses to export, reexport or transfer in-country advanced semiconductors to Indonesia, Malaysia, Singapore, Thailand or Brazil, which the government described as countries that present a higher-than-normal risk of diversion; Brazil is covered by the rule but was not among the four countries named in the reported shipment pause.</p>
+<p class="zh">同一報道稱，美國商務部工業與安全局於 2026-11-16 發出臨時最終規則，規定向印尼、馬來西亞、新加坡、泰國或巴西出口、再出口或在當地轉移先進半導體須取得許可，政府形容這些國家有高於正常水平的轉運風險；巴西屬規則涵蓋範圍，但並不在今次報道所指暫停付運的四國之列。</p>
+<p class="en">Citing Nvidia company accounts, the Financial Times, as relayed by Data Center Dynamics, said the company booked $104 billion of revenue through its Singapore subsidiary in 2025, a 72% increase over 12 months, and that some Taiwan and China revenue is also recorded through that unit.</p>
+<p class="zh">《Data Center Dynamics》轉述《金融時報》引述 Nvidia 公司賬目稱，該公司 2025 年經新加坡附屬公司入賬的收入達 1,040 億美元，12 個月內增加 72%，部分台灣及中國收入亦經該單位入賬。</p>
+<p class="en">The Financial Times report, as summarized in that coverage, said Nvidia declined to comment.</p>
+<p class="zh">在上述轉述中，《金融時報》報道稱 Nvidia 拒絕評論。</p>
+<p class="source"><a href="https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/">https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/</a></p>
+</article>
+<article class="story">
+<h3>2. OpenAI says a GPT-6.2 billing mistake is fixed,</h3>
+<p class="zh-head">OpenAI 表示已修正 GPT-6.2 的帳單錯誤，</p>
+<p class="en">and Astra and Sol limits will now arrive sooner</p>
+<p class="zh">Astra 與 Sol 的用量上限將更快到達</p>
+<p class="en">Thibault “Tibo” Sottiaux, who works on Codex and ChatGPT at OpenAI, said in an X post at 2:50 a.m. UTC on 2026-11-26 (10:50 a.m. Hong Kong time) that OpenAI had made a billing mistake at the launch of GPT-6.2 that “incorrectly discounted GPT-6.2 Astra and Sol usage for most users.”</p>
+<p class="zh">在 OpenAI 負責 Codex 及 ChatGPT 的 Thibault「Tibo」Sottiaux，於 2026-11-26 02:50 UTC（香港時間上午 10 時 50 分）在 X 發文稱，公司在推出 GPT-6.2 時出現帳單錯誤，「不正確地折扣了大多數用戶的 GPT-6.2 Astra 及 Sol 用量」。</p>
+<p class="en">He said the mistake had now been fixed, “so the same work will use more of your plan’s usage allowance,” and that, compared with last week, users “will reach your limits 40% faster on GPT-6.2 Astra and 25% faster on Sol.”</p>
+<p class="zh">他表示錯誤現已修正，「因此同樣的工作將會消耗你計劃內更多的用量額度」；與上週相比，用戶「使用 GPT-6.2 Astra 會快 40% 到達上限，使用 Sol 則會快 25%」。</p>
+<p class="en">Sottiaux said users should still see these models go further in usage than GPT-6 Astra and GPT-6.1 Sol, that other models were not affected, and that OpenAI will not charge for the difference on past usage.</p>
+<p class="zh">Sottiaux 稱，與 GPT-6 Astra 及 GPT-6.1 Sol 相比，這些模型的用量仍應能支撐更多工作；其他模型不受影響；OpenAI 亦不會就過往用量的差額補收費。</p>
+<p class="en">As a small token of apology, he said OpenAI would add one banked reset for everyone on the Go, Plus, Pro and Business plans.</p>
+<p class="zh">作為少量歉意，他表示 OpenAI 會為所有 Go、Plus、Pro 及 Business 計劃用戶新增一次預存重置（banked reset）。</p>
+<p class="en">Business Insider, in an article published at 13:15 UTC on 2026-11-26, said Astra is OpenAI’s newest frontier model for the most difficult tasks and Sol is cheaper and intended for everyday tasks, and that the two models launched on 2026-11-17.</p>
+<p class="zh">《Business Insider》在 2026-11-26 13:15 UTC 刊出的文章中稱，Astra 是 OpenAI 最新、用於最困難任務的前沿模型，Sol 則較便宜、用於日常任務；這兩款模型於 2026-11-17 推出。</p>
+<p class="source"><a href="https://x.com/thsottiaux/status/2125784147889393806">https://x.com/thsottiaux/status/2125784147889393806</a></p>
+</article>
+    <h2>二、美股／2. U.S. Stocks</h2>
+    <p class="en">Only 2 verified items from the past ~24 hours are listed; the section was not padded with older coverage. Wednesday’s mixed U.S. cash close, the U.S. Trade Representative’s Section 301 determinations and proposed tariffs, the BEA’s second estimate of third-quarter GDP and the October PCE report, and Deere’s fiscal 2026 results were covered in yesterday’s brief and are not repeated. Friday’s 1:00 p.m. Eastern early close is the published holiday calendar, not a new development. The shortened Friday cash session had not begun at this cutoff, so no Friday official closes are reported. Nvidia’s reported pause in Southeast Asian server shipments is covered in the AI section and is not repeated here.</p>
+    <p class="zh">本節僅列 2 則已核實、屬過去約 24 小時內的要聞，未為湊滿 10 則而加入較舊消息。週三美股現貨好淡紛陳的收市、美國貿易代表辦公室第 301 條認定及建議關稅、經濟分析局第三季國內生產總值第二次估計及 10 月個人消費開支物價報告，以及 Deere 的 2026 財政年度業績，已在昨日簡報述及，今日不重複。週五美東時間下午 1 時提早收市為已公布的假期交易日曆，並非新消息。截稿時週五縮短的現貨時段尚未開始，故不報週五官方收市。Nvidia 據報暫停向東南亞付運伺服器的消息，已在人工智能一節述及，此處不重複。</p>
+<article class="story">
+<h3>1. U.S. equity futures rose on Thursday night,</h3>
+<p class="zh-head">美國股指期貨於週四晚上上升，</p>
+<p class="en">ahead of Friday’s shortened Black Friday session</p>
+<p class="zh">為週五縮短的黑色星期五交易時段作準備</p>
+<p class="en">CNBC, in a live update time-stamped 6:54 p.m. Eastern Time on Thursday, 2026-11-26 (7:54 a.m. on Friday, Hong Kong time), said U.S. equity futures rose on Thursday night as investors prepared to wrap up a shortened Thanksgiving week.</p>
+<p class="zh">CNBC 在週四（2026-11-26）美東時間下午 6 時 54 分（香港時間週五上午 7 時 54 分）的即時更新中稱，美國股指期貨於週四晚上上升，投資者準備結束因感恩節而縮短的一週交易。</p>
+<p class="en">It said S&amp;P 500 futures were up 0.7%, Nasdaq-100 futures were up 0.6%, and futures tied to the Dow Jones Industrial Average were higher by 277 points, or 0.6%.</p>
+<p class="zh">該報道稱，標普 500 期貨升 0.7%，納斯達克 100 期貨升 0.6%，與道瓊斯工業平均指數掛鈎的期貨則升 277 點，或 0.6%。</p>
+<p class="en">The U.S. cash market was closed on Thursday for Thanksgiving, and CNBC reiterated that Friday’s session is scheduled to close at 1:00 p.m. Eastern Time; that early close had not yet occurred at this cutoff.</p>
+<p class="zh">美國現貨市場週四因感恩節休市；CNBC 並重申週五將於美東時間下午 1 時收市；截稿時該提早收市尚未發生。</p>
+<p class="en">The same update said that, heading into Friday, the S&amp;P 500 was up almost 4% week to date, while the Nasdaq Composite and the Dow had risen more than 4%; in a later item on the same page it listed those week-to-date figures, through the completed Wednesday session, as 3.9%, 4.3% and 4.2% respectively. Those figures are not Friday cash-session results.</p>
+<p class="zh">同一更新稱，進入週五之前，標普 500 本週迄今升近 4%，納斯達克綜合指數及道指則升逾 4%；同一頁稍後的條目把這些截至已完成週三時段的本週迄今升幅，分別列為 3.9%、4.3% 及 4.2%。這些數字並非週五現貨時段的結果。</p>
+<p class="en">An earlier Investing.com report, updated at 3:37 p.m. Eastern Time on Thursday and citing levels as of 1:00 p.m. Eastern Time, had put S&amp;P 500 and Nasdaq-100 futures up 0.5% each and Dow futures up 0.4%, so the later CNBC figures are the ones used here.</p>
+<p class="zh">較早前 Investing.com 一篇於週四美東時間下午 3 時 37 分更新、並引述美東時間下午 1 時水平的報道，曾稱標普 500 及納斯達克 100 期貨各升 0.5%，道指期貨升 0.4%，故本節採用較後的 CNBC 數字。</p>
+<p class="source"><a href="https://www.cnbc.com/2026/11/26/stock-market-today-live-updates.html">https://www.cnbc.com/2026/11/26/stock-market-today-live-updates.html</a></p>
+</article>
+<article class="story">
+<h3>2. The Nikkei 225 and Hang Seng rose on Thursday,</h3>
+<p class="zh-head">日經 225 指數及恒生指數週四上升，</p>
+<p class="en">and the FTSE 100 also ended higher</p>
+<p class="zh">富時 100 指數亦收市上升</p>
+<p class="en">Official Nikkei Indexes data show the Nikkei 225 closed on Thursday, 2026-11-26, at 57,499.16, up 487.54 points, or 0.86%.</p>
+<p class="zh">日經指數官方數據顯示，日經 225 指數在週四（2026-11-26）收報 57,499.16，升 487.54 點，或 0.86%。</p>
+<p class="en">Xinhua and China Daily reported that the Hang Seng Index closed 1.19% higher at 22,226.88, a gain of 260.87 points; that closing level matches the previous close cited in CNBC’s later Friday-open preview.</p>
+<p class="zh">新華社及《中國日報》報道，恒生指數收市升 1.19%，報 22,226.88，升 260.87 點；此收市水平與 CNBC 稍後預覽週五開市時所引述的前收市價相符。</p>
+<p class="en">Dow Jones Newswires, in a Data Talk published on Morningstar at 5:40 p.m. on 2026-11-26, said the FTSE 100 ended 1.75% higher, up 182.36 points at 10,609.30, snapping a two-session losing streak.</p>
+<p class="zh">道瓊斯通訊社在 2026-11-26 下午 5 時 40 分於 Morningstar 刊登的 Data Talk 中稱，富時 100 指數收市升 1.75%，升 182.36 點，報 10,609.30，結束連續兩個交易日下跌。</p>
+<p class="en">Those cash sessions took place while the U.S. market was closed for Thanksgiving. Reported closing levels for the German DAX differed across secondary sources checked at this cutoff, so no single DAX print is given here.</p>
+<p class="zh">上述現貨時段是在美股因感恩節休市期間進行。截稿時查核的次級來源對德國 DAX 收市水平並不一致，故此處不列出單一的 DAX 數字。</p>
+<p class="source"><a href="https://indexes.nikkei.co.jp/en/nkave/archives/summary?dt=11262026&amp;idx=nk225">https://indexes.nikkei.co.jp/en/nkave/archives/summary?dt=11262026&amp;idx=nk225</a></p>
+</article>
+    <h2>三、加密貨幣新聞／3. Cryptocurrency News</h2>
+    <p class="en">Only 3 verified items from the past ~24 hours are listed; the section was not padded with older or independently unverified stories. The completed Tuesday U.S. spot bitcoin ETF net outflow of $231.4 million and Bithumb’s expanded disclosure of a late-October data breach were covered in yesterday’s brief and are not repeated. A Swiss Federal Council press release approving 57 partner jurisdictions for automatic exchange of information on cryptoassets is dated 2026-11-25 and falls outside this window. Bitcoin’s latest price and market-cap figures are in the price-movements section and are not given a separate news item today. There is no Farside row for Thursday, 2026-11-26, because U.S. markets were closed for Thanksgiving.</p>
+    <p class="zh">本節僅列 3 則已核實、屬過去約 24 小時內的要聞，未為湊滿 10 則而加入較舊或未能獨立核實的消息。已補完的週二美國現貨比特幣 ETF 淨流出 2.314 億美元，以及 Bithumb 就 10 月底資料外洩所作的擴大披露，已在昨日簡報述及，今日不重複。瑞士聯邦委員會批准 57 個司法管轄區作為加密資產自動資訊交換夥伴的新聞稿，日期為 2026-11-25，不在本窗口內。比特幣的最新價格及市值見行情一節，今日不另立為新聞項目。2026-11-26（週四）因美國市場感恩節休市，Farside 並無該日一行。</p>
+<article class="story">
+<h3>1. Farside now shows a completed Wednesday U.S. spot bitcoin ETF net outflow of $453.0 million,</h3>
+<p class="zh-head">Farside 現已列示完整的週三美國現貨比特幣 ETF 淨流出 4.530 億美元，</p>
+<p class="en">the seventh straight negative session</p>
+<p class="zh">連續第七個交易日錄得淨流出</p>
+<p class="en">Farside Investors’ U.S. spot bitcoin ETF table, checked on the morning of 2026-11-27, now has a complete fund-level row for Wednesday, 2026-11-25, totaling a $453.0 million net outflow.</p>
+<p class="zh">於 2026-11-27 早上核對的 Farside Investors 美國現貨比特幣 ETF 表顯示，2026-11-25（週三）一行的各基金數字現已齊全，合計淨流出 4.530 億美元。</p>
+<p class="en">The completed Wednesday figures are: IBIT −$329.7 million; FBTC −$6.5 million; BITB −$18.2 million; ARKB −$14.9 million; BTCO $0.0 million; EZBC $0.0 million; BRRR $0.0 million; HODL −$9.7 million; BTCW $0.0 million; MSBT $0.0 million; GBTC −$13.9 million; and Grayscale’s BTC mini fund −$60.1 million.</p>
+<p class="zh">已補完的週三數字為：IBIT 流出 3.297 億美元；FBTC 流出 650 萬美元；BITB 流出 1,820 萬美元；ARKB 流出 1,490 萬美元；BTCO、EZBC、BRRR、BTCW 及 MSBT 均為 0；HODL 流出 970 萬美元；GBTC 流出 1,390 萬美元；Grayscale 的 BTC mini 基金流出 6,010 萬美元。</p>
+<p class="en">Yesterday’s brief reported that the Wednesday IBIT and several other large-fund cells were still dashes, and that the posted Wednesday total of −$74.0 million was not treated as a completed full-day figure.</p>
+<p class="zh">昨日簡報指出，週三 IBIT 及其他多隻大型基金一欄仍為「-」，當時已列示的週三合計淨流出 7,400 萬美元不以已完成的全日數字處理。</p>
+<p class="en">The completed Wednesday outflow is the seventh consecutive negative U.S. trading session on Farside’s table, after net outflows on 2026-11-17, 2026-11-18, 2026-11-19, 2026-11-20, 2026-11-23 and 2026-11-24; 2026-11-16 was a $7.9 million net inflow.</p>
+<p class="zh">按 Farside 的表格，已補完的週三淨流出是連續第七個美國交易日錄得淨流出，此前 2026-11-17、2026-11-18、2026-11-19、2026-11-20、2026-11-23 及 2026-11-24 均為淨流出；2026-11-16 則為淨流入 790 萬美元。</p>
+<p class="en">Farside’s U.S. spot ether ETF table is also now complete for Wednesday, totaling a $68.5 million net outflow, accounted for entirely by ETHA (−$68.5 million), with the other listed funds at zero.</p>
+<p class="zh">Farside 的美國現貨以太幣 ETF 表在週三行現亦已齊全，合計淨流出 6,850 萬美元，全數來自 ETHA（流出 6,850 萬美元），其餘所列基金為零。</p>
+<p class="en">The Block, in a 2026-11-26 report citing SoSoValue, put Wednesday’s bitcoin-ETF outflow at $453.1 million and said U.S. spot bitcoin ETFs had recorded about $5.39 billion in cumulative November net outflows, already the largest monthly total on that source’s record, with several trading days still left in the month; CoinDesk, in a separate Thursday report, also put November’s total at around $5.39 billion. Those month-to-date and record comparisons are attributed to those publications and SoSoValue, not calculated from the Farside rows excerpted here.</p>
+<p class="zh">《The Block》在 2026-11-26 一篇引述 SoSoValue 的報道中，把週三比特幣 ETF 淨流出列為 4.531 億美元，並稱美國現貨比特幣 ETF 在 11 月累計淨流出約 53.9 億美元，以該來源的紀錄已是單月最高，而 11 月尚餘數個交易日；《CoinDesk》在週四另一篇報道中，亦把 11 月合計列為約 53.9 億美元。有關本月迄今總額及「單月最高」的比較，是這些刊物及 SoSoValue 的數字，並非由本文摘錄的 Farside 行自行加總得出。</p>
+<p class="source"><a href="https://farside.co.uk/btc/">https://farside.co.uk/btc/</a></p>
+</article>
+<article class="story">
+<h3>2. Switzerland’s first spot bitcoin ETF begins trading on SIX,</h3>
+<p class="zh-head">瑞士首隻現貨比特幣 ETF 在 SIX 開始買賣，</p>
+<p class="en">under the ticker BBIT</p>
+<p class="zh">代號為 BBIT</p>
+<p class="en">SIX Swiss Exchange, in a 2026-11-26 release, said it had listed the Bitcoin Fund ETF (“BBIT”), describing it as Switzerland’s first Bitcoin ETF, with Pernet von Ballmoos AG (PvB) as issuer and BIT Asset Management as sponsor and asset manager.</p>
+<p class="zh">SIX Swiss Exchange 在 2026-11-26 的公告中表示，已上市 Bitcoin Fund ETF（「BBIT」），稱之為瑞士首隻比特幣 ETF，由 Pernet von Ballmoos AG（PvB）擔任發行人，BIT Asset Management 擔任保薦人及資產管理人。</p>
+<p class="en">SIX said the fund follows a passive strategy and tracks the price of bitcoin with the SIX Reference Rate Bitcoin Index as the underlying, that the coins are held offline at a Swiss bank and segregated from other assets, and that as a Swiss investment fund BBIT is subject to the Swiss Collective Investment Schemes Act and its investor-protection rules.</p>
+<p class="zh">SIX 稱，該基金採取被動策略，以 SIX Reference Rate Bitcoin Index 為相關指數追蹤比特幣價格；幣是在瑞士銀行離線持有，並與其他資產分隔；作為瑞士投資基金，BBIT 受《集體投資計劃法》及其投資者保障規則約束。</p>
+<p class="en">The Block, in a 2026-11-26 report citing BIT Asset Management, said the fund began trading in U.S. dollars and Swiss francs under the ticker BBIT, debuted with 350 BTC in assets, has a 0.19% annual total expense ratio, is publicly offered only in Switzerland, and that Swiss-regulated AMINA Bank holds the fund’s bitcoin separately from BIT Asset Management’s own assets.</p>
+<p class="zh">《The Block》在 2026-11-26 一篇引述 BIT Asset Management 的報道中稱，該基金以 BBIT 為代號，分別以美元及瑞士法郎買賣，上市時持有 350 枚比特幣，全年總開支比率為 0.19%，目前只在瑞士公開發售；受瑞士監管的 AMINA Bank 為基金持有比特幣，並與 BIT Asset Management 自身資產分開。</p>
+<p class="en">The same report said BIT described BBIT as Europe’s only spot bitcoin ETF at the time of the debut, after the Jacobi FT Wilshire Bitcoin ETF, which had been listed on Euronext Amsterdam, was shown as inactive and its manager entered creditors’ voluntary liquidation earlier in 2026.</p>
+<p class="zh">同一報道稱，BIT 在上市時把 BBIT 說成是當時歐洲唯一的現貨比特幣 ETF，因為早前在 Euronext Amsterdam 上市的 Jacobi FT Wilshire Bitcoin ETF 已被列為不活躍，其管理人亦於 2026 年較早時候進入債權人自願清盤。</p>
+<p class="en">BIT also told The Block that the Swiss Financial Market Supervisory Authority (FINMA) approved BBIT on 2026-10-20 after an 18-month review, and that the fund allows in-kind subscriptions in bitcoin.</p>
+<p class="zh">BIT 亦向《The Block》表示，瑞士金融市場監督管理局（FINMA）在歷時 18 個月的審批後，於 2026-10-20 批准 BBIT；該基金亦容許以比特幣作實物認購。</p>
+<p class="source"><a href="https://www.six-group.com/en/newsroom/media-releases/2026/20261126-bit-etf-issuer.html">https://www.six-group.com/en/newsroom/media-releases/2026/20261126-bit-etf-issuer.html</a></p>
+</article>
+<article class="story">
+<h3>3. Zodia Custody says a security incident exposed limited client contact details,</h3>
+<p class="zh-head">Zodia Custody 表示一次保安事故令有限的客戶聯絡資料外洩，</p>
+<p class="en">and reports no unauthorized transactions</p>
+<p class="zh">並稱未發現未經授權的交易</p>
+<p class="en">Zodia Custody, the crypto custodian owned by Standard Chartered, posted an undated statement on its website in the name of chief executive Richard Clark, saying the firm was aware of media reports about a recent security incident.</p>
+<p class="zh">由渣打擁有的加密貨幣託管商 Zodia Custody，在其網站刊登一則未註明日期、以行政總裁 Richard Clark 名義發表的聲明，表示知悉有關近期保安事故的傳媒報道。</p>
+<p class="en">Clark said that on 2026-11-23 the firm detected attempts to probe its platform and, as a precaution, temporarily took its B2B API offline and implemented additional security measures before restoring the service.</p>
+<p class="zh">Clark 稱，公司在 2026-11-23 偵測到有人試圖探測其平台，作為預防措施，暫時把企業對企業（B2B）應用程式介面下線，並在恢復服務前實施額外保安措施。</p>
+<p class="en">He said that on 2026-11-24, ongoing monitoring identified that an unauthorised party had accessed limited client information, consisting of publicly available organisation details and, for a small number of clients and employees, a business contact name and email address.</p>
+<p class="zh">他表示，在 2026-11-24，持續監察發現有未經授權人士取覽了有限的客戶資料，包括可公開取得的機構資料，以及少數客戶及員工的業務聯絡人姓名和電郵地址。</p>
+<p class="en">The statement said the company had contacted its clients and informed the relevant regulatory authorities, and that, based on its investigation to date, there had been no unauthorised transactions.</p>
+<p class="zh">聲明稱，公司已聯絡客戶並通知相關監管當局；根據至今的調查，未有未經授權的交易。</p>
+<p class="en">CoinDesk, in a report time-stamped 7:38 a.m. Eastern Time on 2026-11-26 (8:38 p.m. Hong Kong time), said Standard Chartered confirmed the security breach in an email to the publication, and that Zodia had not reported evidence that the exposed information had been used in phishing or impersonation attacks.</p>
+<p class="zh">《CoinDesk》在 2026-11-26 美東時間上午 7 時 38 分（香港時間晚上 8 時 38 分）的報道中稱，渣打在給該刊的電郵中確認了這次保安事故；Zodia 並未報告有證據顯示外洩資料已被用於網絡釣魚或冒充攻擊。</p>
+<p class="en">The incident itself was detected on 2026-11-23 and 2026-11-24, but the public confirmation and detailed official statement were reported in this window.</p>
+<p class="zh">事故本身在 2026-11-23 及 2026-11-24 被發現，但公開確認及較詳細的正式聲明是在本窗口內報道。</p>
+<p class="source"><a href="https://zodia-custody.com/statement-on-recent-security-incident/">https://zodia-custody.com/statement-on-recent-security-incident/</a></p>
+</article>
+    <h2>四、加密貨幣行情／4. Cryptocurrency Price Movements</h2>
+    <p class="en">The top 10 cryptocurrencies by current circulating market cap, including qualifying stablecoins (labeled). Ranking source: CoinGecko Markets API (vs_currency=usd, order=market_cap_desc, per_page=10). Coin snapshot: 2026-11-27 08:09:51 GMT+8 (API last_updated 2026-11-27T00:09:51.000Z). A same-source global snapshot at 2026-11-27 08:01:50 GMT+8 showed a global crypto market cap of about $2.097T, roughly −2.55% over 24 hours, BTC dominance of about 57.95% and ETH dominance of about 9.82%. Fear &amp; Greed (Alternative.me): 12 (extreme fear); yesterday’s reading from the same source was 11 (extreme fear). Versus yesterday’s snapshot from the same source, the top-10 membership and order are unchanged. All ten coins had aligned last_updated timestamps in this snapshot. Market-cap changes use CoinGecko 24-hour market-cap change fields and are not replaced by volume or price change.</p>
+    <p class="zh">按當前流通市值排名的前 10 大加密貨幣（含符合資格的穩定幣，已標示）。排名來源：CoinGecko Markets API（vs_currency=usd，order=market_cap_desc，per_page=10）。硬幣快照：2026-11-27 08:09:51 GMT+8（API last_updated 2026-11-27T00:09:51.000Z）。同一來源的全球數據快照為 2026-11-27 08:01:50 GMT+8：全球總市值約 2.097 萬億美元，24 小時約 −2.55%；BTC 主導約 57.95%，ETH 主導約 9.82%。恐懼與貪婪指數（Alternative.me）：12（極度恐懼）；昨日同一來源為 11（極度恐懼）。與昨日同一來源的快照相比，前 10 名成員及排序不變。此快照中 10 隻硬幣的 last_updated 均已對齊。市值變動取自 CoinGecko 的 24 小時市值變動欄位，並非以成交量或價格變動替代。</p>
+    <p class="source"><a href="https://www.coingecko.com/">https://www.coingecko.com/</a></p>
+    <div class="table-wrap">
+<table><thead><tr>
+<th>排名</th>
+<th>名稱</th>
+<th>價格（美元）</th>
+<th>流通市值（美元）</th>
+<th>24h 價格</th>
+<th>24h 市值</th>
+</tr></thead><tbody>
+<tr>
+<td>1</td><td>Bitcoin (BTC)</td><td>$60,509</td><td>$1.217T</td><td class="chg-down">−0.00%</td><td class="chg-up">+$889.0M / +0.07%</td>
+</tr>
+<tr>
+<td>2</td><td>Ethereum (ETH)</td><td>$1,688.85</td><td>$206.47B</td><td class="chg-down">−0.25%</td><td class="chg-down">−$377.7M / −0.18%</td>
+</tr>
+<tr>
+<td>3</td><td>Tether (USDT) 穩定幣</td><td>$0.999037</td><td>$173.85B</td><td class="chg-up">+0.01%</td><td class="chg-up">+$6.95M / +0.00%</td>
+</tr>
+<tr>
+<td>4</td><td>BNB (BNB)</td><td>$554.18</td><td>$72.88B</td><td class="chg-down">−0.09%</td><td class="chg-down">−$32.8M / −0.04%</td>
+</tr>
+<tr>
+<td>5</td><td>USDC (USDC) 穩定幣</td><td>$0.999581</td><td>$69.23B</td><td class="chg-up">+0.01%</td><td class="chg-up">+$109.3M / +0.16%</td>
+</tr>
+<tr>
+<td>6</td><td>XRP (XRP)</td><td>$0.943214</td><td>$59.91B</td><td class="chg-up">+0.52%</td><td class="chg-up">+$340.3M / +0.57%</td>
+</tr>
+<tr>
+<td>7</td><td>Solana (SOL)</td><td>$71.01</td><td>$42.06B</td><td class="chg-up">+0.58%</td><td class="chg-up">+$264.8M / +0.63%</td>
+</tr>
+<tr>
+<td>8</td><td>Figure Heloc (FIGR_HELOC)</td><td>$1.065</td><td>$29.22B</td><td class="chg-up">+0.87%</td><td class="chg-up">+$341.2M / +1.18%</td>
+</tr>
+<tr>
+<td>9</td><td>TRON (TRX)</td><td>$0.30368</td><td>$28.87B</td><td class="chg-up">+0.03%</td><td class="chg-up">+$6.4M / +0.02%</td>
+</tr>
+<tr>
+<td>10</td><td>Hyperliquid (HYPE)</td><td>$62.42</td><td>$14.83B</td><td class="chg-up">+0.93%</td><td class="chg-up">+$134.1M / +0.91%</td>
+</tr>
+</tbody></table></div>
+    <p class="en">Biggest price gainers: within this top 10, Hyperliquid led at +0.93%, followed by Figure Heloc +0.87%, Solana +0.58%, XRP +0.52%, TRON +0.03%, and the stablecoins USDC and USDT, both +0.01%. Biggest price losers: Ethereum, −0.25%, then BNB −0.09%, while Bitcoin was essentially unchanged at −0.00%. Largest market-cap increases: Bitcoin +$889.0M (+0.07%); Figure Heloc +$341.2M (+1.18%); XRP +$340.3M (+0.57%); Solana +$264.8M (+0.63%); Hyperliquid +$134.1M (+0.91%); USDC +$109.3M (+0.16%); Tether +$6.95M (+0.00%); TRON +$6.4M (+0.02%). Largest market-cap decreases: Ethereum −$377.7M (−0.18%); BNB −$32.8M (−0.04%). The same source’s slightly earlier global snapshot showed the overall crypto market cap down about 2.55% over 24 hours, which can coexist with the mixed, mostly modest top-10 changes because the global figure covers a broader market, and the global snapshot time (08:01:50 GMT+8) also differs slightly from the coin snapshot.</p>
+    <p class="zh">最大價格升幅：在這 10 隻之中，由 Hyperliquid 領升 +0.93%，其後為 Figure Heloc +0.87%、Solana +0.58%、XRP +0.52%、TRON +0.03%，以及穩定幣 USDC 與 USDT，兩者均為 +0.01%。最大價格跌幅：Ethereum −0.25%，其後為 BNB −0.09%；Bitcoin 則大致持平，為 −0.00%。最大市值增加：Bitcoin +$889.0M（+0.07%）；Figure Heloc +$341.2M（+1.18%）；XRP +$340.3M（+0.57%）；Solana +$264.8M（+0.63%）；Hyperliquid +$134.1M（+0.91%）；USDC +$109.3M（+0.16%）；Tether +$6.95M（+0.00%）；TRON +$6.4M（+0.02%）。最大市值減少：Ethereum −$377.7M（−0.18%）；BNB −$32.8M（−0.04%）。全球總市值在稍早的同一來源快照中 24 小時約跌 2.55%，與這 10 隻好淡紛陳、升跌大多溫和的數字可以並存，因為全球數字涵蓋更廣的市場，而且全球快照時間（08:01:50 GMT+8）亦與硬幣快照略有差異。</p>
+    <div class="disclaimer">
+    <h2>免責／Caveat</h2>
+    <p class="en">Figures and headlines are from public sources and CoinGecko and can change quickly. This brief is not investment advice.</p>
+    <p class="zh">資料來自公開來源與 CoinGecko；價格與新聞可能迅速變化。本簡報不構成投資建議。</p>
+    </div>
+  </div>
+</body>
+</html>
