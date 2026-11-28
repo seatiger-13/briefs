@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>早晨簡報 / Morning Brief — 2026-11-28</title>
+  <style>
+:root {
+  --bg: #f7f5f0;
+  --card: #fffcf7;
+  --ink: #1c1915;
+  --muted: #5c564c;
+  --line: #e4ddd2;
+  --accent: #8b3a2a;
+  --link: #1e4d7b;
+  --up: #157a3a;
+  --down: #b42318;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #161412;
+    --card: #1e1b18;
+    --ink: #f3eee6;
+    --muted: #b3ab9f;
+    --line: #3a342c;
+    --accent: #e07a68;
+    --link: #8cb8e8;
+    --up: #5dca82;
+    --down: #ff7a6e;
+  }
+}
+* { box-sizing: border-box; }
+html { font-size: 18px; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: "Source Han Sans TC", "Noto Sans TC", "PingFang HK", "PingFang TC",
+    "Microsoft JhengHei", "Helvetica Neue", system-ui, sans-serif;
+  line-height: 1.7;
+}
+.wrap {
+  max-width: 46rem;
+  margin: 0 auto;
+  padding: 2.25rem 1.25rem 4rem;
+}
+header.site {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  align-items: baseline;
+  border-bottom: 1px solid var(--line);
+  padding-bottom: 0.85rem;
+  margin-bottom: 1.75rem;
+  font-size: 0.88rem;
+}
+header.site a { color: var(--muted); text-decoration: none; }
+header.site a:hover { color: var(--link); text-decoration: underline; }
+h1 {
+  font-size: 1.55rem;
+  line-height: 1.3;
+  margin: 0 0 0.35rem;
+  font-weight: 650;
+}
+.date {
+  color: var(--muted);
+  margin: 0 0 1.5rem;
+  font-size: 0.95rem;
+}
+h2 {
+  font-size: 1.18rem;
+  margin: 2.1rem 0 0.8rem;
+  padding-top: 0.4rem;
+  border-top: 1px solid var(--line);
+  color: var(--accent);
+  font-weight: 650;
+}
+h3 {
+  font-size: 1.02rem;
+  margin: 1.4rem 0 0.5rem;
+  font-weight: 650;
+}
+article.story {
+  margin: 0 0 1.6rem;
+}
+article.story h3 { margin: 1.15rem 0 0.12rem; }
+p.en { margin: 0.7rem 0 0.1rem; }
+p.zh, .zh-head {
+  margin: 0 0 0.15rem;
+  color: var(--muted);
+}
+.zh-head { font-weight: 600; }
+p.zh + p.en { margin-top: 0.7rem; }
+p { margin: 0.75rem 0; }
+a { color: var(--link); }
+.source {
+  font-size: 0.92rem;
+  color: var(--muted);
+  margin: 0.35rem 0 0;
+  word-break: break-all;
+}
+.disclaimer {
+  margin-top: 2.4rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--line);
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+.table-wrap { overflow-x: auto; margin: 1rem 0 1.4rem; }
+table {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 0.88rem;
+  background: var(--card);
+}
+th, td {
+  border: 1px solid var(--line);
+  padding: 0.4rem 0.55rem;
+  text-align: left;
+  vertical-align: top;
+  white-space: nowrap;
+}
+th { font-weight: 650; background: rgba(139, 58, 42, 0.06); }
+.chg-up { color: var(--up); }
+.chg-down { color: var(--down); }
+ol.archive {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+ol.archive li {
+  border-bottom: 1px solid var(--line);
+}
+ol.archive a {
+  display: block;
+  padding: 0.7rem 0.15rem;
+  text-decoration: none;
+  color: var(--ink);
+}
+ol.archive a:hover { color: var(--link); }
+ol.archive .d { font-weight: 650; }
+ol.archive .l { color: var(--muted); font-size: 0.9rem; margin-left: 0.6rem; }
+.note { color: var(--muted); font-size: 0.95rem; }
+@media print {
+  body { background: #fff; color: #000; }
+  a { color: inherit; }
+  header.site { display: none; }
+}
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header class="site">
+      <a href="../index.html">晨報存檔 Morning Brief Archive</a>
+      <span>2026-11-28</span>
+    </header>
+    <h1>史泰加，你條L樣睇路啦</h1>
+    <p class="date">AI、美股及加密貨幣早晨簡報 / Morning Brief — 2026-11-28（亞洲／香港時間 GMT+8）</p>
+    <p class="en">This is your personal morning brief for the preceding ~24 hours (Asia/Hong Kong GMT+8: about 08:15 on 2026-11-27 through about 08:15 on 2026-11-28). Cutoff ~08:15 GMT+8 on 2026-11-28. Only verified, material items are included, and related coverage has been deduplicated across sections. It is Saturday morning in Hong Kong. U.S. cash equities were closed on Thursday for Thanksgiving and then held a shortened Black Friday session on Friday that closed at 1:00 p.m. Eastern Time. CNBC, in a live recap updated at 1:11 p.m. Eastern Time on Friday, said the Dow Jones Industrial Average rose 591.99 points, or 1.18%, to close at 50,774.94, the S&amp;P 500 added 1.6% to end the day at 7,297.49, and the Nasdaq Composite advanced 2.31% to 24,129.50. Reuters, in a report carried by Investing.com and updated at 5:18 p.m. on Friday, gave the same closing levels and said the S&amp;P 500 gained 114.71 points, or 1.60%, and the Nasdaq Composite gained 543.70 points. Reuters said that for the week the S&amp;P 500 gained 5.6%, the Nasdaq rose 6.68%, and the Dow climbed 5.46%, and that the S&amp;P 500’s weekly gain was the index’s biggest since April 2025; CNBC said the Dow notched its biggest weekly advance since October 2022 and that the Nasdaq scored its largest weekly gain since April. Official Nikkei Indexes data show the Nikkei 225 rose 2.11% on Friday, or 1,211.95 points, to 58,711.11; Xinhua said the Hang Seng Index rose 2.11% to 22,694.77; and Sharecast, in a London close report time-stamped 17:10 on 2026-11-27, said the FTSE 100 closed up 0.8% at 10,698.81. In artificial intelligence, no verified, material new items from this window are listed. In cryptocurrency, CoinDesk reported that Binance said it had fully lifted the withdrawal suspension imposed after October’s security incident; Brazil’s exchange operator B3 and six financial firms announced plans for a real-pegged stablecoin, Open BRL; and Farside Investors already shows a partial Friday row for U.S. spot bitcoin ETFs that is not treated as a completed full-day figure. At the cutoff, CoinGecko put bitcoin at $59,940, down 0.89% over 24 hours, and a slightly earlier same-source global snapshot put the crypto market cap at about $2.085 trillion, down about 3.37% over 24 hours. The AI, U.S. stocks and cryptocurrency news sections have 0, 4 and 3 verified items respectively, so only verified stories are listed and the sections were not padded with older coverage.</p>
+    <p class="zh">以下為過去約 24 小時（亞洲／香港時間 GMT+8：2026-11-27 約 08:15 至 2026-11-28 約 08:15）個人早晨簡報。截稿時間約為 2026-11-28 08:15 GMT+8。僅收錄已核實、具實質影響的消息；各節之間已盡量去重。今日為週六早上（香港時間）。美股現貨週四因感恩節休市，週五則進行黑色星期五縮短時段，於美東時間下午 1 時收市。CNBC 在週五美東時間下午 1 時 11 分更新的即時回顧中稱，道瓊斯工業平均指數升 591.99 點，或 1.18%，收報 50,774.94；標普 500 指數升 1.6%，收報 7,297.49；納斯達克綜合指數升 2.31%，收報 24,129.50。路透社一篇由 Investing.com 轉載、於週五下午 5 時 18 分更新的報道，列出相同收市水平，並稱標普 500 升 114.71 點，或 1.60%，納斯達克綜合指數升 543.70 點。路透社稱，全週計標普 500 升 5.6%，納斯達克升 6.68%，道指升 5.46%，標普 500 的單週升幅為 2025 年 4 月以來最大；CNBC 稱道指錄得 2022 年 10 月以來最大單週升幅，納斯達克則錄得 4 月以來最大單週升幅。日經指數官方數據顯示，日經 225 指數週五升 2.11%，或 1,211.95 點，收報 58,711.11；新華社稱恒生指數升 2.11%，收報 22,694.77；Sharecast 在 2026-11-27 17:10 的倫敦收市報道中稱，富時 100 指數收市升 0.8%，報 10,698.81。人工智能方面，本窗口內未有已核實、具實質影響的新要聞可列。加密貨幣方面，《CoinDesk》報道 Binance 稱已全面解除 10 月保安事故後實施的提款暫停；巴西交易所營運商 B3 與六家金融機構公布計劃推出與雷亞爾掛鈎的穩定幣 Open BRL；Farside Investors 已列示美國現貨比特幣 ETF 的週五行，但該行尚未齊全，不以已完成的全日數字處理。截稿時 CoinGecko 報比特幣 59,940 美元，滾動 24 小時跌 0.89%；同一來源稍早的全球快照顯示總市值約 2.085 萬億美元，24 小時約跌 3.37%。人工智能、美股及加密貨幣新聞各有 0、4 及 3 則已核實要聞，故只列已核實項目，並未為湊數而加入較舊消息。</p>
+    <h2>一、人工智能／1. Artificial Intelligence</h2>
+    <p class="en">No verified, material AI news items from the past ~24 hours were found, so none are listed; the section was not padded with older or independently unverified stories. Nvidia’s pause in server shipments to four Southeast Asian countries, and OpenAI’s statement that a GPT-6.2 billing mistake had been fixed, were covered in yesterday’s brief and are not repeated. A Government of Canada news release expanding the AI Compute Access Fund by $700 million, to a $1 billion total, is dated November 26, 2026, in Toronto, and BetaKit said the announcement was made on Thursday, which falls before this window’s 08:15 GMT+8 start. Google’s Workspace MCP servers post was dated 2026-11-24, and official Gemini Enterprise Agent Platform release notes checked at this cutoff show Gemini Distillation Service as an Early Access item dated May 8, 2026, with no verified November 26 or November 27 general-availability notice in those notes. A Bloomberg item on Huawei teasing a next-generation AI memory chip, and MarkTechPost’s report that Tencent had open-sourced DFly2, are dated 2026-11-26 and are not treated as new items in this window. Reports of SpaceX receiving approval to deploy up to one million AI computing satellites are dated 2026-11-25 and fall outside this window. Microsoft’s security blog on the ARTEX framework and Anthropic’s article on migrating its Messages API from Python to Rust are dated 2026-11-25. OpenAI’s Private Inference testing, as reported by The Next Web, was already excluded yesterday because it was published before that brief’s window. Reports that Anthropic is A/B testing Claude Opus 5.6 remain unverified by an official announcement and are not included.</p>
+    <p class="zh">本節在過去約 24 小時內，未找到已核實、具實質影響的人工智能要聞，故不列出任何項目，亦未為湊滿 10 則而加入較舊或未能獨立核實的消息。Nvidia 暫停向東南亞四國付運伺服器，以及 OpenAI 表示已修正 GPT-6.2 帳單錯誤的消息，已在昨日簡報述及，今日不重複。加拿大政府把人工智能運算使用基金（AI Compute Access Fund）增撥 7 億加元、總額達 10 億加元的新聞稿，日期為 2026 年 11 月 26 日（多倫多）；《BetaKit》稱宣布是在週四作出，早於本窗口的 08:15 GMT+8 起始時間。Google 有關 Workspace MCP 伺服器的文章日期為 2026-11-24；截稿時查核的 Gemini Enterprise Agent Platform 官方發行說明，把 Gemini Distillation Service 列為 2026 年 5 月 8 日的 Early Access 項目，該說明中未見已核實的 11 月 26 日或 11 月 27 日正式推出（generally available）公告。彭博一篇有關華為預告新一代人工智能高頻寬記憶體芯片的報道，以及《MarkTechPost》有關騰訊開源 DFly2 的報道，日期均為 2026-11-26，本窗口不以新項目處理。有關 SpaceX 獲准部署多達 100 萬顆人工智能運算衛星的報道，日期為 2026-11-25，不在本窗口內。Microsoft 有關 ARTEX 框架的保安網誌，以及 Anthropic 有關把 Messages API 由 Python 遷移至 Rust 的文章，日期均為 2026-11-25。《The Next Web》報道 OpenAI 測試 Private Inference 的消息，昨日已因發表時間早於當時窗口而不列入。有關 Anthropic 正在 A/B 測試 Claude Opus 5.6 的報道尚未有官方公布核實，故不列入。</p>
+    <h2>二、美股／2. US Stock Market</h2>
+    <p class="en">Only 4 verified items from the past ~24 hours are listed; the section was not padded with older coverage. Thursday’s U.S. futures move, and Thursday’s Nikkei, Hang Seng and FTSE closes, were covered in yesterday’s brief and are not repeated. The shortened Friday session’s official closes are in the items below. Vertex Pharmaceuticals’ FDA review extension was announced on Wednesday and is not given a separate item; Reuters noted the shares slid 5.2% on Friday. Nvidia’s reported pause in Southeast Asian server shipments remains in yesterday’s AI section and is not repeated here.</p>
+    <p class="zh">本節僅列 4 則已核實、屬過去約 24 小時內的要聞，未為湊滿 10 則而加入較舊消息。週四美股期貨走勢，以及週四日經、恒生及富時 100 的收市，已在昨日簡報述及，今日不重複。週五縮短時段的官方收市見以下各則。Vertex Pharmaceuticals 的 FDA 審批延期於週三公布，今日不另立項目；路透社指出該股週五跌 5.2%。Nvidia 據報暫停向東南亞付運伺服器的消息，仍見於昨日人工智能一節，此處不重複。</p>
+<article class="story">
+<h3>1. U.S. stocks rose in Friday’s shortened Black Friday session,</h3>
+<p class="zh-head">美股在週五縮短的黑色星期五時段上升，</p>
+<p class="en">and the major indexes posted strong weekly gains</p>
+<p class="zh">主要指數全週亦錄得較強升幅</p>
+<p class="en">CNBC, in a live recap updated at 1:11 p.m. Eastern Time on Friday, 2026-11-27, after the 1:00 p.m. Eastern early close, said the Dow Jones Industrial Average rose 591.99 points, or 1.18%, to close at 50,774.94, the S&amp;P 500 added 1.6% to end the day at 7,297.49, and the Nasdaq Composite advanced 2.31% to 24,129.50.</p>
+<p class="zh">CNBC 在週五（2026-11-27）美東時間下午 1 時 11 分、即美東時間下午 1 時提早收市之後更新的即時回顧中稱，道瓊斯工業平均指數升 591.99 點，或 1.18%，收報 50,774.94；標普 500 指數升 1.6%，收報 7,297.49；納斯達克綜合指數升 2.31%，收報 24,129.50。</p>
+<p class="en">Reuters, in a report carried by Investing.com and updated at 5:18 p.m. on Friday, gave the same three closing levels and said the S&amp;P 500 gained 114.71 points, or 1.60%, and the Nasdaq Composite gained 543.70 points.</p>
+<p class="zh">路透社一篇由 Investing.com 轉載、於週五下午 5 時 18 分更新的報道，列出相同的三個收市水平，並稱標普 500 升 114.71 點，或 1.60%，納斯達克綜合指數升 543.70 點。</p>
+<p class="en">Yahoo Finance’s S&amp;P 500 history page likewise showed a close of 7,297.49, up 114.71 points, or 1.60%, time-stamped at 1:38:39 p.m. Eastern Time on November 27.</p>
+<p class="zh">Yahoo Finance 的標普 500 歷史頁同樣顯示收市報 7,297.49，升 114.71 點，或 1.60%，時間戳為 11 月 27 日美東時間下午 1 時 38 分 39 秒。</p>
+<p class="en">Reuters said that for the week the S&amp;P 500 gained 5.6%, the Nasdaq rose 6.68%, and the Dow climbed 5.46%, and that the S&amp;P 500 weekly gain was the index’s biggest since April 2025.</p>
+<p class="zh">路透社稱，全週計標普 500 升 5.6%，納斯達克升 6.68%，道指升 5.46%，標普 500 的單週升幅為 2025 年 4 月以來最大。</p>
+<p class="en">CNBC said the Dow and the S&amp;P 500 were both up more than 5% on the week, that the Dow notched its biggest weekly advance since October 2022, that the S&amp;P 500 posted its best week since April 2025, and that the Nasdaq, up more than 6%, scored its largest weekly gain since April.</p>
+<p class="zh">CNBC 稱道指及標普 500 全週均升逾 5%，道指錄得 2022 年 10 月以來最大單週升幅，標普 500 錄得 2025 年 4 月以來最佳一週，納斯達克全週升逾 6%，為 4 月以來最大單週升幅。</p>
+<p class="en">The same CNBC recap said technology stocks supported Friday’s bounce, after a volatile week in an even more volatile month, and that U.S. markets were closed on Thursday for Thanksgiving and closed on Friday at 1:00 p.m. Eastern Time.</p>
+<p class="zh">同一篇 CNBC 回顧稱，科技股支持了週五的反彈，而這一週本身已波動，11 月更為波動；美國市場週四因感恩節休市，週五則於美東時間下午 1 時收市。</p>
+<p class="en">Reuters said traders were almost fully pricing in a Federal Reserve interest-rate hike in December after this week’s data, and that the market’s gains had done little to erase November’s losses, with the S&amp;P 500 and the Nasdaq on track for their worst November since 2008; that month-to-date characterization is Reuters’, and November still has trading sessions left after this cutoff.</p>
+<p class="zh">路透社稱，在本週數據公布後，交易員幾乎已完全計入聯儲局 12 月加息；並稱市場升幅未能大幅挽回 11 月的跌幅，標普 500 及納斯達克正朝著 2008 年以來最差 11 月推進；有關本月迄今的判斷出自路透社，而截稿後 11 月仍有交易時段。</p>
+<p class="source"><a href="https://www.cnbc.com/2026/11/26/stock-market-today-live-updates.html">https://www.cnbc.com/2026/11/26/stock-market-today-live-updates.html</a></p>
+</article>
+<article class="story">
+<h3>2. Anthropic closed 10.98% higher at $91.88,</h3>
+<p class="zh-head">Anthropic 收市升 10.98%，報 91.88 美元，</p>
+<p class="en">as AI-linked shares rebounded in the shortened session</p>
+<p class="zh">人工智能相關股份在縮短時段反彈</p>
+<p class="en">Yahoo Finance’s historical prices for Anthropic, PBC (ticker ANT) showed a Friday close of $91.88, up $9.09, or 10.98%, time-stamped at 1:00:01 p.m. Eastern Time on November 27, the session’s official close.</p>
+<p class="zh">Yahoo Finance 所載 Anthropic, PBC（代號 ANT）歷史價格顯示，週五收市報 91.88 美元，升 9.09 美元，或 10.98%，時間戳為 11 月 27 日美東時間下午 1 時 00 分 01 秒，即該時段的正式收市。</p>
+<p class="en">The same table listed Friday’s open at $84.99, a high of $93.22, a low of $84.53 and volume of 143,747,654 shares; after-hours trading was shown at $91.41, down $0.47, or 0.51%, at 4:59:58 p.m. Eastern Time.</p>
+<p class="zh">同一表格列出週五開市報 84.99 美元，高位 93.22 美元，低位 84.53 美元，成交 143,747,654 股；盤後交易顯示報 91.41 美元，跌 0.47 美元，或 0.51%，時間為美東時間下午 4 時 59 分 58 秒。</p>
+<p class="en">CNBC’s closing recap said Anthropic added nearly 11%, and that the company went public last Thursday; a later midday item on a separate CNBC movers page had said the shares jumped over 8%, so the Yahoo close and CNBC’s post-close recap are the figures used here.</p>
+<p class="zh">CNBC 的收市回顧稱 Anthropic 升近 11%，並指該公司上週四上市；另一篇 CNBC 異動報道中較早的午市條目曾稱股價升逾 8%，故此處採用 Yahoo 的收市價及 CNBC 收市後回顧的數字。</p>
+<p class="en">Bloomberg, in a headline on 2026-11-27, said Anthropic shares rose above the IPO price after a volatile first week on Nasdaq.</p>
+<p class="zh">彭博在 2026-11-27 的標題中稱，Anthropic 股價在納斯達克波動的首週之後升回招股價之上。</p>
+<p class="en">Yahoo’s history shows the stock’s Wednesday, 2026-11-25, low at $73.85 and that day’s close at $82.79; there was no regular session on Thursday, when the U.S. market was closed for Thanksgiving.</p>
+<p class="zh">Yahoo 的歷史數據顯示，該股在週三（2026-11-25）低見 73.85 美元，當日收市報 82.79 美元；週四美股因感恩節休市，並無常規交易時段。</p>
+<p class="en">CNBC’s closing recap said Magnificent Seven members Meta Platforms popped more than 3% and Amazon about 4%, while Broadcom increased almost 4%.</p>
+<p class="zh">CNBC 的收市回顧稱，「magnificent seven」成員 Meta Platforms 升逾 3%，Amazon 升約 4%，Broadcom 則升近 4%。</p>
+<p class="en">Reuters said chipmakers recovered ground, with Micron and Marvell gaining 7.6% and 7.3% respectively, the broader chip gauge climbing 4.7%, Nvidia ending 0.8% higher after remaining weak for most of the session, data-storage firm Sandisk surging almost 16%, Tesla surging 5%, and Amazon, Microsoft, Meta and Oracle also posting gains.</p>
+<p class="zh">路透社稱芯片股收復失地，Micron 及 Marvell 分別升 7.6% 及 7.3%，較廣義的芯片指數升 4.7%；Nvidia 在時段內大部分時間仍然偏弱，收市升 0.8%；數據儲存公司 Sandisk 急升近 16%，Tesla 急升 5%，Amazon、Microsoft、Meta 及 Oracle 亦上升。</p>
+<p class="source"><a href="https://finance.yahoo.com/quote/ANT/history/">https://finance.yahoo.com/quote/ANT/history/</a></p>
+</article>
+<article class="story">
+<h3>3. The Nikkei 225 and Hang Seng rose 2.11% on Friday,</h3>
+<p class="zh-head">日經 225 指數及恒生指數週五均升 2.11%，</p>
+<p class="en">and the FTSE 100 closed up 0.8%</p>
+<p class="zh">富時 100 指數則收市升 0.8%</p>
+<p class="en">Official Nikkei Indexes data show the Nikkei 225 closed on Friday, 2026-11-27, at 58,711.11, up 1,211.95 points, or 2.11%, after an open of 57,669.79, a high of 58,738.02 and a low of 57,447.16.</p>
+<p class="zh">日經指數官方數據顯示，日經 225 指數在週五（2026-11-27）收報 58,711.11，升 1,211.95 點，或 2.11%；開市報 57,669.79，高見 58,738.02，低見 57,447.16。</p>
+<p class="en">Xinhua, in a dispatch time-stamped 2026-11-27 16:39:45, said Hong Kong’s stock market ended higher Friday, with the Hang Seng Index up 2.11% to close at 22,694.77, the Hang Seng China Enterprises Index up 2.01% at 7,644.18, and the Hang Seng Tech Index up 6.45% at 3,637.88.</p>
+<p class="zh">新華社在時間戳為 2026-11-27 16:39:45 的電訊中稱，香港股市週五收市上升，恒生指數升 2.11%，收報 22,694.77；恒生中國企業指數升 2.01%，報 7,644.18；恒生科技指數升 6.45%，報 3,637.88。</p>
+<p class="en">Sharecast, in a London close report time-stamped 17:10 on 2026-11-27, said the FTSE 100 closed up 0.8% at 10,698.81, with miners pacing the gains again amid higher metals prices.</p>
+<p class="zh">Sharecast 在 2026-11-27 17:10 的倫敦收市報道中稱，富時 100 指數收市升 0.8%，報 10,698.81，礦業股在金屬價格上升下再次領升。</p>
+<p class="en">A market report posted on Euronext at 18:15 on Friday, 27/11/2026, likewise said the FTSE 100 ended up 0.8% at 10,698.81 points and logged its biggest weekly gain in about eight months, led by mining and bank stocks; it said the midcap FTSE 250 rose 0.9% to 24,314.72, a one-week high.</p>
+<p class="zh">Euronext 在週五（2026-11-27）18:15 刊登的市場報道同樣稱，富時 100 指數收市升 0.8%，報 10,698.81 點，並錄得約八個月以來最大單週升幅，由礦業及銀行股領升；報道並稱中型股富時 250 指數升 0.9%，報 24,314.72，為一週高位。</p>
+<p class="en">The same Euronext-hosted report said Imperial Brands added 1.8%, extending gains after Altria said it was considering a possible all-cash offer for the British tobacco group.</p>
+<p class="zh">同一篇在 Euronext 刊登的報道稱，Imperial Brands 升 1.8%，在 Altria 表示正考慮對這家英國煙草集團提出可能的全現金要約後繼續上升。</p>
+<p class="en">Those cash sessions took place on Friday, after Thursday’s U.S. Thanksgiving close and before Friday’s shortened Wall Street session had finished in New York.</p>
+<p class="zh">上述現貨時段於週五進行，時為美國週四感恩節休市之後，而紐約週五縮短的交易時段當時尚未結束。</p>
+<p class="source"><a href="https://indexes.nikkei.co.jp/en/nkave/archives/summary?dt=11272026&amp;idx=nk225">https://indexes.nikkei.co.jp/en/nkave/archives/summary?dt=11272026&amp;idx=nk225</a></p>
+</article>
+<article class="story">
+<h3>4. Brazil’s president names Bradesco’s chairman as finance minister,</h3>
+<p class="zh-head">巴西總統任命 Bradesco 主席出任財政部長，</p>
+<p class="en">and CNBC said XP and Bradesco jumped in Friday trading</p>
+<p class="zh">CNBC 稱 XP 及 Bradesco 在週五交易中急升</p>
+<p class="en">CNBC, in a Friday movers report last updated at 12:01 p.m. Eastern Time on 2026-11-27, before the 1:00 p.m. Eastern early close, said shares of XP, a Brazilian investment management company, jumped nearly 18.5% Friday after President Luiz Inácio Lula da Silva named Bradesco Chairman Luiz Carlos Trabuco as Brazil’s next finance minister.</p>
+<p class="zh">CNBC 在 2026-11-27 一篇最後更新於美東時間中午 12 時 01 分、即美東時間下午 1 時提早收市之前的異動報道中稱，巴西投資管理公司 XP 的股份週五急升近 18.5%，因總統盧拉（Luiz Inácio Lula da Silva）任命 Bradesco 主席 Luiz Carlos Trabuco 為巴西下一任財政部長。</p>
+<p class="en">The same item said Bradesco shares also went up nearly 16% on the news, that Trabuco is expected to take the role in January as Lula begins his new term, and that the rise of Brazil’s public debt at nearly 83% of the country’s GDP has worried investors, but the appointment is viewed as a possible signal that Lula will pursue a more market-friendly fiscal policy.</p>
+<p class="zh">同一條目稱，Bradesco 股份亦因這則消息升近 16%；Trabuco 預計於 1 月、即盧拉展開新任期時上任；巴西公共債務已升至約相當於國內生產總值的 83%，一直令投資者憂慮，但這次任命被視為盧拉可能採取較市場友好財政政策的信號。</p>
+<p class="en">Those XP and Bradesco percentages come from CNBC’s movers page as updated at 12:01 p.m. Eastern Time and are not confirmed here as official 1:00 p.m. closing prints.</p>
+<p class="zh">上述 XP 及 Bradesco 的升幅百分比，來自 CNBC 於美東時間中午 12 時 01 分更新的異動頁，此處未確認為下午 1 時的官方收市價。</p>
+<p class="source"><a href="https://www.cnbc.com/2026/11/27/stocks-moving-the-most-today-live-updates.html">https://www.cnbc.com/2026/11/27/stocks-moving-the-most-today-live-updates.html</a></p>
+</article>
+    <h2>三、加密貨幣新聞／3. Cryptocurrency News</h2>
+    <p class="en">Only 3 verified items from the past ~24 hours are listed; the section was not padded with older or independently unverified stories. The completed Wednesday U.S. spot bitcoin ETF net outflow of $453.0 million, the debut of Switzerland’s BBIT spot bitcoin ETF, and Zodia Custody’s security-incident statement were covered in yesterday’s brief and are not repeated. Fidelity’s Form S-1 for a spot Chainlink ETF is dated 2026-11-25 and falls outside this window. VanEck’s notice that it will drop Gemini as custodian of certain ETFs was reported earlier in November and is not new in this window. KuCoin’s announcement that it will delist Monero (XMR) on 2026-11-30 is time-stamped 2026/11/26 17:33:00, and CoinDesk said the token’s more than 11% drop was on Thursday, both before this window’s 08:15 GMT+8 start, so those developments are not listed as new items today. Bitcoin’s latest price and market-cap figures are in the price-movements section and are not given a separate news item today. There is no Farside row for Thursday, 2026-11-26, because U.S. markets were closed for Thanksgiving.</p>
+    <p class="zh">本節僅列 3 則已核實、屬過去約 24 小時內的要聞，未為湊滿 10 則而加入較舊或未能獨立核實的消息。已補完的週三美國現貨比特幣 ETF 淨流出 4.530 億美元、瑞士現貨比特幣 ETF（BBIT）上市，以及 Zodia Custody 的保安事故聲明，已在昨日簡報述及，今日不重複。Fidelity 為現貨 Chainlink ETF 提交的 S-1 登記聲明日期為 2026-11-25，不在本窗口內。VanEck 通知將終止由 Gemini 託管部分 ETF 的安排，已在 11 月較早時候報道，並非本窗口內的新消息。KuCoin 宣布將於 2026-11-30 下架門羅幣（XMR）的公告時間戳為 2026/11/26 17:33:00，《CoinDesk》稱該幣超過 11% 的跌幅發生在週四，兩者均早於本窗口的 08:15 GMT+8 起始時間，故今日不列為新項目。比特幣的最新價格及市值見行情一節，今日不另立為新聞項目。2026-11-26（週四）因美國市場感恩節休市，Farside 並無該日一行。</p>
+<article class="story">
+<h3>1. Binance says the withdrawal suspension after October’s security incident has been fully lifted,</h3>
+<p class="zh-head">Binance 稱 10 月保安事故後的提款暫停已全面解除，</p>
+<p class="en">though a small number of networks remain paused for other reasons</p>
+<p class="zh">但仍有少數網絡因其他原因暫停</p>
+<p class="en">CoinDesk, in a report time-stamped 11:45 p.m. Eastern Time on 2026-11-26 (12:45 p.m. on 2026-11-27, Hong Kong time), said Binance had fully lifted the suspension on customer withdrawals that began after a $6.3 billion hack in late October.</p>
+<p class="zh">《CoinDesk》在 2026-11-26 美東時間晚上 11 時 45 分（香港時間 2026-11-27 下午 12 時 45 分）刊出的報道中稱，Binance 已全面解除因 10 月底一宗涉及 63 億美元的黑客攻擊而對客戶提款實施的暫停。</p>
+<p class="en">The article quoted a Binance announcement dated November 26 as saying, “Our withdrawal recovery work is completed and the withdrawal suspension from the October security incident has been fully lifted.”</p>
+<p class="zh">報道引述 Binance 一則日期為 11 月 26 日的公告稱：「我們的提款恢復工作已經完成，因 10 月保安事故而實施的提款暫停已全面解除。」</p>
+<p class="en">CoinDesk said the exchange immediately stopped withdrawals on several blockchain networks after the October 29 incident as a precaution and began bringing them back in stages on November 1, and that a small number of networks remain paused for maintenance or planned upgrades, which Binance said is not related to the hack.</p>
+<p class="zh">《CoinDesk》稱，交易所在 10 月 29 日事故後作為預防措施，立即暫停若干區塊鏈網絡的提款，並由 11 月 1 日起分階段恢復；但仍有少數網絡因維修或計劃中的升級而暫停，Binance 稱這與黑客攻擊無關。</p>
+<p class="en">The same report said Binance stated that all assets remain fully backed and accounted for, pointed users to its Proof of Reserves website, and warned that scammers often appear after events like this.</p>
+<p class="zh">同一報道稱，Binance 表示所有資產仍然十足準備並已入帳，並指引用戶查閱其儲備證明網站，同時警告此類事件之後往往出現詐騙。</p>
+<p class="en">The official announcement is dated November 26; it is listed today because CoinDesk’s time-stamped report at 11:45 p.m. Eastern Time on November 26 falls after this window’s 08:15 GMT+8 start on 2026-11-27.</p>
+<p class="zh">官方公告日期為 11 月 26 日；今日列入，是因為《CoinDesk》在 11 月 26 日美東時間晚上 11 時 45 分刊出的報道，已遲於本窗口 2026-11-27 08:15 GMT+8 的起始時間。</p>
+<p class="source"><a href="https://www.coindesk.com/markets/2026/11/27/binance-says-its-withdrawal-suspension-is-over-four-weeks-after-a-usd6-3-billion-hack">https://www.coindesk.com/markets/2026/11/27/binance-says-its-withdrawal-suspension-is-over-four-weeks-after-a-usd6-3-billion-hack</a></p>
+</article>
+<article class="story">
+<h3>2. B3 and six Brazilian financial firms plan a real-pegged stablecoin, Open BRL,</h3>
+<p class="zh-head">B3 與六家巴西金融機構計劃推出與雷亞爾掛鈎的穩定幣 Open BRL，</p>
+<p class="en">aimed at a first-quarter 2027 launch</p>
+<p class="zh">目標於 2027 年第一季推出</p>
+<p class="en">B3, the Brazilian exchange operator, said in a notice dated 27/11/2026, from São Paulo on 27 November 2026, that it is joining Bradesco, BTG Pactual, Itaú Unibanco, Safra, Santander and XP to develop a real-referenced stablecoin and shared infrastructure for use in Brazil’s financial market.</p>
+<p class="zh">巴西交易所營運商 B3 在日期為 2026 年 11 月 27 日、發自聖保羅的公告中稱，將與 Bradesco、BTG Pactual、Itaú Unibanco、Safra、Santander 及 XP 合作，開發一種以雷亞爾為參考的穩定幣及共享基礎設施，供巴西金融市場使用。</p>
+<p class="en">The notice named the token Open BRL, said the proposal goes beyond creating a digital currency because the common technology base could be widely used by the market, and said that in the initial stage B3 will run the technology and Banco B3 will issue the stablecoin, while the partner institutions work on integrations and use cases.</p>
+<p class="zh">公告把該代幣稱為 Open BRL，並稱計劃不止於創造一種數碼貨幣，因為這套共用技術基礎可廣泛供市場使用；在初始階段，B3 負責營運技術，Banco B3 負責發行穩定幣，合作機構則負責對接及評估應用場景。</p>
+<p class="en">CoinDesk, in a report time-stamped 5:51 a.m. Eastern Time on 2026-11-27 (6:51 p.m. Hong Kong time), citing Valor Econômico as well as B3 vice president of products Luiz Masagão, said the partners expect the platform to go live in the first quarter of next year, that other financial institutions will be able to join from day one, and that users deposit 1 real to get one Open BRL token, with Banco B3 holding the reserves so holders can convert it back into reais at any time.</p>
+<p class="zh">《CoinDesk》在 2026-11-27 美東時間上午 5 時 51 分（香港時間晚上 6 時 51 分）的報道中，引述《Valor Econômico》及 B3 產品副總裁 Luiz Masagão 稱，合作方預期平台於明年第一季投入運作，其他金融機構可由推出首日加入；用戶存入 1 雷亞爾即可取得 1 枚 Open BRL，由 Banco B3 持有儲備，持有人可隨時兌回雷亞爾。</p>
+<p class="en">The same CoinDesk report said B3 also plans to use Open BRL to settle tokenized stock trades on a digital equities platform it is building, and that Masagão said the group has briefed Brazil’s central bank.</p>
+<p class="zh">同一《CoinDesk》報道稱，B3 亦計劃在其正在建立的數碼股票平台上，使用 Open BRL 結算代幣化股票交易；Masagão 並表示該集團已向巴西央行通報。</p>
+<p class="source"><a href="https://www.b3.com.br/pt_br/noticias/bolsa-e-seis-instituicoes-financeiras-se-unem-para-criar-stablecoin-em-reais.htm">https://www.b3.com.br/pt_br/noticias/bolsa-e-seis-instituicoes-financeiras-se-unem-para-criar-stablecoin-em-reais.htm</a></p>
+</article>
+<article class="story">
+<h3>3. Farside already shows a partial Friday U.S. spot bitcoin ETF row totaling −$41.0 million,</h3>
+<p class="zh-head">Farside 已列示週五美國現貨比特幣 ETF 的部分數字，合計淨流出 4,100 萬美元，</p>
+<p class="en">but several large-fund cells are still dashes</p>
+<p class="zh">但若干大型基金一欄仍為「-」</p>
+<p class="en">Farside Investors’ U.S. spot bitcoin ETF table, checked on the morning of 2026-11-28, already has a row for Friday, 2026-11-27, with a posted total of −$41.0 million, but that figure is not treated here as a completed full-day result.</p>
+<p class="zh">於 2026-11-28 早上核對的 Farside Investors 美國現貨比特幣 ETF 表，已有 2026-11-27（週五）一行，列示合計淨流出 4,100 萬美元，但此處不以已完成的全日結果處理。</p>
+<p class="en">The Friday cells shown are: IBIT still a dash; FBTC still a dash; BITB −$12.3 million; ARKB −$5.7 million; BTCO, EZBC, BRRR, HODL and BTCW still dashes; MSBT $0.0 million; GBTC −$23.0 million; and Grayscale’s BTC mini fund $0.0 million.</p>
+<p class="zh">已列示的週五各欄為：IBIT 仍為「-」；FBTC 仍為「-」；BITB 流出 1,230 萬美元；ARKB 流出 570 萬美元；BTCO、EZBC、BRRR、HODL 及 BTCW 仍為「-」；MSBT 為 0；GBTC 流出 2,300 萬美元；Grayscale 的 BTC mini 基金為 0。</p>
+<p class="en">Farside’s U.S. spot ether ETF table is likewise incomplete for Friday, with a posted total of −$7.5 million; ETHA, ETHB, FETH, ETHV, QETH and EZET are still dashes, ETHW and TETH are $0.0 million, MSSE is $0.0 million, ETHE is −$2.7 million and ETH is −$4.8 million.</p>
+<p class="zh">Farside 的美國現貨以太幣 ETF 表在週五行同樣尚未齊全，已列示合計淨流出 750 萬美元；ETHA、ETHB、FETH、ETHV、QETH 及 EZET 仍為「-」，ETHW 及 TETH 為 0，MSSE 為 0，ETHE 流出 270 萬美元，ETH 流出 480 萬美元。</p>
+<p class="en">Yesterday’s brief already recorded the completed Wednesday bitcoin-ETF outflow of $453.0 million, which remains the latest complete U.S. trading session on Farside’s table; there is still no Thursday, 2026-11-26, row, because U.S. markets were closed for Thanksgiving.</p>
+<p class="zh">昨日簡報已記錄已補完的週三比特幣 ETF 淨流出 4.530 億美元，這仍是 Farside 表上最近一個數字齊全的美國交易日；2026-11-26（週四）一行仍然沒有，因為美國市場因感恩節休市。</p>
+<p class="source"><a href="https://farside.co.uk/btc/">https://farside.co.uk/btc/</a></p>
+</article>
+    <h2>四、加密貨幣行情／4. Cryptocurrency Price Movements</h2>
+    <p class="en">The top 10 cryptocurrencies by current circulating market cap, including qualifying stablecoins (labeled). Ranking source: CoinGecko Markets API (vs_currency=usd, order=market_cap_desc, per_page=10). Coin snapshot: 2026-11-28 08:08:56 GMT+8 (API last_updated 2026-11-28T00:08:56.000Z). A same-source global snapshot at 2026-11-28 08:05:30 GMT+8 showed a global crypto market cap of about $2.085T, roughly −3.37% over 24 hours, BTC dominance of about 57.79% and ETH dominance of about 9.75%. Fear &amp; Greed (Alternative.me): 10 (extreme fear); yesterday’s reading from the same source was 12 (extreme fear). Versus yesterday’s snapshot from the same source, the top-10 membership and order are unchanged. All ten coins had aligned last_updated timestamps in this snapshot. Market-cap changes use CoinGecko 24-hour market-cap change fields and are not replaced by volume or price change. In the same coin snapshot, bitcoin’s rolling seven-day price change was +1.38%; that is a rolling figure, not a Sunday-to-Sunday weekly close.</p>
+    <p class="zh">按當前流通市值排名的前 10 大加密貨幣（含符合資格的穩定幣，已標示）。排名來源：CoinGecko Markets API（vs_currency=usd，order=market_cap_desc，per_page=10）。硬幣快照：2026-11-28 08:08:56 GMT+8（API last_updated 2026-11-28T00:08:56.000Z）。同一來源的全球數據快照為 2026-11-28 08:05:30 GMT+8：全球總市值約 2.085 萬億美元，24 小時約 −3.37%；BTC 主導約 57.79%，ETH 主導約 9.75%。恐懼與貪婪指數（Alternative.me）：10（極度恐懼）；昨日同一來源為 12（極度恐懼）。與昨日同一來源的快照相比，前 10 名成員及排序不變。此快照中 10 隻硬幣的 last_updated 均已對齊。市值變動取自 CoinGecko 的 24 小時市值變動欄位，並非以成交量或價格變動替代。同一硬幣快照中，比特幣的滾動七日價格變動為 +1.38%；這是滾動數字，並非週日至週日的一週收市變動。</p>
+    <p class="source"><a href="https://www.coingecko.com/">https://www.coingecko.com/</a></p>
+    <div class="table-wrap">
+<table><thead><tr>
+<th>排名</th>
+<th>名稱</th>
+<th>價格（美元）</th>
+<th>流通市值（美元）</th>
+<th>24h 價格</th>
+<th>24h 市值</th>
+</tr></thead><tbody>
+<tr>
+<td>1</td><td>Bitcoin (BTC)</td><td>$59,940</td><td>$1.206T</td><td class="chg-down">−0.89%</td><td class="chg-down">−$11.37B / −0.93%</td>
+</tr>
+<tr>
+<td>2</td><td>Ethereum (ETH)</td><td>$1,663.76</td><td>$203.41B</td><td class="chg-down">−1.41%</td><td class="chg-down">−$3.04B / −1.47%</td>
+</tr>
+<tr>
+<td>3</td><td>Tether (USDT) 穩定幣</td><td>$0.999361</td><td>$173.59B</td><td class="chg-up">+0.03%</td><td class="chg-down">−$262.2M / −0.15%</td>
+</tr>
+<tr>
+<td>4</td><td>BNB (BNB)</td><td>$554.87</td><td>$72.97B</td><td class="chg-up">+0.17%</td><td class="chg-up">+$95.7M / +0.13%</td>
+</tr>
+<tr>
+<td>5</td><td>USDC (USDC) 穩定幣</td><td>$0.999774</td><td>$69.19B</td><td class="chg-up">+0.02%</td><td class="chg-down">−$41.4M / −0.06%</td>
+</tr>
+<tr>
+<td>6</td><td>XRP (XRP)</td><td>$0.948264</td><td>$60.23B</td><td class="chg-up">+0.58%</td><td class="chg-up">+$322.2M / +0.54%</td>
+</tr>
+<tr>
+<td>7</td><td>Solana (SOL)</td><td>$71.66</td><td>$42.44B</td><td class="chg-up">+0.99%</td><td class="chg-up">+$383.2M / +0.91%</td>
+</tr>
+<tr>
+<td>8</td><td>TRON (TRX)</td><td>$0.30072</td><td>$28.59B</td><td class="chg-down">−0.99%</td><td class="chg-down">−$283.1M / −0.98%</td>
+</tr>
+<tr>
+<td>9</td><td>Figure Heloc (FIGR_HELOC)</td><td>$1.005</td><td>$27.57B</td><td class="chg-down">−5.65%</td><td class="chg-down">−$1.65B / −5.66%</td>
+</tr>
+<tr>
+<td>10</td><td>Hyperliquid (HYPE)</td><td>$63.66</td><td>$15.13B</td><td class="chg-up">+2.00%</td><td class="chg-up">+$292.9M / +1.97%</td>
+</tr>
+</tbody></table></div>
+    <p class="en">Biggest price gainers: within this top 10, Hyperliquid led at +2.00%, followed by Solana +0.99%, XRP +0.58%, BNB +0.17%, and the stablecoins USDT +0.03% and USDC +0.02%. Biggest price losers: Figure Heloc, −5.65%, then Ethereum −1.41%, TRON −0.99%, and Bitcoin −0.89%. Largest market-cap increases: Solana +$383.2M (+0.91%); XRP +$322.2M (+0.54%); Hyperliquid +$292.9M (+1.97%); BNB +$95.7M (+0.13%). Largest market-cap decreases: Bitcoin −$11.37B (−0.93%); Ethereum −$3.04B (−1.47%); Figure Heloc −$1.65B (−5.66%); TRON −$283.1M (−0.98%); Tether −$262.2M (−0.15%); USDC −$41.4M (−0.06%). Tether’s price was slightly higher over 24 hours while its reported market cap fell, because CoinGecko’s market-cap change is a separate field from the price change. The same source’s slightly earlier global snapshot showed the overall crypto market cap down about 3.37% over 24 hours, which can coexist with the mixed top-10 changes because the global figure covers a broader market, and the global snapshot time (08:05:30 GMT+8) also differs slightly from the coin snapshot.</p>
+    <p class="zh">最大價格升幅：在這 10 隻之中，由 Hyperliquid 領升 +2.00%，其後為 Solana +0.99%、XRP +0.58%、BNB +0.17%，以及穩定幣 USDT +0.03% 與 USDC +0.02%。最大價格跌幅：Figure Heloc −5.65%，其後為 Ethereum −1.41%、TRON −0.99%、Bitcoin −0.89%。最大市值增加：Solana +$383.2M（+0.91%）；XRP +$322.2M（+0.54%）；Hyperliquid +$292.9M（+1.97%）；BNB +$95.7M（+0.13%）。最大市值減少：Bitcoin −$11.37B（−0.93%）；Ethereum −$3.04B（−1.47%）；Figure Heloc −$1.65B（−5.66%）；TRON −$283.1M（−0.98%）；Tether −$262.2M（−0.15%）；USDC −$41.4M（−0.06%）。Tether 的 24 小時價格微升，但所報市值下跌，因為 CoinGecko 的市值變動與價格變動是分開的欄位。全球總市值在稍早的同一來源快照中 24 小時約跌 3.37%，與這 10 隻好淡紛陳的數字可以並存，因為全球數字涵蓋更廣的市場，而且全球快照時間（08:05:30 GMT+8）亦與硬幣快照略有差異。</p>
+    <div class="disclaimer">
+    <h2>免責／Caveat</h2>
+    <p class="en">Figures and headlines are from public sources and CoinGecko and can change quickly. This brief is not investment advice.</p>
+    <p class="zh">資料來自公開來源與 CoinGecko；價格與新聞可能迅速變化。本簡報不構成投資建議。</p>
+    </div>
+  </div>
+</body>
+</html>
